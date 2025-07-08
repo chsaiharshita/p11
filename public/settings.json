@@ -1,0 +1,9 @@
+{
+
+"json.schemas": [
+    {
+        "fileMatch": ["/apsccode/root/package.json"],
+        "url": "https://json.schemastore.org/package"
+    }
+]
+}

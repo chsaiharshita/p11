@@ -1,0 +1,143 @@
+.social-icon-link {
+  color: rgb(165, 156, 156);
+  font-size: 14px;
+}
+
+.spann:not(:last-child):after {
+  content: ' / ';  
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-icon-link:hover{
+  color:#fff !important; 
+  text-decoration: none;
+  padding:  1% 2%;
+}
+
+.social-logo {
+  color: rgb(163, 159, 159);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  
+}
+
+.social-logo:hover{
+  color:#fff !important; 
+  text-decoration: none;
+  
+}
+
+.website-rights {
+  color: rgb(163, 156, 156);
+  margin-bottom: 12px;
+}
+
+ */
+
+
+
+.footer_top {
+background-color: #3d3d3d;
+padding: 1rem 0 1rem 0;
+color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.footer_bottom {
+background-color: #000000;
+padding: 1rem 0 2rem 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-height: 100%;
+}
+
+.footer_subscription {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-bottom: 2px;
+padding: 2px;
+color: #fff;
+}
+
+.footer_subscription > p {
+  font-family: "Open Sans", serif; 
+  font-weight: 10px;
+}
+
+.footer_subscription_heading1 {
+margin-bottom: 15px;
+font-size: 14px;
+font-family: "Open Sans", serif; 
+line-height: 1;
+}
+.footer_subscription_heading2 {
+margin-bottom: 10px;
+font-size: 14px;
+font-family: "Open Sans", serif; 
+align-items: center;
+}
+
+.logo1 {
+margin: 5px 5px 5px 5px ;
+padding: 2rem 2rem 2rem 2rem;
+}
+
+.logo2 {
+margin: 5px 5px 5px 5px ;
+padding: 2rem 2rem 2rem 2rem;
+
+}
+
+#v1{
+background-color: #ffffff;
+width: 1px;
+height: 30px;
+right: -2px;
+top: 0;
+position: absolute;
+content: "";
+}
+
+.footer{
+ background-color: #3d3d3d; 
+ max-height:100%;  
+}
+
+
+
+
+.list{
+color:#ffffff ;       
+}
+.list:hover{
+color:#bbb7b7 ; 
+text-decoration: none;      
+}
+
+
+.breadcrumb {
+background-color:#3d3d3d !important;                      
+}            
+.web{
+color:#fcfcfc;
+
+}
+
+
+

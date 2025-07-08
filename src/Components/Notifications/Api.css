@@ -1,0 +1,17 @@
+#api{
+    border-radius: 25px;
+    widows: 5px;
+    padding:5px;
+    margin-block-end: 10px;
+    border:5px solid rgb(247, 105, 10);
+    background-color: rgb(215, 248, 188) ;
+    line-height: 1;
+    font-size:16px;
+  }
+
+  .content>h3{
+    font-family: "Source Serif Pro", serif; 
+    font-weight: 600;
+    word-spacing: 5px;
+    color: rgb(185, 42, 6);
+}  

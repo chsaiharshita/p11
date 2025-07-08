@@ -1,0 +1,13 @@
+[{
+    "name": "DCA-Drugs Control Administration.",
+    "admin": "DCA",
+    "address": "Siddhartha Medical College Campus,Gunadala,Vijayawada,NTR District, Andhra Pradesh 520 008",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "center": ["16.5172303", "80.6692526"],        
+    "capital": "admin",
+    "lat": "16.5172303",
+    "lng": "80.6692526",
+    "zoomlevel": "10",
+    "iso2": "IN"
+}]

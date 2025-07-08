@@ -1,0 +1,175 @@
+.content >h3{
+    font-family: "Open Sans", serif; 
+    margin: 1rem;
+    font-size:18.2px;
+    font-weight:bold;
+    
+    
+  } 
+  
+  .content >h5{
+    font-family: "Open Sans", serif; 
+    font-weight: 600;   
+    font-style: normal; 
+    margin: 1rem;
+    font-size:130%;
+  } 
+  .subheader{
+    font-family: "Open Sans", serif; 
+    font-weight: 400;
+    text-decoration: none;
+    padding:  0.5rem 0.2rem; 
+    color:black;   
+   
+  }
+  
+  .subheader:hover{   
+    color:white;
+    text-decoration: none;  
+    background-color: black;    
+  }
+  #q{
+    text-align: justify;
+    text-indent: 0px;
+    font-size:14px;
+  
+  }
+ 
+    
+  table,th,td {
+    border: 1px solid rgb(119, 118, 118);
+    width: 1000px;
+    height: 50px;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+    table-layout: auto;
+    
+    
+  }
+    
+  th {
+    
+    text-align: center;
+    
+  }
+    
+  td {
+    text-align: center;
+   
+  }
+  
+  #customer tr:nth-child(even){background-color: #f2f2f2;  table-layout: auto;}
+  
+  #customer tr:hover {background-color: #ddd; }
+  
+  #customer th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #979595;
+    color: rgb(17, 17, 17);
+   
+   
+    
+  }
+  
+  #customer{
+    table-layout: auto;
+  }
+  
+.pdf-download {
+    margin-left: 5px;
+}
+.pdf-download {
+    padding: 3px 5px;
+    color: #fff;
+    background: #9e6b22;
+    border-radius: 2px;
+    vertical-align: middle;
+    transition: 0.2s ease-in;
+    font-size: 13px !important;
+} 
+
+#tab{
+    border: 1px solid rgb(119, 118, 118);
+    padding: 10px 10px 10px 10px;
+    border-collapse: collapse;
+    table-layout: auto; 
+    text-align: justify;
+    font-size: 15.2px;
+}
+
+#tab1{
+    border: 1px solid rgb(118, 119, 119);
+    padding: 10px 10px 10px 10px;
+    border-collapse: collapse;
+    table-layout: auto; 
+    text-align: justify;
+    font-size: 15.2px;
+}
+
+#header_1{
+  margin-left: 0px;
+}
+.prev{
+  width: fit-content;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 5px 10px;
+  margin: 0 0px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+   .buttonStyle{
+    background-color: green;
+        color: white;
+        padding: 10px 20px;
+        border-radius: px;
+        border: none;
+        cursor: pointer;
+}
+
+#centerStyle{
+  text-align: center;
+}
+
+  .formStyle{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin: 'auto';
+  max-width: 300px;
+};
+
+.inputContainerStyle {
+  margin: 10px;
+};
+
+.labelStyle{
+  font-size: 16px;
+  font-weight: bold;     
+}
+
+.inputStyle{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top:5px;
+}

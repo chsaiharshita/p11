@@ -1,0 +1,98 @@
+
+#container-1{
+    border-radius: 25px;
+    widows: 10px;
+    padding:5px;
+    margin-block-end: 10px;
+    border:5px solid rgb(247, 105, 10);
+    background-color: rgb(215, 248, 188) ;
+    text-indent: 0px;
+  }
+  
+  .content >h3{
+    font-family: "Open Sans", serif; 
+    margin: 1rem;
+    font-size:20px;
+    font-weight:bold;
+    
+    
+  } 
+  
+  .content >h5{
+    font-family: "Open Sans", serif; 
+    font-weight: 600;   
+    font-style: normal; 
+    margin: 1rem;
+    font-size:130%;
+  } 
+  
+  .subheader{
+    font-family: "Open Sans", serif; 
+    font-weight: 400;
+    text-decoration: none;
+    padding:  0.5rem 0.2rem; 
+    color:black;   
+   
+  }
+  
+  .subheader:hover{   
+    color:white;
+    text-decoration: none;  
+    background-color: black;    
+  }
+  #p{
+    text-align: justify;
+    font-size:14px;
+  
+  }
+  .Medicalshops {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+    
+  table,th,td {
+    border: 2px solid rgb(20, 20, 20);
+    width: 1000px;
+    height: 50px;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+    table-layout: auto;
+    
+    
+  }
+    
+  th {
+    border-bottom: 1px solid black;
+    text-align: center;
+    
+  }
+    
+  td {
+    text-align: center;
+   
+  }
+  
+  #customer tr:nth-child(even){background-color: #f2f2f2;  table-layout: auto;}
+  
+  #customer tr:hover {background-color: #ddd; }
+  
+  #customer th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0983e7;
+    color: white;
+   
+    
+  }
+  
+  #customer{
+    table-layout: auto;
+  }
+  
+  

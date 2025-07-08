@@ -1,0 +1,2706 @@
+{
+  "index.html":"Change the project name (ex: DCA or ITI or NOC)as per our need in ----- public/index.html",
+  "Project path with root (/)":"Change the project path names for root project (/) in two files 1.package.json 2. src/Layout/layout.js",
+  "Project path with name (ex:nicapsc-dca)":"Change the project path names with Project name(ex:nicapsc-noc) in two files 1.package.json,  2. src/Layout/Layout.js ", 
+  
+  "For API data changing":"Goto the folder names Redux1,2,3,4.  And open the files 1.users.service.js & 2.users.thunks.js And then change the Project names as  p1 - for Project1 ; p2 - for Project2 ; p3 - for Project3 ; p4 - for Project4 ",
+  "important for API data":"goto c141.js,c142.js, c143.js files and change the pname for project3(NOC)- p3",
+ 
+  "copy the below information into 'cities.json' file with Array symbols":
+  [{    
+       "name": "NOC-Network Operation Centre.",
+       "admin": "NOC",
+       "address": "xxxxxxxxxxx",
+       "state": "Vijaywada",
+       "country": "India",
+       "iso2": "IN",
+       "capital": "admin",
+       "lat": "16.51",
+       "lng": "80.64",
+       "center": ["16.51", "80.64"],   
+       "zoomlevel": "10"
+  }],
+  
+  
+  "..comment for pop":"chnage the popvalue -  true or false",
+  
+  "Popvalue":false,
+
+  "...comment1":"below link is - API url ",
+
+ "url":"https://noc.ap.nic.in/apwaas/users",
+
+  "...comment2":"Navigation Bar-Menu names and links",
+ "Navlink": [
+   {
+     "title": "HOME",
+     "link": "/nicapsc-noc/#about"
+   }
+ ],
+
+ "drop":[
+  {
+    "name": "ABOUT",
+    "type": "page",
+    "children": [
+      {
+        "name": "DESIGN AND ARCHITECTURE",
+        "link": "node215",
+        "type": "page"
+      },
+      {
+        "name": "ORGANISATION",
+        "link": "node202",
+        "type": "page"
+      },
+      {
+        "name": "DETAIL DESIGN ",
+        "link": "detaildesign",
+        "type": "page"
+      },
+      {
+        "name": "CONNECTED INSTITUTIONS",
+        "link": "/nicapsc-noc/",
+        "type": "page"
+      },
+      {
+        "name": "DOCUMENTS",
+        "link": "node207",
+        "type": "page"
+      }
+     
+    ]
+  },
+  {
+    "name": "INFORMATION",
+    "type": "page",
+    "children": [
+      {
+        "name": " NKN SERVICES",
+        "link": "node391",
+        "type": "page"
+      },
+      {
+        "name": "COMMUNITY SERVICES",
+        "link": "node392"
+      }
+    ]
+  },
+  {
+    "name": "HELPDESK",
+    "type": "page",
+    "children": [
+      {
+        "name": "HELPDESK",
+        "link": "node501a",
+        "type": "page"
+      }
+    ]
+  },
+
+  {
+   "name": "RTI",
+   "type": "page",
+   "children": [
+     {
+       "name": "RTI",
+       "link": "node601",
+       "type": "page"
+     }
+   ]
+ },
+  {
+   "name": " CONTACT US",
+   "type": "page",
+   "children": [
+     {
+       "name": "CONTACT US",
+       "link": "node701",
+       "type": "page"
+     }
+   ]
+ }
+],
+
+ "Navlink1": [
+   {
+     "title": "NOTICES",
+     "link": "#events"
+   }
+ ],
+ "Navlink2":[
+   {
+     "title": "HELPDESK ",
+     "link": "https://servicedesk.nic.in/"
+   } 
+ ],
+ "Navlink3": [
+   {
+     "title": "RTI",
+     "link": "Rti"
+   },
+   {
+     "title": "CONTACT US",
+     "link": "ContactUs"
+   }
+ ],
+
+ "Navlinkleft": [
+   {
+     "title": "NOC",
+     "link": "#"
+   }
+ ],
+
+ 
+
+"...comment3":"Social icons for top Navbar ",
+ "socialicons": [
+   {
+     "link1": "#home",
+     "title1": "SKIP TO MAINCONTENT",
+     "link2": "",
+     "title2": "",
+     "iconslink": [
+       {
+         "iconname": "fa fa-instagram",
+         "link": "https://www.instagram.com/",
+         "description": ""
+       },
+       {
+         "iconname": "fa fa-facebook-f",
+         "link": "https://www.facebook.com/",
+         "description": ""
+       },
+       {
+         "iconname": "fa fa-instagram",
+         "link": "https://www.instagram.com/",
+         "description": ""
+       },
+       {
+         "iconname1": "fa fa-sitemap",
+         "link1": "sitemap",
+         "description": ""
+       }
+     ]
+   }
+ ],
+ "...comment4":"Header Names and Images",
+
+ "Header": [
+   {
+     "img1": [
+       {
+         "imgsrc": "./images/P3H1.jpg",
+         "imgalt": "logo1",
+         "link": "https://noc.ap.nic.in/nicapsc-noc/"
+       }
+     ],
+     "heading": "",
+     "header":"Network Operation Center",
+     "description": [
+       { "title": "Government of India" }
+     ],
+     "img2": [
+       {
+         "imgsrc": "./images/P3H2.png",
+         "imgalt": "",
+         "link": ""
+       }
+     ]
+   }
+ ],
+
+ "...comment5":"Navigation Bar Names & Description, Sliding images and Designations",
+
+ "menu1": [
+   {
+     "title1": "home",
+     "title2": "aboutus",
+     "title3": "dcaservices",
+     "title4": "newsupdates",
+     "section1": [
+       {
+         "carousel1": [
+           {
+             "image": "./images/P3slideimage1.jpg",
+             "imgalt": "First slide"
+           }
+         ],
+         "carousel2": [
+           {
+             "image": "./images/P3slideimage2.jpg",
+             "imgalt": "Second slide"
+           }
+         ],
+         "carousel3": [
+          {
+            "image": "./images/P3slideimage3.jpg",
+            "imgalt": "Third slide"
+          }
+        ]
+       }
+     ],
+     "section2": [
+       {
+         "title": "About Us ",
+         "paragraph": [
+           {
+             "p": " National Knowledge Network (NKN) project is aimed at establishing a strong and robust Indian network which will be capable of providing secure and reliable connectivity. Globally, frontier research and innovation are shifting towards multidisciplinary and collaborative paradigm and require substantial communication and computational power. In India, NKN with its multi-gigabit capability aims to connect all universities, research institutions, libraries, laboratories, healthcare and agricultural institutions across the country to address such paradigm shift. The leading mission oriented agencies in the fields of nuclear, space and defence research are also part of NKN. By facilitating the flow of information and knowledge, the network addresses the critical issue of access and creates a new paradigm of collaboration to enrich the research efforts in the country. The network design is based on a proactive approach that takes into account the future requirements and new possibilities that this infrastructure may unfold, both in terms of usage and perceived benefits. This will bring about a knowledge revolution that will be instrumental in transforming society and promoting inclusive growth."
+           }
+           
+         ],
+         "imgsrc": "./images/image-map-nkn.jpg",
+         "imgalt": "image1",
+         "button": "View More",
+         "button_link": "about",
+         "imgsrc1": "./images/C-A.jpg",
+         "imgalt1": "image1"
+        }
+     ],
+     "section3": [
+       {
+         "title": "",
+         "card1": [
+           {
+             "imgsrc": "./images/image.jpg",
+             "imgalt": "img-1 ",
+             "title": " ",
+             "description": "",
+             "para":[
+               {
+                 
+                 "subtitle":"Government of India. " 
+               }
+             ],
+             "button": "View More"
+           },
+           {
+             "imgsrc": "./images/image.jpg",
+             "imgalt": "img-1",
+             "title": "",
+             "description": "",
+
+             "para":[ 
+               { 
+                 "subtitle":"Government of India." }
+             ],
+            
+             
+             "button": "View More"
+           },
+           {
+             "imgsrc": "./images/image.jpg",
+             "imgalt": "img-1 ",
+             "title": "",
+             "description": "",
+             "para":[
+               {  
+                 "subtitle":"Government of India."
+               }
+             ],
+            
+             "button": "View More"
+           }
+         ]
+       }
+     ]
+   }
+ ],
+
+ "section4": [
+   {
+ "subsection3": [
+   {
+     "title": "Media Gallery ",
+     "carousel1": [
+       {
+         "img": "./images/design1.jpg",
+         "imgalt": "First slide"
+       }
+     ],
+     "carousel2": [
+       {
+         "img": "./images/nkn-services.jpg",
+         "imgalt": "Second slide"
+       }
+     ],
+   
+  
+   
+     "button": "View More",
+     "button_link": "Images"
+   }
+ ]
+}],
+
+   "section2": [
+       {
+         "title": "About Us ",
+         "paragraph": [
+           {
+             "p": " National Knowledge Network (NKN) project is aimed at establishing a strong and robust Indian network which will be capable of providing secure and reliable connectivity. Globally, frontier research and innovation are shifting towards multidisciplinary and collaborative paradigm and require substantial communication and computational power. In India, NKN with its multi-gigabit capability aims to connect all universities, research institutions, libraries, laboratories, healthcare and agricultural institutions across the country to address such paradigm shift. The leading mission oriented agencies in the fields of nuclear, space and defence research are also part of NKN. By facilitating the flow of information and knowledge, the network addresses the critical issue of access and creates a new paradigm of collaboration to enrich the research efforts in the country. The network design is based on a proactive approach that takes into account the future requirements and new possibilities that this infrastructure may unfold, both in terms of usage and perceived benefits. This will bring about a knowledge revolution that will be instrumental in transforming society and promoting inclusive growth."
+           }
+           
+         ],
+         "imgsrc": "./images/image-map-nkn.jpg",
+         "imgalt": "image1",
+         "button": "View More",
+         "button_link": "about",
+         "imgsrc1": "./images/C-A.jpg",
+         "imgalt1": "image1"
+        }
+     ],
+     "section3": [
+       {
+         "title": "",
+         "card1": [
+           {
+             "imgsrc": "./images/image.jpg",
+             "imgalt": "img-1 ",
+             "title": " Head",
+             "description": "Network Operation Centre, Andhra Pradesh.",
+             "para":[
+               {
+                 
+                 "subtitle":"  " 
+               }
+             ],
+             "button": "View More"
+           },
+           {
+             "imgsrc": "./images/image.jpg",
+             "imgalt": "img-2",
+             "title": "Minister",
+             "description": "Network Operation Centre, Andhra Pradesh.",
+     
+             "para":[ 
+               { 
+                 "subtitle":"" }
+             ],
+            
+             
+             "button": "View More"
+           },
+           {
+             "imgsrc": "./images/image.jpg",
+             "imgalt": "img-3",
+             "title": " Commissioner",
+             "description": "Network Operations Centre, Andhra Pradesh.",
+             "para":[
+               {  
+                 "subtitle":""
+               }
+             ],
+            
+             "button": "View More"
+           }
+          
+         ]
+       }
+     ],
+
+ "menu3": [
+   {
+     "title": "",
+     "apiurl": ""
+   }
+ ],
+
+ "menu4": [
+   {
+     "section1": [
+       {
+         "title": "Schemes of DCA",
+         "card": [
+           {
+             "imgsrc": "./images/cardimg-4.jpg",
+             "imgalt": "img-1 ",
+             "description": "Andhra Pradesh functions with the major objectives of providing and Apprenticeship Training to the youths training across various establishments in Andhra Pradesh State.",
+             "title": " Craftsmen Training",
+             "button": "View More"
+           },
+           {
+             "imgsrc": "./images/cardimg-2.jpg",
+             "imgalt": "img-1 ",
+             "description": "Andhra Pradesh functions with the major objectives of providing and Apprenticeship Training to the youths training across various establishments in Andhra Pradesh State. ",
+             "title": "Apprenticeship Training",
+             "button": "View More"
+           },
+           {
+             "imgsrc": "./images/cardimg-4.jpg",
+             "imgalt": "img-1 ",
+             "description": "Andhra Pradesh functions with the major objectives of providing and Apprenticeship Training to the youths training across various establishments in Andhra Pradesh State.  ",
+             "title": "Skill Development",
+             "button": "View More"
+           }
+         ]
+       }
+     ]
+   }
+ ],
+ "menu5": [
+   {
+     "submenu1": [
+       {
+         "title": "",
+         "subtitle": ""
+       }
+     ]
+   }
+ ],
+ "menu6": [
+   {
+     "submenu1": [{}],
+     "submenu2": [{}],
+     "submenu3": [{}],
+     "submenu4": [{}]
+   }
+ ],
+ "menu7": [{}],
+ "menu8": [
+   {
+     "notification": " Application Form for Admission into the Industrial Training Institute for the session 2020 for Phase-4 "
+   }
+ ],
+
+ "...comment6":"Footer page updates",
+
+ "footerlink": [
+  {
+    "title":"Footer Menu",
+    "content":[
+   {
+    "title": "Website Policies",
+    "link": "Websitepolicies"
+  },
+  {
+    "title": " Help",
+    "link": "help"
+  }
+]
+}
+],
+
+ "Footer": [
+   {
+     "p":"© NIC APSC , Developed and hosted by ",
+     "title": "National Informatics Centre,",
+     "link": "https://www.nic.in/"
+   },
+   {
+     "title": " Ministry of Electronics & Information Technology, Government of India",
+     "link": "https://www.meity.gov.in/"
+   },
+   {
+     "p":" Last Updated:Oct 03, 2024."
+   }
+ ],
+
+
+ "...comment7":"If API is down-The below information will display in All pages.",
+
+ "Latestnews":[
+   {
+     "ptitle":"Latest News",
+     "a":[
+       {
+         "aname":" Please wait for sometime....Data is pending....",
+         "avalue":""
+       }
+       
+     ]
+   }
+ ],
+
+"Events":[
+ {
+   "ptitle":"Events",
+   "a":[
+     {
+       "aname":"Data is pending.......",
+       "avalue":""
+     },
+     {
+       "aname":" Data is pending.......",
+       "avalue":""
+     }
+   ]
+ }
+],
+
+"Reward":[
+ {
+   "ptitle":"Rewards",
+   "a":[
+     {
+       "aname":" Data is fetching.......",
+       "avalue":"para"
+     },
+     {
+       "aname":" Data is fetching.......",
+       "avalue":"para"
+     }
+   ]
+ }
+],
+
+"...comment8":"Button links for Events and Rewards",
+
+ "Updates":[
+   {
+     "button": "View All",
+     "button_link": "Newsapi"
+   }
+ ],
+ "Rewards":[
+   {
+     "button": "View All",
+     "button_link": "Rewards"
+   }
+ ],
+
+
+
+ 
+
+ "...Comment1":"Information of Aboutus Menu",
+ "About": [
+   {
+     "heading": "Department",
+     "detailservices": [
+       {
+         "header": "Overview:",
+         "paragraph": [
+      {
+        "p":"National Knowledge Network (NKN) project is aimed at establishing a strong and robust Indian network which will be capable of providing secure and reliable connectivity. Globally, frontier research and innovation are shifting towards multidisciplinary and collaborative paradigm and require substantial communication and computational power. In India, NKN with its multi-gigabit capability aims to connect all universities, research institutions, libraries, laboratories, healthcare and agricultural institutions across the country to address such paradigm shift. The leading mission oriented agencies in the fields of nuclear, space and defence research are also part of NKN. By facilitating the flow of information and knowledge, the network addresses the critical issue of access and creates a new paradigm of collaboration to enrich the research efforts in the country. The network design is based on a proactive approach that takes into account the future requirements and new possibilities that this infrastructure may unfold, both in terms of usage and perceived benefits. This will bring about a knowledge revolution that will be instrumental in transforming society and promoting inclusive growth."
+      }
+      
+       ]
+     },
+     {
+       "header": "Background :",
+       "paragraph": [
+    {
+      "p":"In order to improve access to knowledge, a need has been long felt in the country to establish a National Knowledge Network (NKN) inter-connecting all knowledge and research institutions in the country through a high bandwidth network. Globally, research & development activities and innovations are increasingly becoming multidisciplinary and collaborative, and require substantial communication/computational power. For India to emerge as a significant R&D hub, it has to become a part of this wave of collaboration and co-creation. The idea of setting up of a National Knowledge Network was deliberated at the office of Principal Scientific Advisor to the Government of India and the National Knowledge Commission engagements were held with key stakeholders including experts, potential users, telecom service providers and educational and research institutions. These discussions have yielded a consensus on the optimal approach to be adopted for setting up such a network, to provide a unified high speed network backbone for all the sectors."
+     }
+     ]
+   },
+   {
+     "header": "Roles of NKN:",
+     "paragraph": [
+  {
+    "p":"• Establishing a high-speed backbone connectivity which will enable knowledge and information sharing amongst NKN connected institutes."
+   },
+   {
+     "p":"• Enabling collaborative research, development and innovation amongst NKN connected institutes."
+    },
+    {
+      "p":"• Facilitating advanced distance education in specialized fields like engineering, science, medicine etc. "
+    },
+    {
+      "p":"• Facilitating an ultra-high speed e-governance backbone."
+    },
+    {
+      "p":"• Facilitating connection between different sectoral networks in the field of research."
+    }
+
+   ]
+ },
+ {
+   "header": "Vision:",
+   "paragraph": [
+{
+  "p":"NKN is a state-of-the-art Pan-India network and is a revolutionary step towards creating a knowledge society without boundaries. It will provide unprecedented benefits to the knowledge community and mankind at large. Using NKN, all vibrant institutions with vision and passion will be able to transcend space and time limitations in accessing information and knowledge and derive the associated benefits for themselves and for the society. It will facilitate the development of India's information infrastructure, stimulate research, and create next generation applications and services."
+ }
+
+
+ ]
+},
+{
+ "header": "Mission:",
+ "paragraph": [
+{
+"p":"NKN is designed to provide high availability, Quality of Service, security and reliability. The purpose of NKN goes to the very core of the country’s quest for building quality institutions with requisite research facilities and to create a pool of highly trained professionals. The participating institutions at the edge would seamlessly connect to NKN at gigabit speed. NKN shall be a critical information infrastructure for India to evolve as a knowledge society. NKN is a significant step which will enable scientists, researchers and students from across the country to work together for advancing human development in critical and emerging areas."}
+
+
+]
+},
+{
+ "header": "Goal:",
+ "paragraph": [
+{
+"p":"In March 2010, the Cabinet Committee on Infrastructure (CCI) approved the establishment of the National Knowledge Network (NKN) at an outlay of Rs 5990 Crore, to be implemented by NIC over a period of 10 years. Establishing NKN is a significant step towards ushering in a knowledge revolution in the country with connectivity to 1500+ institutions. NKN is intended to connect all the knowledge and research institutions in the country using high bandwidth / low latency network. NKN has been established keeping the following features in mind:"
+},
+{
+ "p":"1. Establishing a high-speed backbone connectivity which will enable knowledge and information sharing."
+},
+{
+ "p":"2. Enabling collaborative research, development and Innovation."
+},
+{
+ "p":"3. Facilitating advanced distance education in specialized fields such as engineering, science, medicine etc."
+},
+{
+ "p":"4. Facilitating an ultra-high speed backbone for e-Governance."
+},
+{
+ "p":"5. Facilitating integration of different sectoral networks in the field of research, education, health, commerce and governance."
+},
+{
+ "p":"6. Link to Global Networks to collaborate with the research communities across the globe."
+}
+     ]
+    }
+   ]
+ }
+],
+     "...Comment2":"Information of RTI Menu",
+     "Rti": [
+     {
+     "heading": " RTI ACT",
+     "detailservices": [
+     {
+     "header": "Right to Information Act",
+     "p": "The information pertaining to Network Operation Control at Headquarters level is provided in this book let. The information pertaining to the other offices viz., Assistant Director & Drugs Inspectors is provided by the respective officers. The information as mentioned at para 1.3 above and as stipulated in the Right to Information act is provided item wise in different chapters. The reference made to certain Rules, Manuals and Acts of other Departments issued by Government of Andhra Pradesh or Government of India are quoted since they are applicable to the programmes/terms under reference and available with the concerned Departments.",
+     "Serial":"S.No",
+     "Authority":"Authority",
+     "Trainingwing":"Training wing",
+     "Contact":"Contact no",
+     "paragraph":[ 
+
+       { "Serial":1,
+         "Authority":"",
+         "Trainingwing":"",
+         "Contactno":""
+       },
+       { "Serial":2,
+         "Authority":"",
+         "Trainingwing":"",
+         "Contactno":""
+       },
+       { "Serial":3,
+         "Authority":"",
+         "Trainingwing":"",
+         "Contactno":""
+       }
+     ]
+    }
+   ]
+  }
+ ],
+
+  "...Comment3":"Information of Contactus Menu",
+  "Contactus": [
+   {
+   "title":"Contact Us",
+   "p":"Please Note: The Offices, Departments, Research Centres and other Facilities have their own numbers. Please consult the Directory or the Department/Centre websites.",
+   "Contact": [
+    {
+   "heading": "Address",
+   "imgsrc": "./images/address.png",
+   "imgalt": "image1",
+   "paragraph": [
+     {
+       "p": "  Network Operation Center , NOC P.O., Andhra Pradesh 520 010 ,  INDIA. "
+      }
+   ]
+ },
+ {
+   "heading": "Directory",
+   "imgsrc": "./images/directory.png",
+   "imgalt": "image1",
+   "paragraph": [
+     {
+      
+      "p": " Search the Directory for listings of all people and locations in DCA.",
+      "link":"./DOCS/Name & Telephone Number of Officers.pdf"
+     }
+   ]
+ },
+ {
+   "heading": "Campus-Map",
+   "imgsrc": "./images/campus-map.png",
+   "imgalt": "image1",
+   "paragraph": [
+     {
+       "p": " View a Map ",
+       "link":"/nicapsc-noc/map",
+       "title":"of NOC"
+     }
+    ]
+   }
+  ]
+ }
+],  
+      
+"contact": [
+  {
+    "title": "Contact Us",
+    "subtitle":" Office Location",
+    "header":"Office Address",
+    "paragraph": [
+      {
+        "p": "  Network Operation Center,"
+      },
+      {
+        "p": "  NOC P.O.,Vijayawada"
+      },
+      {
+        "p": "  Andhra Pradesh-520 010, INDIA."
+      }
+
+    ],
+    "imgsrc": "./images/address.png",
+    "imgalt": "image1",
+    "link" :"/map"
+  }
+],
+
+  "...Comment4":"Information of Organisation Menu",
+ "Organisation": [
+   {
+     "title": "Organisational Chart",
+     "paragraph": [
+      
+     {
+     "imgsrc": "./images/org_str.jpg",
+     "imgalt": "image1"
+     }
+     ]
+   }
+ ],    
+ "...comment10":"Below are Websitepolicices and Help",
+      
+       "websitepolicies": [
+         {
+           "heading": "Website Policies",
+           "detailservices": [
+             {
+               "header": "Terms of Use",
+               "paragraph": [
+                 {
+                   "p": "NOC APSC is managing the content of the website."
+                 },
+                 {
+                   "p": "Though all efforts have been made to ensure the accuracy and currency of the content on this website, the same should not be construed as a statement of law or used for any legal purposes."
+                 },
+                 {
+                   "p": "In no event will the NOC APSC be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data, arising out of or in connection with the use of this Portal."
+                 },
+                 {
+                   "p": "Links to other websites that have been included on this Portal are provided for public convenience only. We cannot guarantee the availability of such linked pages at all times."
+                 },
+                 {
+                   "p": "These terms and conditions shall be governed by and construed in accordance with the Indian Laws. Any dispute arising under these terms and conditions shall be subject to the exclusive jurisdiction of the courts of India."
+                 }
+               ]
+             },
+             {
+               "header": "Copyright Policy",
+               "paragraph": [
+                 {
+                   "p": "Material featured on this website may be reproduced free of charge after taking proper permission by sending a mail to us. However, the material has to be reproduced accurately and not to be used in a derogatory manner or in a misleading context. Wherever the material is being published or issued to others, the source must be prominently acknowledged. However, the permission to reproduce this material shall not extend to any material which is identified as being copyright of a third party. Authorisation to reproduce such material must be obtained from the departments/copyright holders concerned."
+                 }
+               ]
+             },
+             {
+               "header": "Privacy Policy",
+               "paragraph": [
+                 {
+                   "p": "This website does not automatically capture any specific personal information from you, (like name, phone number or e-mail address), that allows us to identify you individually."
+                 },
+                 {
+                   "p": "If the website requests you to provide personal information, you will be informed for the particular purposes for which the information is gathered e.g. feedback form and adequate security measures will be taken to protect your personal information."
+                 },
+                 {
+                   "p": "We do not sell or share any personally identifiable information volunteered on the website site to any third party (public/private). Any information provided to this website will be protected from loss, misuse, unauthorized access or disclosure, alteration, or destruction."
+                 },
+                 {
+                   "p": "We gather certain information about the User, such as Internet protocol (IP) addresses, domain name, browser type, operating system, the date and time of the visit and the pages visited. We make no attempt to link these addresses with the identity of individuals visiting our site unless an attempt to damage the site has been detected."
+                 }
+               ]
+             }
+           ]
+         },
+         {
+           "heading": "Hyper Linking Policy",
+           "detailservices": [
+             {
+               "header": "Links to external websites/portals",
+               "paragraph": [
+                 {
+                   "p": "At many places in this website, you shall find links to other websites/portals. This links have been placed for your convenience. We can not guarantee that these links will work all the time and we have no control over availability of linked pages."
+                 }
+               ]
+             },
+             {
+               "header": "Archival Policy",
+               "paragraph": [
+                 {
+                   "p": "NOC APSC specific content published in the NOC AP State Centre Website are generic in nature, having no specific life (Time To Leave). Hence are always live and can be accessible through the website. However, content published under the sections like Events, Tenders, Recruitment and Announcements have a life span and will automatically be moved to the online archival section after the assigned end date (displayed along with each content item)."
+                 }
+               ]
+             }
+           ]
+         }
+       ],
+       "Help": [
+         {
+           "heading":"Help",
+           "detailservices":[
+             {
+               "header": "",
+               "paragraph": [
+                 {
+                   "p": "Are you finding it difficult to access/navigate through the content/pages of this Portal? This section attempts to help you have a pleasant experience while browsing this Portal."
+                 }
+               ]
+               
+             },
+     
+             {
+               "header": "Accessibility",
+               "paragraph": [
+                 {
+                   "p": "We are committed to ensure that the site is accessible to all users irrespective of device in use, technology or ability. It has been built, with an aim, to provide maximum accessibility and usability to its visitors."
+                 },
+                 {
+                   "p": "Best efforts have been put to ensure that all information on this website is accessible to people with disabilDCAes. For example, a user with visual disability can access this website using assistive technology, such as screen reader. Users with low vision can use high contrast and font size increase options. This website meets level AA of the Web Content Accessibility Guidelines (WCAG) 2.0 laid down by the World Wide Web Consortium (W3C)."
+                 },
+                 {
+                   "p": " If you have any problem or suggestion regarding the accessibility of this Site, please send a feedback to us."
+                 }
+               ]
+             },
+             {
+               "header": "Screen Reader Access",
+               "paragraph": [
+                 {
+                   "p": "Our visitors with visual impairments can access the site using Assistive Technologies, such as screen readers."
+                 },
+                 {
+                   "p": "Following table lists the information about different screen readers:"
+                 }
+               ]
+             },
+             {
+               "header": "Viewing Information in Various File Formats",
+               "paragraph": [
+                 {
+                   "p": "The information provided by this Web site is available in various file formats, such as Portable Document Format (PDF), Word, Excel and PowerPoint. To view the information properly, your browser need to have the required plug-ins or software. For example, the Adobe Flash software is required to view the Flash files. In case your system does not have this software, you can download it from the Internet for free. The table lists the required plug-ins needed to view the information in various file formats."
+                 }
+               ]
+             }
+           ]
+         }
+       ],
+       "Helpdesk": [
+        {
+          "heading": "HELP DESK",
+          "p": "",
+          "header": "",
+          "content": [
+          
+            {
+              "link": "https://servicedesk.nic.in",
+              "description": "HelpDesk - https://servicedesk.nic.in "
+            }
+          ]
+        }
+      ],
+
+      "CitizenCharter": [
+        {
+          "heading": "CITIZEN CHARTER",
+          "detailservices": [
+          {
+          "header":"",
+          "p": "",
+          "Serial":"S.No",
+          "Trainingwing":"Description",
+          "Contact":"File",
+          "paragraph":[ 
+      
+            { "Serial":1,
+              "Trainingwing":"Helpdesk.",
+              "link":"https://servicedesk.nic.in"
+            }
+            
+           ]
+         }
+       ]
+      }
+      ],
+   "...comments11":"Below content is related to the Dropdown button-Information",
+   "...comments11a":"Information for - NKN Services",
+       "PagetypeA": [
+         {
+           "heading": "NKN Services",
+           "p": "",
+           "content": [
+             {
+               "link": "",
+               "description": "Cloud Based Services"
+             },
+             {
+               "link": "./DOCS/BLOOD STORAGE CENTRE IN ANDHRA PRADESH_0.pdf",
+               "description": "Blood storage centers in AP "
+             },
+             {
+               "link": "./DOCS/MFG LIST_0_1.pdf",
+               "description": "Manufacturing units in A.P"
+             }
+           ]
+         }
+       ],
+      
+       "Pagetype2": [
+        {
+          "heading": "Documents",
+          "detailservices": [
+          {
+          "header":"",
+          "p": "",
+          "Serial":"S.No",
+          "Trainingwing":"Description",
+          "Contact":"File",
+          "paragraph":[ 
+     
+            { "Serial":1,
+              "Trainingwing":"Policy and Guidelines for NKN DNS Entry.",
+              "link":"./DOCS/PolicyNkn.pdf"
+            },
+            { "Serial":2,
+              "Trainingwing":"User Agreement for NKN Mail Gateway Service.",
+              "link":"./DOCS/NknMailgateway.pdf"
+            },
+            { "Serial":3,
+              "Trainingwing":"NKN DNS Entry Form.",
+              "link":"./DOCS/DNSentryForm.pdf"
+            }
+           ]
+         }
+       ]
+     }
+     ],
+    
+       
+       "...comments12":"Below content is related to the Dropdown button-About",
+       "...comments12a":"Information for - Detailed Design",
+       "Pagetype5": [
+         {
+           "heading": "Detailed Design ",
+           "detailservices": [
+             {
+               "header": "",
+               "paragraph": [
+                
+                 {
+                   "p": "NKN is a hierarchical network divided into three basic layers - Core (Level 1), Distribution (Level 2), and Edge (User Level). Depending on the type of connectivity required by the user organization, geographical presence, and the location of Points of Presence (PoP) of NKN, (belonging to Core and Distribution), connectivity would be provided to the institutes. NKN backbone will typically have 18 Core PoPs and around 25 Distribution PoPs across the country. "
+                 }
+               ]
+             },
+             {
+               "header": "Drugs regulated By Drugs Control Administration:",
+               "paragraph": [
+                 { "p": "Allopathic Drugs" },
+                 { "p": " Blood, Blood components, Blood Products" },
+                 { "p": "Medical Devices" }
+               ]
+             }
+           ]
+         }
+       ],      
+
+      
+      
+       "Pagetype11": [
+         {
+           "title": "NKN Services",
+           "header": [
+             {
+              "subtitle": "",
+               "p":"    NKN is steadily evolving as the National Education Research Network (NREN) of India. The project has already made significant progress by connecting over 1100+ institutes in the network. NKN is now being looked as the harbinger of change in our knowledge society but this also brings together the responsibility to continuously look forward to provide the much required impetus to R&D initiatives related to networking technology. NKN understands the requirement of R&D initiatives without a profit motive and therefore took a step forward in facilitation of this cause. The team comprising of zealous engineers and networking experts have worked over past few months to develop set of NKN products and services.",
+               "subheader":[
+                 {
+                   "p":"NKN Services are categorized into three major categories:"
+                 },
+               
+                { 
+                 "title": "1.Cloud based Services",
+                 "link": "node261"
+               },
+               { 
+                 "title": "2.Network Oriented Services",
+                 "link": "node262"
+               },
+               { 
+                 "title": "3.Application Services",
+                 "link": "node263 "
+               },
+               {
+                 "p":"Some of the featured services are shown in below diagram:"
+               }
+                
+             ],
+             "imgsrc": "./images/nkn-services.jpg",
+             "imgalt": "image1"
+              }
+            ]
+           
+          }
+        ],
+      
+       "Pagetype12": [
+         {
+           "heading": " Detail Design",
+           "detailservices": [
+             {
+               "header": "",
+               "paragraph": [
+                 
+                 {
+                   "p": "NKN is a hierarchical network divided into three basic layers - Core (Level 1), Distribution (Level 2), and Edge (User Level). Depending on the type of connectivity required by the user organization, geographical presence, and the location of Points of Presence (PoP) of NKN, (belonging to Core and Distribution), connectivity would be provided to the institutes. NKN backbone will typically have 18 Core PoPs and around 25 Distribution PoPs across the country. "
+                 }
+                
+               ],
+               "imgsrc": "./images/design1.jpg",
+               "imgalt": "image1"
+             },
+             {
+               "header": "",
+               "paragraph": [
+                 {
+                   "p":"The NKN design uses a consortium of bandwidth providers for realising NKN since no single vendor has the geographical spread necessary for creating a pan India network and connecting underserved areas. The NKN backbone will be created by multiple bandwidth providers and the edges can be provided by any service provider, if the interface and feature set are in conformance with NKN design."
+                 },
+                 { "p": "The Core PoPs will be connected as per the figure 2. Distribution PoPs can connect to different core PoPs using links from different National Long Distance service providers (NLDs), and form the NKN Backbone. Each of the Core PoPs will have last mile from a different NLD. This would ensure high availability at the PoP level. The proposed Core Backbone for NKN is shown in the figure 2. These PoPs shall be interconnected using multiple links from different NLDs to form a Mesh network. Besides, an additional design parameter that is considered is to keep the maximum number of hops between any two PoPs under 4-5. " }
+               ],
+               "imgsrc": "./images/image-map-nkn.jpg",
+               "imgalt": "image1"
+             },
+             {
+               "header": "",
+               "paragraph": [
+                 
+                 {
+                   "p": "Over and above, it is also proposed that apart from using λs from existing NLDs, the four legacy Metros, namely, New Delhi, Mumbai, Chennai & Kolkata will also be connected using Dark Optical Fibre. This would further boost the data transfer capacity by several orders of magnitude. Suitable equipments to handle and sustain these speeds would be provisioned at the respective POPs."
+                 },
+                 {
+                   "p":"In the next layer or level, Core PoPs will be connecting to distribution PoPs, which are basically in the State Capitals or cosmopolitan cities. Here, the distribution PoPs are also referred as PoP Level 2. The interconnected NKN with CORE and Distribution will logically appear as depicted in the figure below. Each of the distribution PoPs shall be connecting to Core PoPs using preferably more than one links from different NLDs. Each of the Core PoPs shall be providing connectivity to institutes in the respective region or city. Given the high speed nature of the network, NKN design suggests that the last mile connectivity – between NLDs and NKN PoP sites - would also be on a ring for ensuring no single point of failure at each of the PoP. It would be also ensured that there would not be sharing of connectivity media in any form between the different NLDs at each PoP. "
+                 }
+                
+               ],
+               "imgsrc": "./images/corebackbonefornkn.jpg",
+               "imgalt": "image1"
+             },
+             {
+               "header": "",
+               "paragraph": [
+                 
+                 {
+                   "p": "From the NKN PoPs, end user institutions are directly connected. These connections are referred to as Edge connectivity or the Last Mile. In large cities it may so happen that NKN will have multiple PoPs. When multiple PoP locations are there in the same city, design should be such that they are economically utilised from the point of view of end users, NLDs, and long distance link investment and management. For example, in a city with Dual PoPs, the interconnection between the NKN PoPs and the end users will be as shown in the figure. In such scenarios, institutes that can demonstrate the need for extremely high availability can be provided with the last mile from different NLDs to the two different NKN PoPs. Institutes in such cities with 1 Gbps bandwidth would be connecting using Optical Fiber Cable (OFC) with in-built protection by the NLD, and the remote end will be terminated on both the NKN PoPs; one of the NKN PoPs will act as the Primary or active link; in case of primary link failure, the secondary NKN PoP would become active. Both the NKN PoPs will also be connected using high capacity protected links. This would also be helpful in making User Site level redundancies in NKN.  "
+                 }
+                
+               ],
+               "imgsrc": "./images/corepopsusingpreferably.jpg",
+               "imgalt": "image1"
+             },
+             {
+               "header": "",
+               "paragraph": [
+                 
+                 {
+                   "p": "The end user institutions connecting to respective PoPs (Core or Distribution) will have the option to operate at speeds from 100 Mbps - 1 Gbps per connection. As far as possible, the last mile connection to the respective institute shall be on a Protected link. In other words, link protection would be built by the NLD itself for the institute. Multiple such links from the institute, with different bandwidths (1 Gbps or 100 Mbps) will also be possible."
+                 },
+                 
+                 {
+                   "p": "The end user institutions connecting to respective PoPs (Core or Distribution) will have the option to operate at speeds from 100 Mbps - 1 Gbps per connection. As far as possible, the last mile connection to the respective institute shall be on a Protected link. In other words, link protection would be built by the NLD itself for the institute. Multiple such links from the institute, with different bandwidths (1 Gbps or 100 Mbps) will also be possible."
+                 }
+                
+               ],
+               "imgsrc": "./images/popscoreordistribution.jpg",
+               "imgalt": "image1"
+             }
+           ]
+         }
+       ],
+
+       "Pagetype13": [
+         {
+           "heading": " Detail Design",
+           "detailservices": [
+             {
+               "header": "",
+               "paragraph": [
+                 
+                 {
+                   "p": "NKN is a hierarchical network divided into three basic layers - Core (Level 1), Distribution (Level 2), and Edge (User Level). Depending on the type of connectivity required by the user organization, geographical presence, and the location of Points of Presence (PoP) of NKN, (belonging to Core and Distribution), connectivity would be provided to the institutes. NKN backbone will typically have 18 Core PoPs and around 25 Distribution PoPs across the country. "
+                 }
+                
+               ],
+               "imgsrc": "./images/design1.jpg",
+               "imgalt": "image1"
+             },
+             {
+               "header": "",
+               "paragraph": [
+                 {
+                   "p":"The NKN design uses a consortium of bandwidth providers for realising NKN since no single vendor has the geographical spread necessary for creating a pan India network and connecting underserved areas. The NKN backbone will be created by multiple bandwidth providers and the edges can be provided by any service provider, if the interface and feature set are in conformance with NKN design."
+                 },
+                 { "p": "The Core PoPs will be connected as per the figure 2. Distribution PoPs can connect to different core PoPs using links from different National Long Distance service providers (NLDs), and form the NKN Backbone. Each of the Core PoPs will have last mile from a different NLD. This would ensure high availability at the PoP level. The proposed Core Backbone for NKN is shown in the figure 2. These PoPs shall be interconnected using multiple links from different NLDs to form a Mesh network. Besides, an additional design parameter that is considered is to keep the maximum number of hops between any two PoPs under 4-5. " }
+               ],
+               "imgsrc": "./images/image-map-nkn.jpg",
+               "imgalt": "image1"
+             },
+             {
+               "header": "",
+               "paragraph": [
+                 
+                 {
+                   "p": "Over and above, it is also proposed that apart from using λs from existing NLDs, the four legacy Metros, namely, New Delhi, Mumbai, Chennai & Kolkata will also be connected using Dark Optical Fibre. This would further boost the data transfer capacity by several orders of magnitude. Suitable equipments to handle and sustain these speeds would be provisioned at the respective POPs."
+                 },
+                 {
+                   "p":"In the next layer or level, Core PoPs will be connecting to distribution PoPs, which are basically in the State Capitals or cosmopolitan cities. Here, the distribution PoPs are also referred as PoP Level 2. The interconnected NKN with CORE and Distribution will logically appear as depicted in the figure below. Each of the distribution PoPs shall be connecting to Core PoPs using preferably more than one links from different NLDs. Each of the Core PoPs shall be providing connectivity to institutes in the respective region or city. Given the high speed nature of the network, NKN design suggests that the last mile connectivity – between NLDs and NKN PoP sites - would also be on a ring for ensuring no single point of failure at each of the PoP. It would be also ensured that there would not be sharing of connectivity media in any form between the different NLDs at each PoP. "
+                 }
+                
+               ],
+               "imgsrc": "./images/corebackbonefornkn.jpg",
+               "imgalt": "image1"
+             },
+             {
+               "header": "",
+               "paragraph": [
+                 
+                 {
+                   "p": "From the NKN PoPs, end user institutions are directly connected. These connections are referred to as Edge connectivity or the Last Mile. In large cities it may so happen that NKN will have multiple PoPs. When multiple PoP locations are there in the same city, design should be such that they are economically utilised from the point of view of end users, NLDs, and long distance link investment and management. For example, in a city with Dual PoPs, the interconnection between the NKN PoPs and the end users will be as shown in the figure. In such scenarios, institutes that can demonstrate the need for extremely high availability can be provided with the last mile from different NLDs to the two different NKN PoPs. Institutes in such cities with 1 Gbps bandwidth would be connecting using Optical Fiber Cable (OFC) with in-built protection by the NLD, and the remote end will be terminated on both the NKN PoPs; one of the NKN PoPs will act as the Primary or active link; in case of primary link failure, the secondary NKN PoP would become active. Both the NKN PoPs will also be connected using high capacity protected links. This would also be helpful in making User Site level redundancies in NKN.  "
+                 }
+                
+               ],
+               "imgsrc": "./images/corepopsusingpreferably.jpg",
+               "imgalt": "image1"
+             },
+             {
+               "header": "",
+               "paragraph": [
+                 
+                 {
+                   "p": "The end user institutions connecting to respective PoPs (Core or Distribution) will have the option to operate at speeds from 100 Mbps - 1 Gbps per connection. As far as possible, the last mile connection to the respective institute shall be on a Protected link. In other words, link protection would be built by the NLD itself for the institute. Multiple such links from the institute, with different bandwidths (1 Gbps or 100 Mbps) will also be possible."
+                 },
+                 
+                 {
+                   "p": "The end user institutions connecting to respective PoPs (Core or Distribution) will have the option to operate at speeds from 100 Mbps - 1 Gbps per connection. As far as possible, the last mile connection to the respective institute shall be on a Protected link. In other words, link protection would be built by the NLD itself for the institute. Multiple such links from the institute, with different bandwidths (1 Gbps or 100 Mbps) will also be possible."
+                 }
+                
+               ],
+               "imgsrc": "./images/popscoreordistribution.jpg",
+               "imgalt": "image1"
+             }
+           ]
+         }
+       ],
+       "...comments12b":"Information for - Community Services",
+       "Pagetype14": [
+         {
+           "title": "Community Services",
+           "header": [
+             {
+               "subtitle": "",
+               "p":"   ",
+               "subheader":[
+                 {
+                   "p":" These services of NKN have been developed with an aim to benefit the larger community of NKN users. The individual institutes are responsible for development of these services and are also operated and maintained by them. Community services are initiated with a non-profit motive and objective is to cater to issues that are or will be faced by the wider community. The focus area is the common problems faced by a pool of users and provide them an easy access to tools and technologies through a centralized mechanism. The delivery mechanism for these services is primarily cloud based technology which allows us to disseminate it to a larger audience within short span of time."
+                 },
+                 {
+                   "p":"NKN Services are categorized into three major categories:"
+                 },
+               
+                { 
+                 "title": "1.Collab Cad",
+                 "link": "node381"
+               },
+               { 
+                 "title": "2.Collab dds",
+                 "link": "node382"
+               },
+               { 
+                 "title": "3.Garuda",
+                 "link": "node383"
+               },
+               { 
+                 "title": "4.LHC",
+                 "link": "node384 "
+               },
+               { 
+                 "title": "5.Osdd",
+                 "link": "node385"
+               },
+               { 
+                 "title": "6.Virtual Lab",
+                 "link": "node386"
+               },
+               { 
+                 "title": "7.E-foundry",
+                 "link": "node387"
+               }
+             ]
+              },
+              {
+               "subtitle": " Countrywide Virtual Classroom: ",
+               "p":" ",
+               "subheader":[
+                 {
+                   "p":"The NKN is a platform for delivering effective distance education where teachers and students can interact in real time. This is especially significant in a country like India where access to education is limited by factors such as geography, lack of infrastructure facilities etc. The network enables co-sharing of information such as classroom lectures, presentations and handouts among different institutions."
+                 }
+                
+             ],
+             "imgsrc": "./images/VC-slider.jpg",
+             "imgalt": "image1"
+             
+            
+              },
+              {
+               "subtitle": " Collaborative Research",
+               "p":" ",
+               "subheader":[
+                 {
+                   "p":" The NKN enables collaboration among researchers from different educational networks like GLORIAD, TEIN3, GARUDA, CERN etc. NKN also enables sharing of scientific databases and remote access to advanced research facilities."
+                 }
+                
+             ],
+             "imgsrc": "./images/EU-slider.jpg",
+             "imgalt": "image1"
+            
+              },
+              {
+               "subtitle": "Grid Computing",
+               "p":" ",
+               "subheader":[
+                 {
+                   "p":"The NKN has the capability to handle high bandwidth with low latency with a provision overlay grid computing. Some of the grid based applications are climate change/global warming, science projects like Large Hadron Collider (LHC) and ITER. The NKN can be the platform to realize many such innovative applications. The Garuda Grid has enhanced its power and stability by migrating to NKN."
+                 }
+                
+             ],
+             "imgsrc": "./images/grid-application-slider.jpg",
+             "imgalt": "image1"
+            
+              },
+              {
+               "subtitle": "Grid Computing",
+               "p":" ",
+               "subheader":[
+                 {
+                   "p":"The NKN has the capability to handle high bandwidth with low latency with a provision overlay grid computing. Some of the grid based applications are climate change/global warming, science projects like Large Hadron Collider (LHC) and ITER. The NKN can be the platform to realize many such innovative applications. The Garuda Grid has enhanced its power and stability by migrating to NKN."
+                 }
+                
+             ],
+             "imgsrc": "./images/grid-application-slider.jpg",
+             "imgalt": "image1"
+            
+              },
+              {
+               "subtitle": "virtual Library",
+               "p":" ",
+               "subheader":[
+                 {
+                   "p":" The Virtual Library will enable sharing of journals, books and research papers across different institutions."
+                 }
+               ]
+              },
+              {
+               "subtitle": "Sharing of Computing Resources:",
+               "p":" ",
+               "subheader":[
+                 {
+                   "p":" High-performance computing is critical for national security, industrial productivity, and advances in science and engineering. The network enables a large number of institutions to access high-performance computing to conduct advanced research in areas such as weather monitoring, earthquake engineering and other computationally intensive fields."
+                 }
+               ]
+              },
+              {
+               "subtitle": "Network Technology Test-bed:",
+               "p":" ",
+               "subheader":[
+                 {
+                   "p":" NKN provides a test-bed for testing and validation of services before they are made available to the production network. NKN also provides an opportunity to test new hardware & software, vendor interoperability etc."
+                 }
+               ]
+              },
+              {
+               "subtitle": "e-Governance:",
+               "p":" ",
+               "subheader":[
+                 {
+                   "p":"The NKN will provide high speed backbone connectivity for e-governance infrastructure such as data centres at the national and state levels, and networks (SWANs). The NKN will also provide massive data transfer capabilities required for e-governance applications."
+                 }
+               ]
+              }
+            ]
+           
+          }
+        ],
+        "...comments12c":"Information for - NKN Design and Architecture.",
+       "Pagetype15": [
+         {
+           "heading": "NKN Design and Architecture.",
+           "detailservices": [
+             {
+               "header": "",
+               "p":"",
+               "paragraph": [
+                 
+                 {
+                   "p": "The main design consideration for NKN was to create an infrastructure that can scale and adapt to future requirements. "
+                 },
+                 {
+                   "p": "NKN design philosophy is to Encourage, Enable, Enrich and Empower the user community to test and implement innovative ideas without any restriction from the network technology and its administration. Based on that philosophy, as a next generation network, NKN will cater to the following requirements: "
+                 }
+               ]
+             },
+          
+             {
+               "header": "NKN Design-",
+               "paragraph": [
+                 { "p": " NKN design follows all the current standards to permit seamless inter-operability amongst technologies and seamless integration amongst different original equipment manufacturers." }
+               
+               ]
+             },
+     
+             {
+               "header": "Security requirements -",
+               "paragraph": [
+                  { "p": "With the growing number of incidences reported by CERT and the increasing challenges posed by innovations in convergence, keeping the network alive can be possible only with very stringent security measures designed, implemented and deployed. Any specific requirement for limiting access to services should be deliverable as part of a security policy. The Central Command Control created to react to such situations should address till-date and forecasted attacks." }
+               ]
+             },
+             {
+               "header": "Service requirements -",
+               "paragraph": [
+                  { "p": "These requirements are essential for transparent delivery of services based on either heritage (as in telephony) or the general requirements for a particular service. These requirements might differ between service providers, and possibly even between different tiers of a similar service." }
+               ]
+             },
+             {
+               "header": "Network requirements -",
+               "paragraph": [
+                  { "p": "These requirements are network-specific and can be tied to specific services, specific delivery mechanism (client could be variety of devices like PC/ PDA/ any other device) and access mechanisms like (intranet / Internet). The design will cater to the overall performance goal of the NKN infrastructure. Operational requirements - The NKN is designed to cater to the requirements of tracking, troubleshooting, health monitoring, and proactive performance monitoring. With the converged network it becomes more important to proactively monitor the network for impending issues." }
+               ]
+             },
+             {
+               "header": "",
+               "paragraph": [
+                  { "p": "Detail Design",
+                    "link":"Detaildesign"
+                 }
+               ]
+             }
+            
+           ]
+         }
+       ],
+
+       "Pages1": [
+        {
+          "heading": " Collab Cad",
+          "detailservices": [
+            {
+              "header": "",
+              "paragraph": [
+                
+                {
+                  "p": " CollabCAD is a 3D CAD/CAM Software system for collaborative design & development of Industrial Designs. It provides a total solution from product design, numerical control, visualization, simulation, analysis to content management, workflow and office automation. CollabCAD is an initiative of National Informatics Centre (NIC, Department of Information Technology), Bhabha Atomic Research Centre (BARC, Department of Atomic Energy) and Vikram Sarabhai Space Centre (Department of Space, VSSC)."
+                }
+               
+              ],
+              "imgsrc": "./images/collabcad3.jpg",
+              "imgalt": "image1"
+            },
+            {
+              "header": "Collaboration for Design:",
+              "paragraph": [
+                {
+                  "p":"Besides the conventional CAD/CAM features, CollabCAD also provides a collaborative framework for CAD/CAM professionals to work across a network and concurrently access the same design for viewing and modification. It also offers an interactive design environment through audio and video conferencing, for on-line communication between participating."
+                },
+                { "p": "Collaboration during design/assembly facilitates rapid product visualization and drastically cuts down the time for requirement specification, modeling, review and analysis. In such collaborative endeavors involving expertise from many people, the deployment of CollabCAD can come very handy. This would greatly enhance the interactions and reduce the time frame for decisions. CollabCAD allows geographically dispersed users to share information and work together on complex cases using engineering drawings that are maintained on a central CollabCAD Server. These mechanical systems are having thousands of machined items and each item having hundreds of dimensions. The interfaces among each of them need to be precisely defined to ensure smooth functioning between them and the adjacent parts. The amount of data transfer and speed with which they have to be transferred is quite high. The low latency & high bandwidth of NKN would make the online interactions feasible among physically distributed users." }
+              ],
+              "imgsrc": "./images/collabcad2.jpg",
+              "imgalt": "image1"
+            },
+            {
+              "header": "Features:",
+              "paragraph": [
+                
+                {
+                  "p": "It is developed on the Linux platform and is available on Windows and Linux (Red Hat, Ubuntu, Mandriva and Mandrake). CollabCAD is developed using open source software tools such as Java/Java 3D, Open Cascade geometry kernel and supports open standards of data exchange such as XML, STEP, IGES, and VRML to ensure interoperability."
+                },
+                {
+                  "p":"CollabCAD facilitates the conventional CAD/CAM capabilities like design, drafting, surface and solid modeling, feature based modeling, basic NC features, data exchange, scripting etc. Surface models can be reverse engineered from point cloud digitized data, obtained from raw/scanned data. CollabCAD also provides reflection line analysis for visual inspection using Zebra Stripes mapping. The Zebra stripes mapping is a surface evaluation method for checking surface continuity."
+                },
+                {
+                  "p":"Constraint based parametric profile editing and assembly modeling is also available. The Assembly Design Module allows assembly and sub-assembly of components based on a robust 3D Constraint Solver. It provides a 3D Tolerance Analysis for Assembly and Manufacture Module in a bid to help the Manufacturing Industry improve the quality of its products and produce them with lower cost. The appropriate allocation of tolerances in an assembly may result in lower costs per assembly and a higher probability of good fit, reducing the number of rejects or the amount of rework. CollabCAD facilitates the user to create the Measured Points, Linear Tolerance Dimensions, Angular Tolerance Dimensions, Tolerance loops, performing the Tolerance Analysis on created loops, performing Tolerance Synthesis and viewing the results."
+                },
+                {
+                  "p":"CollabCAD also offers other niche features like Bar Code to link the designs to non CAD utilities like MRP, Meshing, Creation and linking of databases etc. CollabCAD also provides database connectivity and a component library framework. It enables the user to create or use a Component library. CollabCAD has also been integrated with an Advanced multi-purpose CFD Software for Engineering Design and with a Casting Simulation Software. Basic NC operations like lathe roughing, lathe contouring, lathe center drilling, lathe thread cutting, point-to-point operations, surface milling, tools and animation. Integrating CAD with PLM, CollabCAD provides an interface to a content repository and incorporates security, locking and versioning of the engineering drawings and documents. It further provides an interface to a workflow system and enables the user to specify, execute, monitor and coordinate the organizations flow of work. CollabCAD also provides an interface to an open source enterprise automation software."
+                },
+                {
+                  "p":"CollabCAD provides a Finite Element Analysis Module (currently only for linux based distributions). It provides pre and post processor for Meshing, Modifying and Analysing Geometrical Structures. The Finite Element Solver offers a full range of multiphysics analysis and the modelling methods go well beyond thermo-mechanical calculations, applicable for linear as well as non-linear structures. CollabCAD provides Blender (currently only for linux based distributions) which is an integrated suite of tools enabling the creation of a broad range of 3D content. It offers full functionality for modelling, rendering, animation, post-production, creation and playback of interactive 3D content with the singular benefits of cross-platform operability."
+                }
+               
+              ]
+            }
+           
+          ]
+        }
+       
+      ],
+
+      "Pages2": [
+        {
+          "heading": "CollabDDS: Collaborative Digital Diagnosis System",
+          "detailservices": [
+            {
+              "header": "Introduction",
+              "paragraph": [
+                
+                {
+                  "p": "India, a developing country has huge pressure on its health systems for meeting the health needs of our increasing population. There is huge unmet demand for provision of medical services in rural areas where most of our country's population lives. In today's era of modern medicine, a lot of emphasis is laid on radiological diagnostics for patient treatment planning. Higher centers where experts in these fields are present or located are mostly confined to urban India. Then there are centers of excellence in these field which are further limited to very few and countable on fingers. This disparity directly affects the quality of radiological teaching and understanding of the subject between students of different medical and dental colleges. Organizations with expertise in different areas viz. National Informatics Centre, New Delhi, All India Institute of Medical Sciences, New Delhi, Indian Institute of Technology-Bombay, Mumbai and CSIR-Central Scientific Instruments Organisation, Chandigarh joined in for effective development, implementation and roll-out of an application which could bring a shift in the way in which radiological diagnosis and teaching is carried out."
+                }
+               
+              ],
+              "imgsrc": "./images/collabdds1.jpg",
+              "imgalt": "image1"
+             
+            },
+            {
+              "header": "The Model Project:",
+              "paragraph": [
+                {
+                  "p":"The model project 'Network Enabled Medical Diagnosis and Education in Skeletal Imaging using X-Rays' funded by the National Knowledge Network (NKN), was undertaken as a Proof of Concept to provide a network based system for radiological and orthodontic diagnosis using X-Rays. The area of study being complicated required expertise in varied domains such as but not limited to Orthodontics, Orthopedics, Radiology, Computational Methods, CAD/ Rapid Prototyping, Image Processing & Pattern Recognition. Project was planned in two phases; first one being to develop an application which could enable visualization and processing of radiological data over a collaborative platform and second to effectively roll out and enhance the application as per the end user needs."
+                }
+              ],
+             
+              "imgsrc": "./images/collabdds1.jpg",
+              "imgalt": "image1"
+            },
+            {
+              "header": "Goals and Objectives:",
+              "paragraph": [
+                
+                {
+                  "p": "The project has been envisaged and is in progress keeping in view two goals. First one is to connect Primary Health Centres (PHC's) with expert radiologists/ doctors & dentists at Medical/ Dental colleges and Hospitals using suitable Information, Communication and Technology (ICT) tools and channel for real time radiological data transmission. This platform would enable physicians at remote level PHC's to have real time radiological diagnosis for their patients. Further, experts could use this platform to collaborate. The high-bandwidth and low-latency capability of the NKN would provide an ideal platform for data transmission as radiological data is huge in size and thus poses problems for utilization in real time because of latency in data transmission. This would prove to be of extreme value for both patients and primary level physicians in rural areas for radiological consultation with experts sitting at tertiary centres in real time and thus provide better diagnoses and treatment."
+                },
+                {
+                  "p":"The second objective was to use this platform to build a repository of rare clinical cases for teaching of medical and dental students thus providing these students with an opportunity to study cases which are currently limited to the centers of excellence in medical and dental field."
+                }
+               
+              ],
+              "imgsrc": "./images/corebackbonefornkn.jpg",
+              "imgalt": "image1"
+            },
+            {
+              "header": "With this vision an application CollabDDS: Collaborative Digital Diagnosis System has been developed",
+              "paragraph": [
+                
+                {
+                  "p": "The strength of CollabDDS over telemedicine/web based consultation lies in its real time collaborative environment where both the doctor and expert will view the same image simultaneously. The expert could interpret the image for diagnosis. This kind of a collaborative activity amongst PHC's with Medical/Dental Colleges & Hospitals and Centres of Excellence would help to provide improved diagnosis."
+                },
+                {
+                  "p":"Development of CollabDDS: Collaborative Digital Diagnosis System "
+
+                },
+                {
+                  "p":"CollabDDS provides a real time collaborative environment to visualize medical (Skeletal) and dental images (digitized X-Ray images or DICOM data) for diagnosis and treatment planning. CollabDDS has various image processing tools to visualize the data and also annotate. An inbuilt repository of annotated images can be used for education. Further it enables real time collaboration for diagnosis between physician at PHC level and experts at medical colleges and hospitals. CollabDDS is unique as it allows the viewing and processing of digitized X-Rays in various standard image formats like JPEG and DICOM and also allows this data to be saved for later review/ study."
+                }
+               
+              ],
+              "imgsrc": "./images/collabdds2.jpg",
+              "imgalt": "image1"
+              
+            },
+            {
+              "header": "",
+              "paragraph": [
+                
+                {
+                  "p": "The patient submits his/her X-Ray to the Primary Health Center or Secondary Health Center. This is transmitted to the connected higher level centers after scanning it. The digitizer at the time of scanning permits the technician to enter certain details and have the X-Ray in DICOM format if required. DICOM files along with the relevant diagnosis are stored in the Repository at the data center to be accessible for any future reference and teaching purposes."
+                },
+                
+                {
+                  "p": "A repository of teaching files will be created for the purpose of education. Provision of such a repository would prove extremely beneficial for education and research for medical/dental undergraduates and postgraduates and researchers as such a repository is still lacking in our country. CollabDDS may also enable design and fabrication of orthodontic/orthopedic e-models, custom implants, prosthesis and surgical instruments using CAD models created from X-ray/CT images."
+                },
+                {
+                  "p":"The first version of the CollabDDS V1.0 was released on July 04, 2012. Based on the continuous feedback from the experts, latest version 1.6 was released on August 19, 2014. Dental module for Cephalometric analysis has also been introduced in this version."
+                }
+               
+              ],
+              "imgsrc": "./images/popscoreordistribution.jpg",
+              "imgalt": "image1"
+            },
+            {
+              "header": "The Benefits of CollabDDS are:",
+              "paragraph": [
+                
+                {
+                  "p": "Efficient Digital Workflow of X-Ray Imaging ( Skeletal and Dental)"
+                },
+                {
+                  "p":" Improved Diagnosis and Treatment through Collaborative Consultation."
+                },
+                {
+                  "p":"Enhancement of Quality of Medical Services in Rural Areas."                
+                },
+                { 
+                  "p":"Reliability, Security and Accessibility of Medical Records."
+                },
+                {
+                  "p":"Education based on Expert Diagnosis"
+                }
+              ],
+              "imgsrc": "./images/popscoreordistribution.jpg",
+              "imgalt": "image1"
+            },
+        
+        {
+          "header": "Pilot Implementation of Collaborative Digital Diagnosis System (CollabDDS).",
+          "paragraph": [
+            
+            {
+              "p": "With the proof of concept having gone through successfully, a Pilot Project for Implementation of CollabDDS at Medical and Dental Colleges and Hospitals has been undertaken. This is an extension of the POC to the Operational Research Phase as a prelim to rollout. This pilot implementation is used to evaluate the efficiency and effectiveness of remote diagnosis. Further this phase also incorporates a module which carries out Cephalometric analysis for orthodontic surgeons to enable diagnosis and treatment planning of their patients. This phase would also include the Enhancement of CollabDDS and Advanced Applications on 3D imaging. It would involve the reconstruction of 3-D models from CT / Surface images, development of methodologies for orthopedic implant development using 3D models."
+            },
+          {
+            "p":"The list of Medical and Dental Colleges for Pilot Implementation of CollabDDS is as follows:"
+          },
+            {
+              "p":"Government Dental College And Hospital, Ahmedabad"
+            },
+            {
+              "p":"Government Dental College, Goa"
+            },
+            {
+              "p":"SN Medical College, Agra"
+            }, 
+            {
+              "p":" Andhra Medical College and King George Hospital, Visakhapatnam"
+            }, 
+            {
+              "p":"King George's Medical University, Lucknow"
+            },
+            {
+              "p":"SMS Medical College Hospital, Jaipur"
+            }
+           
+          ],
+          "imgsrc": "./images/popscoreordistribution.jpg",
+          "imgalt": "image1"
+        }
+      ]
+     }
+      ],
+
+      "Pages3": [
+        {
+          "heading": " Garuda",
+          "detailservices": [
+            {
+              "header": "",
+              "paragraph": [
+                
+                {
+                  "p": "GRID GARUDA initiative is a collaboration of the Scientific, Engineering and Academic Community to carry-out research and experimentation on a nationwide grid of computational nodes, mass storage that aims to provide the distributed data and compute intensive High Performance Computing solutions for the 21st century."
+                },
+                {
+                  "p":"The Department of Information Technology (DIT) has funded the Center for Development of Advanced Computing (C-DAC) to deploy the nation-wide computational grid, GARUDA, which today connects 45 institutions across 17 cities, with an aim to bring Grid computing to research labs, industries and academic institutions."
+                },
+                {
+                  "p":"The availability of the efficient, high-speed (Multi Gigabit) network backbone the National Knowledge Network (NKN) and Garuda's migration to NKN gives ample opportunity to exploit the Gigabit speeds for the scientific and engineering applications being run on the GARUDA. Currently the highly reliable and available NKN connects the resources of the Garuda grid with a bandwidth of 1 Gbps, with provisions of QoS and Security.Garuda On NKN."
+                }
+               
+              ],
+              "imgsrc": "./images/garuda.jpg",
+              "imgalt": "image1"
+            },
+            {
+              "header": "Computational Resources:",
+              "paragraph": [
+                {
+                  "p":"In this collaborative grid project, various resources such as high performance computing systems (HPC) and satellite based communication systems have been committed by different centers of C-DAC and GARUDA partners. The total computational resources available today on Garuda are approximately 65 Teraflops."
+                }
+              ],
+              "imgsrc": "./images/image-map-nkn.jpg",
+              "imgalt": "image1"
+            },
+            {
+              "header": "Grid Management and Monitoring:",
+              "paragraph": [
+                
+               
+                {
+                  "p":"A dedicated Grid monitoring and management centre at C-DAC, Bangalore helps in managing and monitoring all the components in the Grid. State-of-the-art display walls and advanced software like Paryavekshanam developed at C-DAC help in effectively monitoring the health and utilization of various components of the Grid."
+                }
+               
+              ],
+              "imgsrc": "./images/corebackbonefornkn.jpg",
+              "imgalt": "image1"
+            },
+            {
+              "header": "Application Profile:",
+              "paragraph": [
+                
+                {
+                  "p": "From the NKN PoPs, end user institutions are directly connected. These connections are referred to as Edge connectivity or the Last Mile. In large cities it may so happen that NKN will have multiple PoPs. When multiple PoP locations are there in the same city, design should be such that they are economically utilised from the point of view of end users, NLDs, and long distance link investment and management. For example, in a city with Dual PoPs, the interconnection between the NKN PoPs and the end users will be as shown in the figure. In such scenarios, institutes that can demonstrate the need for extremely high availability can be provided with the last mile from different NLDs to the two different NKN PoPs. Institutes in such cities with 1 Gbps bandwidth would be connecting using Optical Fiber Cable (OFC) with in-built protection by the NLD, and the remote end will be terminated on both the NKN PoPs; one of the NKN PoPs will act as the Primary or active link; in case of primary link failure, the secondary NKN PoP would become active. Both the NKN PoPs will also be connected using high capacity protected links. This would also be helpful in making User Site level redundancies in NKN."
+                }
+               
+              ],
+              "imgsrc": "./images/corepopsusingpreferably.jpg",
+              "imgalt": "image1"
+            },
+            {
+              "header": "GARUDA Partners:",
+              "paragraph": [
+                
+                {
+                  "p": "The end user institutions connecting to respective PoPs (Core or Distribution) will have the option to operate at speeds from 100 Mbps - 1 Gbps per connection. As far as possible, the last mile connection to the respective institute shall be on a Protected link. In other words, link protection would be built by the NLD itself for the institute. Multiple such links from the institute, with different bandwidths (1 Gbps or 100 Mbps) will also be possible."
+                },
+                
+                {
+                  "p": "C-DAC is also collaborating in the EU - India Grid project which will allow researchers and scientists across Europe and India to conduct simulation experiments on EGEE and GARUDA grids. Efforts are on to integrate the technology components of both the grids, which would enable the users to access the resources and services across the grids in a secure and seamless manner."
+                }
+               
+              ],
+              "imgsrc": "./images/popscoreordistribution.jpg",
+              "imgalt": "image1"
+            }
+          ]
+        }
+      ],
+      "Pages4": [
+        {
+          "heading": " CERN-Large Hadron Collider",
+          "detailservices": [
+            {
+              "header": "",
+              "paragraph": [
+                
+                {
+                  "p": "The Large Hadron Collider (LHC) is a large scientific instrument near Geneva, spanning the border between Switzerland and France about 100 m underground. It is a particle accelerator used by physicists to study the smallest known particles, the fundamental building blocks of all things. It will revolutionise our understanding, from the minuscule world deep within atoms to the vastness of the Universe."
+                },
+                {
+                  "p":"Two beams of subatomic particles called 'hadrons' either protons or lead ions will travel in opposite directions inside the circular accelerator, gaining energy with every lap. Physicists will use the LHC to recreate the conditions just after the Big Bang, by colliding the two beams head-on at very high energy. Teams of physicists from around the world will analyse the particles created in the collisions using special detectors in a number of experiments dedicated to the LHC."
+                },
+                {
+                  "p":"The Large Hadron Collider will produce roughly 15 petabytes (15 million gigabytes) of data annually, enough to fill more than 1.7 million dual-layer DVDs a year! Thousands of scientists around the world want to access and analyse this data, so CERN is collaborating with institutions in 34 different countries to operate a distributed computing and data storage infrastructure: the Worldwide LHC Computing Grid (WLCG)."
+                },
+                {
+                  "p":"Data from the LHC experiments is distributed around the globe, with a primary backup recorded on tape at CERN. After initial processing, this data is distributed to eleven large computer centres in Canada, France, Germany, Italy, the Netherlands, the Nordic countries, Spain, Taipei, the UK, and two sites in the USA with sufficient storage capacity for a large fraction of the data, and with round-the-clock support for the computing grid. These so-called Tier-1 centres make the data available to over 160 Tier-2 centres for specific analysis tasks. Individual scientists can then access the LHC data from their home country, using local computer clusters or even individual PCs."
+                },
+                {
+                  "p":"NKN currently connects two Tier-2 centres namely VECC and TIFR. With a NKN POP in their vicinity, they are instrumental in addressing the growing demand of enhanced bandwidth from different institutions desirous of working on the LHC project. With NKN as the backbone they can provide the network speed for high-end processing multiple and simultaneous transfers of date rates and low latency that real time applications require. NKN also provides multi-gigabit connectivity to the European grid."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+
+      "Pages5": [
+        {
+          "heading": "Open Source Drug Discovery",
+          "detailservices": [
+            {
+              "header": "",
+              "paragraph": [
+                
+                {
+                  "p": "OSDD is a CSIR-led Team India consortium with a global partnership. It's vision is to provide affordable healthcare to the developing world by providing a global platform where the best minds can collaborate & collectively endeavor to solve the complex problems associated with discovering novel therapies for neglected tropical diseases like malaria, tuberculosis, leishmaniasis, etc. It is a concept to collaboratively aggregate the biological and genetic information available to scientists in order to hasten the discovery of drugs. This will provide a unique opportunity for scientists, doctors, technocrats, students and others with diverse expertise to work for a common cause."
+                },
+                {
+                  "p":"The success of open source models in Information Technology (For e.g. Web Technology, The Linux Operating System) and Biotechnology (For e.g. Human Genome Project) sectors, highlights the urgent need to initiate a similar model in healthcare, i.e. an open source model for drug discovery."
+                },
+                {
+                  "p":"The Open Source Drug Discovery initiative will establish a novel open source platform for both computational and experimental technologies to make drug discovery for infectious/ neglected diseases, cost effective and affordable to the people of the developing world."
+                }
+               
+              ],
+              "imgsrc": "./images/osdd.jpg",
+              "imgalt": "image1"
+             
+            },
+            {
+              "header": "",
+              "paragraph": [
+                { "p": "NKN currently connects OSDD partners throughout the country such as IMTECH Chandigarh, IGIB, JNU, Institute Of Life Sciences, etc. With NKN as their backbone, they have the capacity to provide a distributed environment to all their computing partners. This allows them to provide a unified platform for Bio-Informatics and an open source platform for drug discovery." }
+              ]
+            }
+          ]
+        }
+      ],
+      "Pages6": [
+        {
+          "heading": "Remote Physics Experiment at ESRF (Experimental Synchrotron Research Facility), Grenoble, France on NKN",
+          "detailservices": [
+            {
+              "header": "",
+              "paragraph": [
+                
+                {
+                  "p": "An experiment has recently been conducted accessing the Synchrotron at Grenoble, France from Homi Bhabha National Institute (HBNI), Mumbai, on NKN, for protein crystallography studies. Radiation produced in a third generation synchrotron is available only in a very few countries. This radiation has been used to determine the three dimensional structure of molecules by crystallography, enabling studies on structure-function relationships in biological macromolecules and design of new drugs."
+                },
+                {
+                  "p":"NKN connects the HBNI to FIP (French beam line for Investigation of Protein), Grenoble, France through 2.5 Gbps Trans Eurasia Information Network (TEIN3) link to GEANT network in Europe. The actual beamline used was the FIP beamline set-up by Dr. Jean-Luc Ferrer and his colleagues to study structures of proteins. The X-radiation for this beamline is fed by the bending magnet on port number 30, and therefore the beamline is also referred to as BM30A. The experimental station at the end of the beamline consists of: 1) cryo-dewar with liquid nitrogen to store sample-containing pucks, 2) a six-axis sample-changer robot for transferring back and forth samples from cryo-dewar to the diffractometer, 3) a M2 single-axis microdiffractometer, and 4) ADSC quantum detector to record the diffraction pattern."
+                },
+                {
+                  "p":"The beamline is fully automated thereby allowing for its remote operation. The operation of the beamline is controlled by softwares Xnemo and Gonio developed by Dr. Jacques Joley. Gonio is the software that enables selection, mounting and positioning of samples stored in a cryo-dewar containing liquid nitrogen. An on-axis view of the sample is also provided by this software. Xnemo is the software that enables setting of data collection types and parameters including detector distance. The software Visu enables one to monitor sample changes and detector movements. It also allows one to check if there is ice-formation on the sample crystal. The software NXclient installed on the local PC at HBNI imports the desktops of computers d30pc5 and d30pc3 used to control the beamline and visualize diffraction data at Grenoble."
+                },
+                {
+                  "p":"Since establishment of the Remote Data Collection Facility, fifteen good quality data sets, each data set comprising of 180 oscillation frames, have been collected on protein samples that are part of the collaboration between Dr. Hosur M. V. at BARC and Dr. Jean-Luc Ferrer at IBS/ESRF, Grenoble, France. For example, 180 frames, each for an oscillation angle of 1O, were collected on crystals of drug-resistant M36I mutant HIV-1 protease, and the structure could be refined to very low R-factors. The OMIT density for the mutation residue is very clearly seen in the electron density map (see Figure 3 below). More recently, data on HIV-1 protease substrate complexes have been collected, and the refined map shows clear density for the ligand molecules in the active site. Another advantage of remote data collection is that the younger members of the laboratory can participate and get trained in using the mega facility such as the ESRF synchrotron. The diffraction data collected is stored temporarily on local computer at ESRF, before it is transferred to HBNI computer through FTP."
+                },
+                {
+                  "p":"Figure 1 shows the experimental station on the FIP beam line (French beam line for Investigation of Proteins), which is dedicated to crystallography of biological macromolecules. The quality of data has been very good as evidenced by the OMIT electron density for the isoleucine residue in the mutant protein M36I, as shown in the Figure 3. The structure has since been refined to a resolution of 1.6 , and the crystallographic R-factors are: R-work = 0.18, R-free = 0.20. This facility has evoked a very enthusiastic response from the researchers."
+                }
+              ],
+              "imgsrc": "./images/figure1.jpg",
+              "imgalt": "image1"
+            },
+            {
+              "header": "",
+              "paragraph": [
+                {
+                  "p":"Figure 1. Panoramic view of the FIP beam line at ESRF, showing: a) sample changer robots, b) diffractometer and c) Quantum CCD detector."
+                },
+                {
+                  "p":"Figure 2. Remote Station at HBNI"
+                }
+              ],
+              "imgsrc": "./images/figure2.jpg",
+              "imgalt": "image1"
+            },
+            {
+              "header": "",
+              "paragraph": [
+                
+                {
+                  "p": "Figure 3. Depicts a one degree oscillation photograph on crystals of HIV-1 PR M36I mutant recorded by remotely operating the FIP beamline at ESRF, and OMIT density for the mutation residue I. (Credits: Dr. Jean-Luc Ferrer, Dr. Michel Pirochi & Dr. Jacques Joley, IBS/ESRF, France, Solid State Physics Division & Computer Division, BARC)."
+                },
+                {
+                  "p": "The representative examples cited above, are indicative of a sound beginning. With the reach envisaged by the NKN, the possibilities of collaborative research with institutes both within and outside India are indeed enormous. With an impressive roadmap of enhanced speed and connectivity envisaged by NKN, collaborative research has a fascinating future ahead."
+                },
+                {
+                  "p": "The remote usage of FIP beam line at ESRF synchrotron facility, Grenoble, France was demonstrated live during the Asia 2 2011 Joint CHAIN/EU-India Grid2 EPIKH School for Application Porting during the 15th and 16th of February at VECC, Kolkata, India. Many researchers from Saha Institute of Nuclear Physics, Kolkata and participants of the workshop conducted experiments by remotely operating the Robot at ESRF to center the single crystal and obtaining diffraction patterns. This was very enthusiastically received by the Audience and was well appreciated. About 40 researchers participated in this event, which lasted for two days. The beam line at ESRF France was made available to this event on 15th and 16th of February between 17:30 Hrs (IST) and 19:30 Hrs."
+                }
+               
+              ],
+              "imgsrc": "./images/popscoreordistribution.jpg",
+              "imgalt": "image1"
+            }
+          ]
+        }
+      ],
+
+      "Pages7": [
+        {
+          "heading": "E-Foundry: Online learning resources in casting design and simulation",
+          "detailservices": [
+            {
+              "header": "",
+              "link":"",
+              "paragraph": [
+                
+                {
+                  "p": "E-Foundry (http://efoundry.iitb.ac.in) provides teachers, students and casting industry professionals free access to teaching content in casting design and simulation developed at IIT Bombay. Metal Casting Industry. "
+                },
+                {
+                  "p": "India has become the 2nd largest producer of castings in the world, driven by the auto sector (growing at 35%), and other industry segments. In spite of this boom, acute dearth of skilled manpower is the biggest hurdle confronting the foundry industry, as per a recent annual report of the professional body, Institute of Indian Foundrymen. The Foundry Vision 2020 projects the minimum requirement as 20,000 workers and 2000 engineers. Original equipment manufacturers, tool rooms, equipment suppliers and quality agencies, as well as academic and research institutes involved in metal casting field also require technical manpower. The shortage is severe for people trained in automation and CAD/simulation technologies, which are needed for quality and yield improvement. There are hardly any academic institutes having the facilities and teachers to impart the relevant knowledge and training."
+                }
+               
+              ],
+              "imgsrc": "./images/EFoundry.png",
+              "imgalt": "image1"
+            },
+            {
+              "header": "E-Foundry Resources:",
+              "paragraph": [
+                {
+                  "p":"The project aims to meet the technical manpower requirement of the metal casting industry, by freely providing the following resources online:"
+                },
+                { "p": "Lesson videos, in five parts: introduction, science, engineering, technology, and application." },
+                { "p": "Online simulation lab, which accepts a 3D CAD model and generates solidification images." },
+                { "p": "Reference material, including paper abstracts, industrial case studies, casting videos, and web links." },
+                {
+                  "p":"Tutorial with answers for self-evaluation."
+                }
+
+              ]
+            
+            },
+            {
+              "header": "User Benefits:",
+              "paragraph": [
+                
+                {
+                  "p": "Several hundred users from India as well as other countries are accessing the site to view the lessons and simulate their casting models. The following benefits are reported:"
+                },
+                {
+                  "p":"1.Teachers: Deliver more interesting lectures, engage students"
+                },
+                {
+                  "p":"2.Students:Understand casting process, explore industry projects"
+                },
+                {
+                  "p":"3.Industry: Gain better insights, ensure casting quality and yield."
+                } 
+              ]
+            }
+          ]
+        }
+      ],
+
+       "...comments13":"Below content is related to the Dropdown link-Information/NKN Services", 
+       "...comments13a":"Information for - Cloud Based Services.",
+       "Page1": [
+         {
+           "heading": "Cloud Based Services",
+           "detailservices": [
+             {
+               "header": "The NKN Authentication framework:",
+               "paragraph": [
+             {
+               "p": "This service comprises of two parts:"
+             },
+             {
+               "p": "1. The LDAP PaaS (Light Weight Directory Access Protocol with platform as a service)"
+             },
+             {
+               "p": "2. The NKN application token manager."
+             },
+             
+             {
+               "p":"The LDAP PaaS is a cloud based LDAP Server provided to each institute which gets provisioned on demand from a single link click which will enable NKN user to have their own directory service located at NKN cloud. The service also provides the facility to replicate any other directory server situated at institute level. The user institutes can themselves fill the entries of their students allowing them to avail the NKN's data centre services. "
+             },
+           { 
+             "p":"For any queries please contact us at ",
+             "link": "",
+             "description": "support.store@nkn.in"
+              }
+             ]
+            }
+           ]
+         } 
+       ],
+       
+       "Page2": [
+         {
+           "heading": "Network Oriented Services",
+           "detailservices": [
+             {
+               "header": "Generic Services:",
+               "paragraph": [
+             {
+               "p": "Internet, Intranet, Network Management Views, e-Mail, Messaging Gateways, Caching Gateways, Web Hosting, Voice over IP, Multipoint Control Unit (MCU) Services, Video Portals, SMS Gateway, Co- Location Services, Video Streaming etc."
+             }
+     
+           ]
+         },
+         {
+           "header": "Special Services:",
+           "paragraph": [
+             {
+               "p": " Virtual Private Network Stitching Services [VPN@L2 (Virtual Private Wire Service / Virtual Private LAN Service), VPN@L3] etc."
+             }
+            ]
+          },
+            {
+             "header": "Bandwidth Monitoring Service:",
+             "paragraph": [
+           {
+             "p": "The service allows user to perform bidirectional bandwidth tests between your desktop computer and the server located at NKN Point of Presence (PoP). This service also determines the bandwidth available in the NKN super core network by performing bandwidth test on NKN super core links. The setup comprises of seven bandwidth monitoring servers which are located at NKN super core PoPs (Delhi, Hyderabad, Bangalore, Chennai, Kolkata, Mumbai and Guwahati)."
+           },
+           {
+             "p": "For any queries please contact us at support[dot]perf[at]nkn[dot]in"
+           }
+          
+           ]
+          }
+         
+         
+         ]
+       } ,
+       {
+        "heading": "",
+        "detailservices": [
+          {
+            "header": "DNS Service:",
+            "paragraph": [
+          {
+            "p": ""
+          }
+        ]
+      },
+      {
+        "header": "DNS Cache Servers:",
+        "paragraph": [
+          {
+            "p": " NKN runs DNS cache servers for the members connected to NKN. The server IP is 14.139.5.5 and this is an anycast service. There are multiple of them running from various places in the NKN. These DNS IP could be used by any NKN user in case they need to use a DNS cache server. "
+          }
+         ]
+       },
+         {
+          "header": "DNS Zone Sever:",
+          "paragraph": [
+        {
+          "p": "NKN offers its members a facility where in the members can use the DNS ZONE server from NKN cloud. The DNS servers support DNS protocol and also DNSSEC protocol. Any NKN member could ask for this facility. For instance if you are running a DNS for a ZONE called ABCD.AC.IN or ABCD.RES.IN or any other, then you could off load the DNS service to NKN Cloud and be free from the hassles of running a DNS server 24X7. It is also possible for member to run the DNS slave server on NKN cloud. For this there is no need for any hardware or software from the member's side, it will be taken care by the NKN Cloud."
+        },
+        {
+          "p":"For any queries please contact us at support[at]dns[at]nkn[dot]in."
+        }
+        ]
+       }
+      ]
+    } ,
+    {
+      "heading": "",
+      "detailservices": [
+        {
+          "header": "Mail Service:",
+          "paragraph": [
+        {
+          "p": ""
+        }
+      ]
+    },
+    {
+      "header": "MX Service: ",
+      "paragraph": [
+        {
+          "p": "MX is mail gateway required to receive mail for a particular domain. This service allows NKN users to have their MX located at NKN cloud and get all the emails scanned at NKN cloud before receiving. "
+        },
+        {
+          "p":"For any queries please contact us at support[dot]mx[at]nkn[dot]in"
+        }
+       ]
+     },
+       {
+        "header": "Relay Service:",
+        "paragraph": [
+      {
+        "p": " NKN also offers 'Mail Relay' services. This service is primarily used by applications configured in Data Centres and institutions that are configured for sending mails as part of the feedback process or for intimation to users."
+      },
+      {
+        "p":"If a institute wishes to avail this service thereby not exposing their SMTP port to the internet, they can do so. The institute needs to ensure that the application that is configured to send mails is security audited. This is necessary as a hacker can exploit an application thereby using it to send unwanted mail traffic outside NKN. The unwanted traffic could carry mails that are infected with virus/worms and as a result the IP of the relay gateway will get blacklisted in the internet."
+      },
+      {
+        "p":"For any queries please contact us at support[at]relay[at]nkn[dot]in."
+      }
+      ]
+     }
+    ]
+  }
+       ],
+     
+       "Page3": [
+       {
+         "heading": "Application Services",
+         "detailservices": [
+           {
+             "header": "Open Source IP Registrar (OSIR):",
+             "paragraph": [
+           {
+             "p": "OSIR is a full feature solution that provides Dynamic Host Configuration Protocol (DHCP) service and delivers client management feature. OSIR also provides feasible solution for IPv6 network migration by managing client IPv6 addresses. OSIR is available with both IPv4 and IPv6 versions."
+           },
+           {
+             "p":"Some of the features and benefits of OSIR are mentioned below:"
+           },
+          {
+            "p":"1.Auto Installation"
+          },
+          {
+            "p":"2.Link (Network)Management"
+          },          {
+            "p":"3.Link (Network)Policy Management"
+          },
+          {
+            "p":"4.Lease Management"
+          },
+          {
+            "p":"i. Lease Search"
+          },
+          {
+            "p":"ii.Lease Reservation"
+          },
+          {
+            "p":"5.Client Management"
+          },
+          {
+            "p":"6.Failover Management"
+          },
+          {
+            "p":"i.Backup and Restore of configurations"
+          },
+          {
+            "p":"ii.Automatic DHCP Server Failover"
+          },
+          {
+            "p":"For any queries please contact us at support[dot]osir[at]nkn[dot]in"
+          }
+          
+          
+         ]
+       },
+       {
+         "header": "Smart Class – Desktop based video conferencing facility:",
+         "paragraph": [
+           {
+             "p": "The smart class service is based on e-learning technology benefitting remotely based school and colleges to meet the demand of good teachers and quality education. At present, around 50 institutes and colleges are connected and attending expert lectures delivered from academy of administration Bhopal using smart class facility along with teachers of their local institutions."
+           },
+           
+           {
+             "p": "For any queries please contact us at support[dot]mp[at]nkn[dot]in."
+           }
+          
+            ]
+          },
+          {
+           "header": "SMS Gateway Service: ",
+           "paragraph": [
+         {
+           "p": "i.        Consolidated list of Formulations with packing particulars separately Category wise Viz. Tablets, Capsules, Injectables etc."
+         },
+         {
+           "p": "ii.        Manufacturing & Analytical procedure of each product."
+         },
+         {
+           "p": "iii.        Specimen labels."
+         },
+         {
+           "p": "iv.        Labels of the similar products moving in the market for formulations not include in IP."
+         },
+         {
+           "p": "v.        Declaration regarding the Brand Names of the Product."
+         },
+         {
+           "p": "vi.        Copies of monographs of drugs which are not included in IP."
+         }
+        ]
+      },
+          {
+           "header": "ADDITIONAL REQUIREMENTS IN CASE OF RENEWAL.",
+           "paragraph": [
+         {
+           "p": "1.     Drug Licence with list of products approved in the last licensing period."
+         },
+         {
+           "p": "2.     Consolidated List of the Products."
+         },
+         {
+           "p": "3.     Production particulars for the last Licensing Period (As per Format)."
+         },
+         {
+           "p": "4.     Declaration regarding the changes in the premises, constitution, (Directors/ Partners), Technical Staff of the firm/ Company."
+         },
+         {
+           "p": "5.     Original labels."
+         }
+           ]
+          },
+          {
+           "header": "APPLICATION FORM FOR GRANT OF NDPS - 1 LICENCE :",
+           "paragraph": [
+         {
+           "p": "To, The Dy.Director, Drugs Control Administration, Through the proper channel Sub: Grant of N.D.P.S-I License. Sir, We _______________________ Already we have a Drug License (20B & 21B) bearing NOS. Form No: 20B: ____________________ Form No: 21B: ______________, Dated: ________, situated at _________________________________________. Now we request you to NDPS-I License (Grant) with the possessing capacity of the following N.D.P.S, Drugs. 1. 2. 3. For the above process we have paid the necessary challan in SBI, and we have required storage capacity as per the license rules. We are aware and abide with the provisions of N.D.P.S. Act and A.P.N.D.P.S. Rules. Hence we request you to grant the N.D.P.S.-1 at the earliest. Thanking You Sir, Enclosures Original challan, Affidavit, Xerox copy of 20B&21B license And Xerox copies of required documents APPLICATION FOR GRANT OF NDPS - 2 LICENCES 1. Name and full address of the firm: 2. Name and residential address of the proprietor / partner / directors of the firm. Copies of the partnership firm / memorandum of articles of Association to be enclosed where necessary: 3. Whether the application is for grant / renewal: 4. Chalan for Rs.50.00 0210 – Medical and Public Health 04 – Public Health 104 – Fees , Fines etc. 5. Original License: 6. Nature of the business carried out and the form NDPS license required: 7. Whether there are any changes in the constitution / status of the firm premises / technical staff and so, to give full details of the same: 8. Details of the quantities of the Narcotics Drugs allotted, received, manufactured and sold during the previous licensing period: 9. Balance of the stock position of the Narcotics drugs held in stock as on 31st December of the year ending: 10. Details of the drug license held: ( attested Xerox copies to be enclosed ) 11. Details of the transport permits issued and quantities lifted during the year: 12. Whether there are any violations of drug laws and any action taken against the firm by way of warnings / suspensions / cancellations / prosecutions and if so give full details of the same: 13. Declaration about the maintenance of accounts and records in the prescribed proforma, which is already communicated vide this office Lr.No.3671/112A/NDPS/86 dated 18-10-86: DECLARATION I hereby declare that the particulars given above are true and correct and I hereby undertake that I will follow all the provisions of the laws relating to Narcotics Drugs made by the central and state Governments and also all the conditions of the licenses issued to me as far as they are applicable to me. Failing which I fully understand that I am liable for action according to law. SIGNATURE."
+         },
+         { 
+           "p":"File",
+           "link": "./DOCS/Affidafit & Declarations.pdf",
+           "description": "Affidafit & Declarations.pdf"
+            }
+           ]
+          }
+         ]
+       } 
+       ],
+
+       "Page4": [
+       {
+         "heading": "BloodBankLicenses",
+         "detailservices": [
+           {
+             "header": "DOCUMENTS TO BE SUBMITTED TO THE LICENSING AUTHORITY ,DRUGS CONTROL ADMINISTRATION BY THE APPLICANT FOR GRANT/ RENEWAL OF LICENCES FOR BLOOD BANK.",
+             "paragraph": [
+           {
+             "p": "1. Application in Form — 27-C."
+           },
+           {
+             "p": "2. Constitution of the Blood Bank with names and addresses of the Proprietor/Partner/Directors not require in case of Government Hospital."
+           },
+           {
+             "p": "3. List of machinery and equipment with supporting invoices."
+           },
+           {
+             "p": "4. List of technical personnel appointed, with their qualifications, experience, consent and appointment letters."
+           },
+           {
+             "p": "5.  Copy of ownership/ tenancy agreement for the premises (not required in case of Govt. Hospital)."
+           },
+           {
+             "p": "6. Receipt for the fees paid (Challan for Rs.7500/- for grant of licence) (Challan for 7.500/- for renewal of licence."
+           },
+           {
+             "p": "7. Head of accounts:  0210: Medical and Public Health  04 : Public Health 104 : Fees, Fines etc. ."
+           },
+           {
+             "p":"8. Draft specimen labels and records proposed to be maintained including donor card."
+           },
+           {
+             "p":"9. List of products."
+           },
+           {
+             "p":"10. An undertaking from the Blood Bank that it will not draw blood from professional donors."
+           },
+           {
+             "p":"11. Details of Partners/ Directors / Proprietor with their residential addresses. (Not required in the case of Government Hospital)."
+           },
+           {
+             "p":"12. List of records, maintained along with the requisite columns and information as per Drugs and Cosmetics Rules."
+           },
+           {
+             "p":"13. Affidavit regarding responsibility attested by Notary."
+           },
+           {
+             "p":"14. Copy of list of the donors."
+           },
+           {
+             "p":"15. Application in Form-27-C, duly Filled in along with above said enclosures, may he sent to the Drugs Controller General (India), New Delhi, with copies endorsed to the concerned State Drugs Controller and the Zonal Officer as below:"
+           },
+           {
+             "p":"16. Disposal of Bio Medical waste."
+           },
+           {
+             "p":"17. SBIC approval from A.P.S.A.C.S."
+           },
+           {
+             "p":"18. SOP manual."
+           }
+          ]
+         }
+        ]
+       }
+       ],
+     
+       "Page5": [
+       {
+         "heading": "Certificates",
+         "detailservices": [
+           {
+             "header": "DOCUMENTS TO BE SUBMITTED FOR ISSUE OF CERTIFICATES.",
+             "paragraph": [
+           {
+             "p": "(a)-  REQUIREMENTS FOR ISSUE OF G.M.P CERTIFICATE."
+           },
+           {
+             "p": "i. Covering letter with brief introducing the firm with factory and Office address and purpose of GMP Certificate."
+           },
+           {
+             "p": "ii. User charges ( Receipt in Original) fee of Rs.1500/- remitting the fee in Head of account. 0210    – Medical and Public Health 04        - Public Health, 800      - other receipts (Drugs Control)" },
+           {
+             "p": "iii. Copies of Manufacturing Licence in Form 25 / 28." 
+           },
+           {
+             "p": "iv. Copy of the WHO GMP Certificate/ GMP Certificate issued earlier if any." 
+           }
+          ]
+         },
+         {
+           "header": "(b)- REQUIREMENT  FOR ISSUE OF  W H O -  G M P CERTIFICATE.",
+           "paragraph": [
+         {
+           "p": "i. Covering letter with brief introducing the firm with factory and Office address and purpose of WHO GMP Certificate."
+         },
+         {
+           "p": "ii. User charges ( Receipt in Original) fee of Rs.1000/- per each product remitting the fee in Head of account 0210    – Medical and Public Health 04        - Public Health,800      - other receipts (Drugs Control)"
+         },
+         {
+           "p": "iii.List of the Products required for   W H O – G M P Certification."
+         },
+         {
+           "p": "iv. Copies of Manufacturing Licence in Form 25 / 28."
+         },
+         {
+           "p": "v. Copy of the WHO GMP Certificate issued earlier if any."
+         },
+         {
+           "p": "vi. Stability studies data of the applied products."
+         },
+         {
+           "p":"vii. Site Master File."
+         }
+       ]
+      },
+         {
+           "header": "(c)- Requirements for issue of COPPs",
+           "paragraph": [
+         {
+           "p": "i.Copy of  valid  W H O  G M P  Certificate."
+         },
+         {
+           "p": "ii. User charges ( Receipt in Original) fee of Rs.500/- per each product per each country remitting the fee in Head of account  0210    – Medical and Public Health 04        - Public Health, 800      - other receipts (Drugs Control)"
+         },
+         {
+           "p": "ii. Copies of Master formula Records- wherever required."
+         },
+         {
+           "p": "iv. Copies of the Product Licensees."
+         }
+         ]
+        },
+        {
+         "header": "(d)- Requirements for issue of  Free Sale Certificate,",
+         "paragraph": [
+       {
+         "p": " i. Covering letter with brief introducing the firm with factory and Office address and purpose of Free Sale Certificate."
+       },
+       {
+         "p": "ii. User charges ( Receipt in Original) fee of Rs.200/- per each product remitting the fee in Head of account  0210    – Medical and Public Health 04        - Public Health, 800      - other receipts (Drugs Control)"
+       },
+       {
+         "p": "iv. List of the Products required  Free Sale Certification."
+       },
+       {
+         "p": "v. Copies of Manufacturing Licence in Form 25 / 28."
+       },
+       {
+         "p":"vi. Proof of availability of same product in Indian Market, with similar labels."
+       }
+       ]
+      },
+      {
+       "header": "(e)-  Requirements for issue of a Market Standing Certificate.",
+       "paragraph": [
+     {
+       "p": "i. List of the Products required Market Standing Certificate."
+     },
+     {
+       "p": "ii. User charges ( Receipt in Original) fee of Rs.500/- up to 5 products and 100/-  per each additional product remitting the fee in Head of account 0210    – Medical and Public Health 04        - Public Health,  800      - other receipts (Drugs Control)"
+     }
+        ]
+       }
+       ]
+      }
+       ],
+
+       "Page6": [
+       {
+         "heading": "Grant or Renewal of Test Licenses.",
+         "detailservices": [
+           {
+             "header": "DOCUMENTS TO BE SUBMITTED TO THE LICENSING AUTHORITY WITH APPLICATION FOR GRANT OF TEST LICENCE IN FORM-29.",
+             "paragraph": [
+           {
+             "p": "1. Covering Letter. (Introduction of applicant with address of the Plant and Administration office and his requirement)."
+           },
+           {
+             "p": "2. Application (statutory) in form- 24A with fee – Rs.7500 -27A with fee  - Rs.7500/- Duly signed by the Proprietor / Managing Partner / Managing Director/ Person declared as responsible under Sec.34 / Person Authorized by the Board of Directors accompanied by Company Board Resolution."
+           },
+           {
+             "p": "3. Challan in original remitting the required amount of fee in the Head of Account  0210    – Medical and Public Health 04     – Public Health,104    – Fees, Fines etc."
+           },
+           {
+             "p": "4.Memorandum and articles of association / Copy of registered partnership deed. "
+           },
+           {
+             "p": "5. List of Manufacturing and analytical equipment."
+           },
+           {
+             "p": "6. Attested Photo copy of PAN Card and Bank Account Copy for address Proof of Managing Director / Partners/ Proprietor."
+           },
+           {
+             "p": "7. NOC from DCG (I) for the new drugs."
+           },
+           {
+             "p": "8. Reconciliation for the last licensing period incae of Renewal of test license."
+           }
+         ]
+       },
+       {
+         "header": "POINTS TO BE CONSIDERED WHILE APPLYING  FOR GRANT OF TEST LICENCE",
+         "paragraph": [
+           {
+             "p": " i.   Test Licence shall be granted only for Chemical, Instrumental, Microbiological or Biological Analysis only."
+           },
+           {
+             "p": " ii.  New drugs shall not be permitted under Test Licence unless the permission from DCG (I) is obtained."
+           },
+           {
+             "p": " iii.  In an applied FDC, the individual drugs do not fall under New Drugs category the applied FDC may be permitted for chemical or instrumental analysis, Biological or Microbiological Analysis."
+           }
+            ]
+           }
+         ]
+       } 
+       ],
+     
+       "Page7": [
+       {
+         "heading": "Test Licenses",
+         "detailservices": [
+           {
+             "header": " REQUIREMENTS/DOCUMENTS TO BE SUBMITED  FOR APPROVAL/ GRANT OF LICENCE TO MANUFACTURE  ADDITIONAL PRODUCTS UNDER DRUG LICENSES GRANTED.",
+             "paragraph": [
+           {
+             "p": "1. Aplication for grant of additional products with the following information."
+           },
+           {
+             "p": "2. Consolidated list of Formulations with packing particulars under each licence(Form 25/28) separately category wise viz. Tablets, Capsules, Injectables etc."
+           },
+           {
+             "p": "3. Challan in original remitting the fee of Rs.300/- for each product applied in the Head of Account 0210 – Medical and Public Healt 04 –Public Health,   104 – Fees, Fines etc."
+           }
+         ]
+       },
+       {
+         "header": "Product Information in Respect Bulk Drugs:",
+         "paragraph": [
+           {
+             "p": " i) Manufacturing procedure of each product."
+           },
+           {
+             "p": " ii). Flow Chart with structural Formula of reactions as per Master Formula record and analytical procedure of each applied product with mode of procurement of official reference standards or working standards."
+           },
+           {
+             "p": "iii).Consumption coefficients of Raw Materials.(as per Format). "
+           },
+           {
+             "p": "iv). Official Monographs copies "
+           },
+           {
+             "p": "v). Details of effluents generated and their treatment followed. "
+           },
+           {
+             "p": "vi). Specimen labels of all applied products. "
+           },
+           {
+             "p": "vii). List of Manufacturing & Analytical equipment in the format. "
+           },
+           {
+             "p": "viii).Consent letters of Technical staff in the Format. "
+           },
+           {
+             "p": "ix). Photocopy of valid G.M.P. Certificate or reference of compliance of revised Schedule “M”,if any, available "
+           },
+           {
+             "p": " x) New drug status of the product or otherwise with documentary proof."
+           }
+            ]
+           },
+           {
+             "header": "Product Information in Respect Formulations:",
+             "paragraph": [
+               {
+                 "p": "i). Consolidated list of Formulations with packing particulars separately Category wise Viz.Tablets, Capsules, Injectables etc. "
+               },
+               {
+                 "p": "ii).Manufacturing & Analytical procedure of each product. "
+               },
+               {
+                 "p": "iii).Specimen label"
+               },
+               {
+                 "p": "iv).Labels of the similar products moving in the market for formulations not include in IP. "
+               },
+               {
+                 "p": "v).Declaration regarding the Brand Names of the Product. "
+               },
+               {
+                 "p": "vi).Copies of monographs of drugs which are not included in IP."
+               },
+               {
+                 "p": "vii). List of Manufacturing & Analytical equipment in the format."
+               },
+               {
+                 "p": "viii). Consent letters of Technical staff in the Format. "
+               },
+               {
+                 "p": "ix). Photocopy of valid G.M.P. Certificate or reference of compliance of revised Schedule “M”,if any, available  "
+               },
+               {
+                 "p": "x) New drug status of the product or otherwise with documentary proof. "
+               }
+             ]
+           },
+           {
+             "header": "Points to be considered while applying  for grant/ approval of API Drugs / Formulation Products",
+             "paragraph": [
+               {
+                 "p": "1. The name of drug (Formulation) shall be shown with proper name of the drug followed by trade Name."
+               },
+               {
+                 "p": "2. The Specification of the Product and the ingredients in the Formula shall be written as IP or other Pharmacopial Specifications followed by its name ( as the case may be )  if the drug is in IP it should be used for domestic Sale and if it is not in IP any other Pharmacopial or in house (IH) specifications can be used for domestic sale.  For Export  any specification can be approved as per the customer requirement."
+               },
+               {
+                 "p": "3. If the applied API or Formulation is a new drug as per the definition under Rule 122 E of Drugs and Cosmetics Rules 1945, the permission from Drugs Controller General of India  is required for approval."
+               },
+               {
+                 "p": "4.New Drug status remains for 4 years from the date of approval by DCG (I) ."
+               },
+               {
+                 "p": "5.For approval of Formulations with combination of drugs, the list approved by DCG (I) will be taken on the bases for approval."
+               },
+               {
+                 "p": "6.New drugs shall not be permitted without the approval of DCG (I) even for Test Licence for Chemical and Instrumental Analysis only )  Provided in case of FDC’s in which individual APIs  are not New Drug, they can be permitted for Chemical and Instrumental analysis."
+               },
+               {
+                 "p": "7.Joint inspection with CDSCO official is required for grant of Licences / additional products in case of Blood Banks, LVPS, Vaccines, Sera Products and r-DNA Products and approved Laboratories."
+               },
+               {
+                 "p": "8. When there is no specific approval by DCG (I) regarding strength  and route of administration of API  all the dosage forms are not to be approved except  oral dosage forms viz. Tablets, Capsules, Liquid Orals, Oral Powders, When single API ( Bulk Drug ) is approved by DCG (I)."
+               },
+               {
+                 "p": "9. FDCs of Veterinary Products may be permitted basing on the evidence of similar market label if individual APIs in FDC are not new Drugs.  ( This procedure is adopted until a consolidated list of approved FDC drugs of Veterinary   products is communicated by DCG (I)."
+               }
+             ]
+           }
+         ]
+       } 
+       ],
+
+       "Page8": [
+         {
+           "heading": "User Charges",
+           "p": "File",
+           "content": [
+             {
+               "link": "./DOCS/2012HMF_MS287.pdf",
+               "description": "UserCharges.pdf"
+             }
+           ]
+          
+         }
+       ],
+
+      "...comments14":"Below content is related to the Dropdown link-About/Flashnews",
+       "SubPage1": [
+         {
+           "heading": "Pharmaceutical Companies Given 30 Days Extension for Ceiling Price Relabelling.",
+           "detailservices": [
+             {
+               "header": "",
+               "paragraph": [
+             {
+               "p": "The Department of Pharmaceutical has extended the period of exemption in respect of ceiling price notification dated 14.06.2013 issued by the National Pharmaceutical Pricing Authority for a period of 30 days from 29.07.2013. Similarly, in respect of ceiling price notifications dated 21.06.2013, 28.06.2013 and 05.07.2013 issued by the NPPA, the period of validity of exemption is extended for a period not exceeding 30 days from the date when the period of 45 days will expire as granted by the Department of Revenue." },
+             {
+               "p":"The aforesaid extension of exemption shall be applicable only for the purpose of exemption from the provisions of Central Excise Act regarding whole of the duty of excise leviable in case of re-printing, re-labelling, re-packing or stickering, in a premises which is not registered under the Central Excise Act, 1944 (1 of 1944) or the rules made thereunder."
+             },
+             {
+               "p":"In a circular issued today, the Department of Pharmaceutical exempted the scheduled formulations as defined under the Drugs Price Control Order (DPCO), 2013 published vide S.O. 1221 (E) dated the 15th May, 2013, falling under Chapter 30 of the First Schedule to the Central Excise Tariff Act, 1985 (5 of 1986) and which are subjected to re-printing, re-labeling, re-packing or stickering, in a premises which is not registered under the Central Excise Act, 1944 (1 of 1944) or the rules made thereunder, in pursuance of the provisions contained in the said Drugs Price Control Order (DPCO), 2013 from whole of the duty of excise leviable thereon under the said Central Excise Act subject to the conditions as stipulated therein."
+             }
+            ]
+           }
+         ]
+        }
+       ],
+     
+       "SubPage2": [
+         {
+           "heading": "suspected spurious drugs seized. Media note and public alert.",
+           "detailservices": [
+             {
+               "header": "PRESS NOTE.",
+               "paragraph": [
+             {
+               "p": "On 07.12.2015, the Officers of Drugs Control Administration in Ongole, Kurnool and Kadapa have seized 58 varieties of drugs worth Rs.5 Lakhs suspected to be spurious in nature which were sold by an unlicensed firm M/s Osheen Organics, Jaipur, Rajasthan said to be manufactured in the name of a fictitious company M/s Avya Health Care, 11, Industrial Area, Rudrapur(Village), Mandi(Dist), Himachal Pradesh with no license and the drugs consists of tablets, capsules and syrups/suspensions were sold to 12 States in the country including Andhra Pradesh."
+               },
+             {
+               "p":" A massive drive is taken in all the districts of A.P to identify the distributors, sample the drugs, seize and recall the drugs purportedly manufactured by M/s Avya Health Care, 11, Industrial Area, Rudrapur(Village), Mandi(Dist), Himachal Pradesh and sold/distributed by M/s Osheen Organics, Jaipur, Rajasthan. So far 58 varieties of drugs were seized from the following distributors which consists of Antibiotics, Pain killers, Anti-emetics, Anti-cough & cold, Anti-protozoal, Iron&Vitamin and Anti-ulcers in the form of  tablets, capsules and syrups/suspensions."
+             },
+             {
+               "p": "1.   M/s Venkata Medical Corporation, Illendu vari street, Ongole – 18 varieties."
+             },
+            {
+              "p":"2.   M/s MSB Medical & Surgical Agencies, Raja Street, Kurnool   -   4 varieties."
+            },
+            {
+             "p":"3.   M/s MNS Medical & Surgical Enterprises, Kallur, Kurnool          - 23 varieties."
+           },
+           {
+             "p":"4.   M/s BA Allah’s Pharma, Vinayak Nagar, Kadapa                       - 13 varieties."
+           },
+           {
+             "p":"All the above drugs are sampled for analysis and are being sent to Government Drugs Control Laboratory, Vijayawada and will be analyzed on top priority."
+           },
+           {
+             "p":"All the above drugs are sampled for analysis and are being sent to Government Drugs Control Laboratory, Vijayawada and will be analyzed on top priority."
+           },
+           {
+             "p":"All the seizures of drugs are intimated to the Hon’ble Courts and further investigation is taken up by the respective Drugs Inspectors and complaints will be filed against all the responsible persons/firms under the provisions of Drugs and Cosmetics Act, 1940 and Rules, 1945 related to dealing with drugs manufactured without license and of the spurious nature of the drugs."
+           },
+           {
+             "p":"All the consumers are requested not to use the drugs labelled as manufactured by M/s Avya Health Care, 11, Industrial Area, Rudrapur(Village), Mandi(Dist), Himachal Pradesh and the Physicians are requested not to prescribe the same and are also requested to give information of availability of any such drugs to the nearest office of the Drugs Inspector/Assistant Director in the District or call the Director General, Drugs Control Administration on 040-23814119 or email to dgapdca@gmail.com in public interest."
+           },
+           {
+             "p":"Dr.A.Ravi Shankar,I.P.S,   Director General, Drugs & Copy Rights, Drugs Control Administration, A.P"
+           }
+            ]
+           }
+         ]
+        }
+       ],
+     
+       "SubPage3": [
+         {
+           "heading": "Industry Interactive Meeting on 18-08-2015 at Vizag.",
+           "detailservices": [
+             {
+               "header": "",
+               "paragraph": [
+             {
+               "p": "An interactive meet with Pharma Industry CEOs & representatives and Experts from related fields was conducted on 18-8-15 at Vigaz. Hon'ble Minister for Health, Medical & Family Welfare has chaired the meeting. Representatives from more than 100 Pharma Companies has attended the meeting and discussed various issues & problems faced by the Pharma Industry in the state of Andhra Pradesh."
+             },
+             {
+               "p":" Industry Experts also discussed about the need for Common Facilities at Pharma City, Parawada and need for establishment of Research Institute like IICT & NIPER."
+             }
+            ]
+           }
+         ]
+        }
+       ],
+     
+       " SubPage4": [
+         {
+           "heading": "Substances declared controlled substances under NDPS Act.",
+           "detailservices": [
+             {
+               "header": "Substances declared controlled substances under NDPS Act",
+               "paragraph": [
+             {
+               "p": "Ministry of Finance, Govt. of India, vide SO No. 834 (E) dated 26.3.2013 has in Exercise of Powers conferred by clause (viid) of Section 2 of the Narcotic Drugs and Psychotropic Substances Act, 1985 (61 of 1985) declared Ergometrine and its salts, Ergotamine and its salts, Isosafrole, Lysergic Acid and its salts, 3, 4 –methylenedioxyphenyl-2-propanone, and its salts and preparations thereof, Methyl ethyl ketone, Norephedrine (Phenylpropanolamine), its salts and preparations thereof , 1-phenyl-2-propanone, Phenylacetic acid and its salts, Piperonal, Potassium permanganate, Safrole and any essential oil containing 4% or more safrole, Preparations of Ephedrine and Preparations of Pseudoephedrine as controlled substances for the purpose of the Act."
+             },
+             {
+               "p":"  This notification is issued having regard to the possible use of above substances in the production or manufacture of various narcotic drugs and psychotropic substances, and also to implement the provisions of the United Nations Convention against Illicit Traffic in Narcotic Drugs and Psychotropic Substances, 1988."
+             }
+            ]
+           }
+         ]
+        }
+       ],
+
+       "SubPage5": [
+         {
+           "heading": "NPPA has fixed/revised the prices in of 86 formulations.",
+           "detailservices": [
+             {
+               "header": "NPPA has fixed/revised the prices in of 86 formulations.",
+               "paragraph": [
+             {
+               "p": "The National Pharmaceutical Pricing Authority has fixed / revised the prices in respect of 86 formulation packs Notification / orders dated 10.6.2013." },
+             {
+               "p":"For details please click the following:"
+             },
+             {
+               "p":"Copies of Gazette Notifications for Ceiling and Non-Ceiling Prices."
+             },
+             {
+               "p":" S.NoS.O.NoDateFormulation based on bulk drugsi.1492(E)10-6-2013Ibuprofenii.1493(E)10-6-2013Ibuprofen with combinationiii.1494(E)10-6-2013Quiniodochlor (ICHQ)iv.1495(E)10-6-2013Erythromycin Estolatev.1496(E)10-6-2013Metronidazole with combinationvi.1497(E)10-6-2013Rifampicin with combinationvii.1498(E)10-6-2013Chloroquine Phosphateviii.1499(E)10-6-2013Dexamethasone with combinationix.1500(E)10-6-2013Monocomponent Insulin regarding S.O. No. 1737(E) dated 26.07.2011, 789(E) dated 10.04.2012, 1635(E) dated 19.07.2012 and 2740(E) dated 16.11.201x.1501(E)10-6-2013Monocompoenent Insulinxi.1502(E)10-6-2013Tegrital" ,
+               "link": "http://www.nppaindia.nic.in/en/ceiling/press10june13/so1492e-10-6-13.html",
+               "description": " NPPA "
+             }
+            ]
+           }
+         ]
+        }
+       ],
+     
+       "SubPage6": [
+         {
+           "heading": "Drugs were seized at M/s Sai Vijaya Medical Agencies, Eluru for violation of section-3 of Drugs and Magic Remedies (Objectionable Advertisement) Act, 1954",
+           "detailservices": [
+             {
+               "header": "",
+               "paragraph": [
+            
+             {
+               "p":"On 22.05.2013 during joint inspections conducted at Eluru the Drugs Control Officers detected 2 cases under Drugs and Magic Remedies (Objectionable Advertisement) Act, 1954 and 2 cases under Drugs Price Control Order,1995 at M/s Sai Vijaya Medical Agencies, Eluru."
+              },
+              {
+                "p":"The following drugs were seized for the violation of Sec 3 of Drugs and Magic Remedies (Objectionable Advertisement) Act, 1954 as the drugs are indicating for the cure “FEVER” on their label."
+              },
+              {
+               "p":"Ø  Tricold Plus syrup Mfg by Scott Edil Pharmacia Ltd., Jarmarjri."
+             },
+             {
+               "p":"Ø  Cetiz Cold suspension Mfg by Saar Biotech, Solan."
+             },
+             {
+               "p":"The following drugs were seized for gross violation by the firms for printing Maximum Retail Price (MRP) over and above the ceiling prices fixed by the National Pharmaceutical Pricing Authority (NPPA), Government of India on violation of Para 8 of Drugs Price Control Order, 1995."
+             },
+             {
+               "p":"Ø  K-Nor tablets Mfg by Konis Pharmaceuticals, Solan  &"
+             },
+             {
+               "p":"Ø  Ulticept- TZ tablets Mfg by Venus Bioscience, Solan (Govt.Price-: MRP by the company:"
+             },
+             {
+               "p":"On 04-06-2013, M/s Laborate Pharmaceuticals India Ltd., in Vijaywada was inspected and 9 of items of drugs Mfg by Laborate Pharmaceuticals India Ltd., Himachal Pradesh were detected for gross violation of ceiling prices and the same were seized for violation of Para 8 of DPCO 1995."
+             },
+             {
+               "p":"On 06.06.2013, 10 of items of drugs Mfg by Ridley Life Science, Delhi, were detected for gross violations of ceiling prices and the same were seized for violation of Para 8 of DPCO 1995."
+             },
+             {
+               "p":"Drug worth Rs.1 crore 1 lakh were recalled from the market.    "
+             },
+             {
+               "p":"Dr.B.L.Meena,I.P.S,  Director General, Drugs and Copyrightsl"
+             }
+            ]
+           }
+         ]
+        }
+       ],
+
+       "SubPage7": [
+         {
+           "heading": "W.H.O issues supplementary guidelines on GMP on sterile process validation.",
+           "detailservices": [
+             {
+               "header": "",
+               "paragraph": [
+             {
+               "p": "The World Health Organization (WHO) has issued guidelines for the revision of the supplementary guidelines on good manufacturing practices: on-sterile process validation. The industry will need to revert with their views by May 24."
+             },
+             {
+               "p":"Further to the Supplementary Guideline on good manufacturing practices: validation, as published in the WHO Technical Report, No. 937,1 102 additional guidelines to support current approaches in GMP are published herewith to further support the scope of process validation linked to quality risk management and quality by design principles as described by WHO and the International Conference on Harmonization (ICH). "
+             },
+             {
+               "p":"The guideline allows for different approaches in process validation. The principles are applicable to non-sterile finished pharmaceutical dosage forms."
+             },
+             {
+               "p":"Thorough knowledge of product and process development studies; previous manufacturing experience; and quality risk management (QRM) principles are essential in the all approaches to process validation as the focus is now on the life-cycle approach. The life-cycle approach links product and process development, validation of the commercial manufacturing process and maintenance of the process during routine commercial production."
+             },
+             {
+               "p":"A risk based approach to validation is recommended, linked to in-line or on-line controls and monitoring to ensure that a process is in a state of control during routine manufacture process validation data should be generated for all products to demonstrate the adequacy of the manufacturing process at each site of manufacture, stated WHO in its draft report."
+             },
+             {
+               "p":"The validation should be carried out in accordance with good manufacturing practices (GMP) and data should be held at the manufacturing location and made available for inspection. Manufacturers should confirm that a manufacturing process is under control before a product is placed on the market."
+             },
+             {
+               "p":"Process validation is associated with the collection and evaluation of data, from the process design stage through commercial production, which provides scientific evidence that a process is capable of consistently delivering a quality product. Process validation provides documented evidence that a process is capable of reliably and repeatedly rendering a product of the required quality."
+             },
+             {
+               "p":"A risk assessment approach should be used to determine the scope and extent to which process(es) and starting material variability may affect product quality. The critical parameters should be identified and documented and be based on knowledge of the product or processes concerned, according to the stage of the product life-cycle."
+             },
+             {
+               "p":"The objectives of process validation is to ensure that the design is evaluated to show that it is reproducible. The commercial manufacturing process is defined and controlled, and that the validation should cover all manufactured strengths used for production of the marketed product. A matrix approach may be acceptable based on appropriate risk assessment, according to WHO."
+             },
+             {
+               "p":"The scope and extent of continuous process verification will be influenced by a number of factors. These include prior development and manufacturing knowledge from similar products. The extent of process understanding gained from development studies and commercial manufacturing experience. The complexity of the product manufacturing process and the level of process automation and analytical technologies used."
+             }
+            ]
+           }
+         ]
+        }
+       ]
+     }
+     
+
+
+
+
+
+
+
+
+   

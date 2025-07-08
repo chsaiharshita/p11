@@ -1,0 +1,60 @@
+.content >h3{
+    font-family: "Source Serif Pro", serif; 
+    font-weight: 600;
+    margin: 2rem;
+    
+} 
+
+.content >h5{
+    font-family: "Source Serif Pro", serif; 
+    font-weight: 600;   
+    font-style: normal; 
+    margin: 1rem;
+} 
+
+.subheader{
+    font-family: "Source Serif Pro", serif; 
+    font-weight: 400;
+    text-decoration: none;
+    padding:  0.5rem 0.2rem; 
+    color:black;   
+   
+}
+
+.subheader:hover{   
+    color:white;
+    text-decoration: none;  
+    background-color: black;    
+}
+
+ #p{
+   text-align: justify;
+   text-indent: 0px;
+ }
+
+.list a{
+    color: rgb(6, 22, 245);
+    font-size:16px;
+}
+
+#ul.list{
+  list-style-type: numbers;
+  
+}
+
+
+
+    
+  .table {
+    border: 2px solid forestgreen;
+    width: 800px;
+    height: 200px;
+  }
+    
+  .th {
+    border-bottom: 1px solid black;
+  }
+    
+  .td {
+    text-align: center;
+  }

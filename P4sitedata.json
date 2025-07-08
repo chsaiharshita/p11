@@ -1,0 +1,3812 @@
+{
+  "index.html":"Change the project name (ex: DCA or ITI or NOC)as per our need in ----- public/index.html",
+  "Project path with root (/)":"Change the project path names for root project (/) in two files 1.package.json 2. src/Layout/layout.js",
+  "Project path with name (ex:nicapsc-apl)":"Change the project path names with Project name(ex:nicapsc-apl) in two files 1.package.json,  2. src/Layout/Layout.js", 
+ 
+  "For API data changing":"Goto the folder names Redux1,2,3,4.  And open the files 1.users.service.js & 2.users.thunks.js And then change the Project names as  p1 - for Project1 ; p2 - for Project2 ; p3 - for Project3 ",
+  "important for API data":"goto c141.js,c142.js, c143.js files and change the pname for project1(DCA) - p1",
+  
+  "copy the below information in 'cities.json' file with array symbols":
+
+    [{
+        "name": "Institution of Lokayukta",
+        "admin": "Lokayukta",
+        "address": "H.No.96/3-72-124-1,PRASAD'S COMPLEX, Santosh nagar,Kurnool,518006 ",
+        "state": "Andhra Pradesh",
+        "country": "India",
+        "center": ["15.8118414", "78.0047825"],        
+        "capital": "admin",
+        "lat": "15.8118414",
+        "lng": "78.0047825",
+        "zoomlevel": "10",
+        "iso2": "IN"
+    }],
+
+    "..comment for pop":"chnage the popvalue -  true or false",
+
+    "Popvalue":true,
+
+ "...comment1":"below link is - API url ",
+
+ "url":"https://noc.ap.nic.in/apwaas/users",
+
+ "...comment2":"Navigation Bar-Menu names and links",
+
+ "Navlink": [
+   {
+     "title": "HOME",
+     "link": " #about"  
+    }
+  ],
+  
+ "drop":[
+  {
+    "name": "DOWNLOADS",
+    "type": "page",
+    "children": [
+    
+      {
+       "name": "DOWNLOADS",
+       "link": "/node/203",
+       "type": "page"
+     }
+    ]
+  },
+   {
+     "name": "PAGES",
+     "type": "page",
+     "children": [
+     
+       {
+        "name": "TENDER NOTIFICATIONS",
+        "link": "/node/31",
+        "type": "page"
+      },
+      {
+        "name": "NOTIFICATIONS",
+        "link": "/node/31",
+        "type": "page"
+      }
+      
+     ]
+   },
+   
+   {
+    "name": " CITIZEN CHARTER",
+    "type": "page",
+    "children": [
+      {
+        "name": "CITIZEN CHARTER",
+        "link": "/node/501",
+        "type": "page"
+      }
+     
+    ]
+  },
+   {
+    "name": "RTI",
+    "type": "page",
+    "children": [
+      {
+        "name": "RTI",
+        "link": "/node/601",
+        "type": "page"
+      }
+    
+    ]
+  }, {
+    "name": " CONTACT US",
+    "type": "page",
+    "children": [
+      {
+        "name": "CONTACT US",
+        "link": "/node/701",
+        "type": "page"
+      }
+     
+    ]
+  }
+
+ ],
+
+
+ "Navlinkleft": [
+   {
+     "title": "Lokayukta",
+     "link": ""
+   }
+ ],
+
+ "...comment3":"Social icons for top Navbar ",
+
+ "socialicons": [
+  {
+    "link1": "#home",
+    "title1": "SKIP TO MAIN CONTENT",
+    "link2": "",
+    "title2": "",
+    "iconslink": [
+      {
+        "iconname": "fa fa-instagram",
+        "link": "https://www.instagram.com/",
+        "description": ""
+      },
+      {
+        "iconname": "fa fa-facebook-f",
+        "link": "https://www.facebook.com/",
+        "description": ""
+      },
+      {
+        "iconname": "fa fa-twitter",
+        "link": "https://www.twitter.com/",
+        "description": ""
+      },
+      {
+        "iconname1": "fa fa-sitemap",
+        "link": "/sitemap",
+        "description": ""
+      }
+    ]
+  }
+],
+
+ "...comment4":"Header Names and Images",
+ "Header": [
+  {
+    "img1": [
+      {
+        "imgsrc": "./images/P1H2.jpg",
+        "imgalt": "logo1",
+        "link": "https://www.ap.gov.in/"
+      }
+    ],
+    "heading": "INSTITUTION OF LOKAYUKTA",
+    "header":"",
+    "description": [
+      { "title": " ANDHRA PRADESH" }
+    ],
+    "img2": [
+      {
+        "imgsrc": "./images/P1H2.jpg",
+        "imgalt": "logo2",
+        "link": "https://www.ap.gov.in/"
+      }
+    ]
+  }
+],
+ "Header1": [
+   {
+   
+     "img1": [
+       {
+        "heading": "INSTITUTION OF LOKAYUKTA",
+        "header":"ANDHRA PRADESH",
+         "imgsrc": "./images/P1H2.jpg",
+         "imgalt": "logo1",
+         "link": "https://www.ap.gov.in/"
+       
+       }
+     ]
+   
+     
+  
+   }
+ ],
+
+ "...comment5":"Navigation Bar Names & Description, Sliding images and Designations",
+
+ "menu1": [
+   {
+     "title1": "home",
+     "title2": "aboutus",
+     "title3": "dcaservices",
+     "title4": "newsupdates",
+     "section1": [
+       {
+         "carousel1": [
+           {
+             "image": "./images/LOKA.jpg",
+             "imgalt": "First slide"
+           }
+          
+           
+         ],
+         "carousel2": [
+           {
+             "image": "./images/AMARA.jpeg",
+             "imgalt": "Second slide"
+           }
+         ]
+       }
+     ],
+     "section2": [
+       {
+         "title": "About Us ",
+         "paragraph": [
+           {
+             "p": " ORGANIZATION:In order to redress the grievances of the citizens which were pouring more in number, the Administrative Reforms Commission, appointed by the Union Government in 1966, recommended the constitution of the Institutions of Lokayukta and Upa-Lokayukta, taking a clue from the Institution like OMBUDSMAN in the Scandinavian countries. In the light of those recommendations, the Institutions of Lok Ayukta were established in various States of our country with jurisdiction to deal with complaints not only against elective public servants, but also against the other categories of public servants defined in the Act."
+           },
+           {
+             "p": "Subsequently, Drugs Control Administration was also entrusted with the enforcement of Prevention of Food Adulteration Act and the Head of the Department was designated as Drugs Controller and Food Health Authority. In the year 1981 the Department of Drugs Control Administration was accorded independent status with a separate Directorate headed by a Director functioning under the Ministry of Medical and Health, Government of Andhra Pradesh."
+           }
+         ],
+         "imgsrc": "./images/cardimg-1.jpg",
+         "imgalt": "image1",
+         "button": "View More",
+         "button_link": "about",
+         "imgsrc1": "./images/C-A.jpg",
+         "imgalt1": "image1"
+        }
+     ],
+     "section3": [
+       {
+         "title": "",
+         "card1": [
+           {
+             "imgsrc": "./images/CM.jpg",
+             "imgalt": "img-1 ",
+             "title": " Sri. Y.S. Jagan Mohan Reddy",
+             "description": "Hon'ble Chief Minister.",
+             "para":[
+               {
+                 "subtitle":"Government of Andhra Pradesh. " 
+               }
+             ],
+             "button": "View More"
+           },
+           {
+             "imgsrc": "./images/P1Minister.jpg",
+             "imgalt": "img-1",
+             "title": "Smt. Vidadala Rajini",
+             "description": "Hon'ble Minister of Health, Family Welfare & Medical Education.",
+             "para":[ 
+               { 
+                 "subtitle":"Government of Andhra Pradesh." }
+             ],
+            
+             
+             "button": "View More"
+           },
+           {
+             "imgsrc": "./images/P1DG.png",
+             "imgalt": "img-1 ",
+             "title": "Sri.S.Ravi Shankar Narayan,I.R.S.",
+             "description": "DG Drugs and Copyright.",
+             "para":[
+               {  
+                 "subtitle":"Government of Andhra Pradesh."
+               }
+             ],
+            
+             "button": "View More"
+           }
+         ]
+       }
+     ]
+   }
+ ],
+
+ "section4": [
+   {
+ "subsection3": [
+   {
+     "title": "Media Gallery ",
+     "carousel1": [
+       {
+         "img": "./images/cardimg-3.jpg",
+         "imgalt": "First slide"
+       }
+     ],
+     "carousel2": [
+       {
+         "img": "./images/cardimg-4.jpg",
+         "imgalt": "Second slide"
+       }
+     ],
+   
+     "button": "View More",
+     "button_link": "Images"
+   }
+ ]
+}
+],
+
+"section2": [
+ {
+   "title": "About Us ",
+   "paragraph": [
+     {
+       "p": "ORGANIZATION:In order to redress the grievances of the citizens which were pouring more in number, the Administrative Reforms Commission, appointed by the Union Government in 1966, recommended the constitution of the Institutions of Lokayukta and Upa-Lokayukta, taking a clue from the Institution like OMBUDSMAN in the Scandinavian countries. In the light of those recommendations, the Institutions of Lok Ayukta were established in various States of our country with jurisdiction to deal with complaints not only against elective public servants, but also against the other categories of public servants defined in the Act."
+     }
+   ],
+   "imgsrc": "./images/cardimg-1.jpg",
+   "imgalt": "image1",
+   "button": "View More",
+   "button_link": "about",
+   "imgsrc1": "./images/C-A.jpg",
+   "imgalt1": "image1"
+  }
+],
+"section3": [
+ {
+   "title": "",
+   "card1": [
+   
+     {
+       "imgsrc": "./images/lokyukta.jpeg",
+       "imgalt": "img-1",
+       "title": "Hon’ble Mr. Justice P Lakshmana Reddy",
+       "description": "Lokayukta of Andhra Pradesh.",
+
+       "para":[ 
+         { 
+           "subtitle":"" }
+       ],
+       "button": "View More"
+     },
+     {
+       "imgsrc": "./images/image.jpg",
+       "imgalt": "img-1 ",
+       "title": "xxxxxxxxxx",
+       "description": "Upa-Lokayukta of Andhra Pradesh.",
+       "para":[
+         {  
+           "subtitle":""
+         }
+       ],
+      
+       "button": "View More"
+     }
+   ]
+ }
+
+],
+ "menu3": [
+   {
+     "title": "",
+     "apiurl": ""
+   }
+ ],
+ "menu4": [
+   {
+     "section1": [
+       {
+         "title": "Schemes of DCA",
+         "card": [
+           {
+             "imgsrc": "./images/cardimg-4.jpg",
+             "imgalt": "img-1 ",
+             "description": "Andhra Pradesh functions with the major objectives of providing and Apprenticeship Training to the youths training across various establishments in Andhra Pradesh State.",
+             "title": " Craftsmen Training",
+             "button": "View More"
+           },
+           {
+             "imgsrc": "./images/cardimg-2.jpg",
+             "imgalt": "img-1 ",
+             "description": "Andhra Pradesh functions with the major objectives of providing and Apprenticeship Training to the youths training across various establishments in Andhra Pradesh State. ",
+             "title": "Apprenticeship Training",
+             "button": "View More"
+           },
+           {
+             "imgsrc": "./images/cardimg-4.jpg",
+             "imgalt": "img-1 ",
+             "description": "Andhra Pradesh functions with the major objectives of providing and Apprenticeship Training to the youths training across various establishments in Andhra Pradesh State.  ",
+             "title": "Skill Development",
+             "button": "View More"
+           }
+         ]
+       }
+     ]
+   }
+ ],
+ "menu5": [
+   {
+     "submenu1": [
+       {
+         "title": "",
+         "subtitle": ""
+       }
+     ]
+   }
+ ],
+ "menu6": [
+   {
+     "submenu1": [{}],
+     "submenu2": [{}],
+     "submenu3": [{}],
+     "submenu4": [{}]
+   }
+ ],
+ "menu7": [{}],
+ "menu8": [
+   {
+     "notification": " Application Form for Admission into the Industrial Training Institute for the session 2020 for Phase-4 "
+   }
+ ],
+
+ "...comment6":"Footer page updates",
+
+ "footerlink": [
+  {
+    "title":"Footer Menu",
+    "content":[
+   {
+    "title": "Website Policies",
+    "link": "Websitepolicies"
+  },
+  {
+    "title": " Help",
+    "link": "help"
+  }
+]
+}
+],
+ "Footer": [
+   {
+     "p":"© LOKAYUKTA. ",
+     "link": "https://10./",
+     "title": "  All Rights Reserved."
+    
+   },
+   {
+     "title": "Website is Owned and Content Managed by Ministry of Law & Justice | Government of India",
+     "link": "https://lawmin.gov.in/"
+   },
+   {
+     "p":" Last Updated: Jan 07,2023."
+   }
+ ],
+
+ "...comment7":"If API is down-The below information will display in All pages.",
+
+ "Latestnews":[
+   {
+     "ptitle":"Latest News",
+     "a":[
+       {
+         "aname":"Data is Fetching............",
+         "avalue":"/fetch"
+       }
+       
+     ]
+   }
+ ],
+
+"Events":[
+ {
+   "ptitle":"Events",
+   "a":[
+     {
+       "aname":"Data is fetching.......",
+       "avalue":""
+     },
+     {
+       "aname":" Data is fetching.......",
+       "avalue":""
+     }
+   ]
+ }
+],
+
+"Reward":[
+ {
+   "ptitle":"Rewards",
+   "a":[
+     {
+       "aname":" Data is fetching.......",
+       "avalue":"para"
+     },
+     {
+       "aname":" Data is fetching.......",
+       "avalue":"para"
+     }
+   ]
+ }
+],
+"Fetch":[
+ {
+   "ptitle":"Please wait for a while......",
+   "a":[
+     {
+       "aname":" Data is fetching.......",
+       "avalue":""
+     }
+    
+   ]
+ }
+],
+"...comment8":"Button links for Events and Rewards",
+
+ "Updates":[
+   {
+     "button": "View All",
+     "button_link": "/node/51"
+   }
+ ],
+ "Rewards":[
+   {
+     "button": "View All",
+     "button_link": "/node/52"
+   }
+ ],
+
+ 
+
+ "...Comment1":"Information of Aboutus Menu",
+ "About": [
+   {
+     "heading": "About the Institution",
+     "detailservices": [
+       {
+         "header": "ORGANIZATION:",
+         "paragraph": [
+       {
+         "p": " In order to redress the grievances of the citizens which were pouring more in number, the Administrative Reforms Commission, appointed by the Union Government in 1966, recommended the constitution of the Institutions of Lokayukta and Upa-Lokayukta, taking a clue from the Institution like OMBUDSMAN in the Scandinavian countries. In the light of those recommendations, the Institutions of Lok Ayukta were established in various States of our country with jurisdiction to deal with complaints not only against elective public servants, but also against the other categories of public servants defined in the Act."},
+       {
+         "p": " In Andhra Pradesh, the A.P. Lokayukta Act 11 of 1983 came into force with effect from 1-11-1983 and this Institution started functioning from 15-11-1983 and since then this Institution has been able to march forward as an effective instrument in the hands of the public for curbing the evil of corruption and maladministration." }
+         ]
+        },
+         {
+          "header": "SALIENT FEATURES OF THE INSTITUTION:",
+          "paragraph": [
+        {
+          "p": " The most prominent features of the Institution of Lokayukta in this State are:"},
+        {
+          "p": "i) Independence from Executive Control;" },
+          {
+            "p": "ii) Informal procedure and easy accessibility to complaints; and" },
+            {
+              "p": "iii) Almost free and prompt services to the citizens." }
+         ]
+         
+     },
+     {
+      "header": "FUNCTIONS & DUTIES:",
+      "paragraph": [
+    {
+      "p": " The matters and actions of Public servants, which can form the subject matter of the complaint to the Institution of Lokayukta and Upa-Lokayukta, are:"},
+    {
+      "p": "1) Any administrative action involving abuse of power for personal gain or to harm any one;" },
+      {
+        "p": "2) Administrative actions motivated by improper or corrupt motives causing loss to the State or to any person; and" 
+      },
+        {
+          "p": "3) All actions involving outright corruption or lack of integrity."
+         },
+         {
+           "p":"There are three modes for the Lokayukta and the Upa-Lokayukta to act for taking up investigation of Administrative actions of the nature as stated above."
+         },
+         {
+           "p":"Firstly, any citizen or aggrieved person can make a complaint. Secondly, the Lokayukta and Upa-Lokayukta suo-moto can take up investigation on the basis of information received by him otherwise than by way of complaints like newspapers, reports, etc. Thirdly, the Lokayukta or Upa-Lokayukta can act on a reference from the Governor."
+         },
+         {
+           "p":"For the purpose of conducting an investigation in accordance with the provisions of the Act, the Governor appoints a Judge or a retired Chief Justice of High Court to act as Lokayukta and one or more District Judges to act as Upa-Lokayuktas."
+         }
+     ]
+     
+ },
+ {
+  "header": "ADMINISTRATION",
+  "paragraph": [
+{
+  "p": " The administration of the Institution is under the charge of the Registrar who is declared as the Head of the Department. The administrative structure consists of four wings viz., (1) Administration, (2) Judicial, (3) Legal and (4) Investigation."
+}
+  
+ ]
+ 
+},
+{
+  "header": "1. ADMINISTRATION WING:",
+  "paragraph": [
+{
+  "p": " The Registrar, with the assistance of the Deputy Registrar, supervises the Administrative Wing, which consists of the Establishment and Accounts Section. The Establishment Section is headed by a Section Officer and it deals with the work relating to Conditions of Service of the Employees, Library, Stores, Furniture, Maintenance of Motor Vehicles, Stationery, Roneo, Inward, Dispatch, etc. The Accounts Section functions under the supervision of an Assistant Registrar, who is assisted by an Accounts Officer and other staff, and deals with financial matters such as budget, salary, T.A., and other related matters."}
+
+ ]
+ 
+},
+{
+  "header": "2. JUDICIAL WING:",
+  "paragraph": [
+{
+  "p": " For the sake of convenience, the Bench of the Hon’ble Lokayukta is identified as B-1 and that of the Hon’ble Upa-Lokayukta as B-2. The Complaints Section receives the complaints, scrutinizes the same and registers the complaints for placing them before the Hon’ble Lokayukta. This Section is headed by the Assistant Registrar, who is assisted by a Section Officer and other staff members. After registration of complaints, the complaints are taken up by the staff of the B-1 Section and B-2 Section respectively, headed by the Section Officers, with supporting staff."
+},
+{
+  "p":"Besides, the Special Category Stenographers would assist in taking down dictation of the orders on Bench of the Hon’ble Lokayukta and Hon’ble Upa-Lokayukta. This apart, there is usual Process Sections separately for B-1 and B-2 sections to process"
+ },
+ {
+   "p":" the files as per the orders of the Hon’ble Lokayukta and Hon’ble Upa-Lokayukta and Dispatch the letters, notices, memos etc., to the concerned with the support of Dispatching Assistant."
+}
+
+ ]
+ 
+},
+{
+  "header": "3. LEGAL WING:",
+  "paragraph": [
+{
+  "p": " Legal Wing consists of Director (Legal) and Deputy Director (Legal). Both assist the Hon’ble Lokayukta and the Hon’ble Upa-Lokayukta respectively, in all legal matters such as processing the reports received and presenting them before the Court and render assistance to the complainants in conducting the proceedings. Even if a complainant is not having the legal assistance, that deficiency is filled up by the Legal Wing. The Director (Legal) and the Deputy Director (Legal) also perform the duties of Presenting Officers in the Courts and would assist in conducting final investigation by the Hon’ble Lokayukta and Hon’ble Upa-Lokayukta by way of submitting Written Comments, Written Briefs, etc., during the preliminary verification stage and draft statement of allegations, etc., when it reaches the final investigation stage."
+}
+
+ ]
+ 
+},
+{
+  "header": "4. INVESTIGATION WING:",
+  "paragraph": [
+{
+  "p": "The Director (Investigation), who is of the rank of Inspector General of Police, is heading this wing with the assistance of (4) Deputy Directors, (5) Investigating Officers and (13) Police Constables. This Agency probes into such of the complaints that are referred to it, by the Hon’ble Lokayukta and Hon’ble Upa-Lokayukta and after collecting the necessary material by conducting discreet enquiries, submit a report, which is of immense help in determining as to whether it is a fit case to investigate into the allegation levelled in the complaints or otherwise. This agency maintains the confidentiality and secrecy of information during the discreet enquiry and conducts the probe impartially."
+}
+
+ ]
+ 
+},
+{
+  "header": "ACCOMMODATION",
+  "paragraph": [
+{
+  "p": "The Institution of Lokayukta is presently accommodated in the Government Building bearing No.5-9-49, Basheerbagh, Hyderabad. The building consists of two parts. Nearly half of the built up area consists of heritage structure and the remaining is subsequently constructed."
+}
+ ] 
+}
+
+   ]
+   }
+ ],
+
+ "...Comment2":"Information of RTI-Menu",
+ "Rti": [
+   {
+     "heading": " RTI ACT",
+     "detailservices": [
+     {
+     "header": "Right to Information Act",
+     "p": "",
+     "Serial":"S.No",
+     "Name":"Name",
+     "Authority":"Authority",
+     "Trainingwing":"Training wing",
+     "Contact":"Contact no",
+     "paragraph":[ 
+
+       { "Serial":1,
+         "Name":"xxxxx",
+         "Authority":"Appellate Authority",
+         "Trainingwing":"Registrar",
+         "Contactno":"xxxxxxxxxx"
+       },
+       { "Serial":2,
+         "Name":"xxxxx",
+         "Authority":"Public Information Officer (PIO)",
+         "Trainingwing":"Deputy Registrar",
+         "Contactno":"xxxxxxxxxx"
+       },
+       { "Serial":3,
+         "Name":"xxxxx",
+         "Authority":"Assistant Public Information Officer (APIO).",
+         "Trainingwing":"Assistant Registrar (Judl.)",
+         "Contactno":"xxxxxxxxxx"
+       }
+    ]
+   }
+ ]
+}
+],
+
+
+"...Comment3":"Information of ContactUs-Menu",
+
+ "Contactus": [
+   {
+     "title":"Contact Us",
+     "p":"",
+     "Contact": [
+      {
+     "heading": "Address",
+     "imgsrc": "./images/address.png",
+     "imgalt": "image1",
+     "paragraph": [
+       {
+         "p": "  Drugs Control  Administration , DCA P.O., Andhra Pradesh 520 010 ,  INDIA. "
+        }
+     ]
+   },
+   {
+     "heading": "Directory",
+     "imgsrc": "./images/directory.png",
+     "imgalt": "image1",
+     "paragraph": [
+       {
+        
+        "p": " Search the Directory for listings of all people and locations in DCA.",
+        "link":"./DOCS/P1-80-1.pdf"
+       }
+     ]
+   },
+   {
+     "heading": "Map",
+     "imgsrc": "./images/campus-map.png",
+     "imgalt": "image1",
+     "paragraph": [
+       {
+         "p": " View a DCA location ",
+         "link":"/map",
+         "title":""
+       }
+      ]
+     }
+    ]
+   }
+ ],
+
+ "contact": [
+  {
+    "title": "Contact Us",
+    "subtitle":" Office Location",
+    "header":"Office Address-Headquarters:",
+    "paragraph": [
+      {
+        "p": "Institution of Lokayukta,"
+      },
+      {
+        "p":"H.No.96/3-72-124-1,"
+      },
+      {
+        "p": " PRASAD'S COMPLEX, Santosh nagar,"
+      },
+      {
+        "p": " Kurnool -518006. , Andhra Pradesh,  INDIA."
+      }
+
+    ],
+    "imgsrc": "./images/address.png",
+    "imgalt": "image1",
+    "link" :"/nicapsc-dca/map"
+  }
+],
+
+ "Citizencharter": [
+  {
+    "heading": "CITIZEN CHARTER",
+    "p": "",
+    "header": "",
+    "content": [
+    
+      {
+        "link": "./DOCS/P1-60-1.pdf",
+        "description": "Citizencharter.pdf"
+      }
+    ]
+  }
+],
+ "Contactus1": [
+  {
+    "title":"Contactus-Map",
+    "p":"",
+    "Contact": [
+      {
+        "heading": "Address",
+        "imgsrc": "./images/address.png",
+        "imgalt": "image1",
+        "paragraph": [
+          {
+            "p": "  Drugs Control  Administration , DCA P.O., Andhra Pradesh 520 010 ,  INDIA. "
+           }
+        ]
+      },
+  {
+    "heading": "Map",
+    "imgsrc": "./images/campus-map.png",
+    "imgalt": "image1",
+    "paragraph": [
+      {
+        "p": " View a DCA location ",
+        "link":"/map",
+        "title":""
+      }
+     ]
+    }
+   ]
+  }
+],
+
+ "...Comment3(1)":"Information of Honourable minister-Menu",
+ "Contact1": [
+   {
+     "heading": " Honourable Minister",
+     "detailservices": [
+     {
+     "header": "",
+     "p": "",
+     "Serial":"S.No",
+     "Name":"Name",
+     "Designation":"Designation",
+     "Contact":"Contact no",
+     "Profile":"Profile",
+     "paragraph":[ 
+
+       { "Serial":1,
+         "Name":"",
+         "Designation":"",
+         "Contactno":"",
+         "Profile":""
+       },
+       { "Serial":2,
+         "Name":"",
+         "Designation":"",
+         "Contactno":"",
+         "Profile":""
+       },
+       { "Serial":3,
+         "Name":"",
+         "Designation":"",
+         "Contactno":"",
+         "Profile":""
+       }
+    ]
+   }
+ ]
+
+}
+],
+
+"...Comment3(2)":"Information of State officers - Menu",
+"Contact2": [
+ {
+   "heading": " State Officers",
+   "detailservices": [
+   {
+   "header": "",
+   "p": "",
+   "Serial":"S.No",
+     "Name":"Name",
+     "Designation":"Designation",
+     "Contact":"Contact no",
+     "Profile":"Profile",
+     "paragraph":[ 
+
+     { "Serial":1,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+     { "Serial":2,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+     { "Serial":3,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     }
+  ]
+ }
+]
+}
+],
+
+"...Comment3(3)":"Information of Regional Officers-Menu",
+"Contact3": [
+ {
+   "heading": " Regional Officers",
+   "detailservices": [
+   {
+     "header": "",
+     "p": "",
+     "Serial":"S.No",
+     "Name":"Name",
+     "Designation":"Designation",
+     "Contact":"Contact no",
+     "Profile":"Profile",
+     "paragraph":[ 
+
+     { "Serial":1,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+     { "Serial":2,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+     { "Serial":3,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     }
+  ]
+ }
+]
+}
+],
+"...Comment3(4)":"Information of District Officers-Menu",
+"Contact4": [
+ {
+   "heading": " District Officers",
+   "detailservices": [
+   {
+     "header": "",
+     "p": "",
+     "Serial":"S.No",
+     "Name":"Name",
+     "Designation":"Designation",
+     "Contact":"Contact no",
+     "Profile":"Profile",
+     "paragraph":[ 
+
+     { "Serial":1,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+     { "Serial":2,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+     { "Serial":3,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+     { "Serial":4,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     }, 
+     { "Serial":5,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     }, 
+     { "Serial":6,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+      { "Serial":7,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+      { "Serial":8,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+      { "Serial":9,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     }, 
+     { "Serial":9,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+      { "Serial":10,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     }, 
+     { "Serial":11,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+      {"Serial":12,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     }, 
+     { "Serial":13,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+      { "Serial":14,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+      }
+    ]
+  }
+ ]
+}
+],
+"...Comment3(5)":"Information of Drug Inspectors-Menu",
+"Contact5": [
+ {
+   "heading": " Drugs Inspectors",
+   "detailservices": [
+   {
+     "header": "",
+     "p": "",
+     "Serial":"S.No",
+     "Name":"Name",
+     "Designation":"Designation",
+     "Contact":"Contact no",
+     "Profile":"Profile",
+     "paragraph":[ 
+
+     { "Serial":1,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+     { "Serial":2,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     },
+     { "Serial":3,
+       "Name":"",
+       "Designation":"",
+       "Contactno":"",
+       "Profile":""
+     }
+   ]
+  }
+ ]
+}
+],
+ "...Comment4":"Information of Organisation-Menu",
+
+  "Organisation": [
+   {
+     "title": "Organisational Chart",
+     "paragraph": [
+     {
+     "imgsrc": "./images/P1Org1.jpg",
+     "imgalt": "image1"
+     }
+     ]
+   }
+ ],
+      "...comment10":"Below are Websitepolicices and Help",
+     
+      "websitepolicies": [
+         {
+           "heading": "Website Policies",
+           "detailservices": [
+             {
+               "header": "Terms of Use",
+               "paragraph": [
+                 {
+                   "p": "DCA APSC is managing the content of the website."
+                 },
+                 {
+                   "p": "Though all efforts have been made to ensure the accuracy and currency of the content on this website, the same should not be construed as a statement of law or used for any legal purposes."
+                 },
+                 {
+                   "p": "In no event will the DCA APSC be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data, arising out of or in connection with the use of this Portal."
+                 },
+                 {
+                   "p": "Links to other websites that have been included on this Portal are provided for public convenience only. We cannot guarantee the availability of such linked pages at all times."
+                 },
+                 {
+                   "p": "These terms and condDCAons shall be governed by and construed in accordance with the Indian Laws. Any dispute arising under these terms and condDCAons shall be subject to the exclusive jurisdiction of the courts of India."
+                 }
+               ]
+             },
+             {
+               "header": "Copyright Policy",
+               "paragraph": [
+                 {
+                   "p": "Material featured on this website may be reproduced free of charge after taking proper permission by sending a mail to us. However, the material has to be reproduced accurately and not to be used in a derogatory manner or in a misleading context. Wherever the material is being published or issued to others, the source must be prominently acknowledged. However, the permission to reproduce this material shall not extend to any material which is identified as being copyright of a third party. Authorisation to reproduce such material must be obtained from the departments/copyright holders concerned."
+                 }
+               ]
+             },
+             {
+               "header": "Privacy Policy",
+               "paragraph": [
+                 {
+                   "p": "This website does not automatically capture any specific personal information from you, (like name, phone number or e-mail address), that allows us to identify you individually."
+                 },
+                 {
+                   "p": "If the website requests you to provide personal information, you will be informed for the particular purposes for which the information is gathered e.g. feedback form and adequate security measures will be taken to protect your personal information."
+                 },
+                 {
+                   "p": "We do not sell or share any personally identifiable information volunteered on the website site to any third party (public/private). Any information provided to this website will be protected from loss, misuse, unauthorized access or disclosure, alteration, or destruction."
+                 },
+                 {
+                   "p": "We gather certain information about the User, such as Internet protocol (IP) addresses, domain name, browser type, operating system, the date and time of the visit and the pages visited. We make no attempt to link these addresses with the identity of individuals visDCAng our site unless an attempt to damage the site has been detected."
+                 }
+               ]
+             }
+           ]
+         },
+       
+         {
+           "heading": "Hyper Linking Policy",
+           "detailservices": [
+             {
+               "header": "Links to external websites/portals",
+               "paragraph": [
+                 {
+                   "p": "At many places in this website, you shall find links to other websites/portals. This links have been placed for your convenience. We can not guarantee that these links will work all the time and we have no control over availability of linked pages."
+                 }
+               ]
+             },
+             {
+               "header": "Archival Policy",
+               "paragraph": [
+                 {
+                   "p": "DCA APSC specific content published in the DCA AP State Centre Website are generic in nature, having no specific life (Time To Leave). Hence are always live and can be accessible through the website. However, content published under the sections like Events, Tenders, Recruitment and Announcements have a life span and will automatically be moved to the online archival section after the assigned end date (displayed along with each content item)."
+                 }
+               ]
+             }
+           ]
+         }
+       ],
+
+       "Help": [
+         {
+           "heading":"Help",
+           "detailservices":[
+             {
+               "header": "",
+               "paragraph": [
+                 {
+                   "p": "Are you finding it difficult to access/navigate through the content/pages of this Portal? This section attempts to help you have a pleasant experience while browsing this Portal."
+                 }
+               ]
+               
+             },
+     
+             {
+               "header": "Accessibility",
+               "paragraph": [
+                 {
+                   "p": "We are committed to ensure that the site is accessible to all users irrespective of device in use, technology or ability. It has been built, with an aim, to provide maximum accessibility and usability to its visitors."
+                 },
+                 {
+                   "p": "Best efforts have been put to ensure that all information on this website is accessible to people with disabilDCAes. For example, a user with visual disability can access this website using assistive technology, such as screen reader. Users with low vision can use high contrast and font size increase options. This website meets level AA of the Web Content Accessibility Guidelines (WCAG) 2.0 laid down by the World Wide Web Consortium (W3C)."
+                 },
+                 {
+                   "p": " If you have any problem or suggestion regarding the accessibility of this Site, please send a feedback to us."
+                 }
+               ]
+             },
+             {
+               "header": "Screen Reader Access",
+               "paragraph": [
+                 {
+                   "p": "Our visitors with visual impairments can access the site using Assistive Technologies, such as screen readers."
+                 },
+                 {
+                   "p": "Following table lists the information about different screen readers:"
+                 }
+               ]
+             },
+             {
+               "header": "Viewing Information in Various File Formats",
+               "paragraph": [
+                 {
+                   "p": "The information provided by this Web site is available in various file formats, such as Portable Document Format (PDF), Word, Excel and PowerPoint. To view the information properly, your browser need to have the required plug-ins or software. For example, the Adobe Flash software is required to view the Flash files. In case your system does not have this software, you can download it from the Internet for free. The table lists the required plug-ins needed to view the information in various file formats."
+                 }
+               ]
+             }
+           ]
+         }
+       ],
+
+     "...comments11":"Below content is related to the Dropdown button-Information",
+     
+     "...comments 11a":"Information for - Downloads",
+       "Pagetype3": [
+         {
+           "heading": "DOWNLOADS",
+           "p": "",
+           "content": [
+             {
+               "link": "./DOCS/P1-31-1.pdf",
+               "description": "List of Candidates for oral interview to the posts of Attender/ Sweeper-cum-scavanger."
+             },
+             {
+               "link": "",
+               "description": "Recruitment Notification "
+             },
+             {
+               "link": "./DOCS/application2023.pdf",
+               "description": "Download Application Form for Recruitment"
+             },
+             {
+              "link": "./DOCS/1983AP11.pdf",
+              "description": "Andhra Pradesh Lokayukta Act "
+            },
+            {
+              "link": "./DOCS/Complaint-Before-the-Lokayukta-Upa-Lokayukta-for-Andhra-Pradesh-Form-II.pdf",
+              "description": "Form I & II - English"
+            },
+            {
+              "link": "",
+              "description": "Form I & II - Telugu "
+            },
+            {
+              "link": "",
+              "description": "How to complain"
+            },
+            {
+              "link": "./DOCS/Calender.pdf",
+              "description": "Calender 2023"
+            },
+            {
+              "link": "",
+              "description": "CITIZENS CHARTER "
+            },
+            {
+              "link": "",
+              "description": "Former Lokayuktas & Upa-Lokayuktas"
+            },
+            {
+              "link": "",
+              "description": "Annual Reports 2022"
+            }
+           ]
+         }
+       ],
+       "Pagetypelok": [
+        {
+          "heading": "Important Links",
+          "p": "",
+          "content": [
+            {
+              "link": "",
+              "description": "List of Candidates for oral interview to the posts of Attender/ Sweeper-cum-scavanger."
+            },
+            {
+             "link": "./DOCS/1983AP11.pdf",
+             "description": "Andhra Pradesh Lokayukta Act "
+           },
+           {
+             "link": "./DOCS/Complaint-Before-the-Lokayukta-Upa-Lokayukta-for-Andhra-Pradesh-Form-II.pdf",
+             "description": "Form I & II - English"
+           },
+         
+           {
+             "link": "",
+             "description": "How to complain"
+           },
+           {
+             "link": "./DOCS/Calender.pdf",
+             "description": "Calender 2023"
+           },
+           {
+             "link": "",
+             "description": "Annual Reports 2022"
+           }
+          ]
+        }
+      ],
+       "...comments 11b":"Information for - Banned Drugs",
+       "PagetypeB": [
+         {
+           "heading": "Banned Drugs",
+           "header": "The following are list of the Drugs, Banned by Govt. of India. If any one found these drugs in the market please inform the nearest Drugs Control Officer.",
+           "detailservices": [
+             {
+               "header": "G.S.R. No. 578 (E) dt 23-07-1983",
+               "paragraph": [
+                 { "p": "  Amidopyrine. " },
+                 {
+                   "p": "Fixed dose combinations of vitamins with anti-inflammatory agents and tranquilizers."
+                 },
+                 {
+                   "p": " Fixed dose combinations of Atropine and Analgesic and Antipyretics."
+                 },
+                 {
+                   "p": " Fixed dose combinations of Strychnine and Caffeine in tonics."
+                 }
+               ]
+             },
+             {
+               "header": "G.S.R. No. 793 (E) dt 13-12-1995",
+               "paragraph": [
+                 {
+                   "p": "Fixed dose combinations of Hydroxyquinoline group of drugs with any other drug except for preparations meant for external use only."
+                 }
+               ]
+             },
+             {
+               "header": "G.S.R. No. 1057 (E) dt 03-11-1988",
+               "paragraph": [
+                 {
+                   "p": "  Fixed dose combinations of Corticosteroid with any other drug for internal use except for preparations meant for meter dose inhalers and dry powder inhalers.[Substituted vide GSR 738 (E) dated 9.10.2009] "
+                 },
+                 {
+                   "p": "   Fixed dose combinations of Chloramphenicol with any other drug for internal use."
+                 }
+               ]
+             }
+           ]
+         }
+       ],
+
+       "...comments 11c":"Information for - Jeevandhara",
+       "PagetypeC": [
+         {
+           "heading": " Jeevandhara",
+           "detailservices": [
+             {
+               "header": "Jeevandhara",
+               "paragraph": [
+                 {
+                   "p": "  As Part of Strengthening of Health systems the Government of AP issued orders videG.O. Ms. No. 54 for establishment of Generic Medicine Retail Outlets from APMSIDC for improving access to Quality Generic Medicines at Fair Prices"},
+                 {
+                   "p": "  As per this orders retail generic medicine stores called as Jeevanadhara / Jana Jeevani / Jana Aushadhi stores were established in various  cities of Andhra Pradesh. They sell unpromoted branded generics manufactured by 20 top pharmaceutical companies. Since these are unpromoted generics, they are available at a 40-90% discount compared to the promoted generics."
+                 },
+                 {
+                   "p": " For more details please contact Managing Director or General Manager, Jeevandhara, APMSIDC-Hyderabad or go through the G.O. Ms. No. 54." }
+                 
+               ]
+             }
+           ]
+         }
+       ],
+
+       "...comments 11d":"Information for - Related links",
+       "PagetypeD": [
+         {
+           "heading": "Relatedlinks",
+           "p": "    The following gives further information about Drugs, Drug Regulatory System in India, Drugs Control Departments of other states,.",
+           "content": [
+             {
+               "link": "https://drugscontrol.org/",
+               "description": "Drugs Control Organization "
+             },
+             {
+               "link": "http://cdsco.nic.in/",
+               "description": "CDSCO"
+             },
+             {
+               "link": "https://www.who.int/en/",
+               "description": "World Health Organization"
+             },
+             {
+               "link": "https://dca.ap.nic.in/node/34",
+               "description": "AP online- DCA Information"
+             },
+             {
+               "link": "http://portal.ap.gov.in/Pages/Home.aspx",
+               "description": "Govt. of AP Portal"
+             },
+             {
+               "link": "https://www.nppaindia.nic.in/en/",
+               "description": "National Pharmaceutical Pricing Authority"
+             },
+             {
+               "link": "https://pharmaceuticals.gov.in/",
+               "description": "Department of Pharmaceuticals"
+             },
+             {
+               "link": "http://ipc.gov.in/",
+               "description": "Indian Pharmacopoeia Commission"
+             },
+             {
+               "link": "http://mohfw.nic.in/",
+               "description": "Ministry of Health and Family Welfare, Govt of India."
+             },
+             {
+               "link": "http://idma-assn.org/",
+               "description": "Indian Drug Manufacturer's Association"
+             },
+             {
+               "link": "http://niper.nic.in/",
+               "description": "National Institute of Pharmaceutical Education and Research"
+             },
+             {
+               "link": "http://aidcoc.in/",
+               "description": "All India Drugs Control Officers' Confederation"
+             }
+           ],
+     
+           "paragraph": "Other State’s DCA links:",
+           "data":[
+             {
+               "link": "http://fda-mah.com/",
+               "text": "Maharastra"
+             },
+             {
+               "link": "https://gujhealth.gujarat.gov.in",
+               "text": "Gujarath"
+             },
+             {
+               "link": "https://www.wbhealth.gov.in/drug_control/",
+               "text": "West Bengal"
+             },
+             {
+               "link": "http://dc.kerala.gov.in/",
+               "text": "Kerala"
+             },
+             {
+               "link": "https://drugscontrol.tn.gov.in/",
+               "text": "Tamilnadu"  
+             },
+             {
+               "link": "https://drugs.kar.nic.in/",
+               "text": "Karnataka"
+             },
+             {
+               "link": "http://drugscontrol.delhigovt.nic.in",
+               "text": "Delhi"
+             },
+             {
+               "link": "http://fda.up.nic.in/",
+               "text": "Uttar Pradesh"
+             },
+             {
+               "link": "http://cfdamp.nic.in/",
+               "text": "Madhya Pradesh"
+             },
+             {
+               "link": "https://www.dfda.goa.gov.in/",
+               "text": "Goa"
+             },
+             {
+               "link": "https://dca.telangana.gov.in/",
+               "text": "Telangana"
+             }
+           ]
+         }
+       ],
+       "...comments 11e":"Information for - Application Forms",
+       "PagetypeE": [
+         {
+           "heading": "Application Forms",
+           "p": "",
+           "content": [
+             {
+               "link": "",
+               "description": "1. Form14A:  Application for submitting sample for analysis."
+             },
+             {
+               "link": "",
+               "description": "2. FORM No.19: Application for Retail/Wholesale Licenses."
+             },
+             {
+               "link": "",
+               "description": "3. FORM No.19C: Application for Schedule X drugs."
+             },
+             {
+               "link": "",
+               "description": "4. FORM No.24: Application for fresh Mfg License in 25."
+             },
+             {
+               "link": "",
+               "description": "5. FORM No.24 A: Application for loan license mfg."
+             },
+             {
+               "link": "",
+               "description": "6. FORM No.24 B: Application for Repacking license."
+             },
+             {
+               "link": "",
+               "description": "7. FORM No.24 E: Application for Loan license Ayurveda/Sidha/Unani drugs."
+             },
+             {
+               "link": "",
+               "description": "8. FORM No.24 F: Application for mfg license Schedule X drugs."
+             },
+             {
+               "link": "",
+               "description": "9. FORM No.27: Application for fresh/renewal mfg license in 28."
+             },
+             {
+               "link": "",
+               "description": "10. FORM No.27 A: Application for loan license for drugs in C&C1."
+             },
+             {
+               "link": "",
+               "description": "11. FORM No.27 B: Application for fresh/renewal mfg license, drugs in C&C1 and X."
+             },
+             {
+               "link": "",
+               "description": "12. FORM No.27 C: Application for fresh renewal of blood bank license."
+             },
+             {
+               "link": "",
+               "description": "13. FORM No.27 D: Application for fresh/renewal mfg drugs LVP, Sera, Vaccine."
+             },
+             {
+               "link": "",
+               "description": "14. FORM No.27 E: Application for fresh/renewal license for Blood Products."
+             },
+             {
+               "link": "",
+               "description": "15. FORM No.30: Application for license to mfg drugs for test/analysis."
+             },
+             {
+               "link": "",
+               "description": "16. FORM No.31: Application for fresh/renewal mfg cosmetics."
+             },
+             {
+               "link": "",
+               "description": "17. FORM No.31 A: Application for loan license for mfg cosmetics."
+             },
+             {
+               "link": "",
+               "description": "18. FORM No.35: Inspection book."
+             },
+             {
+               "link": "",
+               "description": "19. FORM No.36: Application for fresh/renewal approved laboratory test/analysis."
+             }
+           ]
+         }
+       ], 
+       "PagetypeF": [
+        {
+          "heading": " List of Medical Shops in Govt Hospitals",
+          "detailservices": [
+          {
+          "header": "List of Medical Shops in Govt Hospitals",
+          "p": "",
+          "Serial":"S.No",
+          "Area":"Area",
+          "Name":"Name & Address of the Shop",
+          "District":"District",
+          "paragraph":[ 
+     
+            { "Serial":1,
+              "Area":"Area Hospial Compound, Madanapalli, Chittoor.",
+              "Name":"M/s.Sanjjeevani Pharmacy, Area Hospital Compound, Madanapalli, Chittoor Dist.",
+              "District":"Chittoor"
+              
+            },
+            { "Serial":2,
+              "Area":"District Head Quarters Hospital Compound, Chittoor.",
+              "Name":"M/s.Sanjeevani Pharmacy, District Head Quarters Hospital Compound, Chittoor Post, Chittoor Dist.",
+              "District":"Chittoor"
+            },
+            { "Serial":3,
+              "Area":"Government. General Hospital premises, Kakinada",
+              "Name":"M/s Janaoushadi (A Unit of Zilla Samaikya), Government. General Hospital premises, Kakinada",
+              "District":"E.G.District"
+            },
+            { "Serial":4,
+              "Area":" Dist. Head Quarters Hospital Premises, Rajahmundry",
+              "Name":"M/s Janaoushadi Generic Medical Shop (A Unit of Zilla Samaikya), Dist. Head Quarters Hospital Premises, Rajahmundry",
+              "District":"E.G.District"
+              
+            },
+            { "Serial":5,
+              "Area":"Area Hospital Premises, K.N.F Road, Amalapuram, E.G. Dist.",
+              "Name":"M/s Janaoushadi Generic Medical Shop (A Unit of Zilla Samaikya), Area Hospital Premises, K.N.F Road, Amalapuram, E.G. Dist.",
+              "District":"E.G.District"
+            },
+            { "Serial":6,
+              "Area":"G.G.H Guntur",
+              "Name":"M/s Jeevandhara (generic) Medical Shop, Government General Hospital Compound, Guntur.",
+              "District":"Guntur"
+            },
+            { "Serial":7,
+              "Area":"RIMS General Hospital, Kadapa.",
+              "Name":"M/s.Jeevandara Drug Depot, I.P.Block, Rims General Hospital, Kadapa, YSR Dist.",
+              "District":"Kadapa"
+              
+            },
+            { "Serial":8,
+              "Area":"Government Head Quarters Hospital, Karimnagar.",
+              "Name":"M/s Jeevana Jyothi Medical Stores, Government Head Quarters Hospital Karimnagar",
+              "District":"Karimnagar"
+            },
+            {
+              
+              "Serial":9,
+              "Area":"Government General Hospital, Kurnool.",
+              "Name":"M/s.Jeevandhara Pharmacy -3, (Chemists & Druggists), D.No.46-14, Superspeciality Block, Government General Hospital, Kurnool.",
+              "District":"Kurnool."
+          },
+          {
+              
+              "Serial":10,
+              "Area":"Government General Hospital, Kurnool.",
+              "Name":"M/s.Jeevandhara Pharmacy (Sthree Shakthi Pattana Mahila Sahakara Podupu Samakya), D.No.46/14, Government General Hospital, Kurnool.",
+              "District":"Kurnool."
+          },
+          {
+              
+              "Serial":11,
+              "Area":"R.I.M.S Hospital, Ongole",
+              "Name":"M/s Jeevandhara Drug Stores, security post room, c/o R.I.M.S Hospital campus, Ongole, Prakasham (Dist.)",
+              "District":"Prakasham."
+          },
+          {
+             
+              "Serial":12,
+              "Area":"Government ENT Hospital, Visakhapatnam.",
+              "Name":"M/s.Jeevandhara Pharmacy, Room No.16, Government ENT Hospital Premises, Ground Floor, Chinavalteru, Visakhapatnam.",
+              "District":"Visakhapatnam."
+          },
+          {
+              
+              "Serial":13,
+              "Area":"KGH, Visakhapatnam",
+              "Name":"M/s.Jeevandhara Sanjeevani Pharmacy (A unit of SHGS Sankshema Sangham, Zilla Samakya, Beside Government Doctors Association Building, KGH Premises, Maharanipet, Visakhapatnam.",
+              "District":"Visakhapatnam."
+          },
+          {
+              
+              "Serial":14,
+              "Area":"KGH, Visakhapatnam.",
+              "Name":"M/s.Nizams Chemists & Druggists, Bhavnagar, KGH Premises, Visakhapatnam.",
+              "District":"Visakhapatnam."
+          },
+          {
+              
+              "Serial":15,
+              "Area":"NTR Area Hospital.",
+              "Name":"M/s.Jeevandhara Pharmacy (A unit of SHGS Sameksha Sangham Z.S), Anakapalli, Visakhapatnam.",
+              "District":"Visakhapatnam."
+          },
+          {
+              
+              "Serial":16,
+              "Area":"Government Area Hospital, Visakhapatnam.",
+              "Name":"M/s.Jeevandhara Pharmacy, Government Area Hospital Premises, NH5, Aganampudi, Gajuwaka, Visakhapatnam.",
+              "District":"Visakhapatnam."
+          },
+          {
+             
+              "Serial":17,
+              "Area":"Government. General Head Quarters Hospital, Eluru.",
+              "Name":"M/s.Sanjeevani Medical and General Stores, in the premises of Government General Head Quarters, Near Casuality, Adjacent to Drivers Rest room, Eluru, W.G.Dist.",
+              "District":"W.G.District."
+          }
+         ]
+        }
+      ]
+     }
+     ],
+       "PagetypeG": [
+        {
+          "heading": "NSQ DRUGS",
+          "p": "",
+          "header": "",
+          "content": [
+          
+            {
+              "link": "http://apdca.ap.gov.in/Nsq_Drug_publicReport.jsp",
+              "description": "http://apdca.ap.gov.in/Nsq_Drug_publicReport.jsp"
+            }
+          ]
+        }
+      ],
+
+      "PagetypeH": [
+        {
+          "heading": "MEDICAL STORES",
+          "p": "",
+          "header": "",
+          "content": [
+          
+            {
+              "link": "http://apdca.ap.gov.in/Nsq_Drug_publicReport.jsp",
+              "description": "http://apdca.ap.gov.in/Nsq_Drug_publicReport.jsp"
+            }
+          ]
+        }
+      ],
+     
+       "Online": [
+         {
+           "heading": " Online",
+           "detailservices": [
+             {
+               "header": "Archive for flash news:",
+               "paragraph": [
+                 {
+                   "p": " All medicines for internal or external use of human beings or animals and all substances intended to be used for or in the diagnosis, treatment, mitigation or prevention of any disease or disorder in human beings or animals, including preparations applied on human body for the purpose of repelling insects like mosquitoes  "
+                 },
+                 {
+                   "p": "such substances (other than food ) intended to affect the structure or any function of the human body or intended to be used for the destruction of [vermin] or insects which cause disease in human beings or animals, as may be specified from time to time by the Central Government by notification in the Official Gazette."
+                 },
+                 {
+                   "p": " all substances intended for use as components of a drug including empty gelatin capsules; and"
+                 },
+                 {
+                   "p": " such devices intended for internal or external use in the diagnosis, treatment, mitigation or prevention of disease or disorder in human beings or animals, as may be specified from time to time by the Central Government by notification in the Official Gazette, after consultation with the Board "
+                 }
+               ]
+             }
+             
+           ]
+         }
+       ],
+         
+       "...comments12":"Below content is related to the Dropdown button-About",
+
+       "...comments 12a":"Information for - Objectives of DCA",
+       "Pagetype1": [
+         {
+           "heading": "Objectives of DCA",
+           "detailservices": [
+             {
+               "header": "The Drug Includes:",
+               "paragraph": [
+                 {
+                   "p": " All medicines for internal or external use of human beings or animals and all substances intended to be used for or in the diagnosis, treatment, mitigation or prevention of any disease or disorder in human beings or animals, including preparations applied on human body for the purpose of repelling insects like mosquitoes  "
+                 },
+                 {
+                   "p": "such substances (other than food ) intended to affect the structure or any function of the human body or intended to be used for the destruction of [vermin] or insects which cause disease in human beings or animals, as may be specified from time to time by the Central Government by notification in the Official Gazette."
+                 },
+                 {
+                   "p": " all substances intended for use as components of a drug including empty gelatin capsules; and"
+                 },
+                 {
+                   "p": " such devices intended for internal or external use in the diagnosis, treatment, mitigation or prevention of disease or disorder in human beings or animals, as may be specified from time to time by the Central Government by notification in the Official Gazette, after consultation with the Board "
+                 }
+               ]
+             },
+          
+             {
+               "header": "Drugs regulated By Drugs Control Administration:",
+               "paragraph": [
+                 { "p": "a. Allopathic Drugs" },
+                 { "p": "b. Blood, Blood components, Blood Products" },
+                 { "p": "c. Medical Devices" }
+               ]
+             },
+     
+             {
+               "header": "Objective of the Drugs Control Administration:",
+               "paragraph": [
+                 {
+                   "p": "1. To ensure safety, efficacy, purity and quality of Drugs."
+                 },
+                 { "p": "2. To prevent consumers from self-medication. " },
+                 { "p": "3. To ensure availability of drugs at authorised prices." },
+                 {
+                   "p": "4. To create an awareness about the importance of proper storage of drugs."
+                 },
+                 { "p": "5. To eliminate irrational combinations /banned drugs. " },
+                 {
+                   "p": "6. To study the problems and suggestions made by the stakeholder."
+                 },
+                 {
+                   "p": "7. To collect the information in general about the drug trade and take necessary steps. "
+                 },
+                 { "p": "8. To prepare policy regarding drug matter." },
+                 { "p": "9. To prevent misuse of Narcotics drugs." }
+               ]
+             }
+            
+           ]
+         }
+       ],
+
+       "Pagetype2": [
+        {
+          "heading": "PERFORMANCE OF DCA",
+          "p": "",
+          "header": "",
+          "content": [
+          
+            {
+              "link": "./DOCS/P1-27-1.pdf",
+              "description": "Performance of dca.pdf"
+            }
+          ]
+        }
+      ],
+
+       "...comments 12b":"Information for - Statue implemented",
+       "Pagetype": [
+         {
+           "heading": "Statue Implemented",
+           "p": "Statutes Implemented by Drugs Control Administration",
+           "header": "",
+           "content": [
+             { "link": "./DOCS/P1-22-1.pdf", 
+               "description": "d&c act.pdf" },
+             {
+               "link": "./DOCS/P1-22-2.pdf",
+               "description": "D&Cact2008Amendment.pdf "
+             },
+             {
+               "link": "./DOCS/P1-22-3.pdf",
+               "description": "Narcotic-Drugs-Psychotropic-Substances-Act-1985.pdf"
+             },
+             {
+               "link": "./DOCS/P1-22-4.pdf",
+               "description": "Narcotics-Drugs-Psychotropic-Substances-Rules-1987.pdf "
+             },
+             {
+               "link": "./DOCS/P1-22-5.pdf",
+               "description": "COTA-Act.pdf "
+             },
+             {
+               "link": "./DOCS/P1-22-6.pdf",
+               "description": "Drugs_PriceControl_Order,1995.pdff"
+             }
+           ]
+         }
+       ],
+
+       "Pagetype4": [
+        {
+          "heading": "IEC Activities",
+          "p": "",
+          "header": "",
+          "content": [
+          
+            {
+              "link": "./DOCS/P1-29-1.pdf",
+              "description": "IEC ACtivities of dca.pdf"
+            }
+          ]
+        }
+      ],
+
+
+       "...comments 12c":"Information for - Clients Charter",
+       "Pagetype5": [
+         {
+           "heading": " CLIENT’S CHARTER",
+           "detailservices": [
+             {
+               "header": "The Drug Includes:",
+               "paragraph": [
+                 {
+                   "p": " All medicines for internal or external use of human beings or animals and all substances intended to be used for or in the diagnosis, treatment, mitigation or prevention of any disease or disorder in human beings or animals, including preparations applied on human body for the purpose of repelling insects like mosquitoes  "
+                 },
+                 {
+                   "p": "such substances (other than food ) intended to affect the structure or any function of the human body or intended to be used for the destruction of [vermin] or insects which cause disease in human beings or animals, as may be specified from time to time by the Central Government by notification in the Official Gazette."
+                 },
+                 {
+                   "p": " all substances intended for use as components of a drug including empty gelatin capsules; and"
+                 },
+                 {
+                   "p": " such devices intended for internal or external use in the diagnosis, treatment, mitigation or prevention of disease or disorder in human beings or animals, as may be specified from time to time by the Central Government by notification in the Official Gazette, after consultation with the Board "
+                 }
+               ]
+             },
+             {
+               "header": "Drugs regulated By Drugs Control Administration:",
+               "paragraph": [
+                 { "p": "1. Allopathic Drugs" },
+                 { "p": "2. Blood, Blood components, Blood Products" },
+                 { "p": "3. Medical Devices" }
+               ]
+             }
+           ]
+         }
+       ],
+
+       "...comments 12d":"Information for - Archive for Flashnews",
+       "Pagetype6": [
+         {
+           "title": "Archive for Flashnews",
+           "header": [
+             {
+              "subtitle": "",
+               "subheader":[
+            
+               { 
+                 "title1": "Online Submission of Manufacturing Application ",
+                 "link1": " https://www.apindustries.gov.in/APIndus/Default.aspx"
+              },
+               { "title": "Online Submission of Sales Applications.", 
+                 "link": "http://dcadls.nic.in/Online_login.aspx?st=AP#"},
+               { "title": "suspected spurious drugs seized. Media note and public alert.", 
+                 "link": "/nicapsc-dca/Sublinks2/drugs"},
+               { "title": "Industry Interactive Meeting on 18-08-2015 at Vizag.",
+                 "link": "/nicapsc-dca/flashnews/interactive" },
+               { "title": "Sri. R. Uday Bhaskar awarded with Lifetime Achievement Award by AIDCOC." ,
+                 "link":  "/nicapsc-dca/dcamainmenu/dcaflashnews/dcaonline" 
+                 },
+               {
+                 "title1": "Inclusion of Ketamine HCl in Schedule-X",
+                 "link1":"./DOCS/P1-25-1.pdf"
+               },
+               {
+                 "title":"Pharmaceutical Companies Given 30 Days Extension for Ceiling Price Relabelling.",
+                  "link":"/nicapsc-dca/flashnews/ceilingprice"
+               } ,
+               {
+                 "title":"PRESIDENTS POLICE MEDAL AWARD TO DG ,DCA",
+                 "link":""
+               } ,
+               {
+                 "title":"Suspension on MANUFACTURE AND SALE OF pioglitazone and its Formulation is lifted.",
+                 "link":""
+                 } ,
+               {
+                 "title":"Sri P. Nagabhushanam has taken charge as Director, DCA, Ap.",
+                 "link":  ""
+                 } ,
+               {
+                 "title":"MANUFACTURE AND SALE OF pioglitazone and its Formulation is Suspended.",
+                 "link":""
+                 } ,
+               {
+                 "title":"MANUFACTURE AND SALE OF Analgin and its Formulation is Suspended.",
+                 "link":""
+                 } ,
+               {
+                 "title":"SUSPENSION OF MANUFACTURE AND SALE OF Flupenthixol+Melitracen.",
+                 "link":""
+                 } ,
+               {
+                 "title":"NPPA has fixed/revised the prices in of 86 formulations.",                
+                 "link":"/nicapsc-dca/flashnews/nppa"
+                 } ,
+               {
+                 "title":"Manufacture of Dextyropropoxyphene and its formulations for human use is suspended.",
+                 "link":""
+               } ,
+               {
+                 "title":"Drugs were seized at M/s Sai Vijaya Medical Agencies,Eluru for violation of section-3 of Drugs and Magic Remedies(Objectionable Advertisement)Act,1954.",
+                 "link":"/nicapsc-dca/flashnews/remidies"
+               } ,
+               {
+                 "title":"Drugs worth Rs. 7 Lakhs seized in ARC Parcel Sevices Pvt ltd.",
+                 "link":""
+                 } ,
+               {
+                 "title":"Drugs Price Control Order - 2013.",
+                 "link":""
+               } ,
+               {
+                 "title":"NPPA to start announcing revised prices of essential drugs as per new DPCO soon.",
+                 "link":""
+               } ,
+               {
+                 "title":"WHO issues supplementary guidelines on GMP on sterile process validation.",
+                 "link":"/nicapsc-dca/flashnews/sterile"
+               },
+               {
+                 "title":"Substances declared controlled substances under NDPS Act.",
+                 "link":"/nicapsc-dca/flashnews/ndps"
+               } ,
+               {
+                 "title":"Letter to State Drugs Controllers.",
+                 "link":""
+               } ,
+               {
+                 "title1":"State Drug Controller.",
+                 "link1":"./DOCS/P1-25-2.pdf"
+               } ,
+               {
+                 "title1":"Guidelines on Recall.",
+                 "link1":"./DOCS/P1-25-3.pdf"
+               } ,
+               {
+                 "title":"Information on antibiotics.",
+                 "link":""
+               } ,
+               {
+                 "title":"Expansion of Panel.",
+                 "link":""
+               }  
+             ],
+                "subsection": [
+                 {
+                   "title": "Media Gallery",
+                   "imgsrc": "/apsccode/itisite/public/images/reg.png",
+                   "imgalt": "image1",
+                   "button": "Student Registration",
+                   "button_link": " https://iti.nic.in/open_application_entry.jsp"
+                 }
+               ]
+              }
+            ]
+          }
+        ],
+
+        "...comments 12e":"Information for - How to Apply",
+       "Pagetype7": [
+         {
+           "heading": "How to Apply",
+           "p": "",
+           "header": "How To Apply",
+           "content": [
+             { "link": "/node/261", 
+               "description": "1.Sales & NDPS Licenses" },
+               {
+               
+                "description": "2.Manufacturing Licenses."
+               },
+               {
+               "link": "/node/262",
+               "title": "A.Grant or Renewal of Manufacturing Licenses."
+              },
+              {
+                "link": "/node/263",
+                "title": " B.Grant or Renewal of Manufacturing Licenses."
+              },
+              {
+               "link": "/node/266",
+               "title": " C.Grant or Renewal of Test Licenses."
+             },
+             {
+               "link": "/node/267",
+               "title": " D.Test Licenses."
+             },
+             {
+               "link": "/node/264",
+               "description": "3.Blood Bank Licenses."
+             },
+             {
+               "link": "/node/265",
+               "description": "4.Certificates"
+             },
+             {
+               
+              "description": "5.Fee Details."
+             },
+             {
+               "link": "/node/268",
+               "title": "i.User Charges"
+             },
+             {
+               "link": "/node/269",
+               "title": "ii.License Fees"
+             }
+           ]
+         }
+
+
+  
+       ],
+
+       "...comments 12f":"Information for - Services offered",
+       "Pagetype8": [
+         {
+           "heading": "Services Offered",
+           "detailservices": [
+             {
+               "header": "Services Offered By Drugs Control Administration:",
+               "paragraph": [
+                 {
+                   "p": " Information on Licensed Blood Banks."
+                   
+                 },
+                 {
+                   "p": " Information on Banned Drugs."
+                 },
+                 {
+                   "p": " Information on Prices of notified drugs."
+                 },
+                 {
+                   "p": " Information on drugs about contra-Indications, doses etc."
+                 },
+                 {
+                   "p": " Complaints on services of chemists and druggists."
+                 },
+                 {
+                   "p": " Complaints on quality and adverse reactions of drugs."
+                   
+                 },
+                 {
+                   "p": " Grant & renewal of licenses for manufacture & sale of Drugs & cosmetics"
+                 },
+                 {
+                   "p": " Issue of GMP, WHO-GMP, COPP certificates "
+                 },
+                 {
+                   "p": " Issue of free sale, market standing, performance, for non conviction certificates"
+                 },
+                 {
+                   "p": "Issue of Test License to manufacture drugs for examination, analysis."
+                 }
+                ]
+             },
+               {
+                  "header": "Citizens can help us serve better by",
+                  "paragraph": [
+                   { "p": "    Consulting  a qualified  doctor and using drugs as per his advise only" 
+                   },
+                   { "p": "Purchasing medicine from licensed medical shops and insisting for bills "
+                    },
+                   { "p": "In case of non availability of any drug ,informing nearest officer of Drugs Control Administration for taking further action" 
+                   },
+                   {
+                     "p":" Looking for date of expiry printed on the label of the drug and if any discrepancy  is found, reporting  to us  for taking necessary action."
+                   },
+                   { 
+                     "p":" Showing the Drug purchase bill by you to your Doctor for verification and guidance"
+                   }
+                  ]
+               }
+           ]
+         }
+       ],
+
+       "...comments13":"Below content is related to the Dropdown link-About/How to Apply",
+       "...comments 13a":"Information for - Sale licenses",
+       "Page1": [
+         {
+           "heading": "Sale Licenses.",
+           "detailservices": [
+             {
+               "header": "Sale Licences (to be applied online only).",
+               "paragraph": [
+             {
+               "p": "* DOCUMENTS TO BE SUBMITTED TO THE ASSISTANT DIRECTOR AND DISTRICT LICENSING AUTHORITY, DRUGS CONTROL ADMINISTRATION BY THE APPLICANT"
+             },
+             {
+               "p": "* FOR GRANT OF SALE LICENCES."
+             },
+             {
+               "p": "(Change of Premises, Change of Constitution, Change of pharmacist) ALL IN DUPLICATE"
+             },
+             {
+               "p": "20,21(RETAIL), 20B, 21B (WHOLESALE); 20A, 21A (HOUSE HOLD REMEDIES)"
+             }
+           ]
+         },
+         {
+           "header": "CHECK LISTS",
+           "paragraph": [
+             {
+               "p": "CHECK LIST FOR GRANT / CHANGE OF PREMISES OF RETAIL LICENCE FROM-20, 21 (RETAIL)"
+             },
+             {
+               "p": "1.         Statutory form – 19 for licenses in form (20,21)."
+             },
+             {
+               "p": "2.         S.B.H. Challan of Rs.1500/- for each license (for each form) for the required amount under the Head of Account 0210-Medical and Public Health, 04-Public Health, 104-Fees, Fines etc. / net banking."
+             },
+             {
+               "p": "3.         Declaration by the proprietor / Partner / Director / Competent Persons / Regd. Pharmacist with proof of residential address (Present and Permanent) for proof of residential address – Aadhar Card, Ration Card, Pass Port, Driving License, Voter ID."
+             },
+             {
+               "p": "4.         Attested copy of partnership deed (on Rs.500/- stamp paper) / Memorandum and Atricles of Association."
+             },
+             {
+               "p": "5.         Copy of list of Directors downloaded from ROC website signed by Company Secretary / Managing Director (In case of company)."
+             },
+             {
+               "p": "6.         In case of company an Affidavit under Section 34 of Drugs and Cosmetics Act, 1940 on Rs.20/- stamp paper duly notarized along with copy of its board resolution to this effect signed by company Secretary or Managing Director or Majority of the Directors of the company."
+             },
+             {
+               "p": "7.         Special declaration by Registered Pharmacist on Rs.20/- Non-Judicial stamp paper."
+             },
+             {
+               "p": "8.         Attested copy of Registered Pharmacist certificate (renewal up to date) affixed with latest original photograph and signature of the candidate / original to be produced to the Drugs Inspector at the time of inspection for endorsement."
+             },
+             {
+               "p": "9.         Original plan of the premises indicating the carpet area (specifying length and breadth in meters and area in Sq.m) by the Licensed Draftsman / Planner along with the signature of Building owner and the applicant (Prop/ partners / Authorized signatory / Managing Director, etc,.) in a legal size."
+             },
+             {
+               "p": "10.      Original declaration of building owner attested by Gazetted officer (Photograph of the building owner to be attested by the Gazetted officer)."
+             },
+             {
+               "p": "11.      Attested photocopy of the document showing the proof of ownership of the building owner for the premises to be licensed (E.C / any other legal document showing the present ownership."
+             }
+            
+              ]
+            },
+            {
+             "header": "CHECK LIST FOR GRANT / CHANGE OF PREMISES OF WHOLESALE LICENCE.",
+             "paragraph": [
+           {
+             "p": "1.         Statutory form – 19 for licenses in form (20B,21B)."
+           },
+           {
+             "p": "2.         S.B.H. Challan of Rs.1500/- for each license (for each form) for the required amount under the Head of Account 0210-Medical and Public Health, 04-Public Health, 104-Fees, Fines etc. / net banking."
+           },
+           {
+             "p": "3.         Declaration by the proprietor / Partner / Director / Competent Persons / Regd. Pharmacist with proof of residential address (Present and Permanent) for proof of residential address – Aadhar Card, Ration Card, Pass Port, Driving License, Voter ID."
+           },
+           {
+             "p": "4.         Attested copy of partnership deed (on Rs.500/- stamp paper) / Memorandum and Atricles of Association."
+           },
+           {
+             "p": "5.         Copy of list of Directors downloaded from ROC website signed by Company Secretary / Managing Director (In case of company)."
+           },
+           {
+             "p": "6.         In case of company an Affidavit under Section 34 of Drugs and Cosmetics Act, 1940 on Rs.20/- stamp paper duly notarized along with copy of its board resolution to this effect signed by company Secretary or Managing Director or Majority of the Directors of the company."
+           },
+           {
+             "p": "7.         Special declaration by Registered Pharmacist on Rs.20/- Non-Judicial stamp paper (in case of Registered Pharmacist is appointed as C.P)."
+           },
+           {
+             "p": "8.         Attested copy of Registered Pharmacist certificate (renewal up to date) affixed with latest original photograph and signature of the candidate (in case of Registered Pharmacist is appointed as C.P) / SSC / degree certificate (in case of candidate other than R.P)."
+           },
+           {
+             "p": "9.         Original plan of the premises indicating the carpet area (specifying length and breadth in meters and area in Sq.m) by the Licensed Draftsman / Planner along with the signature of Building owner and the applicant (Prop/ partners / Authorized signatory / Managing Director, etc,.) in a legal size."
+           },
+           {
+             "p": "10.      Original declaration of building owner attested by Gazetted officer (Photograph of the building owner to be attested by the Gazetted officer)."
+           },
+           {
+             "p": "11.      Attested photocopy of the document showing the proof of ownership of the building owner for the premises to be licensed (E.C / any other legal document showing the present ownership."
+           },
+           {
+             "p": "12.      Experience certificate of Competent person."
+           }
+          ]
+        },
+            {
+             "header": "CHECK LIST FOR RENEWAL OF LICENSES (RETAIL / WHOLESALE).",
+             "paragraph": [
+           {
+             "p": "1.         Statutory form – 19 (one for each license)."
+           },
+           {
+             "p": "2.         S.B.H. Challan of Rs.1500/- for each license (for each form) for the required amount under the Head of Account 0210-Medical and Public Health, 04-Public Health, 104-Fees, Fines etc. / net banking."
+           },
+           {
+             "p": "3.         Declaration by the proprietor / Partner / Director / Competent Persons / Regd. Pharmacist."
+           },
+           {
+             "p": "4.         Affidavit by R.P / C.P on Rs.20/- stamp paper duly notarized."
+           },
+           {
+             "p": "5.         Attested copy of Registered Pharmacist certificate (renewal up to date) affixed with latest original photograph and signature of the candidate."
+           },
+           {
+             "p": "6.         Original drug licence."
+           },
+           {
+             "p": "7.         Copy of list of Directors downloaded from ROC website signed by Company Secretary / Managing Director (In case of company)."
+           },
+           {
+             "p": "8.         In case of company an Affidavit under Section 34 of Drugs and Cosmetics Act, 1940 on Rs.20/- stamp paper duly notarized along with copy of its board resolution to this effect signed by company Secretary or Managing Director or Majority of the Directors of the company."
+           }
+             ]
+            },
+            {
+             "header": "CHECK LIST FOR CHANGE OF PHARMACIST.",
+             "paragraph": [
+           {
+             "p": "1.         Statutory form – 19 (one for each license)."
+           },
+           {
+             "p": "2.         Declaration by the Registered Pharmacist with proof of residential address (Present and Permanent)."
+           },
+           {
+             "p": "3.         Special declaration by Registered Pharmacist on Rs.20/- Non-Judicial stamp paper."
+           },
+           {
+             "p": "4.         Attested copy of Registered Pharmacist certificate (renewal up to date) affixed with latest original photograph and signature of the candidate, original certificate shall be produced before Drugs Inspector for endorsement."
+           },
+           {
+             "p": "5.         User charges of Rs.500/-."
+           },
+           {
+             "p": "6.         Original drug licence."
+           },
+           {
+             "p": "7.         Copy of list of Directors downloaded from ROC website signed by Company Secretary / Managing Director (In case of company)."
+           },
+           {
+             "p": "8.         In case of company an Affidavit under Section 34 of Drugs and Cosmetics Act, 1940 on Rs.20/- stamp paper duly notarized along with copy of its board resolution to this effect signed by company Secretary or Managing Director or Majority of the Directors of the company."
+           }
+             ]
+            },
+            {
+             "header": "CHECK LIST FOR CHANGE OF CONSTITUTION.",
+             "paragraph": [
+           {
+             "p": "1.         Statutory form – 19 (one for each license)."
+           },
+           {
+             "p": "2.         S.B.H. Challan of Rs.1500/- for each license (for each form) for the required amount under the Head of Account 0210-Medical and Public Health, 04-Public Health, 104-Fees, Fines etc. / net banking."
+           },
+           {
+             "p": "3.         Declaration by the Partners with proof of residential address (Present and Permanent)."
+           },
+           {
+             "p": "4.         Attested copy of Dissolution cum partnership deed (on Rs.500/- stamp paper)."
+           },
+           {
+             "p": "5.         Special declaration by Registered Pharmacist on Rs.20/- Non-Judicial stamp paper, if being a part of the new constitution or otherwise."
+           },
+           {
+             "p": "6.         Attested copy of Registered Pharmacist certificate (renewal up to date) affixed with latest original photograph and signature of the candidate."
+           },
+           {
+             "p": "7.         Declaration of competent person if being the part of the new constitution or otherwise."
+           },
+           {
+             "p": "8.         Original plan of the premises indicating the carpet area (specifying length and breadth in meters and area in Sq.m) by the licensed draftman / planner along with the signature of Building owner and the applicant (Partners)."
+           },
+           {
+             "p": "9.         Original declaration of building owner attested by Gazetted officer (Photograph of the building owner to be attested by the Gazetted officer)."
+           },
+           {
+             "p": "10.      Attested photo copy of the document showing the proof of ownership of the building owner for the premises to be licensed (EC/any other legal document showing the present ownership of the building premises)."
+           },
+           {
+             "p": "11.      Original drug license."
+           },
+           {
+             "p": "12.      Copy of list of Directors downloaded from ROC website signed by Company Secretary / Managing Director (In case of company)."
+           },
+           {
+             "p": "13.      In case of company an Affidavit under Section 34 of Drugs and Cosmetics Act, 1940 on Rs.20/- stamp paper duly notarized along with copy of its board resolution to this effect signed by company Secretary or Managing Director or Majority of the Directors of the company."
+           }
+             ]
+            },
+            {
+             "header": "CHECK LIST FOR GRANT OF HOUSE HOLD REMEDIES LICENCE.",
+             "paragraph": [
+           {
+             "p": "1.         Statutory form – 19A for licenses in form – 20A, 21A."
+           },
+           {
+             "p": "2.         S.B.H. Challan of Rs.1500/- for each license (for each form) for the required amount under the Head of Account 0210-Medical and Public Health, 04-Public Health, 104-Fees, Fines etc. / net banking."
+           },
+           {
+             "p": "3.         Declaration by the Proprietor / Partner / Director with proof of residential address (Present and Permanent)."
+           },
+           {
+             "p": "4.         Attested copy of partnership deed (on Rs.500/- stamp paper), Memorandum and Articles of Association."
+           },
+           {
+             "p": "5.         Original plan of the premises indicating the carpet area (specifying length and breadth in meters and area in Sq.m) by the Licensed Draftsman / Planner along with the signature of Building owner and the applicant (Prop/ partners / Authorized signatory / Managing Director, etc,.) in a legal size."
+           },
+           {
+             "p": "6.         Declaration of the building owner."
+           },
+           {
+             "p": "7.         Copy of list of Directors downloaded from ROC website signed by Company Secretary / Managing Director (In case of company)."
+           },
+           {
+             "p": "8.         In case of company an Affidavit under Section 34 of Drugs and Cosmetics Act, 1940 on Rs.20/- stamp paper duly notarized along with copy of its board resolution to this effect signed by company Secretary or Managing Director or Majority of the Directors of the company."
+           },
+           {
+             "p": "9.         Details of the names of the dealers and their license numbers from whom the applicant will purchase the drugs for sale."
+           },
+           {
+             "p": "10.        Attested photocopy of the document showing the proof of ownership of the building owner for the premises to be licensed (E.C / any other legal document showing the present ownership."
+           }
+             ]
+            },
+            {
+             "header": "APPLICATION FORM FOR GRANT OF NDPS - 1 LICENCE :",
+             "paragraph": [
+           {
+             "p": "To, The Dy.Director, Drugs Control Administration, Through the proper channel Sub: Grant of N.D.P.S-I License. Sir, We _______________________ Already we have a Drug License (20B & 21B) bearing NOS. Form No: 20B: ____________________ Form No: 21B: ______________, Dated: ________, situated at _________________________________________. Now we request you to NDPS-I License (Grant) with the possessing capacity of the following N.D.P.S, Drugs. 1. 2. 3. For the above process we have paid the necessary challan in SBI, and we have required storage capacity as per the license rules. We are aware and abide with the provisions of N.D.P.S. Act and A.P.N.D.P.S. Rules. Hence we request you to grant the N.D.P.S.-1 at the earliest. Thanking You Sir, Enclosures Original challan, Affidavit, Xerox copy of 20B&21B license And Xerox copies of required documents APPLICATION FOR GRANT OF NDPS - 2 LICENCES 1. Name and full address of the firm: 2. Name and residential address of the proprietor / partner / directors of the firm. Copies of the partnership firm / memorandum of articles of Association to be enclosed where necessary: 3. Whether the application is for grant / renewal: 4. Chalan for Rs.50.00 0210 – Medical and Public Health 04 – Public Health 104 – Fees , Fines etc. 5. Original License: 6. Nature of the business carried out and the form NDPS license required: 7. Whether there are any changes in the constitution / status of the firm premises / technical staff and so, to give full details of the same: 8. Details of the quantities of the Narcotics Drugs allotted, received, manufactured and sold during the previous licensing period: 9. Balance of the stock position of the Narcotics drugs held in stock as on 31st December of the year ending: 10. Details of the drug license held: ( attested Xerox copies to be enclosed ) 11. Details of the transport permits issued and quantities lifted during the year: 12. Whether there are any violations of drug laws and any action taken against the firm by way of warnings / suspensions / cancellations / prosecutions and if so give full details of the same: 13. Declaration about the maintenance of accounts and records in the prescribed proforma, which is already communicated vide this office Lr.No.3671/112A/NDPS/86 dated 18-10-86: DECLARATION I hereby declare that the particulars given above are true and correct and I hereby undertake that I will follow all the provisions of the laws relating to Narcotics Drugs made by the central and state Governments and also all the conditions of the licenses issued to me as far as they are applicable to me. Failing which I fully understand that I am liable for action according to law. SIGNATURE."
+           },
+           { 
+             "p":"File",
+             "link": "./DOCS/P1-261-1.pdf",
+             "description": "Affidafit & Declarations.pdf"
+              }
+             ]
+            }
+           ]
+         } 
+       ],
+
+       "...comments 13b":"Information for - Grant or Renewal of Manufacturing Licenses.",
+
+       "Page2": [
+         {
+           "heading": "Grant or Renewal of Manufacturing Licenses.",
+           "detailservices": [
+             {
+               "header": "Requirements for Grant or Renewal of Manufacturing License (to be applied in Single desk Portal of Dept. of Industries).",
+               "paragraph": [
+             {
+               "p": "A.DOCUMENTS TO BE SUBMITTED TO THE LICENSING AUTHORITY ,DRUGS CONTROL ADMINISTRATION BY THE APPLICANT FOR GRANT/ RENEWAL OF LICENCES IN FORM-25, 28, 32 AND 36."
+             },
+             {
+               "p": "1.     Covering Letter   (Introduction of applicant with address of the Plant and Administration office and his requirement)."
+             },{
+               "p": "2.     Application (statutory) in Form- 24 with fee – Rs.7500/n or Form-27 with fee  - Rs.7500/-   Form-31 with fee – Rs.3500/- or Form-36 with fee – Rs.7500/-  duly signed by the Proprietor / Managing Partner / Managing Director/ Person declared as responsible under Sec.34 / Person Authorized by the Board of Directors accompanied by Company Board Resolution."
+             },
+             {
+               "p": "3.     Challan in original remitting the required amount of fee in the Head of Account         0210    – Medical and Public Health  04       - Public Health, 104      – Fees, Fines etc"
+             },{
+               "p": "4.     Attested copies of partnership Deed / Memorandum and Articles of Association (Notarized)."
+             },
+             {
+               "p": "5.     Declaration of the Proprietor / Partners / Directors etc. in Affidavit  (Notarized) (Format enclosed)."
+             },
+             {
+               "p": "6.     Attested Copy of Ration Card or Passport or Electoral Card / Bank Account Details in support of proof of residential address of the responsible person."
+             },
+             {
+               "p": "7.     Attested copies of Rent / Lease deed in case of Rental premises"
+             },
+             {
+               "p": "8.     Declaration of the owner of the premises if premises owned by the applicant firm or company with the documentary evidence of ownership like Registered sale deed etc and or proof of allotment of the site and or building along with latest property tax receipt."
+             },
+             {
+               "p": "9.     Plan and layout of the premises showing the installation of Machinery and Equipment.   preferably a Blue Print approved by Licensed Engineer and signed by the applicant who signed in the statutory form."
+             },
+             {
+               "p": "10.  Design and layout of HVAC systems if applicable."
+             },
+             {
+               "p": "11.  Detailed list of Manufacturing and Analytical Equipment with copies of purchase Bills. (As per Format)."
+             },
+             {
+               "p": "12.  Application for approval of Technical Staff in the prescribed format with enclosures of consent letter, copies of qualification certificates, experience certificates of proposed technical staff along with earlier approvals, if any, appointment order of the Technical staff. "
+             },
+             {
+               "p": "13.  Permission obtained from the Municipal Authorities/ Panchayat authorities / Certificate in conformity with Factories Act for construction and starting the Unit."
+             },
+             {
+               "p": "14.  Permission from the Health Authorities / Pollution Control Board clearance of the area for setting up the manufacturing facility.  In case of licence for manufacture of API the A.P.Pollution Control Board clearance for API is sought."
+             },
+             {
+               "p": "15.  Clearance from Drugs Controller General (India), New Delhi in case of new drugs (Either Bulk drug or Formulation) – New Drugs as defined under Rule 122 E of Drugs and Cosmetics Rules 1945."
+             },
+             {
+               "p": "16.  Site Master File. (Refer para 29 of part I of Schedule M)      "
+             },
+             {
+               "p": "17.  Technical Data in respect of the products for manufacture of:"
+             }
+            
+           ]
+         },
+         {
+           "header": "Technical Documents to be submitted for Bulk Drugs:",
+           "paragraph": [
+             {
+               "p": "i.        Manufacturing procedure of each product."
+             },
+             {
+               "p": "ii.        Flow Chart with structural Formula of reactions as per Master Formula record and analytical procedure of each applied product with mode of procurement of official reference standards or working standards."
+             },
+             {
+               "p": "iii.        Official Monographs copies."
+             },
+             {
+               "p": "iv.        Consumption coefficients of Raw Materials.(as per Format)."
+             },
+             {
+               "p": "v.        Details of effluents generated and their treatment followed."
+             },
+             {
+               "p": "vi.        Specimen labels of all applied products."
+             }
+            
+              ]
+            },
+            {
+             "header": "Technical Documents to be submitted for Formulations.",
+             "paragraph": [
+           {
+             "p": "i.        Consolidated list of Formulations with packing particulars separately Category wise Viz. Tablets, Capsules, Injectables etc."
+           },
+           {
+             "p": "ii.        Manufacturing & Analytical procedure of each product."
+           },
+           {
+             "p": "iii.        Specimen labels."
+           },
+           {
+             "p": "iv.        Labels of the similar products moving in the market for formulations not include in IP."
+           },
+           {
+             "p": "v.        Declaration regarding the Brand Names of the Product."
+           },
+           {
+             "p": "vi.        Copies of monographs of drugs which are not included in IP."
+           }
+          ]
+        },
+            {
+             "header": "ADDITIONAL REQUIREMENTS IN CASE OF RENEWAL.",
+             "paragraph": [
+           {
+             "p": "1.     Drug Licence with list of products approved in the last licensing period."
+           },
+           {
+             "p": "2.     Consolidated List of the Products."
+           },
+           {
+             "p": "3.     Production particulars for the last Licensing Period (As per Format)."
+           },
+           {
+             "p": "4.     Declaration regarding the changes in the premises, constitution, (Directors/ Partners), Technical Staff of the firm/ Company."
+           },
+           {
+             "p": "5.     Original labels."
+           }
+             ]
+            },
+            {
+             "header": "",
+             "paragraph": [
+           {
+             "p": ""
+           },
+           { 
+             "p":"",
+             "link": "",
+             "description": ""
+              }
+             ]
+            }
+           ]
+         } 
+       ],
+       
+     
+       "...comments 13c":"Information for - Grant or Renewal of Manufacturing Loan Licenses.",
+       "Page3": [
+         {
+           "heading": "Grant or Renewal of Manufacturing Loan Licenses.",
+           "detailservices": [
+             {
+               "header": "DOCUMENTS TO BE SUBMITTED TO THE LICENSING AUTHORITY ALONG WITH APPLICATION FOR GRANT / RENEWAL OF LOAN LICENCES IN FORM 25A & 28A.",
+               "paragraph": [
+             {
+               "p": "1. Covering Letter. (Introduction of applicant with address of the Plant and Administration office and his requirement)."
+             },
+             {
+               "p": "2. Application (statutory) in form- 24A with fee – Rs.7500 -27A with fee  - Rs.7500/- Duly signed by the Proprietor / Managing Partner / Managing Director/ Person declared as responsible under Sec.34 / Person Authorized by the Board of Directors accompanied by Company Board Resolution."
+             },
+             {
+               "p": "3. Challan in original remitting the required amount of fee in the Head of Account  0210    – Medical and Public Health 04     – Public Health,104    – Fees, Fines etc."
+             },
+             {
+               "p": "4. Attested copies of partnership Deed / Memorandum and Articles of Association. "
+             },
+             {
+               "p": "5. Declaration of the Proprietor / Partners / Directors etc. in Affidavit  (Format enclosed)."
+             },
+             {
+               "p": "6. Attested Copy of Ration Card or Passport or Electoral Card / Bank Account Details in support of proof of residential address of the responsible person."
+             },
+             {
+               "p": "7. Letter addressed to the parent firm/Company requesting for consent for availing the manufacturing facilities."
+             },
+             {
+               "p": "8. Consent letter from the parent firm/Company enclosed with statement of spare capacity  (in prescribed Format)."
+             },
+             {
+               "p": "9. Copy of licenses of the parent firm/Company with copy of approved list of the products ( attested by the M.D. / Director of Parent unit/company)."
+             },
+             {
+               "p":" 10. Site Master file of  the Parent firm."
+             },
+             {
+               "p":"11.  List of equipment / Machinery (in prescribed Format)."
+             },
+             {
+               "p":"12.  Consent letter of the Technical Staff ( Which contain the name of the applicant Unit, and the products ) – (in prescribed Format)."
+             },
+             {
+               "p":"13. Copy of the Drug licenses in Form 20B, 21B of the applicant."
+             },
+             {
+               "p":"14. Copy of valid G.M.P/Who G.M.P of the Certificate or reference of compliance under revised Schedule “M”, if any, of Parent firm."
+             },
+             {
+               "p":"15. Technical Data in respect of the products for manufacture of:"
+             }
+     
+           ]
+         },
+         {
+           "header": "Technical Documents to be submitted for Bulk Drugs:",
+           "paragraph": [
+             {
+               "p": " i.      Manufacturing procedure of each product"
+             },
+             {
+               "p": "ii.        Flow Chart with structural Formula of reactions as per Master Formula record and analytical procedure of each applied product with mode of procurement of official reference standards or working standards."
+             },
+             {
+               "p": "iii.        Official Monographs copies."
+             },
+             {
+               "p": "iv.        Consumption coefficients of Raw Materials.(as per Format)."
+             },
+             {
+               "p": "v.        Details of effluents generated and their treatment followed."
+             },
+             {
+               "p": "vi.        Specimen labels of all applied products."
+             }
+            
+              ]
+            },
+            {
+             "header": "Technical Documents to be submitted for Formulations.",
+             "paragraph": [
+           {
+             "p": "i.        Consolidated list of Formulations with packing particulars separately Category wise Viz. Tablets, Capsules, Injectables etc."
+           },
+           {
+             "p": "ii.        Manufacturing & Analytical procedure of each product."
+           },
+           {
+             "p": "iii.        Specimen labels."
+           },
+           {
+             "p": "iv.        Labels of the similar products moving in the market for formulations not include in IP."
+           },
+           {
+             "p": "v.        Declaration regarding the Brand Names of the Product."
+           },
+           {
+             "p": "vi.        Copies of monographs of drugs which are not included in IP."
+           }
+           ]
+          }
+         ]
+       } 
+     ],
+     
+    
+     "...comments 13d":"Information for - Grant or Renewal of Manufacturing Licenses.",
+     "Page4": [
+       {
+         "heading": "BloodBank Licenses",
+         "detailservices": [
+           {
+             "header": "DOCUMENTS TO BE SUBMITTED TO THE LICENSING AUTHORITY ,DRUGS CONTROL ADMINISTRATION BY THE APPLICANT FOR GRANT/ RENEWAL OF LICENCES FOR BLOOD BANK.",
+             "paragraph": [
+           {
+             "p": "1. Application in Form — 27-C."
+           },
+           {
+             "p": "2. Constitution of the Blood Bank with names and addresses of the Proprietor/Partner/Directors not require in case of Government Hospital."
+           },
+           {
+             "p": "3. List of machinery and equipment with supporting invoices."
+           },
+           {
+             "p": "4. List of technical personnel appointed, with their qualifications, experience, consent and appointment letters."
+           },
+           {
+             "p": "5.  Copy of ownership/ tenancy agreement for the premises (not required in case of Govt. Hospital)."
+           },
+           {
+             "p": "6. Receipt for the fees paid (Challan for Rs.7500/- for grant of licence) (Challan for 7.500/- for renewal of licence."
+           },
+           {
+             "p": "7. Head of accounts:  0210: Medical and Public Health  04 : Public Health 104 : Fees, Fines etc. ."
+           },
+           {
+             "p":"8. Draft specimen labels and records proposed to be maintained including donor card."
+           },
+           {
+             "p":"9. List of products."
+           },
+           {
+             "p":"10. An undertaking from the Blood Bank that it will not draw blood from professional donors."
+           },
+           {
+             "p":"11. Details of Partners/ Directors / Proprietor with their residential addresses. (Not required in the case of Government Hospital)."
+           },
+           {
+             "p":"12. List of records, maintained along with the requisite columns and information as per Drugs and Cosmetics Rules."
+           },
+           {
+             "p":"13. Affidavit regarding responsibility attested by Notary."
+           },
+           {
+             "p":"14. Copy of list of the donors."
+           },
+           {
+             "p":"15. Application in Form-27-C, duly Filled in along with above said enclosures, may he sent to the Drugs Controller General (India), New Delhi, with copies endorsed to the concerned State Drugs Controller and the Zonal Officer as below:"
+           },
+           {
+             "p":"16. Disposal of Bio Medical waste."
+           },
+           {
+             "p":"17. SBIC approval from A.P.S.A.C.S."
+           },
+           {
+             "p":"18. SOP manual."
+           }
+          ]
+         }
+        ]
+       }
+     ],
+     "...comments 13e":"Information for - Certificates",
+     "Page5": [
+       {
+         "heading": "Certificates",
+         "detailservices": [
+           {
+             "header": "DOCUMENTS TO BE SUBMITTED FOR ISSUE OF CERTIFICATES.",
+             "paragraph": [
+           {
+             "p": "(a)-  REQUIREMENTS FOR ISSUE OF G.M.P CERTIFICATE."
+           },
+           {
+             "p": "i. Covering letter with brief introducing the firm with factory and Office address and purpose of GMP Certificate."
+           },
+           {
+             "p": "ii. User charges ( Receipt in Original) fee of Rs.1500/- remitting the fee in Head of account. 0210    – Medical and Public Health 04        - Public Health, 800      - other receipts (Drugs Control)" },
+           {
+             "p": "iii. Copies of Manufacturing Licence in Form 25 / 28." 
+           },
+           {
+             "p": "iv. Copy of the WHO GMP Certificate/ GMP Certificate issued earlier if any." 
+           }
+          ]
+         },
+         {
+           "header": "(b)- REQUIREMENT  FOR ISSUE OF  W H O -  G M P CERTIFICATE.",
+           "paragraph": [
+         {
+           "p": "i. Covering letter with brief introducing the firm with factory and Office address and purpose of WHO GMP Certificate."
+         },
+         {
+           "p": "ii. User charges ( Receipt in Original) fee of Rs.1000/- per each product remitting the fee in Head of account 0210    – Medical and Public Health 04        - Public Health,800      - other receipts (Drugs Control)"
+         },
+         {
+           "p": "iii.List of the Products required for   W H O – G M P Certification."
+         },
+         {
+           "p": "iv. Copies of Manufacturing Licence in Form 25 / 28."
+         },
+         {
+           "p": "v. Copy of the WHO GMP Certificate issued earlier if any."
+         },
+         {
+           "p": "vi. Stability studies data of the applied products."
+         },
+         {
+           "p":"vii. Site Master File."
+         }
+       ]
+      },
+         {
+           "header": "(c)- Requirements for issue of COPPs",
+           "paragraph": [
+         {
+           "p": "i.Copy of  valid  W H O  G M P  Certificate."
+         },
+         {
+           "p": "ii. User charges ( Receipt in Original) fee of Rs.500/- per each product per each country remitting the fee in Head of account  0210    – Medical and Public Health 04        - Public Health, 800      - other receipts (Drugs Control)"
+         },
+         {
+           "p": "ii. Copies of Master formula Records- wherever required."
+         },
+         {
+           "p": "iv. Copies of the Product Licensees."
+         }
+         ]
+        },
+        {
+         "header": "(d)- Requirements for issue of  Free Sale Certificate,",
+         "paragraph": [
+       {
+         "p": " i. Covering letter with brief introducing the firm with factory and Office address and purpose of Free Sale Certificate."
+       },
+       {
+         "p": "ii. User charges ( Receipt in Original) fee of Rs.200/- per each product remitting the fee in Head of account  0210    – Medical and Public Health 04        - Public Health, 800      - other receipts (Drugs Control)"
+       },
+       {
+         "p": "iv. List of the Products required  Free Sale Certification."
+       },
+       {
+         "p": "v. Copies of Manufacturing Licence in Form 25 / 28."
+       },
+       {
+         "p":"vi. Proof of availability of same product in Indian Market, with similar labels."
+       }
+       ]
+      },
+      {
+       "header": "(e)-  Requirements for issue of a Market Standing Certificate.",
+       "paragraph": [
+     {
+       "p": "i. List of the Products required Market Standing Certificate."
+     },
+     {
+       "p": "ii. User charges ( Receipt in Original) fee of Rs.500/- up to 5 products and 100/-  per each additional product remitting the fee in Head of account 0210    – Medical and Public Health 04        - Public Health,  800      - other receipts (Drugs Control)"
+     }
+        ]
+       }
+       ]
+      }
+     ],
+
+     "...comments 13f":"Information for - Grant or Renewal of Test Licenses.",
+     "Page6": [
+       {
+         "heading": "Grant or Renewal of Test Licenses.",
+         "detailservices": [
+           {
+             "header": "DOCUMENTS TO BE SUBMITTED TO THE LICENSING AUTHORITY WITH APPLICATION FOR GRANT OF TEST LICENCE IN FORM-29.",
+             "paragraph": [
+           {
+             "p": "1. Covering Letter. (Introduction of applicant with address of the Plant and Administration office and his requirement)."
+           },
+           {
+             "p": "2. Application (statutory) in form- 24A with fee – Rs.7500 -27A with fee  - Rs.7500/- Duly signed by the Proprietor / Managing Partner / Managing Director/ Person declared as responsible under Sec.34 / Person Authorized by the Board of Directors accompanied by Company Board Resolution."
+           },
+           {
+             "p": "3. Challan in original remitting the required amount of fee in the Head of Account  0210    – Medical and Public Health 04     – Public Health,104    – Fees, Fines etc."
+           },
+           {
+             "p": "4.Memorandum and articles of association / Copy of registered partnership deed. "
+           },
+           {
+             "p": "5. List of Manufacturing and analytical equipment."
+           },
+           {
+             "p": "6. Attested Photo copy of PAN Card and Bank Account Copy for address Proof of Managing Director / Partners/ Proprietor."
+           },
+           {
+             "p": "7. NOC from DCG (I) for the new drugs."
+           },
+           {
+             "p": "8. Reconciliation for the last licensing period incae of Renewal of test license."
+           }
+         ]
+       },
+       {
+         "header": "POINTS TO BE CONSIDERED WHILE APPLYING  FOR GRANT OF TEST LICENCE",
+         "paragraph": [
+           {
+             "p": " i.   Test Licence shall be granted only for Chemical, Instrumental, Microbiological or Biological Analysis only."
+           },
+           {
+             "p": " ii.  New drugs shall not be permitted under Test Licence unless the permission from DCG (I) is obtained."
+           },
+           {
+             "p": " iii.  In an applied FDC, the individual drugs do not fall under New Drugs category the applied FDC may be permitted for chemical or instrumental analysis, Biological or Microbiological Analysis."
+           }
+            ]
+           }
+         ]
+       } 
+     ],
+      "...comments 13g":"Information for - Test Licenses.",
+     "Page7": [
+       {
+         "heading": "Test Licenses",
+         "detailservices": [
+           {
+             "header": " REQUIREMENTS/DOCUMENTS TO BE SUBMITED  FOR APPROVAL/ GRANT OF LICENCE TO MANUFACTURE  ADDITIONAL PRODUCTS UNDER DRUG LICENSES GRANTED.",
+             "paragraph": [
+           {
+             "p": "1. Aplication for grant of additional products with the following information."
+           },
+           {
+             "p": "2. Consolidated list of Formulations with packing particulars under each licence(Form 25/28) separately category wise viz. Tablets, Capsules, Injectables etc."
+           },
+           {
+             "p": "3. Challan in original remitting the fee of Rs.300/- for each product applied in the Head of Account 0210 – Medical and Public Healt 04 –Public Health,   104 – Fees, Fines etc."
+           }
+         ]
+       },
+       {
+         "header": "Product Information in Respect Bulk Drugs:",
+         "paragraph": [
+           {
+             "p": " i) Manufacturing procedure of each product."
+           },
+           {
+             "p": " ii). Flow Chart with structural Formula of reactions as per Master Formula record and analytical procedure of each applied product with mode of procurement of official reference standards or working standards."
+           },
+           {
+             "p": "iii).Consumption coefficients of Raw Materials.(as per Format). "
+           },
+           {
+             "p": "iv). Official Monographs copies "
+           },
+           {
+             "p": "v). Details of effluents generated and their treatment followed. "
+           },
+           {
+             "p": "vi). Specimen labels of all applied products. "
+           },
+           {
+             "p": "vii). List of Manufacturing & Analytical equipment in the format. "
+           },
+           {
+             "p": "viii).Consent letters of Technical staff in the Format. "
+           },
+           {
+             "p": "ix). Photocopy of valid G.M.P. Certificate or reference of compliance of revised Schedule “M”,if any, available "
+           },
+           {
+             "p": " x) New drug status of the product or otherwise with documentary proof."
+           }
+            ]
+           },
+           {
+             "header": "Product Information in Respect Formulations:",
+             "paragraph": [
+               {
+                 "p": "i). Consolidated list of Formulations with packing particulars separately Category wise Viz.Tablets, Capsules, Injectables etc. "
+               },
+               {
+                 "p": "ii).Manufacturing & Analytical procedure of each product. "
+               },
+               {
+                 "p": "iii).Specimen label"
+               },
+               {
+                 "p": "iv).Labels of the similar products moving in the market for formulations not include in IP. "
+               },
+               {
+                 "p": "v).Declaration regarding the Brand Names of the Product. "
+               },
+               {
+                 "p": "vi).Copies of monographs of drugs which are not included in IP."
+               },
+               {
+                 "p": "vii). List of Manufacturing & Analytical equipment in the format."
+               },
+               {
+                 "p": "viii). Consent letters of Technical staff in the Format. "
+               },
+               {
+                 "p": "ix). Photocopy of valid G.M.P. Certificate or reference of compliance of revised Schedule “M”,if any, available  "
+               },
+               {
+                 "p": "x) New drug status of the product or otherwise with documentary proof. "
+               }
+             ]
+           },
+           {
+             "header": "Points to be considered while applying  for grant/ approval of API Drugs / Formulation Products",
+             "paragraph": [
+               {
+                 "p": "1. The name of drug (Formulation) shall be shown with proper name of the drug followed by trade Name."
+               },
+               {
+                 "p": "2. The Specification of the Product and the ingredients in the Formula shall be written as IP or other Pharmacopial Specifications followed by its name ( as the case may be )  if the drug is in IP it should be used for domestic Sale and if it is not in IP any other Pharmacopial or in house (IH) specifications can be used for domestic sale.  For Export  any specification can be approved as per the customer requirement."
+               },
+               {
+                 "p": "3. If the applied API or Formulation is a new drug as per the definition under Rule 122 E of Drugs and Cosmetics Rules 1945, the permission from Drugs Controller General of India  is required for approval."
+               },
+               {
+                 "p": "4.New Drug status remains for 4 years from the date of approval by DCG (I) ."
+               },
+               {
+                 "p": "5.For approval of Formulations with combination of drugs, the list approved by DCG (I) will be taken on the bases for approval."
+               },
+               {
+                 "p": "6.New drugs shall not be permitted without the approval of DCG (I) even for Test Licence for Chemical and Instrumental Analysis only )  Provided in case of FDC’s in which individual APIs  are not New Drug, they can be permitted for Chemical and Instrumental analysis."
+               },
+               {
+                 "p": "7.Joint inspection with CDSCO official is required for grant of Licences / additional products in case of Blood Banks, LVPS, Vaccines, Sera Products and r-DNA Products and approved Laboratories."
+               },
+               {
+                 "p": "8. When there is no specific approval by DCG (I) regarding strength  and route of administration of API  all the dosage forms are not to be approved except  oral dosage forms viz. Tablets, Capsules, Liquid Orals, Oral Powders, When single API ( Bulk Drug ) is approved by DCG (I)."
+               },
+               {
+                 "p": "9. FDCs of Veterinary Products may be permitted basing on the evidence of similar market label if individual APIs in FDC are not new Drugs.  ( This procedure is adopted until a consolidated list of approved FDC drugs of Veterinary   products is communicated by DCG (I)."
+               }
+             ]
+           }
+         ]
+       } 
+     ],
+     "...comments 13h":"Information for - User Charges",
+    "Page9": [
+         {
+           "heading": "User Charges",
+           "p": "File",
+           "content": [
+             {
+               "link": "../DOCS/P1-268-1.pdf",
+               "description": "UserCharges.pdf"
+             }
+           ]
+         }
+       ],
+
+      
+       "...comment13i":"Information of License fees",
+       "Page10": [
+         {
+           "heading": " License fees",
+           "detailservices": [
+           {
+           "header": "A:  SALE APPLICATIONS, LICENSES, FEES AND PENALTY",
+           "p": "",
+           "Serial":"S.No",
+           "Category":"Category",
+           "TypeSale":"Type Sale",
+           "Application":"Application Form", 
+           "Licence":"Licence Form", 
+           "Fees":"Fees for Grant/ Renewal", 
+           "Renewal":"Renewal Certificate Form No",
+           "Penalty":"Penalty after expiry but within six months", 
+           "Feesforduplicate":"Fees for duplicate copy of Org. Lic.", 
+           "paragraph":[ 
+      
+             { 
+              "Serial":"1",
+              "Category":"",
+              "TypeSale":"Whole Sale",
+              "Application":"19", 
+              "Licence":"20-B", 
+              "Fees":"Rs.1500", 
+              "Renewal":"21-C",
+              "Penalty":"Rs.1500+Rs.500 p.m. or part thereof", 
+              "Feesforduplicate":"Rs.150"
+             },
+             { 
+              "Serial":"",
+              "Category":"Drugs other than those specified in Schedule C&C (1)&X",
+              "TypeSale":"Retail Sale",
+              "Application":"19", 
+              "Licence":"20-B", 
+              "Fees":"Rs.1500", 
+              "Renewal":"21-C",
+              "Penalty":"Rs.1500+Rs.500 p.m. or part thereof", 
+              "Feesforduplicate":"Rs.150"
+             },
+             { 
+              "Serial":"",
+              "Category":"",
+              "TypeSale":"Restricted (Gen.Store)",
+              "Application":"19-A", 
+              "Licence":"20 R-61(1)", 
+              "Fees":"Rs.1500 R-59(2)", 
+              "Renewal":"21-C",
+              "Penalty":"Rs.1500+Rs.500 p.m. or part thereof", 
+              "Feesforduplicate":"Rs.150 R-59(3)"
+             },
+             { 
+              "Serial":"2",
+              "Category":"",
+              "TypeSale":"Whole Sale",
+              "Application":"19", 
+              "Licence":"21-B", 
+              "Fees":"Rs.1500", 
+              "Renewal":"21-C",
+              "Penalty":"Rs.1500+Rs.500 p.m. or part thereof", 
+              "Feesforduplicate":"Rs.150"
+             },
+             { 
+              "Serial":"",
+              "Category":"Drugs specified in Schedule C&C (1) but excluding those specified in Schedule ‘X’",
+              "TypeSale":"Retail Sale",
+              "Application":"19", 
+              "Licence":"21-B", 
+              "Fees":"Rs.1500", 
+              "Renewal":"21-C",
+              "Penalty":"Rs.1500+Rs.500 p.m. or part thereof", 
+              "Feesforduplicate":"Rs.150"
+             },
+             { 
+              "Serial":"",
+              "Category":"",
+              "TypeSale":"Restricted (Gen.Store)",
+              "Application":"19-A", 
+              "Licence":"21 R-61(1)", 
+              "Fees":"Rs.1500 R-59(2)", 
+              "Renewal":"21-C",
+              "Penalty":"Rs.1500+Rs.500 p.m. or part thereof  R-59(4)", 
+              "Feesforduplicate":"Rs.150 R-59(3)"
+             },
+             { 
+              "Serial":"3",
+              "Category":"",
+              "TypeSale":"Whole Sale",
+              "Application":"19-C", 
+              "Licence":"20-G", 
+              "Fees":"Rs.1500", 
+              "Renewal":"21-C",
+              "Penalty":"Rs.500+Rs.250 p.m. or part thereof", 
+              "Feesforduplicate":"Rs.150"
+             },
+             { 
+              "Serial":"",
+              "Category":"Drugs specified in Schedule ‘X’",
+              "TypeSale":"Retail Sale",
+              "Application":"19-C", 
+              "Licence":"20-F R-61(1) ", 
+              "Fees":"Rs.1500 R-59(2)", 
+              "Renewal":"21-C",
+              "Penalty":"Rs.1500+Rs.250 p.m. or part thereof R-59(4)", 
+              "Feesforduplicate":"Rs.150 R-59(3)"
+             },
+            
+             { 
+              "Serial":"4",
+              "Category":"Sale of Drugs from motor vehicles(1) Drugs other than those specified in Schedule C&C (1)",
+              "TypeSale":"Whole Sale",
+              "Application":"19-AA", 
+              "Licence":"21-BB", 
+              "Fees":"Rs.500", 
+              "Renewal":"21-CC",
+              "Penalty":"Rs.500+Rs.250 p.m. or part thereof", 
+              "Feesforduplicate":"Rs.150"
+             },
+             { 
+              "Serial":"",
+              "Category":"(2) Drugs specified in Schedule C&C (1)",
+              "TypeSale":"Retail Sale",
+              "Application":"19-AA", 
+              "Licence":"21-BB R-62-D", 
+              "Fees":"Rs.500 R-62-C", 
+              "Renewal":"21-CC",
+              "Penalty":"Rs.500+Rs.250 p.m. or part thereof R-62-C", 
+              "Feesforduplicate":"Rs.150 R-62-C"
+             },
+           
+             { 
+              "Serial":"5",
+              "Category":"",
+              "TypeSale":"Whole Sale",
+              "Application":"19-B", 
+              "Licence":"21-D", 
+              "Fees":"Rs.250", 
+              "Renewal":"21-CC",
+              "Penalty":"Rs.250+Rs.50p.m. or part thereof", 
+              "Feesforduplicate":"Rs.150"
+             },
+             { 
+              "Serial":"",
+              "Category":"Homoeopathic Medicines",
+              "TypeSale":"Retail Sale",
+              "Application":"19", 
+              "Licence":"21-C R-67-C", 
+              "Fees":"Rs.250 R-67-A(2)", 
+              "Renewal":"21-E",
+              "Penalty":"Rs.250+Rs.50p.m. or part thereof R-67-A(2)", 
+              "Feesforduplicate":"Rs.150 R-67-A(2)"
+             }
+            
+          ]
+         }
+           ]
+          },
+         {
+          "heading": " ",
+          "detailservices": [
+         {
+          "header": "A:  MANUFACTURING APPLICATIONS, LICENCES, FEES AND PENALTY*",
+          "header1":"I. ALLOPATHIC DRUGS",
+          "p": "Note:¨Fee for further application after rejection Rs.250 (R: 82)§Fee for further application after rejection Rs.250 (R: 122K)",
+          "Serial":"S.No",
+          "Category":"Category of drugs",
+          "TypeSale":"Type Sale",
+          "Application":"Application Form", 
+          "Licence":"Licence Form", 
+          "Fees":"Fees for Grant/ Renewal", 
+          "Renewal":"Renewal Certificate Form No",
+          "Penalty":"Penalty after expiry but within six months", 
+          "Feesforduplicate":"Fees for duplicate copy of Org. Lic.", 
+          "paragraph":[ 
+            { 
+              "Serial":"I",
+              "Category":"II",
+              "TypeSale":"III",
+              "Application":"IV", 
+              "Licence":"V", 
+              "Fees":"VI", 
+              "Renewal":"VII",
+              "Penalty":"VIII", 
+              "Feesforduplicate":"IX"
+             },
+            { 
+             "Serial":"1",
+             "Category":"Drugs other than those specified in Schedule C&C (1)&X  (i) Repacking of drugs",
+             "TypeSale":"24-B upto 10 items for each category R: 69(1)(a)",
+             "Application":"25-B R: 70", 
+             "Licence":"Lic. fees of Rs. 500+ Insp. fee of Rs. 200 for every inspection or for renewal of licence R: 69(2)(a)  26-B R: 73-B", 
+             "Fees":"Rs.1500", 
+             "Renewal":"21-C",
+             "Penalty":"Rs.1500+Rs.500 p.m. or part thereof", 
+             "Feesforduplicate":"Rs.150"
+            },
+          
+            { 
+             "Serial":"",
+             "Category":"Drugs other than those specified in Schedule C&C (1)&X",
+             "TypeSale":"Retail Sale",
+             "Application":"19", 
+             "Licence":"20-B", 
+             "Fees":"Rs.1500", 
+             "Renewal":"21-C",
+             "Penalty":"Rs.1500+Rs.500 p.m. or part thereof", 
+             "Feesforduplicate":"Rs.150"
+            },
+            { 
+             "Serial":"",
+             "Category":"",
+             "TypeSale":"Restricted (Gen.Store)",
+             "Application":"19-A", 
+             "Licence":"20 R-61(1)", 
+             "Fees":"Rs.1500 R-59(2)", 
+             "Renewal":"21-C",
+             "Penalty":"Rs.1500+Rs.500 p.m. or part thereof", 
+             "Feesforduplicate":"Rs.150 R-59(3)"
+            },
+            { 
+             "Serial":"2",
+             "Category":"",
+             "TypeSale":"Whole Sale",
+             "Application":"19", 
+             "Licence":"21-B", 
+             "Fees":"Rs.1500", 
+             "Renewal":"21-C",
+             "Penalty":"Rs.1500+Rs.500 p.m. or part thereof", 
+             "Feesforduplicate":"Rs.150"
+            },
+            { 
+             "Serial":"",
+             "Category":"Drugs specified in Schedule C&C (1) but excluding those specified in Schedule ‘X’",
+             "TypeSale":"Retail Sale",
+             "Application":"19", 
+             "Licence":"21-B", 
+             "Fees":"Rs.1500", 
+             "Renewal":"21-C",
+             "Penalty":"Rs.1500+Rs.500 p.m. or part thereof", 
+             "Feesforduplicate":"Rs.150"
+            },
+            { 
+             "Serial":"",
+             "Category":"",
+             "TypeSale":"Restricted (Gen.Store)",
+             "Application":"19-A", 
+             "Licence":"21 R-61(1)", 
+             "Fees":"Rs.1500 R-59(2)", 
+             "Renewal":"21-C",
+             "Penalty":"Rs.1500+Rs.500 p.m. or part thereof  R-59(4)", 
+             "Feesforduplicate":"Rs.150 R-59(3)"
+            },
+            { 
+             "Serial":"3",
+             "Category":"",
+             "TypeSale":"Whole Sale",
+             "Application":"19-C", 
+             "Licence":"20-G", 
+             "Fees":"Rs.1500", 
+             "Renewal":"21-C",
+             "Penalty":"Rs.500+Rs.250 p.m. or part thereof", 
+             "Feesforduplicate":"Rs.150"
+            },
+            { 
+             "Serial":"",
+             "Category":"Drugs specified in Schedule ‘X’",
+             "TypeSale":"Retail Sale",
+             "Application":"19-C", 
+             "Licence":"20-F R-61(1) ", 
+             "Fees":"Rs.1500 R-59(2)", 
+             "Renewal":"21-C",
+             "Penalty":"Rs.1500+Rs.250 p.m. or part thereof R-59(4)", 
+             "Feesforduplicate":"Rs.150 R-59(3)"
+            },
+           
+            { 
+             "Serial":"4",
+             "Category":"Sale of Drugs from motor vehicles(1) Drugs other than those specified in Schedule C&C (1)",
+             "TypeSale":"Whole Sale",
+             "Application":"19-AA", 
+             "Licence":"21-BB", 
+             "Fees":"Rs.500", 
+             "Renewal":"21-CC",
+             "Penalty":"Rs.500+Rs.250 p.m. or part thereof", 
+             "Feesforduplicate":"Rs.150"
+            },
+            { 
+             "Serial":"",
+             "Category":"(2) Drugs specified in Schedule C&C (1)",
+             "TypeSale":"Retail Sale",
+             "Application":"19-AA", 
+             "Licence":"21-BB R-62-D", 
+             "Fees":"Rs.500 R-62-C", 
+             "Renewal":"21-CC",
+             "Penalty":"Rs.500+Rs.250 p.m. or part thereof R-62-C", 
+             "Feesforduplicate":"Rs.150 R-62-C"
+            },
+          
+            { 
+             "Serial":"5",
+             "Category":"",
+             "TypeSale":"Whole Sale",
+             "Application":"19-B", 
+             "Licence":"21-D", 
+             "Fees":"Rs.250", 
+             "Renewal":"21-CC",
+             "Penalty":"Rs.250+Rs.50p.m. or part thereof", 
+             "Feesforduplicate":"Rs.150"
+            },
+            { 
+             "Serial":"",
+             "Category":"Homoeopathic Medicines",
+             "TypeSale":"Retail Sale",
+             "Application":"19", 
+             "Licence":"21-C R-67-C", 
+             "Fees":"Rs.250 R-67-A(2)", 
+             "Renewal":"21-E",
+             "Penalty":"Rs.250+Rs.50p.m. or part thereof R-67-A(2)", 
+             "Feesforduplicate":"Rs.150 R-67-A(2)"
+            }
+           
+         ]
+        }
+       ]
+      },
+      {
+        "heading": " ",
+        "detailservices": [
+       {
+        "header": "",
+        "header1":"II. HOMOEOPATHIC MEDICINES",
+        "p": "Note: Fee for further application after rejection Rs.250 (R- 85 ED)",
+        "Serial":"S.No",
+        "Category":"Category of drugs",
+      
+        "Application":"Application Form", 
+        "Licence":"Licence Form", 
+        "Fees":"Fees for Grant/ Renewal", 
+        "Renewal":"Renewal Certificate Form No",
+        "Penalty":"Fee+Penalty after expiry but within six months", 
+        "Feesforduplicate":"Fees for duplicate copy of Org. Lic.", 
+        "paragraph":[ 
+         
+          { 
+           "Serial":"1",
+           "Category":"Mother Tinctures & Potentised Preparations",
+           "Application":"24-C ", 
+           "Licence":"25-C  ", 
+           "Fees":"Rs.200 + Rs.100 for 1st inspection or Rs.50 in case of inspection for renewal of licence ", 
+           "Renewal":"26-C ",
+           "Penalty":"Rs.200 + Rs.100 p.m. or part thereof and inspection fee of Rs.50 ", 
+           "Feesforduplicate":"Rs.50 "
+          },
+        
+          { 
+           "Serial":"",
+           "Category":"",
+           "Application":" R: 85-B(2)", 
+           "Licence":"R: 85-D", 
+           "Fees":" R: 85-B(2)(a)", 
+           "Renewal":"  R: 85-G",
+           "Penalty":" R: 85-B(3)(a)", 
+           "Feesforduplicate":" R: 85-B(4)"
+          },
+        
+          { 
+           "Serial":"2",
+           "Category":"Potentised Preparation",
+           "Application":"24-C", 
+           "Licence":"25-C", 
+           "Fees":"Rs.200 + Rs.100 for 1st inspection or Rs.50 in case of inspection for renewal of licence", 
+           "Renewal":"26-C",
+           "Penalty":"Rs.200 + Rs.100 p.m. or part thereof and inspection fee of Rs.50", 
+           "Feesforduplicate":"Rs.50"
+          },
+          { 
+           "Serial":"",
+           "Category":"",
+           "Application":"R: 85-B(2)", 
+           "Licence":"R: 85(b)", 
+           "Fees":"R: 85-B(2)(b)", 
+           "Renewal":"R: 85-G",
+           "Penalty":"R: 85-B(3)(b)", 
+           "Feesforduplicate":"R: 85-B(4)"
+          },
+         
+          { 
+           "Serial":"3",
+           "Category":"Potentised Preparations from back potencies by Pharmacy which are licensed to sell Homoeopathic Medicines by retail",
+           "Application":"24-C", 
+           "Licence":"25-C", 
+           "Fees":"Rs.200 + Rs.100 for 1st inspection or Rs.50 in case of inspection for renewal of licence", 
+           "Renewal":"26-C",
+           "Penalty":"Rs.200 + Rs.100 p.m. or part thereof and inspection fee of Rs.50", 
+           "Feesforduplicate":"Rs.50"
+          },
+          { 
+           "Serial":"",
+           "Category":"",
+           "Application":"R: 85-B(2)", 
+           "Licence":"R: 85-D ", 
+           "Fees":"R: 85-B(2)(c)", 
+           "Renewal":"R: 85-G",
+           "Penalty":"R: 85-B(3)(c)", 
+           "Feesforduplicate":"R: 85-B(4)"
+          },
+         
+          { 
+           "Serial":"4",
+           "Category":"Additional item",
+           "Application":"", 
+           "Licence":"", 
+           "Fees":"Rs. 50 for each additional Item    R: 85-B(5)", 
+           "Renewal":"",
+           "Penalty":"", 
+           "Feesforduplicate":""
+          }
+       ]
+      }
+     ]
+    },
+    {
+      "heading": " ",
+      "detailservices": [
+     {
+      "header": "",
+      "header1":"III.COSMOTICS",
+      "p": "Note: Fee for further application after rejection Rs. 250 (R: 139 AD)",
+      "Serial":"S.No",
+      "Category":"Category of drugs",
+      "Application":"Application Form", 
+      "Licence":"Licence Form", 
+      "Fees":"Fees for Grant/ Renewal", 
+      "Renewal":"Renewal Certificate Form No",
+      "Penalty":"Fee+Penalty after expiry but within six months", 
+      "Feesforduplicate":"Fees for duplicate copy of Org. Lic.", 
+      "TypeSale":"Fee for addl. item for more than 10 item for each category",
+      "paragraph":[ 
+       
+        { 
+         "Serial":"1",
+         "Category":"Own manufacturing",
+         "Application":"31up to 10 items for each category", 
+         "Licence":"32  ", 
+         "Fees":"Lic. fee of Rs. 2500 + Insp. fee of Rs. 1000 for every inspection or for renewal of licence", 
+         "Renewal":"33 ",
+         "Penalty":"Rs.2500+Rs.400 p.m. or part thereof in addition to insp. fee of Rs.1000", 
+         "Feesforduplicate":"Rs.250 ",
+         "TypeSale":"Rs.100 for each additional item subject to a maximum of Rs.3000"
+        },
+        { 
+         "Serial":"",
+         "Category":"",
+         "Application":" R: 138(1)", 
+         "Licence":" R: 139-A", 
+         "Fees":" R: 138(2)", 
+         "Renewal":"  R: 141",
+         "Penalty":" R: 138(2)", 
+         "Feesforduplicate":" R: 138(4)",
+         "TypeSale":"R: 138(3)"
+        },
+      
+        { 
+         "Serial":"2",
+         "Category":"Loan Licence",
+         "Application":"31-A up to 10 items for each category", 
+         "Licence":"32-A", 
+         "Fees":"Lic. fee of Rs. 2500 + Insp. fee of Rs. 1000 for every inspection or for renewal of licence", 
+         "Renewal":"33-A",
+         "Penalty":"Rs.2500+Rs.400 p.m. or part thereof in addition to insp. fee of Rs.1000", 
+         "Feesforduplicate":"Rs.250",
+         "TypeSale":"Rs.100 for each additional item subject to a maximum of Rs.3000"
+        },
+        { 
+         "Serial":"",
+         "Category":"",
+         "Application":"R: 138-A(1)", 
+         "Licence":"R: 139-B", 
+         "Fees":"R: 138-A(1)", 
+         "Renewal":"R: 141-A",
+         "Penalty":"R: 138A(2)", 
+         "Feesforduplicate":"R: 138-A(6)",
+         "TypeSale":"R: 138-A(5)"
+        }
+     ]
+    }
+   ]
+  },
+  {
+    "heading": " ",
+    "detailservices": [
+   {
+    "header": "",
+    "header1":"IV. APPROVAL OF PRIVATE TESTING LABORATORIES",
+    "p": "Note: Fee for further application after rejection Rs. 250 (R: 139 AD)",
+    "Serial":"S.No",
+    "Category":"Category of drugs",
+    "TypeSale":"Type Sale",
+    "Application":"Application Form", 
+    "Licence":"Licence Form", 
+    "Fees":"Fees for Grant/ Renewal", 
+    "Renewal":"Renewal Certificate Form No",
+    "Penalty":"Fee+Penalty after expiry but within six months", 
+    "Feesforduplicate":"Fees for duplicate copy of Org. Lic.", 
+    "paragraph":[ 
+     
+      { 
+       "Serial":"1",
+       "Category":"Testing of drugs specified in Sch.C & C (1)",
+       "Application":"36 ", 
+       "Licence":"37 ", 
+       "Fees":"Inspection fee of Rs.6000", 
+       "Renewal":"38 ",
+       "Penalty":"Rs.6000+Rs. 1000 p.m. or part thereof", 
+       "Feesforduplicate":"- ",
+       "TypeSale":"Rs.1500 per category"
+      },
+    
+      { 
+       "Serial":"",
+       "Category":"",
+       "Application":" R: 150-B", 
+       "Licence":"R: 150-C", 
+       "Fees":" R: 150-B(1)", 
+       "Renewal":"  R: 150-J",
+       "Penalty":" R: 150-B(1)", 
+       "Feesforduplicate":"-",
+       "TypeSale":"R: 150-B(2)"
+      },
+    
+      { 
+       "Serial":"2",
+       "Category":"Testing of drugs other than those specified in Sch.C & C(1)& Homoeopathic Medicines & Cosmetics",
+       "Application":"36", 
+       "Licence":"37", 
+       "Fees":"Inspection fee of Rs.1500", 
+       "Renewal":"38",
+       "Penalty":"Rs.1500+Rs. 1000 p.m. or part thereof", 
+       "Feesforduplicate":"-",
+       "TypeSale":"Rs.1000 per category"
+      },
+      { 
+       "Serial":"",
+       "Category":"",
+       "Application":"R: 150-B", 
+       "Licence":"R: 150-C", 
+       "Fees":"R: 150-B(1)", 
+       "Renewal":"R: 150-J",
+       "Penalty":"R: 150-B(1)", 
+       "Feesforduplicate":"-",
+       "TypeSale":"R: 150-B(2)"
+      }
+   ]
+  }
+ ]
+}
+      ],
+
+       "...comments14":"Below content is related to the Dropdown link-About/Flashnews",
+       
+       "...comments 14a":"Information for - Pharmaceutical Companies Given 30 Days Extension for Ceiling Price Relabelling.",
+       "SubPage1": [
+         {
+           "heading": "Pharmaceutical Companies Given 30 Days Extension for Ceiling Price Relabelling.",
+           "detailservices": [
+             {
+               "header": "",
+               "paragraph": [
+             {
+               "p": "The Department of Pharmaceutical has extended the period of exemption in respect of ceiling price notification dated 14.06.2013 issued by the National Pharmaceutical Pricing Authority for a period of 30 days from 29.07.2013. Similarly, in respect of ceiling price notifications dated 21.06.2013, 28.06.2013 and 05.07.2013 issued by the NPPA, the period of validity of exemption is extended for a period not exceeding 30 days from the date when the period of 45 days will expire as granted by the Department of Revenue." },
+             {
+               "p":"The aforesaid extension of exemption shall be applicable only for the purpose of exemption from the provisions of Central Excise Act regarding whole of the duty of excise leviable in case of re-printing, re-labelling, re-packing or stickering, in a premises which is not registered under the Central Excise Act, 1944 (1 of 1944) or the rules made thereunder."
+             },
+             {
+               "p":"In a circular issued today, the Department of Pharmaceutical exempted the scheduled formulations as defined under the Drugs Price Control Order (DPCO), 2013 published vide S.O. 1221 (E) dated the 15th May, 2013, falling under Chapter 30 of the First Schedule to the Central Excise Tariff Act, 1985 (5 of 1986) and which are subjected to re-printing, re-labeling, re-packing or stickering, in a premises which is not registered under the Central Excise Act, 1944 (1 of 1944) or the rules made thereunder, in pursuance of the provisions contained in the said Drugs Price Control Order (DPCO), 2013 from whole of the duty of excise leviable thereon under the said Central Excise Act subject to the conditions as stipulated therein."
+             }
+            ]
+           }
+         ]
+        }
+       ],
+
+       "...comments 14b":"Information for - suspected spurious drugs seized. Media note and public alert.",
+       "SubPage2": [
+         {
+           "heading": "suspected spurious drugs seized. Media note and public alert.",
+           "detailservices": [
+             {
+               "header": "PRESS NOTE.",
+               "paragraph": [
+             {
+               "p": "On 07.12.2015, the Officers of Drugs Control Administration in Ongole, Kurnool and Kadapa have seized 58 varieties of drugs worth Rs.5 Lakhs suspected to be spurious in nature which were sold by an unlicensed firm M/s Osheen Organics, Jaipur, Rajasthan said to be manufactured in the name of a fictitious company M/s Avya Health Care, 11, Industrial Area, Rudrapur(Village), Mandi(Dist), Himachal Pradesh with no license and the drugs consists of tablets, capsules and syrups/suspensions were sold to 12 States in the country including Andhra Pradesh."
+             },
+             {
+               "p":" A massive drive is taken in all the districts of A.P to identify the distributors, sample the drugs, seize and recall the drugs purportedly manufactured by M/s Avya Health Care, 11, Industrial Area, Rudrapur(Village), Mandi(Dist), Himachal Pradesh and sold/distributed by M/s Osheen Organics, Jaipur, Rajasthan. So far 58 varieties of drugs were seized from the following distributors which consists of Antibiotics, Pain killers, Anti-emetics, Anti-cough & cold, Anti-protozoal, Iron&Vitamin and Anti-ulcers in the form of  tablets, capsules and syrups/suspensions."
+             },
+             {
+               "p": "1.   M/s Venkata Medical Corporation, Illendu vari street, Ongole – 18 varieties."
+             },
+             {
+              "p":"2.   M/s MSB Medical & Surgical Agencies, Raja Street, Kurnool   -   4 varieties."
+             },
+             {
+             "p":"3.   M/s MNS Medical & Surgical Enterprises, Kallur, Kurnool          - 23 varieties."
+             },
+             {
+             "p":"4.   M/s BA Allah’s Pharma, Vinayak Nagar, Kadapa                       - 13 varieties."
+             },
+             {
+             "p":"All the above drugs are sampled for analysis and are being sent to Government Drugs Control Laboratory, Vijayawada and will be analyzed on top priority."
+             },
+             {
+             "p":"All the above drugs are sampled for analysis and are being sent to Government Drugs Control Laboratory, Vijayawada and will be analyzed on top priority."
+             },
+             {
+             "p":"All the seizures of drugs are intimated to the Hon’ble Courts and further investigation is taken up by the respective Drugs Inspectors and complaints will be filed against all the responsible persons/firms under the provisions of Drugs and Cosmetics Act, 1940 and Rules, 1945 related to dealing with drugs manufactured without license and of the spurious nature of the drugs."
+             },
+             {
+             "p":"All the consumers are requested not to use the drugs labelled as manufactured by M/s Avya Health Care, 11, Industrial Area, Rudrapur(Village), Mandi(Dist), Himachal Pradesh and the Physicians are requested not to prescribe the same and are also requested to give information of availability of any such drugs to the nearest office of the Drugs Inspector/Assistant Director in the District or call the Director General, Drugs Control Administration on 040-23814119 or email to dgapdca[at]gmail[dot]com in public interest."
+             },
+             {
+             "p":"Dr.A.Ravi Shankar,I.P.S,   Director General, Drugs & Copy Rights, Drugs Control Administration, A.P"
+             }
+            ]
+           }
+         ]
+        }
+       ],
+     
+       "...comments 14c":"Information for - Industry Interactive Meeting on 18-08-2015 at Vizag.",
+       "SubPage3": [
+         {
+           "heading": "Industry Interactive Meeting on 18-08-2015 at Vizag.",
+           "detailservices": [
+             {
+               "header": "",
+               "paragraph": [
+             {
+               "p": "An interactive meet with Pharma Industry CEOs & representatives and Experts from related fields was conducted on 18-8-15 at Vigaz. Hon'ble Minister for Health, Medical & Family Welfare has chaired the meeting. Representatives from more than 100 Pharma Companies has attended the meeting and discussed various issues & problems faced by the Pharma Industry in the state of Andhra Pradesh."
+             },
+             {
+               "p":" Industry Experts also discussed about the need for Common Facilities at Pharma City, Parawada and need for establishment of Research Institute like IICT & NIPER."
+             }
+            ]
+           }
+         ]
+        }
+       ],
+       "...comments 14d":"Information for - Industry Interactive Meeting on 18-08-2015 at Vizag.",
+
+       " SubPage4": [
+         {
+           "heading": "Substances declared controlled substances under NDPS Act.",
+           "detailservices": [
+             {
+               "header": "Substances declared controlled substances under NDPS Act",
+               "paragraph": [
+             {
+               "p": "Ministry of Finance, Govt. of India, vide SO No. 834 (E) dated 26.3.2013 has in Exercise of Powers conferred by clause (viid) of Section 2 of the Narcotic Drugs and Psychotropic Substances Act, 1985 (61 of 1985) declared Ergometrine and its salts, Ergotamine and its salts, Isosafrole, Lysergic Acid and its salts, 3, 4 –methylenedioxyphenyl-2-propanone, and its salts and preparations thereof, Methyl ethyl ketone, Norephedrine (Phenylpropanolamine), its salts and preparations thereof , 1-phenyl-2-propanone, Phenylacetic acid and its salts, Piperonal, Potassium permanganate, Safrole and any essential oil containing 4% or more safrole, Preparations of Ephedrine and Preparations of Pseudoephedrine as controlled substances for the purpose of the Act."
+             },
+             {
+               "p":"  This notification is issued having regard to the possible use of above substances in the production or manufacture of various narcotic drugs and psychotropic substances, and also to implement the provisions of the United Nations Convention against Illicit Traffic in Narcotic Drugs and Psychotropic Substances, 1988."
+             }
+            ]
+           }
+         ]
+        }
+       ],
+       "...comments 14e":"Information for - NPPA has fixed/revised the prices in of 86 formulations.",
+       "SubPage5": [
+         {
+           "heading": "NPPA has fixed/revised the prices in of 86 formulations.",
+           "detailservices": [
+             {
+               "header": "NPPA has fixed/revised the prices in of 86 formulations.",
+               "paragraph": [
+             {
+               "p": "The National Pharmaceutical Pricing Authority has fixed / revised the prices in respect of 86 formulation packs Notification / orders dated 10.6.2013." },
+             {
+               "p":"For details please click the following:"
+             },
+             {
+               "p":"Copies of Gazette Notifications for Ceiling and Non-Ceiling Prices."
+             },
+             {
+               "p":" S.NoS.O.NoDateFormulation based on bulk drugsi.1492(E)10-6-2013Ibuprofenii.1493(E)10-6-2013Ibuprofen with combinationiii.1494(E)10-6-2013Quiniodochlor (ICHQ)iv.1495(E)10-6-2013Erythromycin Estolatev.1496(E)10-6-2013Metronidazole with combinationvi.1497(E)10-6-2013Rifampicin with combinationvii.1498(E)10-6-2013Chloroquine Phosphateviii.1499(E)10-6-2013Dexamethasone with combinationix.1500(E)10-6-2013Monocomponent Insulin regarding S.O. No. 1737(E) dated 26.07.2011, 789(E) dated 10.04.2012, 1635(E) dated 19.07.2012 and 2740(E) dated 16.11.201x.1501(E)10-6-2013Monocompoenent Insulinxi.1502(E)10-6-2013Tegrital" ,
+               "link": "http://www.nppaindia.nic.in/en/ceiling/press10june13/so1492e-10-6-13.html",
+               "description": " NPPA "
+             }
+            ]
+           }
+         ]
+        }
+       ],
+       "...comments 14f":"Information for - Drugs were seized at M/s Sai Vijaya Medical Agencies, Eluru for violation of section-3 of Drugs and Magic Remedies (Objectionable Advertisement) Act, 1954 ",
+       "SubPage6": [
+         {
+           "heading": "Drugs were seized at M/s Sai Vijaya Medical Agencies, Eluru for violation of section-3 of Drugs and Magic Remedies (Objectionable Advertisement) Act, 1954",
+           "detailservices": [
+             {
+               "header": "",
+               "paragraph": [
+            
+             {
+               "p":"On 22.05.2013 during joint inspections conducted at Eluru the Drugs Control Officers detected 2 cases under Drugs and Magic Remedies (Objectionable Advertisement) Act, 1954 and 2 cases under Drugs Price Control Order,1995 at M/s Sai Vijaya Medical Agencies, Eluru."
+              },
+              {
+                "p":"The following drugs were seized for the violation of Sec 3 of Drugs and Magic Remedies (Objectionable Advertisement) Act, 1954 as the drugs are indicating for the cure “FEVER” on their label."
+              },
+              {
+               "p":"Ø  Tricold Plus syrup Mfg by Scott Edil Pharmacia Ltd., Jarmarjri."
+             },
+             {
+               "p":"Ø  Cetiz Cold suspension Mfg by Saar Biotech, Solan."
+             },
+             {
+               "p":"The following drugs were seized for gross violation by the firms for printing Maximum Retail Price (MRP) over and above the ceiling prices fixed by the National Pharmaceutical Pricing Authority (NPPA), Government of India on violation of Para 8 of Drugs Price Control Order, 1995."
+             },
+             {
+               "p":"Ø  K-Nor tablets Mfg by Konis Pharmaceuticals, Solan  &"
+             },
+             {
+               "p":"Ø  Ulticept- TZ tablets Mfg by Venus Bioscience, Solan (Govt.Price-: MRP by the company:"
+             },
+             {
+               "p":"On 04-06-2013, M/s Laborate Pharmaceuticals India Ltd., in Vijaywada was inspected and 9 of items of drugs Mfg by Laborate Pharmaceuticals India Ltd., Himachal Pradesh were detected for gross violation of ceiling prices and the same were seized for violation of Para 8 of DPCO 1995."
+             },
+             {
+               "p":"On 06.06.2013, 10 of items of drugs Mfg by Ridley Life Science, Delhi, were detected for gross violations of ceiling prices and the same were seized for violation of Para 8 of DPCO 1995."
+             },
+             {
+               "p":"Drug worth Rs.1 crore 1 lakh were recalled from the market.    "
+             },
+             {
+               "p":"Dr.B.L.Meena,I.P.S,  Director General, Drugs and Copyrightsl"
+             }
+            ]
+           }
+         ]
+        }
+       ],
+       "...comments 14g":"Information for - W.H.O issues supplementary guidelines on GMP on sterile process validation. ",
+       "SubPage7": [
+         {
+           "heading": "W.H.O issues supplementary guidelines on GMP on sterile process validation.",
+           "detailservices": [
+             {
+               "header": "",
+               "paragraph": [
+             {
+               "p": "The World Health Organization (WHO) has issued guidelines for the revision of the supplementary guidelines on good manufacturing practices: on-sterile process validation. The industry will need to revert with their views by May 24."
+             },
+             {
+               "p":"Further to the Supplementary Guideline on good manufacturing practices: validation, as published in the WHO Technical Report, No. 937,1 102 additional guidelines to support current approaches in GMP are published herewith to further support the scope of process validation linked to quality risk management and quality by design principles as described by WHO and the International Conference on Harmonization (ICH). "
+             },
+             {
+               "p":"The guideline allows for different approaches in process validation. The principles are applicable to non-sterile finished pharmaceutical dosage forms."
+             },
+             {
+               "p":"Thorough knowledge of product and process development studies; previous manufacturing experience; and quality risk management (QRM) principles are essential in the all approaches to process validation as the focus is now on the life-cycle approach. The life-cycle approach links product and process development, validation of the commercial manufacturing process and maintenance of the process during routine commercial production."
+             },
+             {
+               "p":"A risk based approach to validation is recommended, linked to in-line or on-line controls and monitoring to ensure that a process is in a state of control during routine manufacture process validation data should be generated for all products to demonstrate the adequacy of the manufacturing process at each site of manufacture, stated WHO in its draft report."
+             },
+             {
+               "p":"The validation should be carried out in accordance with good manufacturing practices (GMP) and data should be held at the manufacturing location and made available for inspection. Manufacturers should confirm that a manufacturing process is under control before a product is placed on the market."
+             },
+             {
+               "p":"Process validation is associated with the collection and evaluation of data, from the process design stage through commercial production, which provides scientific evidence that a process is capable of consistently delivering a quality product. Process validation provides documented evidence that a process is capable of reliably and repeatedly rendering a product of the required quality."
+             },
+             {
+               "p":"A risk assessment approach should be used to determine the scope and extent to which process(es) and starting material variability may affect product quality. The critical parameters should be identified and documented and be based on knowledge of the product or processes concerned, according to the stage of the product life-cycle."
+             },
+             {
+               "p":"The objectives of process validation is to ensure that the design is evaluated to show that it is reproducible. The commercial manufacturing process is defined and controlled, and that the validation should cover all manufactured strengths used for production of the marketed product. A matrix approach may be acceptable based on appropriate risk assessment, according to WHO."
+             },
+             {
+               "p":"The scope and extent of continuous process verification will be influenced by a number of factors. These include prior development and manufacturing knowledge from similar products. The extent of process understanding gained from development studies and commercial manufacturing experience. The complexity of the product manufacturing process and the level of process automation and analytical technologies used."
+             }
+            ]
+           }
+         ]
+        }
+       ]
+     }
+     
+
+
+
+
+
+
+
+
+   

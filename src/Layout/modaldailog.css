@@ -1,0 +1,61 @@
+
+
+#modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: rgb(247, 247, 245);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    
+}
+
+#modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom:none;
+    height: 10px;
+     
+}
+#modal_show{
+    padding-top: 250px !important;
+  
+}
+
+
+.column{
+    width:50%;
+    float: left;
+    padding: 10px;
+    height: 60%;
+}
+
+
+.close_button1 {
+    margin-left:280px;
+    cursor: pointer;
+    margin-top: -10px;   
+}
+
+.close_button {
+    margin-left:455px;
+    cursor: pointer;
+    margin-top: -10px;
+    
+}
+.model_head{
+    height: 20px;
+}
+
+.model_head p{
+    margin-top: -40px;
+    margin-left: -15px;
+}
+#row_model{
+    margin-left: 0px;
+}

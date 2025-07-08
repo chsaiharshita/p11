@@ -1,0 +1,16 @@
+# Ignore all common image types
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+*.webp
+*.tiff
+*.ico
+
+node_modules/
+build/
+.env/
+/assets/images/
+P2sitedata.json

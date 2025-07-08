@@ -1,0 +1,871 @@
+{
+  
+  "index.html":"Change the project name (ex: DCA or ITI or NOC)as per our need in ----- public/index.html",
+  "Project path with root (/)":"Change the project path names for root project (/) in two files 1.package.json 2. src/Layout/layout.js",
+  "Project path with name (ex:nicapsc-dca)":"Change the project path names with Project name(ex:nicapsc-iti   in three files 1.package.json,  2. src/Layout/Layout.js, 3.src/Layout/routeConfig.js (add the project name ( /nicapsc-iti/ )before the (' /node201 ') ex: /nicapsc-iti/node201 ) ", 
+ 
+  "For API data changing":"Goto the folder names Redux1,2,3,4.  And open the files 1.users.service.js & 2.users.thunks.js And then change the Project names as  p1 - for Project1 ; p2 - for Project2 ; p3 - for Project3 ; p4 - for Project4",
+  "important for API data":"goto C141.js,C142.js, C143.js files and change the pname for project2(ITI) - p2",
+   
+  "copy the below information into 'cities.json' file with Array symbols":
+  [{
+    "name": "APBOCWWB.",
+    "admin": "APBOCWWB",
+    "address": "Vijayawada,NTR District, Andhra Pradesh 520 008",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "center": ["16.5172303", "80.6692526"],        
+    "capital": "admin",
+    "lat": "16.5172303",
+    "lng": "80.6692526",
+    "zoomlevel": "10",
+    "iso2": "IN"
+}], 
+ 
+ 
+ "..commentA":"Change the Pop value either 'true' or 'flase'.",
+
+     "Popvalue":false,
+
+      "...comment1": "below link is - API url",
+
+"url": "https://itiadmissions.ap.gov.in/apwaas/users/",
+"url1": "https://itiadmissions.ap.gov.in/apwaas/courses/",
+"url2":"http://10.242.162.237:8080/eshram/eshramCount",
+"url3":"http://10.242.162.237:8080/eshram/getByRegistrationDateAndDistrict",
+"url4":"http://10.242.162.237:8080/eshram/EshramData",
+
+"...comment2":"Navigation Bar-Menu names and links",
+  "Navlink": [
+    {
+      "title": "HOME",
+      "link": "/#about"
+    }
+  ],
+ 
+  
+"comment...":"data for the project name with /nicapsc-iti/",
+  "drop":[
+   
+     {
+      "name": "Reports",
+      "type": "page",
+      "children": [
+        {
+          "name": "District Wise Data",
+          "link": "node218",
+          "type": "page"
+        },
+       
+        {
+          "name": "Registration Data",
+          "link": "node219",
+          "type": "page"
+        }
+       
+      ]
+    }
+   
+  ],
+  
+  "Navlink1": [
+    {
+      "title": "NOTICES",
+      "link": "#events"
+    }
+  ],
+  "Navlink2":[
+    {
+      "title": "HELPDESK",
+      "link": "https://servicedesk.nic.in/"
+    } 
+  ],
+  "Navlink3": [
+    {
+      "title": "RTI",
+      "link": "Rti"
+    },
+    {
+      "title": "CONTACT US",
+      "link": "ContactUs"
+    }
+  ],
+  "Navlinkleft": [
+    {
+      "title": "APBOCWWB",
+      "link": "https://apbocwwb.ap.nic.in/"
+    }
+  ],
+
+ 
+
+
+  "...comment3": "Social icons for top Navbar",
+
+  "socialicons": [
+    {
+      "link1": "#home",
+      "title1": "SKIP TO MAINCONTENT",
+      "link2": "",
+      "title2": "",
+      "iconslink": [
+        {
+          "iconname": "fa fa-instagram",
+          "link": "https://www.instagram.com/",
+          "description": ""
+        },
+        {
+          "iconname": "fa fa-facebook-f",
+          "link": "https://www.facebook.com/",
+          "description": ""
+        },
+        {
+          "iconname": "fa fa-instagram",
+          "link": "https://www.instagram.com/",
+          "description": ""
+        },
+        {
+          "iconname1": "fa fa-sitemap",
+          "link1": "sitemap",
+          "description": ""
+        }
+      ]
+    }
+  ],
+
+"...comment4":"Header Names and Images",
+
+  "Header": [
+    {
+      "img1": [
+        {
+          "imgsrc": "./images/P2H1.jpg",
+          "imgalt": "logo1",
+          "link": "https://itiadmissions.ap.gov.in/"
+        }
+      ],
+      "header":" ఆంధ్రప్రదేశ్ బిల్డింగ్ & ఇతర నిర్మాణ కార్మికుల సంక్షేమ బోర్డు",
+      "heading": "AndhraPradesh Building & Other Construction Workers Welfare Board",
+      "description": [
+        { "title": " Government of Andhra Pradesh " }
+      ],
+      "img2": [
+        {
+          "imgsrc": "./images/P5H2.jpg",
+          "imgalt": "logo2",
+          "link": ""
+        }
+      ]
+    }
+  ],
+
+  "...comment5":"Navigation Bar Names & Description, Sliding images and Designations",
+
+  "menu1": [
+    {
+      "title1": "home",
+      "title2": "aboutus",
+      "title3": "dcaservices",
+      "title4": "newsupdates",
+      "section1": [
+        {
+          "carousel1": [
+            {
+              "image": "./images/P5slideimage1.jpg",
+              "imgalt": "First slide"
+            }
+          ],
+          "carousel2": [
+            {
+              "image": "./images/P5slideimage2.jpg",
+              "imgalt": "Second slide"
+            }
+          ]
+        }
+      ],
+      "section2": [
+        {
+          "title": "About US ",
+          "paragraph": [
+            {
+              "p": "About Department :The Ministry of Labour & Employment which is one of the oldest and important Ministries of the Government of India, is continuously working on improving life and dignity of Labour force of country by protecting & safeguarding the interest of workers, promotion of welfare and providing social security to the Labour force both in Organized and Unorganized Sectors by enactment and implementation of various Labour Laws, which regulate the terms and conditions of service and employment of workers."
+            },
+            {
+              "p":"Accordingly, Ministry of Labour & Employment has developed eShram portal for creating a National Database of Unorganized Workers (NDUW), which will be seeded with Aadhaar. It will have details of name, occupation, address, occupation type, educational qualification, skill types etc. for optimum realization of their employability and extend the benefits of the social security schemes to them. It is the first-ever national database of unorganised workers including migrant workers, construction workers, gig and platform workers, etc."
+            }
+
+          ],
+          "imgsrc": "./images/C-A.jpg",
+          "imgalt": "image1",
+          "button": "View More",
+          "button_link": "about"
+        }
+      ],
+
+      "section3": [
+        {
+          "title": "",
+          "card1": [
+            {
+              "imgsrc": "./images/CM.jpg",
+              "imgalt": "img-1 ",
+              "title": " Sri. Y.S. Jagan Mohan Reddy",
+              "description": "Hon'ble Chief Minister",
+              "para":[
+                {
+                  
+                  "subtitle":"Government of Andhra Pradesh " 
+                }
+              ],
+              "button": "View More"
+            },
+            {
+              "imgsrc": "./images/P2Minister.jpg",
+              "imgalt": "img-2",
+              "title": "Sri. B.Rajendranath Reddy.",
+              "description": "",
+
+              "para":[ 
+                { 
+                  "subtitle":"Government of Andhra Pradesh" }
+              ],
+             
+              
+              "button": "View More"
+            },
+            {
+              "imgsrc": "./images/image.jpg",
+              "imgalt": "img-3",
+              "title": "I.T.I Commissioner.",
+              "description": "Industrial Training Institues.",
+              "para":[
+                {  
+                  "subtitle":"Government of Andhra Pradesh."
+                }
+              ],
+             
+              "button": "View More"
+            }
+           
+          ]
+        }
+      ],
+
+     
+      "section4": [
+        {
+          "subsection1": [
+            {
+              "title": "News & Events ",
+              "content": [
+                {
+                  "link": "/nicapsc-iti/newsapi",
+                  "description": "Industrial Training Department (ITD)to the youths in Andhra Pradesh State."
+                },
+                {
+                  "link": "/nicapsc-iti/newsapi",
+                  "description": "Industrial Training Department (ITD)to the youths in Andhra Pradesh State. "
+                },
+                {
+                  "link": "/nicapsc-iti/newsapi",
+                  "description": " Industrial Training Department (ITD)to the youths in Andhra Pradesh State."
+                }
+              ],
+              "button": "View More",
+              "button_link": "notification"
+            }
+          ],
+            
+              "subsection3": [
+                {
+                  "title": "Media Gallery ",
+                  "carousel1": [
+                    {
+                      "img": "./images/cardimg-3.jpg",
+                      "imgalt": "First slide"
+                    }
+                  ],
+                  "carousel2": [
+                    {
+                      "img": "./images/cardimg-4.jpg",
+                      "imgalt": "Second slide"
+                    }
+                  ],
+                
+                  "button": "View More",
+                  "button_link": "Images"
+                }
+              ],
+          "subsection2": [
+            {
+              "title": "Media Gallery",
+              "imgsrc": "./images/004.png",
+              "imgalt": "image1",
+              "button": "View More",
+              "button_link": "Images"
+            }
+            
+          ]
+        }
+      ]
+    }
+  ] ,
+
+  
+"section2": [
+  {
+    "title": "About US ",
+    "paragraph": [
+      {
+        "p": "About Department :The Ministry of Labour & Employment which is one of the oldest and important Ministries of the Government of India, is continuously working on improving life and dignity of Labour force of country by protecting & safeguarding the interest of workers, promotion of welfare and providing social security to the Labour force both in Organized and Unorganized Sectors by enactment and implementation of various Labour Laws, which regulate the terms and conditions of service and employment of workers."
+      },
+      {
+        "p":"Accordingly, Ministry of Labour & Employment has developed eShram portal for creating a National Database of Unorganized Workers (NDUW), which will be seeded with Aadhaar. It will have details of name, occupation, address, occupation type, educational qualification, skill types etc. for optimum realization of their employability and extend the benefits of the social security schemes to them. It is the first-ever national database of unorganised workers including migrant workers, construction workers, gig and platform workers, etc."
+      }
+
+     
+
+    ],
+    "imgsrc": "./images/C-A.jpg",
+    "imgalt": "image1",
+    "button": "View More",
+    "button_link": "about"
+  }
+],
+
+"section3": [
+  {
+    "title": "",
+    "card1": [
+      {
+        "imgsrc": "./images/CM.jpg",
+        "imgalt": "img-1 ",
+        "title": " Sri Y.S. Jagan Mohan Reddy",
+        "description": "Hon'ble Chief Minister of Andhra Pradesh",
+        "para":[
+          {
+            
+            "subtitle":"  " 
+          }
+        ],
+        "button": "View More"
+      },
+      {
+        "imgsrc": "./images/P5Minister.jpg",
+        "imgalt": "img-2",
+        "title": "Sri Gummanur Jayaram",
+        "description": "Minister of Labour, Employment, Training, Factories, Andhra Pradesh",
+
+        "para":[ 
+          { 
+            "subtitle":"" }
+        ],
+       
+        
+        "button": "View More"
+      },
+      {
+        "imgsrc": "./images/image.jpg",
+        "imgalt": "img-3",
+        "title": "Commissioner",
+        "description": " Labour, Employment, Training, Factories,Andhra Pradesh",
+        "para":[
+          {  
+            "subtitle":""
+          }
+        ],
+       
+        "button": "View More"
+      }
+     
+    ]
+  }
+],
+ 
+ 
+  "...comment6":"Footer page updates",
+
+  "footerlink": [
+    {
+      "title":"Footer Menu",
+      "content":[
+     {
+      "title": "Website Policies",
+      "link": "websitepolicies"
+    },
+    {
+      "title": "Help",
+      "link": "help"
+    }
+  ]
+ }
+  ],
+
+  "Footer": [
+    {
+      "p":"© NIC APSC , Developed and hosted by ",
+      "title": "National Informatics Centre,",
+      "link": "https://www.nic.in/"
+    },
+    {
+      "title": " Ministry of Electronics & Information Technology, Government of India",
+      "link": "https://www.meity.gov.in/"
+    },
+    {
+      "p":" Last Updated: Aug 09, 2023."
+    }
+  ],
+
+    "...comment7":"If API is down-The below information will display in All pages.",
+
+"Latestnews":[
+    {
+      "ptitle":"Latest News",
+      "a":[
+        {
+          "aname":"Data is pending.......",
+          "avalue":""
+        },
+        {
+          "link":"fetch"
+        }
+      ]
+
+    }
+  ],
+
+"Events":[
+  {
+    "ptitle":"Events",
+    "a":[
+      {
+        "aname":"Data is pending.......",
+        "avalue":""
+      },
+      {
+        "aname":"Data is pending.......",
+        "avalue":""
+      }
+    ]
+  }
+],
+
+"Reward":[
+  {
+    "ptitle":"Rewards",
+    "a":[
+      {
+        "aname":"Data is pending........",
+        "avalue":"para"
+      },
+      {
+        "aname":"Data is pending.......",
+        "avalue":"para"
+      }
+    ]
+  }
+],
+
+"...comment8":"Button links for Events and Rewards",
+
+  "Updates":[
+    {
+      "button": "View All",
+      "button_link": "node152"
+    }
+  ],
+  "Rewards":[
+    {
+      "button": "View All",
+      "button_link": "node52"
+    }
+  ],
+
+  "Redux1":[
+    {
+      "Trade_Name":"Tittle",
+      "Duration":"Description",
+      "Type":"File"
+    }
+  ],
+  "Redux2":[
+    {
+      "Trade_Name":"Tittle",
+      "Duration":"Description",
+      "Type":"File"
+    }
+  ],
+  "Redux3":[
+    {
+      "Trade_Name":"Trade Name",
+      "Duration":"Duration",
+      "Type":"Type"
+    }
+  ],
+
+  "Redux4":[
+    {
+      "Trade_Name":"Trade Name",
+      "Duration":"Duration",
+      "Type":"Type"
+    }
+  ],
+  "Redux5":[
+    {
+      "s_no":"S.No",
+      "district":"District Name",
+      "eshram":"Workers Registered in eShram",
+      "eshram_boc":"Workers Registered in eShram & BOC",
+      "boc_eshram":" Workers Registered in eShram and to be Registered in BOC",
+      "boc":"Workers Registered in BOC",
+      "register_eshram":"Workers Registered in BOC and to be Registered in eshram"
+     
+    }
+  ],
+
+  "Redux6":[
+    {
+      "Trade_Name":"Trade Name",
+      "Duration":"Duration",
+      "Type":"Type"
+    }
+  ],
+ "Redux7":[
+    {
+      "s_no":"S.No",
+      "district":"District Name",
+      "aadhaar_name":"Aadhaar Name",
+      "aadhaar_dob":"Aadhaar DOB",
+      "gender":"Gender",
+      "father_husband_name":"Father/Husband Name",
+      "mobile_number":"Mobile Number",
+      "pincode":"Pincode",
+      "occupation_name":"Occupation Name",
+      "uan_no":"UAN Number",
+      "registration_date":"Registration Date"
+     
+    }
+  ],
+  "Redux8":[
+    {
+      "s_no":"S.No",
+      "district":"District Name",
+      "aadhaar_name":"Aadhaar Name",
+      "aadhaar_dob":"Aadhaar DOB",
+      "gender":"Gender",
+      "father_husband_name":"Father/Husband Name",
+      "mobile_number":"Mobile Number",
+      "pincode":"Pincode",
+      "occupation_name":"Occupation Name",
+      "uan_no":"UAN Number",
+      "registration_date":"Registration Date"
+     
+    }
+  ],
+
+
+  "...Comment1":"Information of About-Menu",
+"About": [
+    {
+      "heading": "Department",
+      "detailservices": [
+        {
+          "header": "About Department :",
+          "paragraph": [
+     
+              {
+              "p":"The Department of Employment and Training was established in the year 1964 with an objective to train the unskilled into semi-skilled trainees so as to meet the demand of the Industry. Once the Trainees come out from the Institute the Employment wing will provide employment assistance. This Department has two wings i.e, 1. Employment Wing and 2. Training Wing."
+            }
+          ]
+        },
+        {
+          "header": "Employment Wing :",
+          "paragraph": [
+            {
+              "p":"There are (14) District Employment Exchanges (6) Sub-Employment Exchanges and (2) University Employment Information Guidance Bureau in Andhra Pradesh. "
+            },
+            {
+              "p":" Employment Exchanges have been sponsoring suitable candidates from the Live Register of Employment Exchanges to Employers based on their notifications in terms of G. O. Ms. No. 193 Education (Emp.) Department dt. 27.06.1994 and also organizing Job Melas in all 13 districts of AP to provide jobs in Private Sector establishments to job seekers."
+            }
+          ]
+        },
+        {
+          "header": "Training Wing :",
+          "paragraph": [
+        {
+          "p": " The objective of Industrial Training Institutes (ITIs) is to provide skills training in 40 Courses which are aligned to NSQF level 4 or 5 and produce semi skilled workers for the Industry. Certification by National Council for Vocational Training (NCVT) New Delhi recognized pan India and internationally and also conducting Short term courses under PMKVY."
+        },
+        {
+          "p": " Every year admissions will be allowed in all 84 Govt. ITIs and 428 Pvt. ITIs."
+        },
+        {
+          "p": "Sanctioned capacity is 1,40,732 seats. ( 28,505 in Govt. ITIs and 1,12,227 seats in Private ITIs)"
+        },
+        {
+          "p": "All the Govt. and Private ITIs are affiliated under National Council for Vocational Training( NCVT), New Delhi."
+        },
+        {
+          "p": "Admissions are made through NIC portal (iti.nic.in). "
+        },
+        {
+          "p": "Candidates submit their applications through online and seats are allotted by the Principal through online."
+        },
+        {
+          "p": "Admitted trainees data is uploaded in NCVT MIS portal through API. "
+        },
+        {
+          "p": "Hall tickets and e-NTCs (certificates) are issued through Online."
+        },
+        {
+          "p": "39 ITIs are imparting training in Dual System of Training (DST) 3 to 6 months for 1 Yr Courses and 6 to 12 months for 2 Yr. Courses in the industry), in Collaboration with 51 Industries."
+        },
+        {
+          "p": "15 ITIs are covered under Skills Strengthening for Industrial Value Enhancement (STRIVE) scheme with a project cost of Rs. 41.47 Crores under CSS (100:0), upgrading the Machinery & Equipment."
+        },
+        {
+          "p": "Govt ITI, Gajuwaka,Visakhapatnam is being upgraded as Model ITI with a project cost of Rs. 10 Croresunder CSS (70:30)."
+        },
+        {
+          "p":"Govt ITI, Gadugupalli, Hukumpeta (M), Visakhapatnam covered under Skill Development in Leftwing Extremism (LWE) affected areas Scheme with a project cost of Rs. 7.34 Crores under CSS (75:25)."
+        },
+        {
+          "p":"Implementation of Apprentice Act, National Apprenticeship Promotion Scheme (NAPS) for engaging trainees as apprentices to enhance employability."
+        },
+        {
+          "p":"Digital Class Rooms are established in 13 Govt. ITIs with the Support of Andhra Pradesh State Skills Development Corporation. "
+        },
+        {
+          "p":"Training in Communication and Life skills is provided to all Govt.ITI students in collaboration with M/S Naandi Foundation. "
+        },
+        {
+          "p":"Training Programs in Air Conditioning and Repairs in 5 Govt/ ITIs is provided in Collaboration with M/s Johnson-M/s Hitachi. "
+        },
+        {
+          "p":" ITI trainees are also being trained in Technical Skill Development Institutes(TSDI’s) under SIEMENS project of APSSDC."
+        } 
+      ]
+     }
+   ]
+  }
+],
+  "...Comment2":"Information of RTI-Menu",
+"Rti": [
+  {
+    "heading": " RTI ACT",
+    "detailservices": [
+    {
+    "header": "Right to Information Act",
+    "p": "The Right to Information (RTI) is an act of the Parliament of India which sets out the rules and procedures regarding citizens' right to information. It replaced the former Freedom of Information Act, 2002. Under the provisions of RTI Act, any citizen of India may request information from a public authority (a body of Government or instrumentality of State) which is required to reply expeditiously or within thirty days. The Act also requires every public authority to computerize their records for wide dissemination and to proactively publish certain categories of information so that the citizens need minimum recourse to request for information formally.",
+    "Serial":"S.No",
+    "Authority":"Authority",
+    "Trainingwing":"Training wing",
+    "Contact":"Contact no",
+    "paragraph":[ 
+
+      { "Serial":1,
+        "Authority":"xx",
+        "Trainingwing":"xx",
+        "Contactno":"xx"
+      },
+      { "Serial":2,
+        "Authority":"xx",
+        "Trainingwing":"xx",
+        "Contactno":"xx"
+      },
+      { "Serial":3,
+        "Authority":"xx",
+        "Trainingwing":"xx",
+        "Contactno":"xx"
+      }
+   ]
+  }
+]
+}
+],
+  "...Comment3":"Information of ContactUs-Menu",
+ 
+
+"contact": [
+  {
+    "title": "Contact Us",
+    "heading":"Telephone Numbers",
+    "description":"",
+    "link":"",
+    "subtitle":"Office Location",
+    "header":"Office Address",
+    "paragraph": [
+      {
+        "p": "ESHRAM., "
+      },
+      {
+        "p": "ESHRAM, "
+      },
+      {
+        "p": "Government of Andhra Pradesh,"
+      },
+      {
+        "p": "Vijayawada,NTR District, Andhra Pradesh-520 008, INDIA."
+      }
+
+    ],
+    "imgsrc": "./images/address.png",
+    "imgalt": "image1",
+    "link1" :"/map"
+  }
+],
+
+  "Form": [
+  {
+    "title": "Student Data",
+    "subtitle":"",
+    "header":"",
+    "paragraph": [
+      {
+        "name": " Reg.Id",
+        "admin":"Admin.No",
+        "submit":"Submit",
+        "link":"https://103.129.75.165/itiapi/reports/getCollegesInfo"
+      }
+    ]
+  
+  }
+],
+
+
+  
+
+  "...comment10":" Below Information related to 'Websitepolicices' and 'Help'.",
+
+  "websitepolicies": [
+    {
+      "heading": "Website Policies",
+      "detailservices": [
+        {
+          "header": "Terms of Use",
+          "paragraph": [
+            {
+              "p": "ITI APSC is managing the content of the website."
+            },
+            {
+              "p": "Though all efforts have been made to ensure the accuracy and currency of the content on this website, the same should not be construed as a statement of law or used for any legal purposes."
+            },
+            {
+              "p": "In no event will the ITI APSC be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data, arising out of or in connection with the use of this Portal."
+            },
+            {
+              "p": "Links to other websites that have been included on this Portal are provided for public convenience only. We cannot guarantee the availability of such linked pages at all times."
+            },
+            {
+              "p": "These terms and conditions shall be governed by and construed in accordance with the Indian Laws. Any dispute arising under these terms and conditions shall be subject to the exclusive jurisdiction of the courts of India."
+            }
+          ]
+        },
+        {
+          "header": "Copyright Policy",
+          "paragraph": [
+            {
+              "p": "Material featured on this website may be reproduced free of charge after taking proper permission by sending a mail to us. However, the material has to be reproduced accurately and not to be used in a derogatory manner or in a misleading context. Wherever the material is being published or issued to others, the source must be prominently acknowledged. However, the permission to reproduce this material shall not extend to any material which is identified as being copyright of a third party. Authorisation to reproduce such material must be obtained from the departments/copyright holders concerned."
+            }
+          ]
+        },
+        {
+          "header": "Privacy Policy",
+          "paragraph": [
+            {
+              "p": "This website does not automatically capture any specific personal information from you, (like name, phone number or e-mail address), that allows us to identify you individually."
+            },
+            {
+              "p": "If the website requests you to provide personal information, you will be informed for the particular purposes for which the information is gathered e.g. feedback form and adequate security measures will be taken to protect your personal information."
+            },
+            {
+              "p": "We do not sell or share any personally identifiable information volunteered on the website site to any third party (public/private). Any information provided to this website will be protected from loss, misuse, unauthorized access or disclosure, alteration, or destruction."
+            },
+            {
+              "p": "We gather certain information about the User, such as Internet protocol (IP) addresses, domain name, browser type, operating system, the date and time of the visit and the pages visited. We make no attempt to link these addresses with the identity of individuals visiting our site unless an attempt to damage the site has been detected."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Hyper Linking Policy",
+      "detailservices": [
+        {
+          "header": "Links to external websites/portals",
+          "paragraph": [
+            {
+              "p": "At many places in this website, you shall find links to other websites/portals. This links have been placed for your convenience. We can not guarantee that these links will work all the time and we have no control over availability of linked pages."
+            }
+          ]
+        },
+        {
+          "header": "Archival Policy",
+          "paragraph": [
+            {
+              "p": "ITI APSC specific content published in the ITI AP State Centre Website are generic in nature, having no specific life (Time To Leave). Hence are always live and can be accessible through the website. However, content published under the sections like Events, Tenders, Recruitment and Announcements have a life span and will automatically be moved to the online archival section after the assigned end date (displayed along with each content item)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "Help": [
+    {
+      "heading":"Help",
+      "detailservices":[
+        {
+          "header": "",
+          "paragraph": [
+            {
+              "p": "Are you finding it difficult to access/navigate through the content/pages of this Portal? This section attempts to help you have a pleasant experience while browsing this Portal."
+            }
+          ]
+        },
+        {
+          "header": "Accessibility",
+          "paragraph": [
+            {
+              "p": "We are committed to ensure that the site is accessible to all users irrespective of device in use, technology or ability. It has been built, with an aim, to provide maximum accessibility and usability to its visitors."
+            },
+            {
+              "p": "Best efforts have been put to ensure that all information on this website is accessible to people with disabilDCAes. For example, a user with visual disability can access this website using assistive technology, such as screen reader. Users with low vision can use high contrast and font size increase options. This website meets level AA of the Web Content Accessibility Guidelines (WCAG) 2.0 laid down by the World Wide Web Consortium (W3C)."
+            },
+            {
+              "p": " If you have any problem or suggestion regarding the accessibility of this Site, please send a feedback to us."
+            }
+          ]
+        },
+        {
+          "header": "Screen Reader Access",
+          "paragraph": [
+            {
+              "p": "Our visitors with visual impairments can access the site using Assistive Technologies, such as screen readers."
+            },
+            {
+              "p": "Following table lists the information about different screen readers:"
+            }
+          ]
+        },
+        {
+          "header": "Viewing Information in Various File Formats",
+          "paragraph": [
+            {
+              "p": "The information provided by this Web site is available in various file formats, such as Portable Document Format (PDF), Word, Excel and PowerPoint. To view the information properly, your browser need to have the required plug-ins or software. For example, the Adobe Flash software is required to view the Flash files. In case your system does not have this software, you can download it from the Internet for free. The table lists the required plug-ins needed to view the information in various file formats."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+  }
+      
+
+
+  
+
+
+
+
+    

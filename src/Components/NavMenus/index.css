@@ -1,0 +1,276 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  max-height: fit-content;
+  
+}
+
+.navdetails {
+  background: #66abf0fd; 
+  border-color: #0c0c0c;
+  border-bottom: 1px solid #0c0c0c;
+  border-top: 1px solid #0c0c0c;
+  justify-content: center;
+  text-align: center;
+  grid-column: 10 default;
+}
+
+.sticky{
+  min-height: 44px;
+}
+
+.navlinkdetails{
+ margin-left:0px ;
+}
+
+.navbar-nav .nav-link{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.selected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected h4 {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.header1 {
+  background-color: rgb(252, 1, 1);
+  transform: skew(-20deg);
+}
+
+.header {
+  background-color: rgb(69, 61, 61);
+}
+
+.navheader {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 7px 7px;
+}
+
+.links li a {
+  display: block;
+  text-decoration: none;
+  color: rgba(14, 15, 15, 0.945) !important;
+  font-style: normal;
+  text-align: left;
+  padding:8px 8px;
+  margin:5px 5px;
+  font-size:14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.links li a:hover .active {
+  color: rgb(27, 25, 25) !important;
+}
+
+#nav-Dropdown {
+  display: block;
+  border-radius: 10px;
+  right:0px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size:14px;
+  padding:10px 8px;
+  margin: 1px 5px;
+  background: #66abf0fd; 
+}
+
+#nav-Dropdown:hover{
+  background-color:#efebe9;
+}
+
+.Dropdown-item:hover .dropdown-item{
+  background: #66abf0fd;
+  padding:1px 1px; 
+  width:100%;
+  font-weight: bold;
+  
+}
+
+.Dropdown-item:focus .Dropdown-item:hover {
+  text-decoration: none;
+  background-color: #47a3ff;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0px 0px;
+  margin:0px 0px;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border-color: black;
+  margin-left: -20px;
+}
+
+#expand1{
+  margin: -3px -3px -3px -3px;
+  padding: 8px 8px 8px 3px ;
+}
+
+#padding{
+  display: block;
+  width: 100%;
+  padding: 1px 1px;
+  margin:1px 1px;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  border-color: rgb(19, 18, 18);
+}
+
+#item{
+  position: absolute;
+  top: calc(100% + 0px);
+  padding:0px 0px;
+  margin: 0px 0px;
+  left: 0px;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 4px;
+  background-color:#66abf0fd;
+  border-color: #0c0c0c;
+}
+
+#item1{
+  position: relative;
+  top: calc(100% + 12px);
+  padding:0px 0px;
+  margin: 0px 0px 0px 0px;
+  right: 0px;
+  flex-direction: column;
+  min-width:230px;
+  border-radius: 4px;
+  border: #0c0c0c;
+}
+
+#dropdown-item{
+  padding:1px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-weight: bold;
+  background: #66abf0fd; 
+}
+
+.dropdown-toggle{
+  border: none;
+  padding: 6px 8px;
+  margin:6px 8px;
+}
+
+#navbarDropdown{
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 0px;
+}
+
+#navbarDropdown1{
+  border-radius: 10px;
+  margin-left: 0px;
+}
+
+#navbarDropdown2{
+  border-radius: 10px;
+  margin-right: -15px;
+  background-color: #edefe9;
+  margin-left: 0px;
+}
+
+#navbarDropdown3{
+  margin-left: -20px;
+}
+
+.nav-link-dropdown {
+  padding: 0px;
+  display: inline-block;
+  width:270px;
+  color: rgb(26, 23, 23) !important;
+  background-color: #36b1f8ea;
+  justify-content: center;
+}
+
+#drop{
+  padding:0px 0px;
+  margin:0px 0px;
+}
+
+#left {
+  position: relative;
+  left: 130px;
+}
+
+#mdlaunch{
+  position:relative;
+  left: 150px;
+}
+
+#medical {
+  position:relative;
+  left: 114px;
+}
+
+#councelling{
+  position:relative;
+  left: 143px;
+}
+
+#results{
+  left: 176px;
+}
+
+#menu{
+   text-align: center;
+ }
+
+ .alert-enter{
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.alert-enter-active{
+  opacity: 0;
+  transform: translateX(0);
+  transition: opacity 300ms; 
+}
+
+.alert-exit{
+  opacity: 1;
+}
+
+.alert-exit-active{
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms;   
+}
+
+.zuzu{
+  height: 100%;
+}
+
+.sublink{
+ width: 100px;
+}
+
+#dropdown{
+  position: relative;
+  padding:0px 0px;
+  margin: 0px 0px;
+  right: 0px;
+  flex-direction: column;
+  border-radius: 4px;
+}

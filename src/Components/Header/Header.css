@@ -1,0 +1,120 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  max-height: fit-content;
+  
+}
+
+.navdetails {
+  background: #1b80f3fd;
+  border-color: #5ba1da;
+  border-bottom: 1px solid #0c0c0c;
+  border-top: 1px solid #0c0c0c;
+  justify-content: center;
+  text-align: center;
+  grid-column: 10 default;
+ 
+  
+}
+.sticky{
+  min-height: 44px;
+}
+
+
+.navlinkdetails{
+ margin-left:-5px ;
+
+}
+
+
+.selected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.selected h4 {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.header1 {
+  background-color: rgb(252, 1, 1);
+  transform: skew(-20deg);
+}
+
+.header {
+  background-color: rgb(69, 61, 61);
+}
+
+.navheader {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 7px 7px;
+}
+
+.links li a {
+  display: block;
+  margin: 0px 2px;
+  text-decoration: none;
+  color: rgba(227, 236, 238, 0.945) !important;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  padding:5px 10px;
+  border-radius: 25px;
+ 
+}
+
+.nav-link-dropdown {
+  padding: 10px;
+  display: block;
+  width: 280px;
+  color: rgb(26, 23, 23) !important;
+  background-color: #1b80f3fd;
+  top: 10px;
+  justify-content: center;
+ 
+  
+}
+
+
+
+#left {
+  position: relative;
+  left: 130px;
+ 
+}
+#mdlaunch {
+  position:relative;
+  left: 150px;
+ 
+}
+
+#medical {
+  position:relative;
+  left: 111px;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  top:97%;
+  border-color: rgb(19, 18, 18);
+  background-color: #1b80f3fd;
+  padding:2px 16px;
+}
+
+.links li a:hover {
+  color: rgb(27, 25, 25) !important;
+  background-color: #ec991c;
+ 
+  
+}
+ #menu{
+   text-align: center;
+ }
+
