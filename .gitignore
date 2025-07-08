@@ -8,9 +8,9 @@
 *.webp
 *.tiff
 *.ico
-
+iti_project_Copy/
 node_modules/
 build/
 .env/
 /assets/images/
-P2sitedata.json
+P2sitedata.json/

@@ -1,0 +1,2771 @@
+{
+  
+  "index.html":"Change the project name (ex: DCA or ITI or NOC)as per our need in ----- public/index.html",
+  "Project path with root (/)":"Change the project path names for root project (/) in two files 1.package.json 2. src/Layout/layout.js",
+  "Project path with name (ex:nicapsc-dca)":"Change the project path names with Project name(ex:nicapsc-iti   in three files 1.package.json,  2. src/Layout/Layout.js, 3.src/Layout/routeConfig.js (add the project name ( /nicapsc-iti/ )before the (' /node201 ') ex: /nicapsc-iti/node201 ) ", 
+ 
+  "For API data changing":"Goto the folder names Redux1,2,3,4.  And open the files 1.users.service.js & 2.users.thunks.js And then change the Project names as  p1 - for Project1 ; p2 - for Project2 ; p3 - for Project3 ; p4 - for Project4",
+  "important for API data":"goto C141.js,C142.js, C143.js files and change the pname for project2(ITI) - p2",
+   
+  "copy the below information into 'cities.json' file with Array symbols":
+   [{    
+    "name"      : "ITI-Industrial Training Institutes.",
+    "admin"     : "ITI",
+    "address"   : "Industrial Training Institutes,Vijayawada.",
+    "state"     : "Vijaywada",
+    "country"   : "India",
+    "iso2"      : "IN",
+    "capital"   : "admin",
+    "lat"       : "16.51",
+    "lng"       : "80.64",
+    "center"    : ["16.51", "80.64"],   
+    "zoomlevel" : "10"
+}], 
+ 
+ 
+ "..commentA":"Change the Pop value either 'true' or 'false'.",
+
+     "Popvalue":false,
+
+      "...comment1": "below link is - API url",
+
+"url": "https://itiadmissions.ap.gov.in/apwaas/users/",
+"url1": "https://itiadmissions.ap.gov.in/apwaas/courses/",
+"url2":"http://10.242.162.237:8080/eshram/eshramCount",
+"url3":"http://10.242.162.237:8080/eshram/getByRegistrationDateAndDistrict",
+"url4":"http://10.242.162.237:8080/eshram/EshramData",
+ 
+   "...comment2":"Navigation Bar-Menu names and links",
+  "Navlink": [
+    {
+      "title": "HOME",
+      "link": "/#about"
+    }
+  ],
+ 
+  
+"comment...":"data for the project name with /nicapsc-iti/",
+  "drop":[
+    {
+      "name": "ABOUT",
+      "type": "page",
+      "children": [
+        {
+          "name": "ABOUT NCVT/SCVT",
+          "link": "node201",
+          "type": "page"
+        },
+        {
+          "name": "ORGANISATION",
+          "link": "node202",
+          "type": "page"
+        },
+        {
+          "name": "ITIs TRADE SPECIATIONS",
+          "link": "node203",
+          "type": "page"
+        },
+        {
+          "name": "ITI WISE SEATS/TRADES ",
+          "link": "node210",
+          "type": "page"
+        },
+        {
+          "name": "SCHEMES",
+          "link": "node211",
+          "type": "page"
+        }
+      ]
+     },
+     {
+      "name": "INFORMATION",
+      "type": "page",
+      "children": [
+        {
+          "name": "ABOUT THE STRIVE",
+          "link": "node302",
+          "type": "page"
+        },
+        {
+          "name": "REGISTRATION",
+          "link": "node303",
+          "type": "page",
+          "target":"_blank"
+        },
+        {
+          "name": "DISCLOSURE MANAGEMENT",
+          "link": "node351",
+          "type": "page"
+        },
+        {
+          "name": "COURSE MASTER",
+          "link": "node355 ",
+          "type": "page"
+        }
+       
+      ]
+    },
+    {
+     "name": "RTI",
+     "type": "page",
+     "children": [
+       {
+         "name": "RTI",
+         "link": "node601",
+         "type": "page"
+       }
+     ]
+    },
+    
+    {
+     "name": "CONTACT US",
+     "type": "page",
+     "children": [
+       {
+         "name": "CONTACT US",
+         "link": "node701",
+         "type": "page"
+       }
+     ]
+   },
+   {
+    "name": "LOGIN",
+    "type": "page",
+    "children": [
+      {
+        "name": "LOGIN",
+        "link": "/node801",
+        "type": "page"
+      }
+    ]
+  }
+ 
+  ],
+  "Navlink1": [
+    {
+      "title": "LOGIN",
+      "link": "Auth"
+    }
+  ],
+  "Navlink2":[
+    {
+      "title": "HELPDESK",
+      "link": "https://servicedesk.nic.in/"
+    } 
+  ],
+  "Navlink3": [
+    {
+      "title": "RTI",
+      "link": "Rti"
+    },
+    {
+      "title": "CONTACT US",
+      "link": "ContactUs"
+    }
+  ],
+  "Navlinkleft": [
+    {
+      "title": "ITI",
+      "link": "https://iti.ap.gov.in/"
+    }
+  ],
+
+ 
+
+
+  "...comment3": "Social icons for top Navbar",
+
+  "socialicons": [
+    {
+      "link1": "#home",
+      "title1": "SKIP TO MAINCONTENT",
+      "link2": "",
+      "title2": "",
+      "iconslink": [
+        {
+          "iconname": "fa fa-instagram",
+          "link": "https://www.instagram.com/",
+          "description": ""
+        },
+        {
+          "iconname": "fa fa-facebook-f",
+          "link": "https://www.facebook.com/",
+          "description": ""
+        },
+        {
+          "iconname": "fa fa-instagram",
+          "link": "https://www.instagram.com/",
+          "description": ""
+        },
+        {
+          "iconname1": "fa fa-sitemap",
+          "link1": "sitemap",
+          "description": ""
+        }
+      ]
+    }
+  ],
+
+"...comment4":"Header Names and Images",
+
+  "Header": [
+    {
+      "img1": [
+        {
+          "imgsrc": "./images/P2H1.jpg",
+          "imgalt": "logo1",
+          "link": "https://itiadmissions.ap.gov.in/"
+        }
+      ],
+      "header":" Industrial Training Institutes - ITI IMS ",
+      "heading": "Department of Employment and Training",
+      "description": [
+        { "title": " Government of Andhra Pradesh " }
+      ],
+      "img2": [
+        {
+          "imgsrc": "./images/P2H2.jpg",
+          "imgalt": "logo2",
+          "link": "https://www.skillindia.gov.in/"
+        }
+      ]
+    }
+  ],
+
+  "...comment5":"Navigation Bar Names & Description, Sliding images and Designations",
+
+  "menu1": [
+    {
+      "title1": "home",
+      "title2": "aboutus",
+      "title3": "dcaservices",
+      "title4": "newsupdates",
+      "section1": [
+        {
+          "carousel1": [
+            {
+              "image": "./images/P2slideimage1.jpg",
+              "imgalt": "First slide"
+            }
+          ],
+          "carousel2": [
+            {
+              "image": "./images/P2slideimage2.jpg",
+              "imgalt": "Second slide"
+            }
+          ]
+        }
+      ],
+      "section2": [
+        {
+          "title": "About US ",
+          "paragraph": [
+            {
+              "p": "About Department :The Department of Employment and Training was established in the year 1964 with an objective to train the unskilled into semi-skilled trainees so as to meet the demand of the Industry. Once the Trainees come out from the Institute the Employment wing will provide employment assistance. This Department has two wings i.e, 1. Employment Wing and 2. Training Wing."
+            },
+            {
+              "p":"Employment Wing : There are (14) District Employment Exchanges (6) Sub-Employment Exchanges and (2) University Employment Information Guidance Bureau in Andhra Pradesh."
+            },
+            { "p":"Employment Exchanges have been sponsoring suitable candidates from the Live Register of Employment Exchanges to Employers based on their notifications in terms of G. O. Ms. No. 193 Education (Emp.) Department dt. 27.06.1994 and also organizing Job Melas in all 13 districts of AP to provide jobs in Private Sector establishments to job seekers." 
+               }
+
+          ],
+          "imgsrc": "./images/C-A.jpg",
+          "imgalt": "image1",
+          "button": "View More",
+          "button_link": "about"
+        }
+      ],
+
+      "section3": [
+        {
+          "title": "",
+          "card1": [
+            {
+              "imgsrc": "./images/CM.jpeg",
+              "imgalt": "img-1 ",
+              "title": " Sri. N. Chandrababu Naidu",
+              "description": "Hon'ble Chief Minister",
+              "para":[
+                {
+                  
+                  "subtitle":"Government of Andhra Pradesh " 
+                }
+              ],
+              "button": "View More"
+            },
+            {
+              "imgsrc": "./images/image.jpg",
+              "imgalt": "img-2",
+              "title": "Minister",
+              "description": "Skill Development and Training Minister",
+
+              "para":[ 
+                { 
+                  "subtitle":"Government of Andhra Pradesh" }
+              ],
+             
+              
+              "button": "View More"
+            },
+            {
+              "imgsrc": "./images/image.jpg",
+              "imgalt": "img-3",
+              "title": "I.T.I Commissioner.",
+              "description": "Industrial Training Institues.",
+              "para":[
+                {  
+                  "subtitle":"Government of Andhra Pradesh."
+                }
+              ],
+             
+              "button": "View More"
+            }
+           
+          ]
+        }
+      ],
+
+     
+      "section4": [
+        {
+          "subsection1": [
+            {
+              "title": "News & Events ",
+              "content": [
+                {
+                  "link": "/nicapsc-iti/newsapi",
+                  "description": "Industrial Training Department (ITD)to the youths in Andhra Pradesh State."
+                },
+                {
+                  "link": "/nicapsc-iti/newsapi",
+                  "description": "Industrial Training Department (ITD)to the youths in Andhra Pradesh State. "
+                },
+                {
+                  "link": "/nicapsc-iti/newsapi",
+                  "description": " Industrial Training Department (ITD)to the youths in Andhra Pradesh State."
+                }
+              ],
+              "button": "View More",
+              "button_link": "notification"
+            }
+          ],
+            
+              "subsection3": [
+                {
+                  "title": "Media Gallery ",
+                  "carousel1": [
+                    {
+                      "img": "./images/cardimg-3.jpg",
+                      "imgalt": "First slide"
+                    }
+                  ],
+                  "carousel2": [
+                    {
+                      "img": "./images/cardimg-4.jpg",
+                      "imgalt": "Second slide"
+                    }
+                  ],
+                
+                  "button": "View More",
+                  "button_link": "Images"
+                }
+              ],
+          "subsection2": [
+            {
+              "title": "Media Gallery",
+              "imgsrc": "./images/004.png",
+              "imgalt": "image1",
+              "button": "View More",
+              "button_link": "Images"
+            }
+            
+          ]
+        }
+      ]
+    }
+  ] ,
+
+  
+"section2": [
+  {
+    "title": "About US ",
+    "paragraph": [
+      {
+        "p": "About Department :The Department of Employment and Training was established in the year 1964 with an objective to train the unskilled into semi-skilled trainees so as to meet the demand of the Industry. Once the Trainees come out from the Institute the Employment wing will provide employment assistance. This Department has two wings i.e, 1. Employment Wing and 2. Training Wing."
+      },
+      {
+        "p":"Employment Wing : There are (14) District Employment Exchanges (6) Sub-Employment Exchanges and (2) University Employment Information Guidance Bureau in Andhra Pradesh."
+      },
+      { "p":"Employment Exchanges have been sponsoring suitable candidates from the Live Register of Employment Exchanges to Employers based on their notifications in terms of G. O. Ms. No. 193 Education (Emp.) Department dt. 27.06.1994 and also organizing Job Melas in all 13 districts of AP to provide jobs in Private Sector establishments to job seekers." 
+         }
+
+    ],
+    "imgsrc": "./images/C-A.jpg",
+    "imgalt": "image1",
+    "button": "View More",
+    "button_link": "about"
+  }
+],
+
+"section3": [
+  {
+    "title": "",
+    "card1": [
+      {
+        "imgsrc": "./images/CM.jpeg",
+        "imgalt": "img-1 ",
+        "title": " Sri. N. Chandrababu Naidu",
+        "description": "Hon'ble Chief Minister of Andhra Pradesh",
+        "para":[
+          {
+            
+            "subtitle":"  " 
+          }
+        ],
+        "button": "View More"
+      },
+      {
+        "imgsrc": "./images/image.jpg",
+        "imgalt": "img-2",
+        "title": "Minister",
+        "description": "Skill Development and Training Minister, Andhra Pradesh",
+
+        "para":[ 
+          { 
+            "subtitle":"" }
+        ],
+       
+        
+        "button": "View More"
+      },
+      {
+        "imgsrc": "./images/image.jpg",
+        "imgalt": "img-3",
+        "title": "Commissioner",
+        "description": "Industrial Training Institues,Andhra Pradesh",
+        "para":[
+          {  
+            "subtitle":""
+          }
+        ],
+       
+        "button": "View More"
+      }
+     
+    ]
+  }
+],
+ 
+ 
+  "...comment6":"Footer page updates",
+
+  "footerlink": [
+    {
+      "title":"Footer Menu",
+      "content":[
+     {
+      "title": "Website Policies",
+      "link": "websitepolicies"
+    },
+    {
+      "title": "Help",
+      "link": "help"
+    }
+  ]
+ }
+  ],
+
+  "Footer": [
+    {
+      "p":"© NIC APSC , Developed and hosted by ",
+      "title": "National Informatics Centre,",
+      "link": "https://www.nic.in/"
+    },
+    {
+      "title": " Ministry of Electronics & Information Technology, Government of India",
+      "link": "https://www.meity.gov.in/"
+    },
+    {
+      "p":" Last Updated: Oct 03, 2024."
+    }
+  ],
+
+    "...comment7":"If API is down-The below information will display in All pages.",
+
+"Latestnews":[
+    {
+      "ptitle":"Latest News",
+      "a":[
+        {
+          "aname":"Data is pending.......",
+          "avalue":""
+        },
+        {
+          "link":"fetch"
+        }
+      ]
+
+    }
+  ],
+
+"Events":[
+  {
+    "ptitle":"Events",
+    "a":[
+      {
+        "aname":"Data is pending.......",
+        "avalue":""
+      },
+      {
+        "aname":"Data is pending.......",
+        "avalue":""
+      }
+    ]
+  }
+],
+
+"Reward":[
+  {
+    "ptitle":"Rewards",
+    "a":[
+      {
+        "aname":"Data is pending........",
+        "avalue":"para"
+      },
+      {
+        "aname":"Data is pending.......",
+        "avalue":"para"
+      }
+    ]
+  }
+],
+
+"...comment8":"Button links for Events and Rewards",
+
+  "Updates":[
+    {
+      "button": "View All",
+      "button_link": "node152"
+    }
+  ],
+  "Rewards":[
+    {
+      "button": "View All",
+      "button_link": "node52"
+    }
+  ],
+
+
+  "Redux1":[
+    {
+      "Trade_Name":"Tittle",
+      "Duration":"Description",
+      "Type":"File"
+    }
+  ],
+  "Redux2":[
+    {
+      "Trade_Name":"Tittle",
+      "Duration":"Description",
+      "Type":"File"
+    }
+  ],
+  "Redux3":[
+    {
+      "Trade_Name":"Trade Name",
+      "Duration":"Duration",
+      "Type":"Type"
+    }
+  ],
+
+  "Redux4":[
+    {
+      "Trade_Name":"Trade Name",
+      "Duration":"Duration",
+      "Type":"Type"
+    }
+  ],
+  "Redux5":[
+    {
+      "s_no":"S.No",
+      "district":"District Name",
+      "eshram":"Workers Registered in eShram",
+      "eshram_boc":"Workers Registered in eShram & BOC",
+      "boc_eshram":" Workers Registered in eShram and to be Registered in BOC",
+      "boc":"Workers Registered in BOC",
+      "register_eshram":"Workers Registered in BOC and to be Registered in eshram"
+     
+    }
+  ],
+
+  "Redux6":[
+    {
+      "Trade_Name":"Trade Name",
+      "Duration":"Duration",
+      "Type":"Type"
+    }
+  ],
+ "Redux7":[
+    {
+      "s_no":"S.No",
+      "district":"District Name",
+      "aadhaar_name":"Aadhaar Name",
+      "aadhaar_dob":"Aadhaar DOB",
+      "gender":"Gender",
+      "father_husband_name":"Father/Husband Name",
+      "mobile_number":"Mobile Number",
+      "pincode":"Pincode",
+      "occupation_name":"Occupation Name",
+      "uan_no":"UAN Number",
+      "registration_date":"Registration Date"
+     
+    }
+  ],
+  "Redux8":[
+    {
+      "s_no":"S.No",
+      "district":"District Name",
+      "aadhaar_name":"Aadhaar Name",
+      "aadhaar_dob":"Aadhaar DOB",
+      "gender":"Gender",
+      "father_husband_name":"Father/Husband Name",
+      "mobile_number":"Mobile Number",
+      "pincode":"Pincode",
+      "occupation_name":"Occupation Name",
+      "uan_no":"UAN Number",
+      "registration_date":"Registration Date"
+     
+    }
+  ],
+
+  "...Comment1":"Information of About-Menu",
+"About": [
+    {
+      "heading": "Department",
+      "detailservices": [
+        {
+          "header": "About Department :",
+          "paragraph": [
+     
+              {
+              "p":"The Department of Employment and Training was established in the year 1964 with an objective to train the unskilled into semi-skilled trainees so as to meet the demand of the Industry. Once the Trainees come out from the Institute the Employment wing will provide employment assistance. This Department has two wings i.e, 1. Employment Wing and 2. Training Wing."
+            }
+          ]
+        },
+        {
+          "header": "Employment Wing :",
+          "paragraph": [
+            {
+              "p":"There are (14) District Employment Exchanges (6) Sub-Employment Exchanges and (2) University Employment Information Guidance Bureau in Andhra Pradesh. "
+            },
+            {
+              "p":" Employment Exchanges have been sponsoring suitable candidates from the Live Register of Employment Exchanges to Employers based on their notifications in terms of G. O. Ms. No. 193 Education (Emp.) Department dt. 27.06.1994 and also organizing Job Melas in all 13 districts of AP to provide jobs in Private Sector establishments to job seekers."
+            }
+          ]
+        },
+        {
+          "header": "Training Wing :",
+          "paragraph": [
+        {
+          "p": " The objective of Industrial Training Institutes (ITIs) is to provide skills training in 40 Courses which are aligned to NSQF level 4 or 5 and produce semi skilled workers for the Industry. Certification by National Council for Vocational Training (NCVT) New Delhi recognized pan India and internationally and also conducting Short term courses under PMKVY."
+        },
+        {
+          "p": " Every year admissions will be allowed in all 84 Govt. ITIs and 428 Pvt. ITIs."
+        },
+        {
+          "p": "Sanctioned capacity is 1,40,732 seats. ( 28,505 in Govt. ITIs and 1,12,227 seats in Private ITIs)"
+        },
+        {
+          "p": "All the Govt. and Private ITIs are affiliated under National Council for Vocational Training( NCVT), New Delhi."
+        },
+        {
+          "p": "Admissions are made through NIC portal (iti.nic.in). "
+        },
+        {
+          "p": "Candidates submit their applications through online and seats are allotted by the Principal through online."
+        },
+        {
+          "p": "Admitted trainees data is uploaded in NCVT MIS portal through API. "
+        },
+        {
+          "p": "Hall tickets and e-NTCs (certificates) are issued through Online."
+        },
+        {
+          "p": "39 ITIs are imparting training in Dual System of Training (DST) 3 to 6 months for 1 Yr Courses and 6 to 12 months for 2 Yr. Courses in the industry), in Collaboration with 51 Industries."
+        },
+        {
+          "p": "15 ITIs are covered under Skills Strengthening for Industrial Value Enhancement (STRIVE) scheme with a project cost of Rs. 41.47 Crores under CSS (100:0), upgrading the Machinery & Equipment."
+        },
+        {
+          "p": "Govt ITI, Gajuwaka,Visakhapatnam is being upgraded as Model ITI with a project cost of Rs. 10 Croresunder CSS (70:30)."
+        },
+        {
+          "p":"Govt ITI, Gadugupalli, Hukumpeta (M), Visakhapatnam covered under Skill Development in Leftwing Extremism (LWE) affected areas Scheme with a project cost of Rs. 7.34 Crores under CSS (75:25)."
+        },
+        {
+          "p":"Implementation of Apprentice Act, National Apprenticeship Promotion Scheme (NAPS) for engaging trainees as apprentices to enhance employability."
+        },
+        {
+          "p":"Digital Class Rooms are established in 13 Govt. ITIs with the Support of Andhra Pradesh State Skills Development Corporation. "
+        },
+        {
+          "p":"Training in Communication and Life skills is provided to all Govt.ITI students in collaboration with M/S Naandi Foundation. "
+        },
+        {
+          "p":"Training Programs in Air Conditioning and Repairs in 5 Govt/ ITIs is provided in Collaboration with M/s Johnson-M/s Hitachi. "
+        },
+        {
+          "p":" ITI trainees are also being trained in Technical Skill Development Institutes(TSDI’s) under SIEMENS project of APSSDC."
+        } 
+      ]
+     }
+   ]
+  }
+],
+  "...Comment2":"Information of RTI-Menu",
+"Rti": [
+  {
+    "heading": " RTI ACT",
+    "detailservices": [
+    {
+    "header": "Right to Information Act",
+    "p": "The Right to Information (RTI) is an act of the Parliament of India which sets out the rules and procedures regarding citizens' right to information. It replaced the former Freedom of Information Act, 2002. Under the provisions of RTI Act, any citizen of India may request information from a public authority (a body of Government or instrumentality of State) which is required to reply expeditiously or within thirty days. The Act also requires every public authority to computerize their records for wide dissemination and to proactively publish certain categories of information so that the citizens need minimum recourse to request for information formally.",
+    "Serial":"S.No",
+    "Authority":"Authority",
+    "Trainingwing":"Training wing",
+    "Contact":"Contact no",
+    "paragraph":[ 
+
+      { "Serial":1,
+        "Authority":"First Appellate Authority",
+        "Trainingwing":"G.Munikanta Narayana,J.D(T)",
+        "Contactno":"8886882222"
+      },
+      { "Serial":2,
+        "Authority":"P.I.O",
+        "Trainingwing":"P.RajaSekhara Babu,A.D(AAA)",
+        "Contactno":"9959500386"
+      },
+      { "Serial":3,
+        "Authority":"A.P.I.O",
+        "Trainingwing":"V.Srinivas, A.A.O",
+        "Contactno":"9959500013"
+      }
+   ]
+  }
+]
+}
+],
+  "...Comment3":"Information of ContactUs-Menu",
+ 
+
+"contact": [
+  {
+    "title": "Contact Us",
+    "heading":"Telephone Numbers",
+    "description":"",
+    "link":"",
+    "subtitle":"Office Location",
+    "header":"Office Address",
+    "paragraph": [
+      {
+        "p": "Department of Employment and Training,ITI P.O., "
+      },
+      {
+        "p": "Industrial Trainning Institute, "
+      },
+      {
+        "p": "Government of Andhra Pradesh,"
+      },
+      {
+        "p": "Vijayawada,NTR District, Andhra Pradesh-520 008, INDIA."
+      }
+
+    ],
+    "imgsrc": "./images/address.png",
+    "imgalt": "image1",
+    "link1" :"/map"
+  }
+],
+
+  "Form": [
+  {
+    "title": "Student Data",
+    "subtitle":"",
+    "header":"",
+    "paragraph": [
+      {
+        "name": " Reg.Id",
+        "admin":"Admin.No",
+        "submit":"Submit",
+        "link":"https://103.129.75.165/itiapi/reports/getCollegesInfo"
+      }
+    ]
+  
+  }
+],
+
+
+  "...Comment4":"Information of Organisation-Menu",
+  "Organisation": [
+    {
+      "title": "Organisational Chart",
+      "paragraph": [
+       
+      {
+      "imgsrc": "./images/P2Org1.jpg",
+      "imgalt": "image1"
+      },
+      {
+        "imgsrc": "./images/P2Org3.jpg",
+        "imgalt": "image1"
+      },
+      {
+        "imgsrc": "./images/P2Org2.jpg",
+        "imgalt": "image1"
+      }
+      ]
+    }
+   
+  ],
+
+  "...comment10":" Below Information related to 'Websitepolicices' and 'Help'.",
+
+  "websitepolicies": [
+    {
+      "heading": "Website Policies",
+      "detailservices": [
+        {
+          "header": "Terms of Use",
+          "paragraph": [
+            {
+              "p": "ITI APSC is managing the content of the website."
+            },
+            {
+              "p": "Though all efforts have been made to ensure the accuracy and currency of the content on this website, the same should not be construed as a statement of law or used for any legal purposes."
+            },
+            {
+              "p": "In no event will the ITI APSC be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data, arising out of or in connection with the use of this Portal."
+            },
+            {
+              "p": "Links to other websites that have been included on this Portal are provided for public convenience only. We cannot guarantee the availability of such linked pages at all times."
+            },
+            {
+              "p": "These terms and conditions shall be governed by and construed in accordance with the Indian Laws. Any dispute arising under these terms and conditions shall be subject to the exclusive jurisdiction of the courts of India."
+            }
+          ]
+        },
+        {
+          "header": "Copyright Policy",
+          "paragraph": [
+            {
+              "p": "Material featured on this website may be reproduced free of charge after taking proper permission by sending a mail to us. However, the material has to be reproduced accurately and not to be used in a derogatory manner or in a misleading context. Wherever the material is being published or issued to others, the source must be prominently acknowledged. However, the permission to reproduce this material shall not extend to any material which is identified as being copyright of a third party. Authorisation to reproduce such material must be obtained from the departments/copyright holders concerned."
+            }
+          ]
+        },
+        {
+          "header": "Privacy Policy",
+          "paragraph": [
+            {
+              "p": "This website does not automatically capture any specific personal information from you, (like name, phone number or e-mail address), that allows us to identify you individually."
+            },
+            {
+              "p": "If the website requests you to provide personal information, you will be informed for the particular purposes for which the information is gathered e.g. feedback form and adequate security measures will be taken to protect your personal information."
+            },
+            {
+              "p": "We do not sell or share any personally identifiable information volunteered on the website site to any third party (public/private). Any information provided to this website will be protected from loss, misuse, unauthorized access or disclosure, alteration, or destruction."
+            },
+            {
+              "p": "We gather certain information about the User, such as Internet protocol (IP) addresses, domain name, browser type, operating system, the date and time of the visit and the pages visited. We make no attempt to link these addresses with the identity of individuals visiting our site unless an attempt to damage the site has been detected."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Hyper Linking Policy",
+      "detailservices": [
+        {
+          "header": "Links to external websites/portals",
+          "paragraph": [
+            {
+              "p": "At many places in this website, you shall find links to other websites/portals. This links have been placed for your convenience. We can not guarantee that these links will work all the time and we have no control over availability of linked pages."
+            }
+          ]
+        },
+        {
+          "header": "Archival Policy",
+          "paragraph": [
+            {
+              "p": "ITI APSC specific content published in the ITI AP State Centre Website are generic in nature, having no specific life (Time To Leave). Hence are always live and can be accessible through the website. However, content published under the sections like Events, Tenders, Recruitment and Announcements have a life span and will automatically be moved to the online archival section after the assigned end date (displayed along with each content item)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "Help": [
+    {
+      "heading":"Help",
+      "detailservices":[
+        {
+          "header": "",
+          "paragraph": [
+            {
+              "p": "Are you finding it difficult to access/navigate through the content/pages of this Portal? This section attempts to help you have a pleasant experience while browsing this Portal."
+            }
+          ]
+        },
+        {
+          "header": "Accessibility",
+          "paragraph": [
+            {
+              "p": "We are committed to ensure that the site is accessible to all users irrespective of device in use, technology or ability. It has been built, with an aim, to provide maximum accessibility and usability to its visitors."
+            },
+            {
+              "p": "Best efforts have been put to ensure that all information on this website is accessible to people with disabilDCAes. For example, a user with visual disability can access this website using assistive technology, such as screen reader. Users with low vision can use high contrast and font size increase options. This website meets level AA of the Web Content Accessibility Guidelines (WCAG) 2.0 laid down by the World Wide Web Consortium (W3C)."
+            },
+            {
+              "p": " If you have any problem or suggestion regarding the accessibility of this Site, please send a feedback to us."
+            }
+          ]
+        },
+        {
+          "header": "Screen Reader Access",
+          "paragraph": [
+            {
+              "p": "Our visitors with visual impairments can access the site using Assistive Technologies, such as screen readers."
+            },
+            {
+              "p": "Following table lists the information about different screen readers:"
+            }
+          ]
+        },
+        {
+          "header": "Viewing Information in Various File Formats",
+          "paragraph": [
+            {
+              "p": "The information provided by this Web site is available in various file formats, such as Portable Document Format (PDF), Word, Excel and PowerPoint. To view the information properly, your browser need to have the required plug-ins or software. For example, the Adobe Flash software is required to view the Flash files. In case your system does not have this software, you can download it from the Internet for free. The table lists the required plug-ins needed to view the information in various file formats."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+ 
+  "...comments11":"Below content is related to the 'Dropdown button-About'.",
+  "...comments11a":"Information for- NCVT.",
+"Pagetype1": [
+    {
+      "heading": "NATIONAL COUNCIL FOR VOCATIONAL TRAINING(NCVT)",
+      "detailservices": [
+        {
+          "header": "",
+          "paragraph": [
+            {
+              "p": " In pursuance of the recommendations of All India Council for Technical Education, the Government of India in the Ministery of Labour Resolution No. RTA-428(5)/DATED THE 22nd MAY, 1951, appointed a committee called the National trade Certification Investigation Committee with instructions to prepare a scheme for the establishment of All India Trades Board which would award certificates of proficiency to craftsman in the various engineering and non-engineering trades. Accordingly with a view to ensure and maintain uniformity in the standards of training all over the country, the National Council for Vocational Training, an advisory body, was set up by the Government of India in the year 1956. The Council has been entrusted with the responsibilities of prescribing standards and curricula for Craftsman Training advising the Government of India on the overall policy and programmes, conducting All India Trade Test and awarding National trade Certificates. The National Council is chaired by the Minister of Labour & Employment, with members representing Central and State Government departments, employers’ and workers’ organisations, professional and learned bodies, All India Council for Technical Education, Scheduled castes and Scheduled tribes, All India Women’s Organisation, etc. The State Council for Vocational Training at the State level and the Trade Committees have been established to assist the National Council. "
+            }
+           
+          ]
+        },
+     
+        {
+          "header": "OBJECTIVES",
+          "paragraph": [
+            { "p": "The Council functions as a central agency to advice the Government of India in framing the training policy and co-ordinating vocational training through out India." }
+          ]
+        },
+
+        {
+          "header": "FUNCTIONS",
+          "paragraph": [
+            {
+              "p": "The functions of the council:-"
+            },
+            { "p": "1. To establish and award national trade certificates in engineering & non-engineering trades and such other trades as may be brought within its scope by the government of india.  " },
+            { "p": "2. Prescribe standards in respect of syllabi, equipment, and scale of accommodation, duration of courses and method of training. " },
+            { "p": "3. Arrange trade tests in various trade courses and lay down standards of proficiency required for a pass in the examination leading to the award of national trade certificate." },
+            { "p": "4. Arrange for ad-hoc or periodical inspections of training institutions in the country to ensure that the standards prescribed by the council are being followed." },
+            { "p": "5. Recognize training institutions run by government or by private agencies for purposes of the grant of national trade certificates and lay down conditions for such recognition." },
+            { "p": "6. Co-opt, if necessary, any person or persons to advise the council in connection with its work."},
+            { "p": "7. Prescribe qualification for the technical staff of training institutions." },
+            { "p": "8. Prescribe the standards and conditions of eligibility for the award of national trade certificates." },
+            { "p": "9. Generally control the conditions for the award of national trade certificates.  " },
+            { "p": "10. Recommend the provision of additional training facilities wherever necessary and render such assistance in the setting up of additional training institutions or in the organisation of additional training programmes as may be possible." },
+            { "p": "11. Advise the central government regarding distribution to state governments of the contribution of the government of India towards expenditure on the craftsmen training scheme." },
+            { "p": "12. Perform such other functions as may be entrusted to it by the government of india." },
+            { "p": "13. Perform such functions as are assigned by or under the apprentices act, 1961." }
+          ]
+        }
+       
+      ]
+    },
+    {
+      "heading": "STATE COUNCIL FOR VOCATIONAL TRAINING(SCVT)",
+      "detailservices": [
+        {
+          "header": "",
+          "paragraph": [
+            {
+              "p": "There are State Councils corresponding to the National council to deal all matters relating to vocational training at the level of the State. The State Council which is affiliated to the National Council for Vocational Training (NCVT), New Delhi functions as a state agency to advice the State Government in carrying out the training policy laid down by the National Council and to co-ordinate the Vocational Training Programme throughout the State. The state Council is chained by Minister of Technical education & Industrial Training Punjab with members as notified by the State Govt. team time to time."}
+           
+          ]
+        },
+     
+        {
+          "header": "OBJECTIVES",
+          "paragraph": [
+            { "p": "The Council functions as a state agency to advice the Govt. of AndhraPradesh in framing the training policy and co-ordinating vocational training through out AndhraPradesh." }
+          ]
+        },
+
+        {
+          "header": "FUNCTIONS",
+          "paragraph": [
+            {
+              "p": "The functions of the State Council for Vocational Training:-"
+            },
+            { "p": "1. To carry out the policy of the National Council with regard to the award of National Trade Certificates in engineering and non-engineering trades as may be brought within its scope by the Central or State government. " },
+            { "p": "2. To implement the decision and carry out the policy laid down by the National Council in respect of syllabi, equipment, scale of accommodation, duration of courses and method of training.  " },
+            { "p": "3. To establish State Board of Examination in Vocational Trades. " },
+            { "p": "4. To arrange for periodical inspection of the training institutes/centres in the State and ensure that the standards prescribed by the National Council are being followed." },
+            { "p": "5. To co-opt, if necessary, any person or persons to advise the State Council in connection with its work. " },
+            { "p": "6. To ensure that the staff is employed according to the qualification prescribed by the National Council and relax qualifications in special circumstances, for trades where such staff is not easily available. "},
+            { "p": "7. Ensure that the examinations are conducted by the State Board of Examination according to the standards and the manner prescribed by the National Council." },
+            { "p": "8. To countersign and issue the National Trade Certificates to successful candidates." },
+            { "p": "9. To issue State Trade Certificates of all SCVT trades to successful candidates under the signature of Secretary, SCVT." },
+            { "p": "10. To issue State Trade Certificates of Short term modular courses to successful candidates under the signature of Secretary, SCVT." },
+            { "p": "11. To approve/ratify the proposals of grant of affiliation of various SCVT trades, which were granted provisional affiliation by the Secretary SCVT-cum-Director, Technical Education and Industrial Training." },
+            { "p": "12. To recommend the provision of additional training facilities, wherever necessary, and render such assistance in the setting up of additional training programmes as may be necessary." },
+            { "p": "13. To advise the State Government regarding expenditure on different training schemes;" },
+            { "p": "14. To perform such other functions as may be entrusted to it by the State Government." }
+          ]
+        }
+       
+      ]
+    }
+  ],
+
+ 
+  "...comments11b":"Information for - CRAFTSMEN TRAINING SCHEME.",
+  "Node271": [
+    {
+      "heading": "CRAFTSMEN TRAINING SCHEME",
+      "detailservices": [
+        {
+          "header": "",
+          "paragraph": [
+            {
+              "p": " The Directorate General of Employment & Training (DGE&T) in the Ministry of Labour, Government of India initiated Craftsmen Training Scheme (CTS) in 1950. Craftsmen Training Scheme is the main scheme of the Department, under which technicians of craftsmen standard are trained in various engineering trades and non-engineering trades. This Scheme is running on all India basis under the guidelines of DGE&T, Ministry of Labour and Employment, Govt. of India under the aegis of National Council for Vocational Training. Engineering and non-engineering trades/skills to meet the ever-increasing demand of industry in public and private sector. All the major policies concerning the scheme are controlled and regulated by Govt. of India. So as to maintain uniform standards and pattern throughout the country.. "
+            }
+           
+          ]
+        },
+     
+        {
+          "header": "OBJECTIVES OF THE CRAFTSMEN TRAINING SCHEME",
+          "paragraph": [
+            { "p": "1. To provide semi-skilled/skilled workers to industry by systematic training to school leavers."},
+            { "p": "2. To reduce unemployment among educated youth by equipping them with suitable skills for industrial employment."}
+          ]
+        },
+
+        {
+          "header": "SALIENT FEATURES OF THE SCHEME",
+          "paragraph": [
+            {
+              "p": "1. Training is imparted in various engineering and non-engineering trades. "
+            },
+            {
+              "p": "2. The period of training for various trades varies from six months to three years and the entry qualification varies from 8th to 12th class pass, depending on the requirements of training in different trades."
+            },
+            {
+              "p": "3. The institutes (Govt. or Pvt.) / trades having necessary infrastructural facilities as per the norms, are granted affiliation."
+            },
+            {
+              "p": "4. These institutes are required to conduct training courses as per the curriculum prescribed by National Council for Vocational Training (NCVT). "
+            },
+            {
+              "p": "5. Trainees after competition of the training period are required to appear in the All India Trade Test conducted under the aegis of National Council for Vocational Training. The successful trainees are awarded National Trade Certificate which has been recognized by Govt. of India.."
+            },
+            {
+              "p": "6. About 70% of the training period is allotted to practical training and the rest to theoretical training relating to Trade theory, Workshop Calculation & Science, Engineering Drawing, employability skills."
+            },
+            {
+              "p": "7. Syllabi of various trades are periodically revised to keep pace with changing technology in industry."
+            }
+          ]
+        }
+       
+      ]
+    }
+  ],
+
+  "Node272": [
+    {
+      "heading": "APPRENTICESHIP TRAINING SCHEME",
+      "detailservices": [
+        {
+          "header": "",
+          "paragraph": [
+            {
+              "p": " Apprenticeship Training Scheme is a major Scheme being implemented by the Department under the Apprentices Act, 1961 enacted by the Govt. of India, National Council for Apprenticeship Training on all-India basis. "
+            },
+            {
+              "p":"Craftsmen Training Scheme is mainly responsible of training semi-skilled workers for Industry. Training imparted in institutions alone is not sufficient for acquisition of skills and needs to be supplemented by training in the actual work place. The Apprentices Act, 1961 was enacted with the prime objective to fully utilize the facilities available in industry for imparting practical training with a view to fulfill the requirements of skilled manpower for industry."
+            },
+            {
+              "p":"The Act provides the regulation and control of Training of Apprentices in Industry and have the following objectives."
+            },
+            {
+              "p":"i.To regulate the program of training of apprentices in the industry so as to conform to the prescribed syllabi, period of training etc."
+            },
+            {
+              "p":"ii.To fully utilize the facilities available in the Industry for imparting practical training with a view to meet with the requirement of skilled manpower for Industry."
+            },
+            {
+              "p":"State Apprenticeship Advisor delegate the power to 10 Nodal Assistant Apprentice Advisers-cum- Principal Amritsar (RA), Bathinda, Ferozepur, Moga, Ludhiana, Patiala, Ropar, Hoshiarpur and Gurdaspur to Implement the act. 9 Assistant Apprentice Advisers-cum- Principal also working under Nodal ITI., Batala, Faridkot, Jalandhar (w), Nawan Shahar, Phagwara (w), Rajpura, Sunam , Patti, Samrala & Malerkotla.The number of trades in which apprentice can do the apprenticeship are 261 and the duration of apprenticeship training 2 years and the admission of apprentice are going throughout the year.              "
+            }
+    
+          ]
+        },
+     
+        {
+          "header": "Revamp of Apprenticeship Training Scheme:",
+          "paragraph": [
+            { "p": "To achieve these objectives the act has been amended to make it more responsive to industry and youth to join apprenticeship training. A few major amendments are:"},
+            { "p": "i. Establishments having 6 and more workers can engage apprentices."
+            },
+            {
+              "p":"ii. Engagement of apprentices for the establishments having number of workers exceeding 40 shall be obligatory."
+            },
+            {
+              "p":"iii. Establishments have been allowed to engage apprentices in a band of 2.5% to 10% of the total strength of the workers. Within this band, apprentices can be engaged in any trade decided by the employer as per requirement."
+            },
+            {
+              "p":"iv. Establishments can also engage apprentices in optional trades which are not designated."
+            },
+            {
+              "p":"v. Scope has also been extended to non-engineering occupations."
+            },
+            {
+              "p":"vi. Establishments have been permitted to outsource basic training in an institute of their choice."
+            },
+            {
+              "p":"vii. The Employer may engage apprentices from other State."
+            },
+            {
+              "p":"viii. Penalties in the form of fine only."
+            },
+            {
+              "p":"ix. Establishments operating in four or more states would be interfacing with central authorities."
+            },
+            {
+              "p":"The burden of compliance on industry has been reduced significantly through the Public web portal. MIS application apprenticeship.gov.in has been designed to engage the apprentice to allow timely and transparent flow of information."
+            },
+            {
+              "p":"=> Establishments register on the Apprenticeship training portal."
+            },
+            {
+              "p":"=> Establishments declare all the information regarding number of seats trade wise, duration of training, stipend rate and completion of training on the portal."
+            },
+            {
+              "p":"=> Apprentices after registration on the portal can apply against the seats available with respective establishment."
+            },
+            {
+             "p":"=> An agreement in the form of contract available online and supposed to be signed by the establishment & apprentice has to be approved online by Regional Directorates of Apprenticeship Training/State Apprenticeship Advisers at the web portal itself."
+            }
+          ]
+        },
+        {
+          "header": "Rate of stipend for the Trade Apprentices :",
+          "paragraph": [
+            {
+              "p": "1.During the first year of training   ---  70% of minimum wage of semi skilled worker notified by the respective State or Union Territory  "
+            },
+            {
+              "p": "2.During the second year of training  ---  80 % of minimum wage of semi skilled worker notified by the respective State or Union Territory "
+            },
+            {
+              "p": "3.During the Third year of training   ---  90 % of minimum wage of semi skilled worker notified by the respective State or Union Territory              "
+            }
+          ]
+        }
+       ]
+    },
+    {
+      "heading":"NATIONAL APPRENTICESHIP PROMOTION SCHEME",
+      
+      "detailservices": [
+         {
+          "header": "",
+          "paragraph": [
+            {"p":"To encourage the establishments for engaging more and more apprentices in the establishments, a new scheme called National Apprenticeship Promotion Scheme (NAPS) has been launched by the central government. It includes 25 % of the stipend or maximum of Rs 1500/- is to be reimbursed to the establishments and Rs 7500 /- is to be reimbursed ( basic training cost) to the Basic Training Provider ."
+            },
+           {
+           "p":"In NAPS Rs.1,85,05,500 are allotted for reimbursement to the establishment for Punjab State."
+         } 
+        ]
+      },
+      {
+        "header": "Certification after completion of training",
+        "paragraph": [
+       {
+        "p":"On completion of period of training, the apprentices appear in an All India Trade Test for Apprentices conducted by the National Council for Vocational Training. Successful candidates are awarded National Apprenticeship Certificate"
+      } 
+      ]
+    }
+    ]
+  }
+  ],
+
+  "Node273": [
+    {
+      "heading": "CENTRE OF EXCELLENCE SCHEME(COE)",
+      "detailservices": [
+        {
+          "header": "Definition",
+          "paragraph": [
+            {
+              "p": " “Centre of Excellence is special Institute for Vocational Training characterized by close links between Institutes, other training providers, other employment interests and communities”"
+            }
+          ]
+        },
+        {
+          "header": "Introduction",
+          "paragraph": [
+            { "p": " Union Finance Minister in his Budget Speech 2004-05 had announced measures for upgradation of 500 ITIs in the country. Subsequently, as per the advice of M/o Finance, action has been initiated for upgradation of 100 ITIs from domestic resources and 400 ITIs through World Bank assistance."},
+            { "p": " Said 500 ITIs to be funded from domestic & World Bank resources have been distributed in 26 States/UTs (other than J&K, Sikkim and NE States) in proportion to the number of Government ITIs in these States. "},
+            { "p": " 100 ITI's have taken up in phase-I (2005-06) all over India from domestic resources. In the phase-II (2006-07) 100 more ITI's with assistance from World Bank have taken up for upgradation at the National level. During Phase-III (2007-08) 150 ITI's have been taken up. Rest of the 150 ITI's will be taken up in the year 2008-09 during Phase-IV. "},
+            { "p": " The outlay of Domestic Funded CoE’s is Rs.1-6 crore per CoE and that of World Bank funded CoE’s Rs.3.5 crore per CoE’s."},
+            { "p": " In the State of Punjab, Department is implementing the scheme in 34 ITIs (8 Domestic Funded + 26 World Bank funded)."},
+            { "p": " The total cost of the scheme is to be shared in ratio of 75:25 as advised by M/o Finance by Central and State respective."},
+            { "p": " It aims to produce appropriately qualified and skilled workers with excellent employment and career prospectus which meet the needs of the economy."},
+            { "p": " Modernization & Upgradation of ITIs into Centres of Excellence."},
+            { "p": " This scheme has been launched to bridge the gap of skill requirement of Industry & Service Sector and that is presently being provided in the ITI's."},
+            { "p": "In the state of Punjab 8 ITIs have been upgraded under domestic funded & 26 ITIs have bee."}    
+            ]
+         },
+        {
+          "header": "Objectives of Scheme",
+          "paragraph": [
+            { "p": " Union Finance Minister in his Budget Speech 2004-05 had announced measures for upgradation of 500 ITIs in the country. Subsequently, as per the advice of M/o Finance, action has been initiated for upgradation of 100 ITIs from domestic resources and 400 ITIs through World Bank assistance."},
+            { "p": " Said 500 ITIs to be funded from domestic & World Bank resources have been distributed in 26 States/UTs (other than J&K, Sikkim and NE States) in proportion to the number of Government ITIs in these States. "},
+            { "p": " 100 ITI's have taken up in phase-I (2005-06) all over India from domestic resources. In the phase-II (2006-07) 100 more ITI's with assistance from World Bank have taken up for upgradation at the National level. During Phase-III (2007-08) 150 ITI's have been taken up. Rest of the 150 ITI's will be taken up in the year 2008-09 during Phase-IV. "},
+            { "p": " The outlay of Domestic Funded CoE’s is Rs.1-6 crore per CoE and that of World Bank funded CoE’s Rs.3.5 crore per CoE’s."},
+            { "p": " In the State of Punjab, Department is implementing the scheme in 34 ITIs (8 Domestic Funded + 26 World Bank funded)."},
+            { "p": " The total cost of the scheme is to be shared in ratio of 75:25 as advised by M/o Finance by Central and State respective."},
+            { "p": " It aims to produce appropriately qualified and skilled workers with excellent employment and career prospectus which meet the needs of the economy."},
+            { "p": " Modernization & Upgradation of ITIs into Centres of Excellence."},
+            { "p": " This scheme has been launched to bridge the gap of skill requirement of Industry & Service Sector and that is presently being provided in the ITI's."},
+            { "p": "In the state of Punjab 8 ITIs have been upgraded under domestic funded & 26 ITIs have bee."}    
+            ]
+           },
+         {
+          "header": "SALIENT FEATURES OF THE SCHEME",
+          "paragraph": [
+            {
+              "p": "1. Training is imparted in various engineering and non-engineering trades. "
+            },
+            {
+              "p": "2. The period of training for various trades varies from six months to three years and the entry qualification varies from 8th to 12th class pass, depending on the requirements of training in different trades."
+            },
+            {
+              "p": "3. The institutes (Govt. or Pvt.) / trades having necessary infrastructural facilities as per the norms, are granted affiliation."
+            },
+            {
+              "p": "4. These institutes are required to conduct training courses as per the curriculum prescribed by National Council for Vocational Training (NCVT). "
+            },
+            {
+              "p": "5. Trainees after competition of the training period are required to appear in the All India Trade Test conducted under the aegis of National Council for Vocational Training. The successful trainees are awarded National Trade Certificate which has been recognized by Govt. of India.."
+            },
+            {
+              "p": "6. About 70% of the training period is allotted to practical training and the rest to theoretical training relating to Trade theory, Workshop Calculation & Science, Engineering Drawing, employability skills."
+            },
+            {
+              "p": "7. Syllabi of various trades are periodically revised to keep pace with changing technology in industry."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Node274": [
+    {
+      "heading": "SKILL DEVELOPMENT INITIATIVE ON MODULAR EMPLOYABLE SKILL (MES)",
+      "detailservices": [
+        {
+          "header": "",
+          "paragraph": [
+            {
+              "p": " To provide vocational training to school leavers, existing workers, ITI graduates etc to improve their employability by optimally utilizing the infrastructure available in Govt. Private Institutions and the industry. Existing skills of the persons can also be tested and certified and certified under this scheme. Vocational Training Provider (VTP) registered under SDI to impart training to students for the courses having duration 60 hours to 900 hours approved by DGE&T/NCVT under the SDIS as per the approved curricula. The VTP will structure the course schedule as per the composition of the student requirements and availability of resources at its premises. "
+            }
+           
+          ]
+        },
+        {
+          "header": "KEY FEATURES",
+          "paragraph": [
+            {
+              "p": "Demand driven short term training courses based on Modular Employable Skills (MES) identified and decided in consultation with Industry. MES is the ‘Minimum Skills Set’ which is sufficient for gainful employment or self employment in the world of work."
+            },
+            {
+              "p": "Central government facilitates and promotes training while industry, private sector and state governments provide training to the persons"
+            },
+            {
+              "p": "Optimum utilization of existing infrastructure available to make training cost effective."
+            },
+            {
+              "p": "Flexible delivery mechanism (part time, weekends, full time, on-site) to suit needs of various target groups."
+            },
+            {
+              "p": "Different levels of programs (foundation, skill formation and up gradation) to meet demands of various target groups of industry and commerce."
+            },
+            {
+              "p":"The services of existing or retired faculty or guest faculty are being utilized."
+            },
+            {
+              "p":"Courses are available for persons having completed 5th standard and onwards."
+            },
+            {
+              "p":"Testing of skills of an individual acquired informally in competency and issue of NCVT certification on qualifying it successfully."
+            },
+            {
+              "p":"Testing of skills of trainees by independent assessing bodies, including industry organizations such as FICCI, CII, etc. which do not involve in training delivery, to ensure an impartial Assessment by the employer itself."
+            },
+            {
+              "p":"Essence of the scheme is in the certification on vocational training from the NCVT that is nationally and internationally recognized in world of work in the Government (Center and State) as well as private sector."
+            },
+            {
+              "p":"The SDI Scheme has the provision of reimbursement of Training cost to the Vocational Training Providers. The amount for reimbursement has been revised from @Rs 15 to @Rs 20 or @Rs25 per hour per trainee appearing for assessment depending on type of course."
+            },
+            {
+              "p":"The training cost would further be increased by Rs 2.5 per hour per trainee at the begging of every financial year starting from 1st April 2014."
+            },
+            {
+              "p":"No training fee and assessing fee will be charged from the trainee under SDI Scheme."
+            },
+            {
+              "p":"An entity while applying for the registration as vocational training provider (VTP) under the scheme would not be required to give performance Bank guarantee and application fees."
+            },
+            {
+              "p":"An Incentive @ Rs 3000/ per placed trainee would be payable under the Scheme to such VTP which are able to ensure wage employment to at least 70% trainees of a batch at a minimum salary of Rs 6000 per month within three months of training and for a period of at least six months."
+            },
+            {
+              "p":"In addition VTPs which assure at least 70% placement as indicated above would be entitled to get advance up to 40% of the amount due against submission of bank guarantee of amount at least equal or more than the advance sought."
+            },
+            {
+              "p":"For further details of SDI/MES scheme, regarding implementation manual, guidelines, VTP Selection, approved courses, VTP registration, etc, please see the link below :-"
+            }
+           
+          ]
+        }
+       
+      ]
+    }
+  ],
+  "Node275": [
+    {
+      "heading": "PUBLIC PRIVATE PARTNERSHIP(PPP)",
+      "detailservices": [
+        {
+          "header": "",
+          "paragraph": [
+            {
+              "p": " India is a fast growing economy with a rising demand for skilled workforce which enhances the efficiency and flexibility of the labour market, reduces skills bottlenecks, and  improves mobility and productivity. The Directorate General of Employment & Training (DGE&T) initiated Craftsman Training Scheme in 1950 by establishing 50 Industrial Training Institutes (ITIs) for imparting skills in various vocational trades to meet the manpower requirements for technology and industrial growth of the country. The demand for skilled manpower has increased substantially due to rapid economic growth, changes in technology and work process, and globalization of economy. As on 01-01-2007 there were 1896 Government ITIs in the country. Out of these 500 ITIs are being upgraded into Centres of Excellence under a Scheme started from 2005-06. The up gradation of the remaining 1396 Government started in 2007-08 through Public Private Partnership." }
+          ]
+        },
+     
+        {
+          "header": "OBJECTIVES",
+          "paragraph": [
+            { 
+              "p": "The objective of the Scheme is to improve the quality of vocational training in the country and make it demand driven so as to ensure better employability of the graduates."
+            }
+          ]
+        },
+        {
+          "header": "SALIENT FEATURES",
+          "paragraph": [
+            {
+              "p": "For each ITI to be taken up under the Scheme, an Industry Partner is associated to lead the process of Up gradation. An institute Management Committee (IMC), headed by the Industry Partner, is constituted and registered as a Society. A memorandum of Agreement is signed among the Central Government, the State Government, the state government and the Industry Partner defining the roles and responsibilities of all the parties.  An interest free loan upto Rs. 2.5 crores is given by the Central Government directly to the IMC on the basis of Institute Development Plan (IDP) prepared by it. The loan is repayable by the IMC in 30 years , with a moratorium of 10 years and thereafter in equal annual instalments over a period of 20 years. Under this scheme the IMC has been given financial and academic autonomy to manage the affairs of the ITI. The IMC is allowed to determine upto 20% of the admission in the ITI. The Industry Partner may provide financial assistance as well as machinery and equipments to the ITI. It shall arrange to provide training to instructors and on the job training to trainees. State Governments remain the owner of the ITIs and continue to regulate admissions."
+            }
+            
+          ]
+        }
+       ]
+    }
+  
+  ],
+  "Node276": [
+    {
+      "heading": "Guidelines for Partnership with Private Training Providers (PTPs)",
+      "detailservices": [
+        {
+          "header": "",
+          "paragraph": [
+            {
+              "p": "1.Government of India has launched the National Skill Development Mission to develop a Vocational Training System in the country that provides quality skilled manpower to the industry, bridging the gap between its demand and supply. The Mission aims to upgrade the existing system of vocational training by strengthening craftsman training, apprenticeship training and development of new skill sets with active participation of industry."
+            },
+            {
+              "p":"2.In pursuance of aims and objectives of the Mission, the Government of India has decided to set up new ITIs in uncovered blocks, Skill Development Centres in cluster of villages in far and distant areas and new Polytechnics in uncovered districts with central financial assistance. The Ministry of Labour and Employment, Government of India has also started a new centrally funded scheme called Skill Development Initiative for imparting skills to those segments of our population who are left out of formal vocational training system. In addition, various Ministries/Departments of Government of India have identified and empanelled a number of Private Training Providers (PTPs) to accelerate the process of Vocational Training and Skill Development. National Skill Development Corporation (NSDC) has also been set up under the aegis of Planning Commission of India."
+            },
+            {
+              "p":"3.In Punjab, Skill Development and Vocational Training are being strengthened on the lines envisaged by Government of India under the National Skill Development Mission. State Industrial Training Department is not only revamping its existing ITIs under two major schemes namely Upgradation of existing ITIs into Centres of Excellence and the World Bank Assisted Vocational Training Improvement Programme, but it also proposes to set up 43 new ITIs in uncovered blocks under PPP mode with assistance from the Government of India. 7 Polytechnics are being set up in uncovered districts, with central assistance of Rs.86.10 crore. Punjab State Skill Development Mission has also been set up under the chairmanship of Chief Minister, Punjab."
+            },
+            {
+              "p":"4.State Industrial Training Department is also engaging Private Training Providers (PTPs) by declaring them Vocational Training Providers (VTPs) under the Skill Development Initiative (SDI). As of now, 255 VTPs have been registered by the State Industrial Training Department, which include 108 Govt. ITIs, 54 Polytechnics & Engineering Colleges and 92 Private Vocational Training Providers. However, a number of Private Training Providers (PTPs) who are empanelled by various Ministries/Departments of Government of India have also approached the State Industrial Training Department for skill development and vocational training in Punjab. These training providers have varying strengths and experience in different trades and disciplines, which they intend to pursue for vocational training and skill development. The terms and conditions of their agreement with different ministries/departments of the Government of India also vary. Some of these Private Training Providers prefer to work with and through the Government institutes, whereas others prefer to work outside the government."
+            },
+            {
+              "p":"5.State Industrial Training Department intends to engage these PTPs to further expand and strengthen its efforts for promotion and development of vocational training and skill development in the State. In order to ensure proper and effective participation of PTPs in State's endeavour for skill development and vocational training, the Department has worked out its guidelines as elaborated here-in-after."
+            }
+          ]
+        },
+        {
+          "header": "6.Objectives",
+          "paragraph": [
+            {
+              "p":"The partnership with Private Training Providers (PTPs) for vocational training and skill development would be aimed:-"
+            }, 
+            {
+              "p":"1. To expand and strengthen training and skill development facilities in areas/trades in which existing government institutes do not have requisite infrastructure and trainers;"
+            }, 
+            {
+              "p":"2. To complement and supplement existing resources in areas/trades already being run in various Industrial Training Institutes and Polytechnics of the State;"
+            },
+            {
+              "p":"3. To ensure optimal utilization of infrastructure and staff of existing ITIs and Polytechnics; and"
+            },
+            {
+              "p":"4.To enhance capacity of existing institutes of vocational training and technical education."
+            }
+            ]
+         },
+        {
+          "header": "7.Expected Outcomes",
+          "paragraph": [
+            {
+              "p":"The partnership with PTPs is expected to help in achieving the following outcomes:-"
+            },
+            {
+              "p":"1. Provision of training facilities in Skill sets as per demand of the industry in Punjab and elsewhere;"
+            },
+            {
+              "p":"2. Optimum utilization of time, space, building and equipment of existing institutes of technical education and vocational training in Punjab;"
+            },
+            {
+              "p":"3. Enhanced diverse opportunities of placement for trainees in industry;"
+            },
+            {
+              "p":"4. Enrichment and upgradation of professional experience and knowledge of teachers and instructors in technical education and vocational training;"
+            },
+            {
+              "p":"5. Maximize availability of skilled labour with effective participation of industry; and "
+            },
+            {
+              "p":"6. Improvement in training and skill development infrastructure particularly equipment and machinery in the State."
+            }
+          ]
+          },
+         {
+          "header": "8.Eligibility of Private Training Providers (PTPs)",
+          "paragraph": [
+            {
+              "p": "The Private Training Providers (PTPs) selected by the Department should meet the following requirements:"
+            },
+            {
+              "p":"1.PTP should have a minimum experience of three years in identified area of vocational training/ skill development;"
+            },
+            {
+              "p":"2.PTP should either be eligible to be a VTP or to be empanelled with any of the Departments or Ministries of the Government of India;"
+            },
+            {
+              "p":"3.PTP should have an established and stated policy of internal quality management"
+            },
+            {
+              "p":"4.PTP should follow a pre-determined and defined policy for testing and evaluation;"
+            },
+            {
+              "p":"5. PTP should have requisite output of pass-outs and placements in the last three years, which should be equivalent to the volume of trainees that PTP intends to train in the next three years; and"
+            }
+          ]
+        },
+        {
+          "header": "9. Partnership with Private Training Providers (PTPs)",
+          "paragraph": [
+           {
+             "p":"The partnership with PTPs would be solicited by the State Industrial Training Institutes and Polytechnics for the following:"
+           },
+           {
+            "p":"1. For all SDI courses/programmes, where the institute does not have resources like trainers, equipment and finances. The institute should at least be able to provide accommodation/ space within its campus or otherwise."
+          },
+          {
+            "p":"2. Any course demanded by local industry where there is a possibility of assured placement and the institute does not have resources and infrastructure to run such a course. Such a course can then be run with private partnership under SCVT with prior approval of the Directorate."
+          },
+          {
+            "p":"3. Any course or trade for which there is a demand by the industry but the existing Industrial Training Institutes and Polytechnics do not have requisite arrangement. However, the PTP is not only willing to make necessary arrangement but is also willing to ensure national and international certification. Such a course can also be run under SCVT with prior approval of the Directorate."
+          },
+          {
+            "p":"4. In all the above situations, it would be mandatory for the institute to seek approval of its Institutional Management Committee before finalizing any partnership or engagement with a Private Training Provider (PTP). However, if a situation so warrants, the Directorate can also direct the institute to introduce and run some special courses/ trades keeping in view the demand of skilled manpower for any specific industry."
+          }
+          ]
+        },
+        {
+          "header": "10.Selection of PTPs",
+          "paragraph": [
+          {
+            "p":"1. If an Institution Management Committee (IMC) or the State Technical Education and Industrial Training Department takes initiative to start some specified courses, then eligible PTPs would be selected for partnership with identified ITIs or Polytechnics through open bidding on rate of sharing of revenue, minimum of which is prescribed in para 16 of these guidelines."
+          },
+          {
+            "p":"2. In case a PTP is empanelled or it has an agreement for skill development and training with a Ministry or a Department of Government of India or in case PTP is not empanelled but the course cost is funded by some other means like sponsorship from industry with zero cost to the trainees, the same can be selected in keeping with these guidelines provided there are no other claimants or offers for the proposed training programme/ course. In case there are more than one PTPs empanelled or having agreement with any Ministry or Department of Government of India willing to impart training/ skills, the PTP would in such a situation be selected on the basis of limited bidding between such PTPs."
+          },
+          {
+            "p":"3. In all cases, the PTPs would need prior approval of the Institution Management Committees (IMCs), which would need to keep these guidelines in view for their selection and approval."
+          }
+          ]
+        },
+        {
+          "header": "11. Role of Government Institute in cases where it is an Active Partner",
+          "paragraph": [
+          {
+            "p":"The role of government institute in cases where it is an active partner would be as following:-"         },
+          {
+            "p":"1. Admission and mobilization of trainees and students."
+          },
+          {
+            "p":"2. Provision of building along with furniture for classrooms, electricity and water."
+          },
+          {
+            "p":"3. As far as possible, availability and use of equipment and machinery along with the attendant and Instructor( Trainer) and they will be paid at par with the other trainers hired or provided by PTP."
+          },
+          {
+            "p":"4. Collection of Training cost i.e. fee etc."
+          },
+          {
+            "p":"5. Day-to-day administration of the programme."
+          },
+          {
+            "p":"6. Monitoring and evaluation of the programme."
+          }
+          ]
+        },
+        {
+          "header": "12. Role of PTPs in cases where the Government Institute is an Active Partner",
+          "paragraph": [
+          {
+            "p":"The role of PTP in cases where the government institute is an active partner would be as following:"
+          },
+          {
+            "p":"1. Arrange and provide qualified trainers/ instructors."
+          },
+          {
+            "p":"2. Provide training material for imparting training for prescribed number of hours."
+          },
+          {
+            "p":"3. Provide course curriculum and design along with latest content in hard and soft form, without compromising on minimum requirements of DGET, if any."
+          },
+          {
+            "p":"4. Provide teaching learning aids including audio visuals etc to ensure imparting of training/ skills in best possible manner."
+          },
+          {
+            "p":"5. Ensure placement for a minimum of 70 percent pass-outs."
+          },
+          {
+            "p":"6. Provide additional equipment, if any required;"
+          },
+          {
+            "p":"7. Testing and evaluation, if third party is not involved. If a third party testing and evaluation is mandated, then such an arrangement would be decided jointly."
+          },
+          {
+            "p":"8. Certification in case third party is not involved. However, if third party certification is mandated, then such an arrangement would be decided jointly."
+          }
+          ]
+        },
+        {
+          "header": "13. Role of Government Institute in cases where it is a Passive Partner.",
+          "paragraph": [
+          {
+            "p":"The role of government institute in cases where it is a passive partner would be as per following:"
+          },
+          {
+            "p":"1.Mobilization of trainees/ students."
+          },
+          {
+            "p":"2. Provision of building, electricity and water."
+          },
+          {
+            "p":"3. Collection of Training cost i.e. fee etc. and"
+          },
+          {
+            "p":"4. Overall monitoring and review of the programme."
+          }
+          ]
+        },
+        {
+          "header": "14. Role of PTPs in cases where Government institute is a Passive Partner",
+          "paragraph": [
+          {
+            "p":"The role of PTP in cases where the government institute is a passive partner would be as per following:"
+          },
+          {
+            "p":"1. Admission of trainees/ students."
+          },
+          {
+            "p":"2. Provision of qualified trainers/ instructors."
+          },
+          {
+            "p":"3. Provision of training material for imparting training for prescribed number of hours"
+          },
+          {
+            "p":"4. Provision of course curriculum and design along with latest content in hard and soft form, without compromising on minimum requirements of DGET, if any;"
+          },
+          { 
+            "p":"5. Provision of teaching learning aids including audio visuals to ensure best possible training/ skill development."
+          },
+          {
+            "p":"6. Ensure placement for a minimum of 70 percent of pass-outs;"
+          },
+          {
+            "p":"7. Provide all required equipment as per norms of the course/ trade and in case the equipment of the institute is utilized, charges for that would be paid as per mutually agreed terms and conditions;"
+          },
+          {
+            "p":"8. Testing and evaluation of the trainees/ students, if third party evaluation is not mandated. However, if third party testing and evaluation is mandated, such an arrangement would need consent of the Government institute; and"
+          },
+          {
+            "p":"9. Certification for the pass-outs, if third party certification is not mandated. However, if third party certification is mandated, then such an arrangement would need consent of the Government institute."
+          }
+          ]
+        },
+        {
+          "header": "15.Programme fee / cost ",
+          "paragraph": [
+          {
+            "p":"TAs far as possible, there should be no upfront cost of training or skill development through partnership with PTPs for the State Government or the trainees. However, in case a PTP intends to run a paid training programme in partnership with a government institute, fee and charges for such a programme, would be determined by a Committee comprising of Director, Technical Education & Industrial Training, MD, Punjab Infotech or his nominee not below the rank of General Manger, a representative of Finance Department, an Expert from the field of VET/SD and Joint Director(IT) will be the member Secretary of this Committee. This committee would decide fee structure for paid training programmes after due consideration of fee and charges approved by various Ministries/ Departments of Government of India or the State Government for the agencies that have been empanelled or engaged by them."
+          }
+          
+          ]
+        },
+        {
+          "header": "16.Revenue Sharing",
+          "paragraph": [
+          {
+            "p":"The sharing of revenue between a government institute and a PTP would be determined as per the following: -"
+          },
+          {
+            "p":"1.PTP would access Government of India funds with no contribution of its own and the government institute an active partner:"
+          },
+          {
+            "p":"i.Share of Government Institute: – 30% of total revenue collected or received for the programme"
+          },
+          {
+            "p":"ii.Share of PTP – 70% of total revenue collected or received for the programme."
+          },
+          {
+            "p":"2.PTP would access Government of India funds with no contribution of its own and the government institute is a passive partner:            "
+          },
+          {
+            "p":"i.Share of Government Institute: – 20% of total revenue collected or received for the programme."
+          },
+          {
+            "p":"ii.Share of PTP – 80% of total revenue collected or received for the Programme.            "
+          },
+          {
+            "p":"3.PTP would access Government of India funds with some contribution of its own and the government institute is an active partner:            "
+          },
+          {
+            "p":"i.Share of Government Institute: – 20% of total revenue collected or received for the programme.            "
+          },
+          {
+            "p":"ii.Share of PTP – 80% of total revenue collected or received for the Programme."
+          },
+          {
+            "p":"4.PTP would access Government of India funds with some contribution of its own and the government institute is a passive partner:            "
+          },
+          {
+            "p":"i.Share of Government Institute -  15%"
+          },
+          {
+            "p":"ii.Share of PTP                 -  85%"
+          },
+          {
+            "p":"5.PTP would access Government of India funds with some contribution from the government institute and the government institute is a active partner:"
+          },
+          {
+            "p":"i.Share of Government Institute:  40% "
+          },
+          {
+            "p":"ii.Share of PTP                             60% "
+          },
+          {
+            "p":"6.PTP would access Government of India funds with some contribution from the government institute and the government institute is a passive partner:"
+          },
+          {
+            "p":"i. Share of Government Institute   30%"
+          },
+          {
+            "p":"ii. Share of PTP               70%"
+          },
+          {
+            "p":"7.PTP is engaged by a government institute for training/ skill development programme, which are fully paid by the trainees/industry/employer:"
+          },
+          {
+            "p":"1.Fee for such programme would be determined by a Committee comprising of Director, Technical Education & Industrial Training, MD, Punjab Infotech or his nominee not below the rank of General Manger, a representative of Finance Department, an Expert from the field of VET/SD and Joint Director (IT) will be the member Secretary of this Committee."
+          },
+          {
+            "p":"2.The revenue received/collected for such a programme would be shared as per following:      "
+          },
+          {
+            "p":"1.In case Government Institute is an active partner, the revenue received/ collected would be shared as per following:"
+          },
+          {
+            "p":"    i.Share of Government Institute:  40%"
+          },
+          {
+          "p":"      ii.Share of PTP                             60%"
+          },
+         {
+          "p":"2.In case Government Institute is a passive partner, the revenue received/ collected would be shared as per following"
+        },
+        {
+          "p":"i.Share of Government Institute:  30%"
+        },
+      {
+        "p":"ii.Share of PTP                             70%"
+      },
+      {
+        "p":"8.PTP is engaged by a Government Institute for training/ skill development programme, which is partially paid by the trainees and partially funded by the PTP"
+      },
+      {
+        "p":"1.In case the Government Institute is an active partner:        "
+      },
+    {
+      "p":"i.Share of Government Institute:  30%"
+    },
+    {
+      "p":"ii.Share of PTP             70%"
+    },
+    {
+      "p":"2.In case the government institute is a passive partner:      "
+    },
+    {
+      "p":"i.Share of Government Institute:  20% "
+    },
+     
+    {
+      "p":"ii.Share of PTP           80% "
+    },
+    {
+      "p":"9.Likewise, if a programme is partially paid by the trainees and partially funded by the Government Institute, the revenue would be shared between the two as following:-   "
+    },
+    {
+      "p":"1.In case the Government Institute is an active partner:        "
+    },
+  {
+    "p":"i.Share of Government Institute:  40%"
+  },
+  {
+    "p":"ii.Share of PTP             60%"
+  },
+  {
+    "p":"2.In case the government institute is a passive partner:      "
+  },
+  {
+    "p":"i.Share of Government Institute:  30% "
+  },
+   
+  {
+    "p":"ii.Share of PTP           70% "
+  },
+    {
+      "p":"10. PTP would access funds from Government of India with some contribution from trainees:      "
+    },
+    {
+      "p":"1.In case the Government Institute is an active partner:        "
+    },
+  {
+    "p":"i.Share of Government Institute:  40%"
+  },
+  {
+    "p":"ii.Share of PTP             60%"
+  },
+  {
+    "p":"2.In case the government institute is a passive partner:      "
+  },
+  {
+    "p":"i.Share of Government Institute:  30% "
+  },
+   
+  {
+    "p":"ii.Share of PTP           70% "
+  },
+    {
+      "p":"17. In all situations envisaged in para 16 above, the sharing of revenue would be determined after deducting a fixed sum of 5% of total revenue collected or received for the programme for provision of buildings and it would be paid to the Government Institute if the building is provided by it or to such other person/ institute who provides space or building for the programme. It may here be clarified that the total revenue here refers to total receipts or collection for a programme or course which a PTP and an institute may agree to organize."
+    },
+    {
+      "p":"18.In case the government institute is a passive partner but is somehow required to provide some or all the equipment required for the programme, the charges for the same payable to it shall be determined by a Committee comprising of Director, Technical Education & Industrial Training, MD, Punjab Infotech or his nominee not below the rank of General Manger, a representative of Finance Department, an Expert from the field of VET/SD and Joint Director(IT) will be the member Secretary of this Committee. Such an amount shall be paid by the PTP out of his share in total revenue which may be determined in keeping with the above guidelines.      "
+    },
+    {
+      "p":"19.The payment of the share of the PTP would normally be released by the IMC when the PTP satisfies the condition of placement of 70% pass outs. For this either the conditions of Government of India would be applicable if PTP is accessing GoI funds or the following conditions would apply:      "
+    },
+    {
+      "p":"1.Produce copies of appointment letters from the Employer"
+    },
+    {
+      "p":"2. Produce letter of satisfactory employment from the Pass out trainees; and"
+    },
+    {
+      "p":"3.Produce letter of satisfactory employment from the parents of Pass out trainee"
+    },
+    {
+      "p":"20. All the Institution Management Committees (IMCs) of Industrial Training Institutes and the Institutes of Technical Education should ensure strict compliance of above guidelines in finalizing any arrangement of industrial training and skill development with a Private Training Provider. These IMCs and the Institutes would utilize the revenue raised by them by engaging PTPs, as per existing guidelines of the Directorate or the State Department of Technical Education and Industrial Training for utilization of internal revenue generated by them.      "
+    },
+    {
+      "p":"21. Further in their endeavour to solicit partnership with PTPs in keeping with these guidelines, the institutes and their IMCs would ensure that programmes/courses organized/ run in partnership with Private Training Providers do not in any way interfere with regular courses/ programmes of the institutes. The institutes would not spare or provide any government Instructors/ staff at the cost of their regular training programmes. The government staff if engaged by a PTP for any of the programmes conducted as per these guidelines would be paid by them as per terms and conditions which they may so decide and the government institute will not have anything to do with such an arrangement. However, in case a government employee is engaged and paid for his services for a training programme organized as per these guidelines, he would be required to obtain prior permission from the Head of the institute but would not be required to deposit 1/3rd of payment/ remuneration received by him for such services."
+    },
+    {
+      "p":"22. Save as otherwise provided in these guidelines, if any dispute arises between IMCs, or ITIs or a Government Institute and the PTPs regarding the interpretation of these Guidelines or any communication is received from any department or Ministry of Government of India or the Industry or sponsors of a training Programme/Course, the decision of the Director, technical education & Industrial Training will be final."
+    },
+    {
+      "p":"23. All concerned may ensure strict compliance of these guidelines."
+    }
+  
+    
+
+          ]
+        }
+      ]
+    }
+  ],
+        "...comments11c":"Information for - Registration.",
+        "Pagetype22a": [
+          {
+            "heading": "Disclousures  Management",
+            "detailservices": [
+            {
+            "header":"Skills Strengthening of Industrial Value Enhancement (STRIVE) Project  in State of Andhra Pradesh",
+            "p": "",
+            "Serial":"S.No",
+            "Trainingwing":"Disclousures  Management",
+            "Contact":"File",
+            "paragraph":[ 
+       
+              { "Serial":1,
+                "Trainingwing":"Approved Procurement Plan and updates.",
+                "link":"node353"
+              },
+              { "Serial":2,
+                "Trainingwing":"Invitation for Bids.",
+                "link":"node353"
+              },
+              { "Serial":3,
+                "Trainingwing":"Short list of consultants/Bidders.",
+                "link":"node353"
+              },
+              { "Serial":4,
+                "Trainingwing":"Contract Awards.",
+                "link":"node353"
+              },
+              { "Serial":5,
+                "Trainingwing":"Contract Awards.",
+                "link":"node353"
+              }
+             ]
+           }
+         ]
+       }
+       ],
+       "Pagetype22b": [
+        {
+          "heading": "LISTS OF STRIVE ITI'S in AP",
+          "detailservices": [
+          {
+          "header":"",
+          "p": "",
+          "Serial":"S.No",
+          "Authority":"ITI MIS CODE",
+          "Trainingwing":"Name of the ITI",
+          "Contact":"File",
+          "paragraph":[ 
+     
+            { "Serial":1,
+              "Authority":"GR28000416.",
+              "Trainingwing":"GOVT ITI RAJAM",
+              "link":"./DOCS/P2-ITI-1.pdf"
+            },
+            { "Serial":2,
+              "Authority":"GR28000154",
+              "Trainingwing":"GOVT ITI BOBBLLI.",
+              "link":"./DOCS/P2-ITI-2.pdf"
+            },
+             {
+              "Serial":3,
+              "Authority":"GU28000144",
+              "Trainingwing":"GOVT.ITI VISKHAPATNM.",
+              "link":"./DOCS/P2-ITI-3.pdf"
+            },
+             {
+              "Serial":4,
+              "Authority":"GR28000238",
+              "Trainingwing":"GOVT.ITI KAKINADA.",
+              "link":"./DOCS/P2-ITI-4.pdf"
+            },
+             { "Serial":5,
+              "Authority":"GR28000123",
+              "Trainingwing":"GOVT.ITI BHIMAVARAM.",
+              "link":"./DOCS/P2-ITI-5.pdf"
+            },
+             { "Serial":6,
+              "Authority":"GR28000151",
+              "Trainingwing":"GOVT.ITI VIJAYAWADA.",
+              "link":"./DOCS/P2-ITI-6.pdf"
+            },
+             { "Serial":7,
+              "Authority":"GR28000206",
+              "Trainingwing":"GOVT.ITI TENALI.",
+              "link":"./DOCS/P2-ITI-7.pdf"
+            },
+             { "Serial":8,
+              "Authority":"GR28000155",
+              "Trainingwing":"GOVT.ITI ONGOLE(B).",
+              "link":"./DOCS/P2-ITI-8.pdf"
+            },
+             { "Serial":9,
+              "Authority":"GR28000270",
+              "Trainingwing":"GOVTITI NELLORE(G).",
+              "link":"./DOCS/P2-ITI-9.pdf"
+            },
+            { "Serial":10,
+              "Authority":"GR28000145",
+              "Trainingwing":"GOVT.ITI NELLORE(B).",
+              "link":"./DOCS/P2-ITI-10.pdf"
+            },
+            { "Serial":11,
+              "Authority":"GR28000308",
+              "Trainingwing":"GOVT.ITI TADA.",
+              "link":"./DOCS/P2-ITI-11.pdf"
+            },
+            { "Serial":12,
+              "Authority":"GR28000041",
+              "Trainingwing":"GOVT.ITI SRISAILEM.",
+              "link":"./DOCS/P2-ITI-12.pdf"
+            },
+            { "Serial":13,
+              "Authority":"GR28000335",
+              "Trainingwing":"GOVT.ITI CHITTOOR.",
+              "link":"./DOCS/P2-ITI-13.pdf"
+            },
+            { "Serial":14,
+              "Authority":"GR28000182",
+              "Trainingwing":"GOVT.ITI TIRUPATHI.",
+              "link":"./DOCS/P2-ITI-14.pdf"
+            },
+            { "Serial":15,
+              "Authority":"GR28000386",
+              "Trainingwing":"GOVT.ITI CHKRYAPETA.",
+              "link":"./DOCS/P2-ITI-15.pdf"
+            }
+           ]
+         }
+       ],
+       "detailservice": [
+        {
+        "header":"",
+        "p": "",
+        "Serial":"S.No",
+        "Authority":"ITI MIS CODE",
+        "Trainingwing":"Name of the ITI",
+        "Contact":"File",
+        "paragraph":[ 
+          { "Serial":16,
+            "Authority":"State Project Implementation Unit (SPIU)",
+            "Trainingwing":"Directorate of Employment and Training , Vijayawada.",
+            "link":"node354"
+          }
+         ]
+       }
+     ]
+     }
+     ],
+     "Pagetype24": [
+      {
+        "heading": "",
+        "detailservices": [
+        {
+        "header":"Skills Strengthening for Industrial Value Enhancement (STRIVE).",
+        "p": "",
+        "Serial":"S.No",
+        "Trainingwing":"Discription",
+        "Contact":"File",
+        "paragraph":[ 
+   
+          { "Serial":1,
+            "Trainingwing":"Format for submission of Indicative Annual procurement Plan (strive).",
+            "link":"./DOCS/P2-Strive-1.pdf"
+          },
+          { "Serial":2,
+            "Trainingwing":"State Procurement Activities Data Sheet Under Strive Schedule-1.",
+            "link":"./DOCS/P2-Strive-2.pdf"
+          },
+          { "Serial":3,
+            "Trainingwing":"State Procurement Activities Data Sheet Under Strive Schedule-2.",
+            "link":"./DOCS/P2-Strive-3.pdf"
+          },
+          { "Serial":4,
+            "Trainingwing":"State Procurement Activities Data Sheet Under Strive Schedule-3.",
+            "link":"./DOCS/P2-Strive-4.pdf"
+          },
+          { "Serial":5,
+            "Trainingwing":"State Procurement Activities Data Sheet Under Strive Schedule-4.",
+            "link":"./DOCS/P2-Strive-5.pdf"
+          },
+          { "Serial":6,
+            "Trainingwing":"State Procurement Activities Data Sheet Under Strive Schedule-5.",
+            "link":"./DOCS/P2-Strive-6.pdf"
+          },
+          { "Serial":7,
+            "Trainingwing":"State Procurement Activities Data Sheet Under Strive Schedule-6.",
+            "link":"./DOCS/P2-Strive-7.pdf"
+          },
+          { "Serial":8,
+            "Trainingwing":"Virtual Class Rooms.",
+            "link":"./DOCS/P2-Strive-8.pdf"
+          }
+         ]
+       }
+     ]
+   }
+   ],
+"PagetypeA": [
+    {
+      "heading": "Registration",
+      "detailservices": [
+      {
+      "header":"Student Area",
+      "p": "Please Note: If Student is not Registered, both Steps 1 and 2 are Mandatory for Applying to ITI.",
+      "Serial":"S.No",
+      "Trainingwing":"Description",
+      "Contact":"File",
+      "paragraph":[ 
+ 
+        { "Serial":1,
+          "Trainingwing":"Student Registration.",
+          "link": " https://iti.ap.gov.in/open_application_entry.jsp"
+        },
+        { "Serial":2,
+          "Trainingwing":"Application to apply for ITI.",
+          "link": "https://iti.ap.gov.in/open_editview_form.jsp"
+        },
+        { "Serial":3,
+          "Trainingwing":"Edit Registration.",
+          "link": "https://iti.ap.gov.in/open_edit_form.jsp"
+        },
+        { "Serial":4,
+          "Trainingwing":"Forgot Registration ID.",
+          "link": "https://iti.ap.gov.in/forgotregid.jsp"
+        }
+       ]
+     }
+   ]
+ }
+ ],
+       "...comments11d":"Information for - Tools/Equipment/Machine Specifications.",
+    
+
+     "Pagetype3": [
+        {
+         
+          "heading": "ITIs Trade Specifications",
+          "detailservices": [
+          {
+          "header":"Tools/Equipment/Machine Specifications",
+          "p": "",
+          "Serial":"S.No",
+          "Trainingwing":"Description",
+          "Contact":"File",
+          "paragraph":[ 
+          {  
+            "Serial":1,
+            "Trainingwing": "Specifications of Refrigeration & Air Conditioning.",
+            "link": "./DOCS/mydata.pdf" 
+           },
+            {
+              "Serial":2,
+            "Trainingwing": "Specifications of Information & Communication Technology System Maintenance.",
+            "link": "./DOCS/mydata2.pdf"
+          },
+           {
+            "Serial":3,
+            "Trainingwing": "Specifications of INFORMATION TECHNOLOGY.",
+            "link": "./DOCS/mydata3.pdf"
+          },
+           {
+            "Serial":4,
+           "Trainingwing": "Specifications of Instrument Mechanic.",
+           "link": "./DOCS/mydata4.pdf"
+          },
+          {"Serial":5,
+            "Trainingwing": "Specifications of Lab Assistant.",
+            "link": "./DOCS/mydata5.pdf"
+          },
+          {"Serial":6,
+            "Trainingwing": "Specifications of Mechinist Composite.",
+            "link": "./DOCS/mydata6.pdf"
+           },
+          {"Serial":7,
+            "Trainingwing": "Specifications of Mechinist Grinder.",
+            "link": "./DOCS/mydata7.pdf" 
+           },
+          {"Serial":8,
+            "Trainingwing": "Specifications of Mech Auto Electrical & Electronics.",
+            "link": "./DOCS/mydata8.pdf" 
+          },
+          {"Serial":9,
+            "Trainingwing": "Specifications of Mech. Motor Vehicles.",
+            "link": "./DOCS/mydata9.pdf"  
+           },
+          {"Serial":10,
+            "Trainingwing": "Specifications of Mechanic Agricultural Machinery.",
+            "link": "./DOCS/mydata10.pdf"   
+           },
+          {"Serial":11,
+            "Trainingwing": "Specifications of Mechanic Consumer Electronics Appliances.",
+            "link": "./DOCS/mydata11.pdf"  
+           },
+          {"Serial":12,
+            "Trainingwing": "Specifications of Mechanic Machine Tool Maintenance.",
+            "link": "./DOCS/mydata12.pdf" 
+           },
+          {"Serial":13,
+            "Trainingwing": "Specifications of Mechanic Tractor.",
+            "link": "./DOCS/mydata13.pdf" 
+           },
+          {"Serial":14,
+            "Trainingwing": "Specifications of MILK & MILK PRODUCTS.",
+            "link": "./DOCS/mydata14.pdf" 
+           },
+          {
+            "Serial":15,
+            "Trainingwing": "Specifications of Multimedia, Animation And Special Effects.",
+            "link": "./DOCS/mydata15.pdf"
+           },
+          {"Serial":16,
+            "Trainingwing": "Specifications of Plumber.",
+            "link": "./DOCS/mydata16.pdf" 
+           },
+          {"Serial":17,
+            "Trainingwing": "Specifications of Secretarial Practice.",
+            "link": "./DOCS/mydata17.pdf"  },
+          {"Serial":18,
+            "Trainingwing": "Specifications of Sewing Technology.",
+            "link": "./DOCS/mydata18.pdf" },
+          {"Serial":19,
+            "Trainingwing": "Specifications of Spinning Technician.",
+            "link": "./DOCS/mydata19.pdf" },
+          {"Serial":20,
+            "Trainingwing": "Specifications of Surface Ornament Techniques.",
+            "link": "./DOCS/mydata20.pdf"   },
+          {"Serial":21,
+            "Trainingwing": "Specifications of Surveyor.",
+            "link": "./DOCS/mydata21.pdf" },
+          {"Serial":22,
+            "Trainingwing": "Specifications of Technician Power Electronics.",
+            "link": "./DOCS/mydata22.pdf" },
+          {"Serial":23,
+            "Trainingwing": "Specifications of Textile Wet Processing Technician.",
+            "link": "./DOCS/mydata23.pdf" },
+          {"Serial":24,
+            "Trainingwing": " Specifications of Tool & Die(Press Tools,Jigs & Fixtures).",
+            "link": "./DOCS/mydata24.pdf" },
+          {"Serial":25,
+            "Trainingwing": " Specifications of Turner.",
+            "link": "./DOCS/mydata25.pdf"  },
+          {"Serial":26,
+            "Trainingwing": " Specifications of Welder GMAW & GTAW.",
+            "link": "./DOCS/mydata26.pdf" },
+          {"Serial":27,
+            "Trainingwing": "Specifications of Welder.",
+            "link": "./DOCS/mydata27.pdf"},
+          {"Serial":28,
+            "Trainingwing": "Specifications of Wireman.",
+            "link": "./DOCS/mydata28.pdf" },
+          {"Serial":29,
+            "Trainingwing": "Specification of Agro Processing.",
+            "link": "./DOCS/mydata29.pdf"  },
+          {"Serial":30,
+            "Trainingwing": "Specification of Automotive Body Repair.",
+            "link": "./DOCS/mydata30.pdf" 
+        },
+          {"Serial":31,
+            "Trainingwing": "Specification of Automotive Paint Repair.",
+            "link": "./DOCS/mydata31.pdf" 
+           },
+          {"Serial":32,
+            "Trainingwing": "Specification of Basic cosmetology (Hair & Skin Care).",
+            "link": "./DOCS/mydata32.pdf" 
+           },
+          {
+            "Serial":33,
+            "Trainingwing": "Specification of Carpenter.",
+            "link": "./DOCS/mydata33.pdf" 
+          },
+          {
+            "Serial":34,
+            "Trainingwing": " Specification of Computer Aided Embroidery & Designing.",
+            "link": "./DOCS/mydata34.pdf" 
+           },
+          {
+            "Serial":35,
+            "Trainingwing": "Specification of Computer Hardware.",
+            "link": "./DOCS/mydata35.pdf" 
+           },
+          {
+            "Serial":36,
+            "Trainingwing": "Specification of COPA.",
+            "link": "./DOCS/mydata36.pdf" 
+           },
+          {
+            "Serial":37,
+            "Trainingwing": " Specification of DATA BASE SYSTEM ASSISTANT.",
+            "link": "./DOCS/mydata37.pdf"
+            },
+          {
+            "Serial":38,
+            "Trainingwing": "Specification of Diesel Mechanic.",
+            "link": "./DOCS/mydata38.pdf"  
+           },
+          {
+            "Serial":39,
+            "Trainingwing": "Specification of DMC.",
+            "link": "./DOCS/mydata39.pdf" 
+           },
+          {
+            "Serial":40,
+            "Trainingwing": "Specification of Dress Making.",
+            "link": "./DOCS/mydata40.pdf" 
+           },
+          {
+            "Serial":41,
+            "Trainingwing": "Specifications of Electrician.",
+            "link": "./DOCS/mydata41.pdf" 
+            },
+          {
+            "Serial":42,
+            "Trainingwing": "Specifications of Electronic Mechanic.",
+            "link": "./DOCS/mydata42.pdf" 
+            },
+          {
+            "Serial":43,
+            "Trainingwing": "Specifications of Electroplater.",
+            "link": "./DOCS/mydata43.pdf"  
+           },
+          {
+            "Serial":44,
+            "Trainingwing": "Specifications of English Steno.",
+            "link": "./DOCS/mydata44.pdf"
+            },
+          {
+            "Serial":45,
+            "Trainingwing": "Specifications of Fashion Design Technology.",
+            "link": "./DOCS/mydata45.pdf"
+             },
+          {
+            "Serial":46,
+            "Trainingwing": "Specifications of Fitter.",
+            "link": "./DOCS/mydata46.pdf"
+            },
+          {
+            "Serial":47,
+            "Trainingwing": "Specifications of Food Beverage.",
+            "link": "./DOCS/mydata47.pdf"
+          },
+          {"Serial":48,
+            
+            "Trainingwing": "Specifications of Food Breverage Service Assistant.",
+            "link": "./DOCS/mydata48.pdf"
+          },
+          {
+            "Serial":49,
+            "Trainingwing": "Specifications of Food Production.",
+            "link": "./DOCS/mydata49.pdf"
+          },
+          {
+            "Serial":50,
+            "Trainingwing": "Specifications of Foundryman Technician.",
+            "link": "./DOCS/mydata50.pdf"
+          },
+          {
+            "Serial":51,
+            "Trainingwing": " Specifications of Front Office Assistant.",
+            "link": "./DOCS/mydata51.pdf"
+            },
+          {
+            "Serial":52,
+            "Trainingwing": "Specifications of Fruits And Vegetable Processing.",
+            "link": "./DOCS/mydata52.pdf"       
+          },
+          {
+            "Serial":53,
+            "Trainingwing": " Specifications of House Keeper.",
+            "link": "./DOCS/mydata53.pdf"
+          },
+          {
+            "Serial":54,
+            "Trainingwing": " Specifications of Industrial Painter.",
+            "link": "./DOCS/mydata54.pdf" 
+          }
+        ]
+      }
+    ]
+  }
+],
+
+
+"Pagetype51": [
+  {
+   
+    "heading": "ITIs Trade Specifications",
+    "detailservices": [
+    {
+    "header":"Tools/Equipment/Machine Specifications",
+    "p": "",
+    "Serial":"S.No",
+    "Trainingwing":"Description",
+    "Contact":"File",
+    "paragraph":[ 
+    {  
+      "Serial":1,
+      "Trainingwing": "Specifications of Refrigeration & Air Conditioning.",
+      "link": "./DOCS/mydata.pdf" 
+     },
+      {
+        "Serial":2,
+      "Trainingwing": "Specifications of Information & Communication Technology System Maintenance.",
+      "link": "./DOCS/mydata2.pdf"
+    },
+     {
+      "Serial":3,
+      "Trainingwing": "Specifications of INFORMATION TECHNOLOGY.",
+      "link": "./DOCS/mydata3.pdf"
+    },
+     {
+      "Serial":4,
+     "Trainingwing": "Specifications of Instrument Mechanic.",
+     "link": "./DOCS/mydata4.pdf"
+    },
+    {"Serial":5,
+      "Trainingwing": "Specifications of Lab Assistant.",
+      "link": "./DOCS/mydata5.pdf"
+    },
+    {"Serial":6,
+      "Trainingwing": "Specifications of Mechinist Composite.",
+      "link": "./DOCS/mydata6.pdf"
+     },
+    {"Serial":7,
+      "Trainingwing": "Specifications of Mechinist Grinder.",
+      "link": "./DOCS/mydata7.pdf" 
+     },
+    {"Serial":8,
+      "Trainingwing": "Specifications of Mech Auto Electrical & Electronics.",
+      "link": "./DOCS/mydata8.pdf" 
+    },
+    {"Serial":9,
+      "Trainingwing": "Specifications of Mech. Motor Vehicles.",
+      "link": "./DOCS/mydata9.pdf"  
+     },
+    {"Serial":10,
+      "Trainingwing": "Specifications of Mechanic Agricultural Machinery.",
+      "link": "./DOCS/mydata10.pdf"   
+     },
+    {"Serial":11,
+      "Trainingwing": "Specifications of Mechanic Consumer Electronics Appliances.",
+      "link": "./DOCS/mydata11.pdf"  
+     },
+    {"Serial":12,
+      "Trainingwing": "Specifications of Mechanic Machine Tool Maintenance.",
+      "link": "./DOCS/mydata12.pdf" 
+     },
+    {"Serial":13,
+      "Trainingwing": "Specifications of Mechanic Tractor.",
+      "link": "./DOCS/mydata13.pdf" 
+     },
+    {"Serial":14,
+      "Trainingwing": "Specifications of MILK & MILK PRODUCTS.",
+      "link": "./DOCS/mydata14.pdf" 
+     },
+    {
+      "Serial":15,
+      "Trainingwing": "Specifications of Multimedia, Animation And Special Effects.",
+      "link": "./DOCS/mydata15.pdf"
+     },
+    {"Serial":16,
+      "Trainingwing": "Specifications of Plumber.",
+      "link": "./DOCS/mydata16.pdf" 
+     },
+    {"Serial":17,
+      "Trainingwing": "Specifications of Secretarial Practice.",
+      "link": "./DOCS/mydata17.pdf"  },
+    {"Serial":18,
+      "Trainingwing": "Specifications of Sewing Technology.",
+      "link": "./DOCS/mydata18.pdf" },
+    {"Serial":19,
+      "Trainingwing": "Specifications of Spinning Technician.",
+      "link": "./DOCS/mydata19.pdf" },
+    {"Serial":20,
+      "Trainingwing": "Specifications of Surface Ornament Techniques.",
+      "link": "./DOCS/mydata20.pdf"   },
+    {"Serial":21,
+      "Trainingwing": "Specifications of Surveyor.",
+      "link": "./DOCS/mydata21.pdf" },
+    {"Serial":22,
+      "Trainingwing": "Specifications of Technician Power Electronics.",
+      "link": "./DOCS/mydata22.pdf" },
+    {"Serial":23,
+      "Trainingwing": "Specifications of Textile Wet Processing Technician.",
+      "link": "./DOCS/mydata23.pdf" },
+    {"Serial":24,
+      "Trainingwing": " Specifications of Tool & Die(Press Tools,Jigs & Fixtures).",
+      "link": "./DOCS/mydata24.pdf" },
+    {"Serial":25,
+      "Trainingwing": " Specifications of Turner.",
+      "link": "./DOCS/mydata25.pdf"  },
+    {"Serial":26,
+      "Trainingwing": " Specifications of Welder GMAW & GTAW.",
+      "link": "./DOCS/mydata26.pdf" },
+    {"Serial":27,
+      "Trainingwing": "Specifications of Welder.",
+      "link": "./DOCS/mydata27.pdf"},
+    {"Serial":28,
+      "Trainingwing": "Specifications of Wireman.",
+      "link": "./DOCS/mydata28.pdf" },
+    {"Serial":29,
+      "Trainingwing": "Specification of Agro Processing.",
+      "link": "./DOCS/mydata29.pdf"  },
+    {"Serial":30,
+      "Trainingwing": "Specification of Automotive Body Repair.",
+      "link": "./DOCS/mydata30.pdf" 
+  },
+    {"Serial":31,
+      "Trainingwing": "Specification of Automotive Paint Repair.",
+      "link": "./DOCS/mydata31.pdf" 
+     },
+    {"Serial":32,
+      "Trainingwing": "Specification of Basic cosmetology (Hair & Skin Care).",
+      "link": "./DOCS/mydata32.pdf" 
+     },
+    {
+      "Serial":33,
+      "Trainingwing": "Specification of Carpenter.",
+      "link": "./DOCS/mydata33.pdf" 
+    },
+    {
+      "Serial":34,
+      "Trainingwing": " Specification of Computer Aided Embroidery & Designing.",
+      "link": "./DOCS/mydata34.pdf" 
+     },
+    {
+      "Serial":35,
+      "Trainingwing": "Specification of Computer Hardware.",
+      "link": "./DOCS/mydata35.pdf" 
+     },
+    {
+      "Serial":36,
+      "Trainingwing": "Specification of COPA.",
+      "link": "./DOCS/mydata36.pdf" 
+     },
+    {
+      "Serial":37,
+      "Trainingwing": " Specification of DATA BASE SYSTEM ASSISTANT.",
+      "link": "./DOCS/mydata37.pdf"
+      },
+    {
+      "Serial":38,
+      "Trainingwing": "Specification of Diesel Mechanic.",
+      "link": "./DOCS/mydata38.pdf"  
+     },
+    {
+      "Serial":39,
+      "Trainingwing": "Specification of DMC.",
+      "link": "./DOCS/mydata39.pdf" 
+     },
+    {
+      "Serial":40,
+      "Trainingwing": "Specification of Dress Making.",
+      "link": "./DOCS/mydata40.pdf" 
+     },
+    {
+      "Serial":41,
+      "Trainingwing": "Specifications of Electrician.",
+      "link": "./DOCS/mydata41.pdf" 
+      },
+    {
+      "Serial":42,
+      "Trainingwing": "Specifications of Electronic Mechanic.",
+      "link": "./DOCS/mydata42.pdf" 
+      },
+    {
+      "Serial":43,
+      "Trainingwing": "Specifications of Electroplater.",
+      "link": "./DOCS/mydata43.pdf"  
+     },
+    {
+      "Serial":44,
+      "Trainingwing": "Specifications of English Steno.",
+      "link": "./DOCS/mydata44.pdf"
+      },
+    {
+      "Serial":45,
+      "Trainingwing": "Specifications of Fashion Design Technology.",
+      "link": "./DOCS/mydata45.pdf"
+       },
+    {
+      "Serial":46,
+      "Trainingwing": "Specifications of Fitter.",
+      "link": "./DOCS/mydata46.pdf"
+      },
+    {
+      "Serial":47,
+      "Trainingwing": "Specifications of Food Beverage.",
+      "link": "./DOCS/mydata47.pdf"
+    },
+    {"Serial":48,
+      
+      "Trainingwing": "Specifications of Food Breverage Service Assistant.",
+      "link": "./DOCS/mydata48.pdf"
+    },
+    {
+      "Serial":49,
+      "Trainingwing": "Specifications of Food Production.",
+      "link": "./DOCS/mydata49.pdf"
+    },
+    {
+      "Serial":50,
+      "Trainingwing": "Specifications of Foundryman Technician.",
+      "link": "./DOCS/mydata50.pdf"
+    },
+    {
+      "Serial":51,
+      "Trainingwing": " Specifications of Front Office Assistant.",
+      "link": "./DOCS/mydata51.pdf"
+      },
+    {
+      "Serial":52,
+      "Trainingwing": "Specifications of Fruits And Vegetable Processing.",
+      "link": "./DOCS/mydata52.pdf"       
+    },
+    {
+      "Serial":53,
+      "Trainingwing": " Specifications of House Keeper.",
+      "link": "./DOCS/mydata53.pdf"
+    },
+    {
+      "Serial":54,
+      "Trainingwing": " Specifications of Industrial Painter.",
+      "link": "./DOCS/mydata54.pdf" 
+    }
+  ]
+}
+]
+}
+],
+
+
+      
+       "...comments11e":"Information for - About the Strive",
+"PagetypeC": [
+      {
+        "heading": " About the Strive",
+        "detailservices": [
+          {
+            "header": "Skills Strengthening of Industrial Value Enhancement (STRIVE) Project in State of Andhra Pradesh",
+            "paragraph": [
+              {
+                "p": " Objective of the scheme is to improve the relevance and efficiency of skills Training provided through Industrial Training Institutes (ITIs) and Apprenticeships, duly upgrading the infrastructure, equipment and machinery."
+              },
+              {
+                "p": " STRIVE is a Central Sector Scheme with no State Contribution, assisted by World Bank."
+              },
+              {
+                "p": " It is a 5 Year Project , closing by November 2022. "
+              },
+              {
+                "p": " STRIVE Scheme has four result areas.  "
+              },
+              {
+                "p": " Result Area 1 - Improved Performance of ITIs.  "
+              },
+              {
+                "p": " Result Area 2 - Increased Capacities of State Governments to support ITIs and Apprenticeship Training.  "
+              },
+              {
+                "p": " Result Area 3 - Improved Teaching and Learning ."
+              },
+              {
+                "p": " Result Area 4 - Improved and Broadened Apprenticeship Training. "
+              },
+              {
+                "p": " 15 Govt. ITIs have been selected under the scheme and Institute Management Committees are also constituted in these ITIs. "
+              },
+              { "p": " Govt. of A.P have made an Agreement (Performance Based Fund Agreement ) with Govt. of India in Feb 2019 accepting terms and Conditions of the Project."
+              }
+            
+            ]
+          }
+        ]
+      }
+    ],
+
+    
+  "...comments11f":"Information for - CRAFTSMEN TRAINING SCHEME",
+    "Pagetype9": [
+      {
+        "heading": "CRAFTSMEN TRAINING SCHEME",
+        "detailservices": [
+          {
+            "header": "",
+            "paragraph": [
+              {
+                "p": " The Directorate General of Employment & Training (DGE&T) in the Ministry of Labour, Government of India initiated Craftsmen Training Scheme (CTS) in 1950. Craftsmen Training Scheme is the main scheme of the Department, under which technicians of craftsmen standard are trained in various engineering trades and non-engineering trades. This Scheme is running on all India basis under the guidelines of DGE&T, Ministry of Labour and Employment, Govt. of India under the aegis of National Council for Vocational Training. Engineering and non-engineering trades/skills to meet the ever-increasing demand of industry in public and private sector. All the major policies concerning the scheme are controlled and regulated by Govt. of India. So as to maintain uniform standards and pattern throughout the country.. "
+              }
+             
+            ]
+          },
+          {
+            "header": "OBJECTIVES OF THE CRAFTSMEN TRAINING SCHEME",
+            "paragraph": [
+              { "p": "1. To provide semi-skilled/skilled workers to industry by systematic training to school leavers."},
+              { "p": "2. To reduce unemployment among educated youth by equipping them with suitable skills for industrial employment."}
+            ]
+          },
+          {
+            "header": "SALIENT FEATURES OF THE SCHEME",
+            "paragraph": [
+              {
+                "p": "1. Training is imparted in various engineering and non-engineering trades. "
+              },
+              {
+                "p": "2. The period of training for various trades varies from six months to three years and the entry qualification varies from 8th to 12th class pass, depending on the requirements of training in different trades."
+              },
+              {
+                "p": "3. The institutes (Govt. or Pvt.) / trades having necessary infrastructural facilities as per the norms, are granted affiliation."
+              },
+              {
+                "p": "4. These institutes are required to conduct training courses as per the curriculum prescribed by National Council for Vocational Training (NCVT). "
+              },
+              {
+                "p": "5. Trainees after competition of the training period are required to appear in the All India Trade Test conducted under the aegis of National Council for Vocational Training. The successful trainees are awarded National Trade Certificate which has been recognized by Govt. of India.."
+              },
+              {
+                "p": "6. About 70% of the training period is allotted to practical training and the rest to theoretical training relating to Trade theory, Workshop Calculation & Science, Engineering Drawing, employability skills."
+              },
+              {
+                "p": "7. Syllabi of various trades are periodically revised to keep pace with changing technology in industry."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "...comments11h":"Information for - CENTRE OF EXCELLENCE SCHEME(COE)",
+    "Pagetype12": [
+      {
+        "heading": "CENTRE OF EXCELLENCE SCHEME(COE)",
+        "detailservices": [
+          {
+            "header": "Definition",
+            "paragraph": [
+              {
+                "p": " “Centre of Excellence is special Institute for Vocational Training characterized by close links between Institutes, other training providers, other employment interests and communities”"
+              }
+            ]
+          },
+          {
+            "header": "Introduction",
+            "paragraph": [
+              { "p": " Union Finance Minister in his Budget Speech 2004-05 had announced measures for upgradation of 500 ITIs in the country. Subsequently, as per the advice of M/o Finance, action has been initiated for upgradation of 100 ITIs from domestic resources and 400 ITIs through World Bank assistance."},
+              { "p": " Said 500 ITIs to be funded from domestic & World Bank resources have been distributed in 26 States/UTs (other than J&K, Sikkim and NE States) in proportion to the number of Government ITIs in these States. "},
+              { "p": " 100 ITI's have taken up in phase-I (2005-06) all over India from domestic resources. In the phase-II (2006-07) 100 more ITI's with assistance from World Bank have taken up for upgradation at the National level. During Phase-III (2007-08) 150 ITI's have been taken up. Rest of the 150 ITI's will be taken up in the year 2008-09 during Phase-IV. "},
+              { "p": " The outlay of Domestic Funded CoE’s is Rs.1-6 crore per CoE and that of World Bank funded CoE’s Rs.3.5 crore per CoE’s."},
+              { "p": " In the State of Punjab, Department is implementing the scheme in 34 ITIs (8 Domestic Funded + 26 World Bank funded)."},
+              { "p": " The total cost of the scheme is to be shared in ratio of 75:25 as advised by M/o Finance by Central and State respective."},
+              { "p": " It aims to produce appropriately qualified and skilled workers with excellent employment and career prospectus which meet the needs of the economy."},
+              { "p": " Modernization & Upgradation of ITIs into Centres of Excellence."},
+              { "p": " This scheme has been launched to bridge the gap of skill requirement of Industry & Service Sector and that is presently being provided in the ITI's."},
+              { "p": "In the state of Punjab 8 ITIs have been upgraded under domestic funded & 26 ITIs have bee."}    
+             ]
+            },
+  
+          {
+            "header": "SALIENT FEATURES OF THE SCHEME",
+            "paragraph": [
+              {
+                "p": "1. Training is imparted in various engineering and non-engineering trades. "
+              },
+              {
+                "p": "2. The period of training for various trades varies from six months to three years and the entry qualification varies from 8th to 12th class pass, depending on the requirements of training in different trades."
+              },
+              {
+                "p": "3. The institutes (Govt. or Pvt.) / trades having necessary infrastructural facilities as per the norms, are granted affiliation."
+              },
+              {
+                "p": "4. These institutes are required to conduct training courses as per the curriculum prescribed by National Council for Vocational Training (NCVT). "
+              },
+              {
+                "p": "5. Trainees after competition of the training period are required to appear in the All India Trade Test conducted under the aegis of National Council for Vocational Training. The successful trainees are awarded National Trade Certificate which has been recognized by Govt. of India.."
+              },
+              {
+                "p": "6. About 70% of the training period is allotted to practical training and the rest to theoretical training relating to Trade theory, Workshop Calculation & Science, Engineering Drawing, employability skills."
+              },
+              {
+                "p": "7. Syllabi of various trades are periodically revised to keep pace with changing technology in industry."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+  "...comments11g":"Information for - SCHEMES",
+    "Pagetype16": [
+      {
+        "heading": "SCHEMES",
+        "p": "",
+        "header": "",
+        "content": [
+          {
+            "link": "node271",
+            "description": "Craftsman Training Scheme"
+          },
+          {
+            "link": "node272",
+            "description": "Apprenticeship Training Scheme "
+          },
+          {
+            "link": "node273",
+            "description": "Centre of Excellence"
+          },
+          {
+            "link": "node274",
+            "description": "Skill Development Initiative"
+          },
+          {
+            "link": "node275",
+            "description": "Public Private Partnership"
+          },
+          {
+            "link": "node276",
+            "description": "Private Training Providers(PTPs)"
+          }
+        ]
+      }
+    ]
+  }
+      
+
+
+  
+
+
+
+
+    
