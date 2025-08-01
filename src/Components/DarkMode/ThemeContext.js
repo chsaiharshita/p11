@@ -18,9 +18,7 @@ export const ThemeContext = createContext({
   },
 });
 
-
-{/*
-import React, { useEffect, useState } from 'react';
+/*import React, { useEffect, useState } from 'react';
 
 const themes = {
   light: 'light',
@@ -65,4 +63,4 @@ const ThemeSwitcher = () => {
 };
 
 export default ThemeSwitcher;
-*/}
+*/

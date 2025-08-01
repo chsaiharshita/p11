@@ -18,10 +18,13 @@ function Node276() {
                       {content.paragraph.map((detail) => {
                         return (
                             <ul className="m-2">
-                            <a href={detail.link} target="_blank" id="p">
-                                  {detail.p} 
-                                </a>
-                            </ul>
+  <li>
+    <a href={detail.link} target="_blank" rel="noreferrer" id="p">
+      {detail.p}
+    </a>
+  </li>
+</ul>
+
                           );
                         })}
                      </section>

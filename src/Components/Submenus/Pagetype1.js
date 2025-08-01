@@ -5,29 +5,30 @@ import "./stylesheet.css";
 function Pagetype1() {
   return (
     <div>
-      {data.Pagetype1.map((information) => {
+      {data.Pagetype1.map((information, index) => {
         return (
-          <section className="container" id=""  >
+          <section className="container" key={index}>
             <div className="content">
-              <h3 className=" m-3 ">{information.heading}</h3>
-               <h6 className="m-3">{information.header}</h6>
-                {information.detailservices.map((content) => {
+              {/* Heading in black color */}
+              <h3 className="m-3 heading-black">{information.heading}</h3>
+              <h6 className="m-3">{information.header}</h6>
+              {information.detailservices.map((content, subIndex) => {
                 return (
-                  <>
-                    <h5 className="  ">{content.header}</h5>
+                  <div key={subIndex}>
+                    <h5>{content.header}</h5>
                     <p>{content.p}</p>
                     <section>
-                      {content.paragraph.map((detail) => {
+                      {content.paragraph.map((detail, paraIndex) => {
                         return (
-                          <ul className="">
-                          <p className="" id="p">
-                             {detail.p}
-                             </p>
-                             </ul>
+                          <ul key={paraIndex}>
+                            <p className="paragraph-text" id="p">
+                              {detail.p}
+                            </p>
+                          </ul>
                         );
-                     })}
+                      })}
                     </section>
-                  </>
+                  </div>
                 );
               })}
             </div>

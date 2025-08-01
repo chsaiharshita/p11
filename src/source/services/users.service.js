@@ -1,8 +1,14 @@
 import apiClient from "../helpers/apiClient";
-import  {url} from "../../sitedata.json";
+import { url } from "../../sitedata.json";
 
-class UsersService {
-	getAllUsers = () => apiClient().post(url,{pname:""});
-}
+// Functional version of getAllUsers
+const getAllUsers = () => {
+  return apiClient().post(url, { pname: "" });
+};
 
-export default new UsersService();
+// Export as a plain object, similar to service class instance
+const UsersService = {
+  getAllUsers,
+};
+
+export default UsersService;

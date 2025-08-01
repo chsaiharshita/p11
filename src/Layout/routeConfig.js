@@ -115,7 +115,7 @@ import node384 from "../Components/Sublinks-noc/Pages4";
 import node385 from "../Components/Sublinks-noc/Pages5";
 import node386 from "../Components/Sublinks-noc/Pages6";
 import node387 from "../Components/Sublinks-noc/Pages7";
-
+import Welcome from "../menus/Menu7/success.js";
 const routesConfig = [
   {
     path: "/Home",
@@ -126,7 +126,10 @@ const routesConfig = [
     path: "/about",
     component:about,
   },
-
+ {
+    path: "/welcome",
+    component: Welcome,
+  },
   {
     path: "/slide",
     component:slide,

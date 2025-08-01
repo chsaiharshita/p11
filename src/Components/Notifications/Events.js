@@ -1,17 +1,16 @@
-
 import React from 'react';
-import "./Api.css"
 import { Provider } from "react-redux";
-import UsersPage from "../../Redux2/Users.jsx";
-import configureStore from "../../source/redux/stores/configureStore.js";
+import EventsPage from '../../Redux2/Users';
+import configureStore from "../../source/redux/stores/configureStore";
 
 const store = configureStore();
 
 const Events = () => {
-return(
-      <Provider store={store}>
-              <UsersPage />
-          </Provider>   
-   )
-  }
+  return (
+    <Provider store={store}>
+      <EventsPage/>
+    </Provider>
+  );
+};
+
 export default Events;

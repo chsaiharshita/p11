@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./home.css";
 import { Carousel } from "react-bootstrap";
 import data from "../../sitedata.json";
@@ -85,6 +84,7 @@ function Slide() {
               <Home />
              <About />
              <Api />
+             
           </>
     )
 }

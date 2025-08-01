@@ -1,54 +1,46 @@
-                                                                                                                                                                                                                                                                                                                                                                                              import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 
-export default class ScrollToTop extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      is_visible: false,
-    };
-  }
+const ScrollToTop = () => {
+  const [isVisible, setIsVisible] = useState(false);
 
-  componentDidMount() {
-    var scrollComponent = this;
-    document.addEventListener("scroll", function (e) {
-      scrollComponent.toggleVisibility();
-    });
-  } 
-
-  toggleVisibility() {
+  const toggleVisibility = () => {
     if (window.pageYOffset > 200) {
-      this.setState({
-        is_visible: true,
-      });
+      setIsVisible(true);
     } else {
-      this.setState({
-        is_visible: false,
-      });
+      setIsVisible(false);
     }
-  }
+  };
 
-  scrollToTop() {
+  const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
-  }
+  };
 
-  render() {
-    const { is_visible } = this.state;
-    return (
-      <div className=" cursor-pointer ">
-        {is_visible && (
-          <div onClick={() => this.scrollToTop()}>
-            <div className="scroll-to-top">
-              <i
-                className="fa fa-angle-up  iconbox"
-                style={{ fontSize: "32px" }}
-              ></i>
-            </div>
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility);
+
+    // Cleanup function
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
+    };
+  }, []);
+
+  return (
+    <div className="cursor-pointer">
+      {isVisible && (
+        <div onClick={scrollToTop}>
+          <div className="scroll-to-top">
+            <i
+              className="fa fa-angle-up iconbox"
+              style={{ fontSize: "32px" }}
+            ></i>
           </div>
-        )}
-      </div>
-    );
-  }
-}
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default ScrollToTop;

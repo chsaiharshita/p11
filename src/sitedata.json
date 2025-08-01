@@ -385,7 +385,51 @@
       ]
     }
   ] ,
+"menu7": {
+    "userlabel": "username",
+    "plabel": "password",
+    "button": "login"
+  },
+"tradeTableTitle":"Trade Table List",
+"instituteTableTitle":"Institutes List",
+  "tradeTable": [
+  
+    {
+      "label": "Trade Code",
+      "key": "trade_code"
+    },
+    {
+      "label": "Trade Short",
+      "key": "trade_short"
+    },
+    {
+      "label": "Description",
+      "key": "description"
+    },
+    {
+      "label": "Display Order",
+      "key": "display_order"
+    }
+  ],
+"instituteTable":[
+  {
+      "label": "Name",
+      "key": "cname"
+    },
+    {
+      "label": "Code",
+      "key": "ccode"
+    },
+    {
+      "label": "District",
+      "key": "cdistrict"
+    },
+    {
+      "label": "Properties",
+      "key": "cproperties"
+    }
 
+],
   
 "section2": [
   {
@@ -510,21 +554,20 @@
   ],
 
 "Events":[
-  {
-    "ptitle":"Events",
-    "a":[
-      {
-        "aname":"Data is pending.......",
-        "avalue":""
-      },
-      {
-        "aname":"Data is pending.......",
-        "avalue":""
-      }
-    ]
-  }
-],
-
+    {
+      "ptitle":"Events",
+      "a":[
+        {
+          "aname":"Data is pending.......",
+          "avalue":""
+        },
+        {
+          "aname":"Data is pending.......",
+          "avalue":""
+        }
+      ]
+    }
+  ],
 "Reward":[
   {
     "ptitle":"Rewards",

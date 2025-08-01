@@ -2,25 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import 'bootstrap/dist/js/bootstrap.js';
+import { Provider } from 'react-redux';
+import store from './Redux10/store.js';  // path from src/index.js to redux/store.js
+
 import ThemeContextWrapper from './Components/DarkMode/ThemeContextWrapper.js';
-// import $ from 'jquery';
-// import Popper from 'popper.js';
+
+// 👇 Redux store import
 
 ReactDOM.render(
   <React.StrictMode>
-     <ThemeContextWrapper >
-    
-    <App />
-    </ThemeContextWrapper>
+    <Provider store={store}>
+      <ThemeContextWrapper>
+        <App />
+      </ThemeContextWrapper>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-

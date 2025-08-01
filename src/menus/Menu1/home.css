@@ -1,5 +1,4 @@
 .testimonials {
-  background: url("") no-repeat;
   background-position: 50% 100%;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(6, 63, 85, 0.801);
@@ -36,7 +35,7 @@
 }
 
 .updates {
-  background: url("") no-repeat;
+
   background-position: 50% 100%;
   background-size: cover;
  /* background-color: inset 0 0 0 1000px rgba(185, 187, 184, 0.9);*/
@@ -48,7 +47,7 @@
 }
 
 .updatess {
-  background: url("") no-repeat;
+  
   background-position: 50% 100%;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(185, 187, 184, 0.9);
@@ -58,7 +57,6 @@
   
 }
 .updated{
-  background: url("") no-repeat;
   background-position: 50% 100%;
   background-size: cover;
   margin: "auto";
@@ -66,7 +64,6 @@
   max-height: 100%;
 }
 .reward{
-    background: url("") no-repeat;
     background-position: 50% 100%;
     background-size: cover;
     margin: "auto";
@@ -610,3 +607,18 @@ div.overlay{
    margin-top: 100px;
    height: 100px;
  }
+ .updates .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-6 {
+  padding: 10px;
+}
+
+.card__picture2 {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}

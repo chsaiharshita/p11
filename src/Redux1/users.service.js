@@ -1,9 +1,14 @@
 import apiClient from "../../src/source/helpers/apiClient.js";
-import  url from "../sitedata.json";
+import url from "../sitedata.json";
 
-class UsersService {
-	getAllUsers = () => apiClient().post(url,{pname:"p1c151"});
-	 //change the project names here... p2-for project 2 ; p3- for Project3 //
-}
+// Function to get all users
+const getAllUsers = () => {
+  return apiClient().post(url, { pname: "p1c151" });
+};
 
-export default new UsersService();
+// Export as an object (similar to a service)
+const UsersService = {
+  getAllUsers,
+};
+
+export default UsersService;

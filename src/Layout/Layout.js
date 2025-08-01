@@ -1,27 +1,21 @@
 import React from "react";
-import { Breadcrumb } from "react-bootstrap";
-import { Route, Switch } from "react-router-dom";
-import Slide from "../menus/Menu1/Slide.js";
-import "./layout.css";
-import routeConfig from "./routeConfig.js";
-import ModalDialog from "./ModalDailog.js";
-
+import { Switch, Route } from "react-router-dom";
+import routesConfig from "./routeConfig";
+import Slide from "../menus/Menu1/Slide";
 
 function Layout() {
   return (
-    <React.Fragment> 
-     <div>
-       <Switch>
-        <Route exact path="/" >
-          <Slide />
-          <ModalDialog />
-         </Route>
-        {routeConfig.map((route, i) => (
-          <Route key={route} {...route} />
+    <div>
+      <Switch>
+        {/* Static home route */}
+        <Route exact path="/" component={Slide} />
+
+        {/* Dynamic routes */}
+        {routesConfig.map((route, i) => (
+          <Route key={i} path={route.path} component={route.component} />
         ))}
       </Switch>
-      </div>
-      </React.Fragment>
+    </div>
   );
 }
 

@@ -6,6 +6,8 @@ import data from "../../sitedata.json";
 
 function Footer() {
   return (
+
+    
     <>
       <ScrollToTopBtn />
      

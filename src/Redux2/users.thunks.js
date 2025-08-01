@@ -1,10 +1,12 @@
-import UsersService from "../../src/Redux2/users.service.js";
-import actions from "../source/redux/reducers/users/users.actions.js";
+/*import axios from "axios";
 
-export const loadUsersAsync = () => (dispatch) => {
-	dispatch(actions.usersLoadStart());
+export const loadEventsAsync = () => async (dispatch) => {
+  dispatch({ type: "EVENTS_REQUEST" });
 
-	UsersService.getAllUsers({pname:"p1c152"})
-		.then((response) => dispatch(actions.usersLoadSuccess(response.data)))
-		.catch((error) => dispatch(actions.usersLoadError(error.message)));
-};
+  try {
+    const response = await axios.get("http://192.168.137.193:5000/api/events");
+    dispatch({ type: "EVENTS_SUCCESS", payload: response.data });
+  } catch (err) {
+    dispatch({ type: "EVENTS_FAIL", payload: err.message });
+  }
+};*/
