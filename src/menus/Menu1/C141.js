@@ -3,7 +3,7 @@ import "./home.css";
 import Marquee from "react-fast-marquee";
 
 // ✅ Replace with your backend URL
-const url = "http://10.72.46.57:5000/api/p2c141";
+const url = "http://10.72.46.57:5000/api/latestnews/p2c141";
 
 function Home() {
   const [items, setItems] = useState([]);
@@ -91,4 +91,3 @@ function Home() {
 }
 
 export default Home;
-
