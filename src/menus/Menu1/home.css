@@ -622,3 +622,48 @@ div.overlay{
   border: 1px solid #ccc;
   padding: 10px;
 }
+/* Marquee container to scroll without scrollbar */
+.custom-marquee {
+  overflow: hidden !important;
+  scrollbar-width: none !important;        /* Firefox */
+}
+
+.custom-marquee::-webkit-scrollbar {
+  display: none !important;                /* Chrome/Safari */
+}
+
+/* Container for multiple links side-by-side */
+.announcement-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center; 
+  white-space: nowrap;
+}
+
+.announcement-links::-webkit-scrollbar {
+  display: none !important;
+}
+
+.announcements__list {
+  margin: 0;
+}
+
+/* Link styling – no background */
+.announcements__list a {
+  color: red;                /* or white if dark background */
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 5px;
+  font-size: 18px;
+}
+
+.announcements__list a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: hide horizontal scrollbar on page if needed */
+body {
+  overflow-x: hidden;
+}

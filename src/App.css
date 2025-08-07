@@ -53,6 +53,12 @@
     color: white;
     
   }
+body {
+  font-size: 16px;
+  transition: font-size 0.3s ease-in-out;
+}
 
-
+p, h1, h2, h3, span, div {
+  font-size: inherit;
+}
 

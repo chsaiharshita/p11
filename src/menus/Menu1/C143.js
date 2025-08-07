@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./home.css";
 
 // ✅ Backend API URL
-const url = "http://192.168.137.193:5000/api/rewards"; // add pname as query param
+const url = "http://10.72.46.57:5000/api/p2c143"; // add pname as query param
 
 function Newsapi() {
   const [items, setItems] = useState([]);

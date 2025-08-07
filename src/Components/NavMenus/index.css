@@ -274,3 +274,61 @@
   flex-direction: column;
   border-radius: 4px;
 }
+/* Dropdown full blue background and bold items */
+.dropdown-menu {
+  background-color: #00AEEF !important; /* Light Blue */
+  border: 1px solid #fff;
+  padding: 0;
+  min-width: 200px;
+  font-weight: bold;
+}
+
+/* Each dropdown item white text and border */
+.dropdown-menu .dropdown-item {
+  color: white !important;
+  padding: 10px 15px;
+  border-bottom: 1px solid white;
+  font-weight: bold;
+}
+
+/* Last item border remove (optional) */
+.dropdown-menu .dropdown-item:last-child {
+  border-bottom: none;
+}
+
+/* Hover effect with darker blue */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #0077b6 !important; /* Dark Blue */
+  color: white !important;
+}
+/* Blue background for dropdown */
+.dropdown-menu {
+  background-color: #00AEEF !important;
+  border: none;
+  padding: 0;
+  min-width: 200px;
+  font-weight: bold;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* prevent lines from coming out */
+}
+
+/* Individual dropdown items */
+.dropdown-menu .dropdown-item {
+  color: black !important;         /* Text should be black */
+  background-color: transparent !important;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* neat inner line */
+  transition: background-color 0.2s ease;
+}
+
+/* Last item - no border */
+.dropdown-menu .dropdown-item:last-child {
+  border-bottom: none;
+}
+
+/* Hover effect - dark blue background */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #0077b6 !important;
+  color: white !important;
+}

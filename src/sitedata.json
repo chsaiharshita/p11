@@ -116,7 +116,25 @@
        }
      ]
     },
-    
+    {
+  "name": "ANNOUNCEMENTS",
+  "type": "page",
+  "children": [
+    {
+      "name": "News",
+      "link": "/news"
+    },
+    {
+      "name": "Events",
+      "link": "/events"
+    },
+    {
+      "name": "Rewards",
+      "link": "/rewards"
+    }
+  ]
+ },
+
     {
      "name": "CONTACT US",
      "type": "page",
@@ -178,7 +196,7 @@
   "socialicons": [
     {
       "link1": "#home",
-      "title1": "SKIP TO MAINCONTENT",
+      "title1": "SKIP TO MAIN CONTENT",
       "link2": "",
       "title2": "",
       "iconslink": [
@@ -193,9 +211,9 @@
           "description": ""
         },
         {
-          "iconname": "fa fa-instagram",
-          "link": "https://www.instagram.com/",
-          "description": ""
+          "iconname": "fa fa-twitter",
+    "link": "https://www.twitter.com/",
+       "description": ""
         },
         {
           "iconname1": "fa fa-sitemap",

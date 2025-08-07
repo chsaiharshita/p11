@@ -207,3 +207,65 @@ button {
   margin-left: 5px;
  
 }
+.top-wrapper {
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+.topBar {
+  background: #faf9f8;
+  border-bottom: 1px solid #c2c0c1;
+  padding: 5px 0;
+}
+
+.left-links a {
+  margin-right: 10px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.socials li a {
+  color: #000;
+  font-size: 14px;
+}
+
+.sitemap-link {
+  color: #000;
+  text-decoration: none;
+}
+/* Font size button layout */
+.fontsize-buttons {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.fontsize-buttons button {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 2px 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.fontsize-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 10px;
+}

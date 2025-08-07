@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./home.css";
 import Newsapi from "./C143.js";
 
-const url = "http://192.168.137.193:5000/api/events/P2c142"; // Update IP if needed
+const url = "http://10.72.46.57:5000/api/p2c142"; // Update IP if needed
 
 function Api() {
   const [items, setItems] = useState([]);
