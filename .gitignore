@@ -15,6 +15,7 @@ build/
 .env/
 /assets/images/
 P2sitedata.json/
+
 P1sitedata.json/
 P3sitedata.json/
 P4sitedata.json/

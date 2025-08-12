@@ -667,3 +667,8 @@ div.overlay{
 body {
   overflow-x: hidden;
 }
+.latest-news {
+  position: relative; /* fixed or absolute remove cheyyi */
+  top: 0;
+  z-index: 1; /* ekkuva unte takkuva cheyyi */
+}

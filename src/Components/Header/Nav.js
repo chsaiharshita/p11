@@ -5,7 +5,6 @@ import Fontsize from './Fontsize';
 
 function Nav() {
   const socialData = data.socialicons[0]; // ✅ Use only the first item
-
   return (
     <div className="top-wrapper">
       <div className="topBar">
