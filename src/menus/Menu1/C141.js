@@ -1,50 +1,49 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
 import Marquee from "react-fast-marquee";
+import { Link } from "react-router-dom"; // ✅ Import Link
 
-// ✅ Replace with your backend URL
-const url = "http://10.72.46.57:5000/api/p2c141";
+const url = "http://10.72.46.57:5000/api/iti/p2c141";
 
 function Home() {
-  const [items, setItems] = useState([]);
+  const [announcement, setAnnouncement] = useState(null);
   const [dataIsLoaded, setDataIsLoaded] = useState(false);
 
-  
   useEffect(() => {
     fetch(url)
-      .then((response) => {
-        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+      .then(async (response) => {
+        if (!response.ok) {
+          const errData = await response.json().catch(() => ({}));
+          throw new Error(errData.error || `HTTP error! Status: ${response.status}`);
+        }
         return response.json();
       })
       .then((json) => {
         console.log("✅ Announcements from backend:", json);
-        setItems(json);
-        setDataIsLoaded(true);
+        setAnnouncement(json || null);
       })
       .catch((error) => {
-        console.error("❌ Error fetching announcements:", error);
-        setItems([]);
-        setDataIsLoaded(true);
-      });
+        console.error("Backend error:", error.message);
+        setAnnouncement({ error: error.message || "Internal Server Error" });
+      })
+      .finally(() => setDataIsLoaded(true));
   }, []);
 
   if (!dataIsLoaded) {
     return (
       <div className="container text-white py-3">
         <h3>
-          <i className="fa fa-bullhorn" aria-hidden="true" id="icon" />
-          Loading Announcements...
+          <i className="fa fa-bullhorn" aria-hidden="true" id="icon" /> Loading Announcements...
         </h3>
       </div>
     );
   }
 
-  if (items.length === 0) {
+  if (!announcement || !announcement.a || announcement.a.length === 0) {
     return (
       <div className="container text-warning py-3">
         <h3>
-          <i className="fa fa-bullhorn" aria-hidden="true" id="icon" />
-          No announcements available.
+          <i className="fa fa-bullhorn" aria-hidden="true" id="icon" /> {announcement.error}
         </h3>
       </div>
     );
@@ -53,39 +52,37 @@ function Home() {
   return (
     <div className="test">
       <section className="container" id="latest">
-        {items.map((details, index) => (
-          <section key={index}>
-            <div className="announcements row d-lg-block">
-              <h3
-                className="announcements__text col-xs-8 col-lg-2 col-md-12 col-sm-12 text-center"
-                id="announcements"
-              >
-                {details.ptitle}
-              </h3>
+        <div className="announcements row d-lg-block">
+          <h3
+            className="announcements__text col-xs-8 col-lg-2 col-md-12 col-sm-12 text-center"
+            id="announcements"
+          >
+            {announcement.ptitle || "Untitled"}
+          </h3>
 
-              <Marquee
-                className="col-xs-8 col-lg-10 col-md-12 col-sm-12 custom-marquee"
-                pauseOnHover
-                direction="left"
-                speed={40}
-              >
-                <div className="announcement-links">
-                  {details.a?.map((e, i) => (
-                    <p className="announcements__list" key={i}>
-                      <a
-                        href={e.avalue || "#"}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {e.aname}
-                      </a>
-                    </p>
-                  ))}
-                </div>
-              </Marquee>
-            </div>
-          </section>
-        ))}
+          <Marquee
+            className="col-xs-8 col-lg-10 col-md-12 col-sm-12"
+            pauseOnHover
+            direction="left"
+            speed={30}
+          >
+            {announcement.a.map((e, i) => {
+              // Remove quotes & extra slashes
+              const cleanPath = e.avalue
+                ?.toString()
+                .replace(/^['"]|['"]$/g, "")
+                .replace(/^\/+|\/+$/g, "");
+
+              return (
+                <p className="announcements__list" key={`link-${i}`}>
+                  <Link to={`/${cleanPath}`}>
+                    {e.aname || "No title"}
+                  </Link>
+                </p>
+              );
+            })}
+          </Marquee>
+        </div>
       </section>
     </div>
   );

@@ -607,68 +607,165 @@ div.overlay{
    margin-top: 100px;
    height: 100px;
  }
- .updates .row {
+ /* Force Events & Rewards side-by-side */
+.events-rewards-container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  gap: 20px !important;
+  width: 100% !important;
+}
+
+/* Each takes half screen */
+.events-rewards-container .events-section,
+.events-rewards-container .rewards-section {
+  flex: 1 1 50% !important;
+  background: #fff !important;
+  padding: 15px !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  min-height: 200px !important;
+  box-sizing: border-box !important;
+}
+
+/* Mobile view stacks them */
+@media (max-width: 768px) {
+  .events-rewards-container {
+    flex-direction: column !important;
+  }
+}
+.news-wrapper {
+  padding: 20px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center; /* Centers the card horizontally */
 }
 
-.col-md-6 {
-  padding: 10px;
-}
-
-.card__picture2 {
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-/* Marquee container to scroll without scrollbar */
-.custom-marquee {
-  overflow: hidden !important;
-  scrollbar-width: none !important;        /* Firefox */
-}
-
-.custom-marquee::-webkit-scrollbar {
-  display: none !important;                /* Chrome/Safari */
-}
-
-/* Container for multiple links side-by-side */
-.announcement-links {
-  display: flex;
-  gap: 30px;
-  align-items: center;
+.news-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
   text-align: center;
-  justify-content: center; 
-  white-space: nowrap;
 }
 
-.announcement-links::-webkit-scrollbar {
-  display: none !important;
+.news-card {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 600px;          /* <-- SET FIXED WIDTH */
+  max-width: 95%;        /* <-- Responsive: will shrink on small screens */
 }
 
-.announcements__list {
-  margin: 0;
+.news-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
 }
 
-/* Link styling – no background */
-.announcements__list a {
-  color: red;                /* or white if dark background */
-  font-weight: 500;
+.news-content {
+  flex: 1;
+}
+
+.news-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0047ab;
   text-decoration: none;
-  padding: 0 5px;
-  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
-.announcements__list a:hover {
+.news-title:hover {
   text-decoration: underline;
 }
 
-/* Optional: hide horizontal scrollbar on page if needed */
-body {
-  overflow-x: hidden;
+.news-desc {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
 }
-.latest-news {
-  position: relative; /* fixed or absolute remove cheyyi */
-  top: 0;
-  z-index: 1; /* ekkuva unte takkuva cheyyi */
+
+.news-back {
+  margin-top: 20px;
+}
+
+.news-back a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+}
+.news-wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* card aligned to left */
+}
+
+.news-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: left;
+  width: 100%;
+}
+
+.news-card {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 600px;
+  max-width: 95%;
+}
+
+.news-icon {
+  font-size: 48px;    /* makes the emoji larger */
+  line-height: 1;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.news-content {
+  flex: 1;
+}
+
+.news-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0047ab;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.news-title:hover {
+  text-decoration: underline;
+}
+
+.news-desc {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+.news-back {
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.news-back a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
 }
