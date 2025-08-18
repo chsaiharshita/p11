@@ -555,20 +555,24 @@
 
     "...comment7":"If API is down-The below information will display in All pages.",
 
-
-  
+"Latestnews":[
+  {
   "ptitle": "Latest Announcements",
   "a": [
     {
       "aname": "New Admission Open 2025",
-      "avalue": "/node/207"
+      "avalue": ""
     },
     {
       "aname": "Skill Development Program",
-      "avalue": "/node/208"
+      "avalue": ""
+    },
+    {
+      "link":"/node208"
     }
-  ],
-
+  ]
+}
+],
 "Events":[
     {
       "ptitle":"Events",

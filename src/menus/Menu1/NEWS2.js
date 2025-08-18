@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import newsIcon from "../../images/OIP.jpeg";
 
 function AnnouncementDetail() {
   const { id } = useParams(); // Get the ID from URL
@@ -31,7 +32,7 @@ function AnnouncementDetail() {
       {Array.isArray(details.a) && details.a.length > 0 ? (
         details.a.map((item, index) => (
           <div key={index} className="news-card">
-            <div className="news-icon">📰</div>
+        <img src={newsIcon} alt="news" className="news-icon" />
             <div className="news-content">
               <strong className="news-title">{item.aname || "No Name"}</strong>
               {item.adesc && <p className="news-desc">{item.adesc}</p>}

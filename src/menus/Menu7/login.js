@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { login } from "../../Redux10/action";
-import data from "../../Pitisitedata.json";
+import data from "../../sitedata.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Login() {

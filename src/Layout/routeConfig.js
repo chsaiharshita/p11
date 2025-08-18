@@ -16,15 +16,14 @@ import Login from "../menus/Menu7/login.js";
 import node151 from "../Components/Notifications/Api";
 import node152 from "../Components/Notifications/Events.js";
 import node153 from "../Components/Notifications/Rewards";
-
-
-
+import AnnouncementDetails from "../menus/Menu1/AnnouncementDetails.js";
+import AnnouncementDetail from "../menus/Menu1/NEWS2.js";
 import fetch from "../Components/Notifications/Fetch.js"
 import sitemap from "../Components/Sitemap/Sitemap.js";
 import organisation from "../menus/Organisation/Index.js";
 
-
-
+import NewsList from "../menus/Menu1/NewsList.js";
+import EventsList from "../menus/Menu1/EventsList.js";
 import node201 from "../Components/Submenus/Pagetype1";
 import node202 from "../menus/Organisation/Index.js";
 import node203 from "../Components/Submenus/Pagetype3";
@@ -129,6 +128,22 @@ const routesConfig = [
  {
     path: "/welcome",
     component: Welcome,
+  },
+  {
+     path:"/node208",
+     component:AnnouncementDetails,
+  },
+  {
+    path:"/node209",
+    component:AnnouncementDetail,
+  },
+  {
+    path:"/news",
+    component: NewsList,
+  },
+{
+    path:"/events",
+    component: EventsList,
   },
   {
     path: "/slide",

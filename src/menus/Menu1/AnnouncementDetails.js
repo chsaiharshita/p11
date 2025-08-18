@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-
+import newsIcon from "../../images/OIP.jpeg";
 function AnnouncementDetails() {
   const { pname } = useParams(); // Get pname from URL
   const [details, setDetails] = useState(null);
@@ -8,6 +8,8 @@ function AnnouncementDetails() {
 
   useEffect(() => {
     setLoading(true);
+
+    // Use pname dynamically in fetch URL
     fetch(`http://10.72.46.57:5000/api/iti/p2c1411`)
       .then(async (response) => {
         if (!response.ok) {
@@ -32,7 +34,7 @@ function AnnouncementDetails() {
       {Array.isArray(details.a) && details.a.length > 0 ? (
         details.a.map((item, index) => (
           <div key={index} className="news-card">
-            <div className="news-icon">📰</div>
+            <img src={newsIcon} alt="news" className="news-icon" />
             <div className="news-content">
               <strong className="news-title">{item.aname || "No Name"}</strong>
               {item.adesc && <p className="news-desc">{item.adesc}</p>}
