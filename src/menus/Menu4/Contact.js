@@ -5,7 +5,7 @@ import data from "../../sitedata.json";
 import Contactmap from "./map.js"
 
 
-function Contact() {
+function C601() {
   return (
      <>
        {data.contact.map((details) => {
@@ -76,4 +76,4 @@ function Contact() {
   )
 };
 
-export default Contact; 
+export default C601; 

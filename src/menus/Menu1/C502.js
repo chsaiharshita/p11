@@ -2,18 +2,19 @@
 import React, { useEffect, useState } from "react";
 import eventIcon from "../../images/Events1.png";
 import "./EventsList.css";
+
 function parseEventString(aInput) {
   if (!aInput) return [];
 
-  // If already array of objects
   if (Array.isArray(aInput)) {
     return aInput.map(item => ({
       aname: item.aname || "",
-      avalue: item.avalue || ""
+      avalue: item.avalue && item.avalue.toLowerCase() !== "null" 
+        ? item.avalue 
+        : ""
     }));
   }
 
-  // If object, convert to string
   const aString = typeof aInput === "string" ? aInput : JSON.stringify(aInput);
 
   return aString
@@ -23,7 +24,9 @@ function parseEventString(aInput) {
       const [anamePart, avaluePart] = part.split("|avalue:");
       return {
         aname: anamePart ? anamePart.trim() : "",
-        avalue: avaluePart && avaluePart.trim() !== "null" ? avaluePart.trim() : ""
+        avalue: avaluePart && avaluePart.trim().toLowerCase() !== "null"
+          ? avaluePart.trim()
+          : ""
       };
     });
 }
@@ -60,10 +63,12 @@ function EventsList() {
               <div className="event-content">
                 <h4 className="event-title">{event.pname}</h4>
                 {parsedEvents.map((item, i) => (
-                  <p key={i}>
-                    <strong>{item.aname}</strong>
-                    {item.avalue ? ` – ${item.avalue}` : ""}
-                  </p>
+                  (item.aname || item.avalue) && (
+                    <p key={i}>
+                      <strong>{item.aname}</strong>
+                      {item.avalue && item.avalue.trim() !== "" ? ` – ${item.avalue}` : ""}
+                    </p>
+                  )
                 ))}
               </div>
             </div>

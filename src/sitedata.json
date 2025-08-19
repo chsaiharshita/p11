@@ -67,7 +67,7 @@
         },
         {
           "name": "ITI WISE SEATS/TRADES ",
-          "link": "node210",
+          "link": "node204",
           "type": "page"
         },
         {
@@ -111,7 +111,7 @@
      "children": [
        {
          "name": "RTI",
-         "link": "node601",
+         "link": "node401",
          "type": "page"
        }
      ]
@@ -122,15 +122,15 @@
   "children": [
     {
       "name": "News",
-      "link": "/news"
+      "link": "/node501"
     },
     {
       "name": "Events",
-      "link": "/events"
+      "link": "/node502"
     },
     {
       "name": "Rewards",
-      "link": "/rewards"
+      "link": "/node503"
     }
   ]
  },
@@ -141,7 +141,7 @@
      "children": [
        {
          "name": "CONTACT US",
-         "link": "node701",
+         "link": "node601",
          "type": "page"
        }
      ]
@@ -152,7 +152,7 @@
     "children": [
       {
         "name": "LOGIN",
-        "link": "/login",
+        "link": "/node701",
         "type": "page"
       }
     ]
@@ -561,11 +561,11 @@
   "a": [
     {
       "aname": "New Admission Open 2025",
-      "avalue": ""
+      "avalue": " "
     },
     {
       "aname": "Skill Development Program",
-      "avalue": ""
+      "avalue": " "
     },
     {
       "link":"/node208"

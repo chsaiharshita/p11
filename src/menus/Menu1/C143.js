@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
+import rewardIcon from "../../images/images.jpg";
 
 // Backend API URL
 const url = "http://10.72.46.57:5000/api/iti/p2c143";
@@ -90,11 +91,8 @@ function Newsapi() {
             {(Array.isArray(details.a) ? details.a : []).map((e, i) => (
               <div className="card__picture2 p-1 text-left" id="tool2" key={i}>
                 <div id="events">
-                  <img
-                    src="./images/images.jpg"
-                    alt={e.imgalt || "reward image"}
-                    className="card__img2"
-                  />
+                   <img src={rewardIcon} alt="reward" className="reward-icon" />
+                                
                 </div>
                 <h6 id="covid4">
                   <a href={e.avalue || "#"} target="_blank" rel="noopener noreferrer">

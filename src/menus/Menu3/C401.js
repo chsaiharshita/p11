@@ -2,7 +2,7 @@ import React from "react";
 import data from "../../sitedata.json";
 import "./styles.css";
 
-function RtiAct() {
+function C401() {
   return (
     <div>
       {data.Rti.map((information) => {
@@ -51,4 +51,4 @@ function RtiAct() {
 }
 
 
-export default RtiAct;
+export default C401;

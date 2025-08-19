@@ -3,12 +3,14 @@ import Home from "../menus/Menu1/C141.js";
 import about from "../menus/Menu2/About";
 import api from "../menus/Menu1/C142.js";
 import slide from "../menus/Menu1/Slide.js";
-import node601 from "../menus/Menu3/index";
+import C401 from "../menus/Menu3/C401";
+import node701 from "../menus/Menu3/C401";
 import node501 from "../menus/Menu5/index";
 import node501a from "../menus/Menu5/Helpdesk";
-import rti from "../menus/Menu3/index";
+import rti from "../menus/Menu3/C401";
 import contactUs from "../menus/Menu4/new.js";
-import node701 from "../menus/Menu4/Contact.js";
+import node601 from "../menus/Menu4/Contact.js";
+import C601 from "../menus/Menu4/Contact.js"
 import map from "../menus/Menu4/map";
 import websitepolicies from "../Components/Footer/Webpolicies.js";
 import help from "../Components/Footer/Help";
@@ -16,14 +18,14 @@ import Login from "../menus/Menu7/login.js";
 import node151 from "../Components/Notifications/Api";
 import node152 from "../Components/Notifications/Events.js";
 import node153 from "../Components/Notifications/Rewards";
-import AnnouncementDetails from "../menus/Menu1/AnnouncementDetails.js";
-import AnnouncementDetail from "../menus/Menu1/NEWS2.js";
+import AnnouncementDetails from "../menus/Menu1/C1411.js";
+import AnnouncementDetail from "../menus/Menu1/C1412.js";
 import fetch from "../Components/Notifications/Fetch.js"
 import sitemap from "../Components/Sitemap/Sitemap.js";
 import organisation from "../menus/Organisation/Index.js";
 
-import NewsList from "../menus/Menu1/NewsList.js";
-import EventsList from "../menus/Menu1/EventsList.js";
+import NewsList from "../menus/Menu1/C501.js";
+import EventsList from "../menus/Menu1/C502.js";
 import node201 from "../Components/Submenus/Pagetype1";
 import node202 from "../menus/Organisation/Index.js";
 import node203 from "../Components/Submenus/Pagetype3";
@@ -115,6 +117,7 @@ import node385 from "../Components/Sublinks-noc/Pages5";
 import node386 from "../Components/Sublinks-noc/Pages6";
 import node387 from "../Components/Sublinks-noc/Pages7";
 import Welcome from "../menus/Menu7/success.js";
+import RewardsList from "../menus/Menu1/C503.js";
 const routesConfig = [
   {
     path: "/Home",
@@ -138,15 +141,19 @@ const routesConfig = [
     component:AnnouncementDetail,
   },
   {
-    path:"/news",
+    path:"/node501",
     component: NewsList,
   },
 {
-    path:"/events",
+    path:"/node502",
     component: EventsList,
   },
   {
-    path: "/slide",
+    path:"/node503",
+    component: RewardsList,
+  },
+  {
+    path: "/node503",
     component:slide,
   },
   {
@@ -160,17 +167,17 @@ const routesConfig = [
   
  
   {
-    path: "/login",
+    path: "/node701",
     component: Login,
   },
   
   {
-    path: "/node601",
-    component: node601,
+    path: "/node401",
+    component: C401,
   },
   {
-    path: "/node701", 
-    component: node701,
+    path: "/node601", 
+    component: C601,
   },
   {
     path: "/node151",
@@ -1097,7 +1104,7 @@ const routesConfig = [
  
  
   {
-    path: "/node210",
+    path: "/node204",
     component: node210,
   },
  
