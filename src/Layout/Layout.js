@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import routesConfig from "./routeConfig";
-import Slide from "../menus/Menu1/Slide";
+import Slide from "../menus/C100/Slide";
 
 function Layout() {
   return (

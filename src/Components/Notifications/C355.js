@@ -6,11 +6,11 @@ import Posts from "../../Redux5a/Posts";
 
 
 
-function Course() {
+function C355() {
 return(
       <Provider store={ store }>
               <Posts />
           </Provider>   
    );
   }
-export default Course;
+export default C355;

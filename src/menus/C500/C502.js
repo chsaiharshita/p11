@@ -31,7 +31,7 @@ function parseEventString(aInput) {
     });
 }
 
-function EventsList() {
+function C502() {
   const [eventsData, setEventsData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -79,4 +79,4 @@ function EventsList() {
   );
 }
 
-export default EventsList;
+export default C502;

@@ -3,7 +3,7 @@ import data from "../../sitedata.json";
 import "./stylesheet.css";
 
 
-function PagetypeC() {
+function C302() {
   return (
     <div>
     {data.PagetypeC.map((information) => {
@@ -37,4 +37,4 @@ function PagetypeC() {
   );
 }
 
-export default PagetypeC;
+export default C302;

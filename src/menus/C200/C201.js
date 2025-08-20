@@ -2,7 +2,7 @@ import React from "react";
 import data from "../../sitedata.json";
 import "./stylesheet.css";
 
-function Pagetype1() {
+function C201() {
   return (
     <div>
       {data.Pagetype1.map((information, index) => {
@@ -39,4 +39,4 @@ function Pagetype1() {
   );
 }
 
-export default Pagetype1;
+export default C201;

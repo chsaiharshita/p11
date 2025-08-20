@@ -5,7 +5,7 @@ import { login } from "../../Redux10/action";
 import data from "../../sitedata.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Login() {
+function C701() {
   const dispatch = useDispatch();
   const history = useHistory();
   const { loading, error, isAuthenticated, user } = useSelector((state) => state.auth);
@@ -69,4 +69,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default C701;

@@ -10,16 +10,15 @@ import 'bootstrap/dist/js/bootstrap.js';
 import { Provider } from 'react-redux';
 import store from './Redux10/store.js';  // path from src/index.js to redux/store.js
 
-import ThemeContextWrapper from './Components/DarkMode/ThemeContextWrapper.js';
 
 // 👇 Redux store import
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <ThemeContextWrapper>
+      
         <App />
-      </ThemeContextWrapper>
+     
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

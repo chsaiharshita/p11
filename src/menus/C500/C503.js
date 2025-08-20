@@ -31,7 +31,7 @@ function parseRewardString(aInput) {
     });
 }
 
-function RewardsList() {
+function C503() {
   const [rewardsData, setRewardsData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -79,4 +79,4 @@ function RewardsList() {
   );
 }
 
-export default RewardsList;
+export default C503;

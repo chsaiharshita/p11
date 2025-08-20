@@ -2,10 +2,10 @@ import React from "react";
 import data from "../../sitedata.json";
 import "./stylesheet.css";
 
-function Pagetype3() {
+function C303() {
   return (
     <div>
-      {data.Pagetype3.map((information) => {
+      {data.PagetypeA.map((information) => {
         return (
           <section className="container" id="">
             <div className="content">
@@ -17,9 +17,9 @@ function Pagetype3() {
                     <h5 className="  ">{content.header}</h5>
                     <p>{content.p}</p>
                     <table className="col-lg-12 col-xs-10 col-md-8 d-sm-10" id="customer" >
-                    <thread  > 
-                    <tr >
-                  <th style={{width:"5%"}} >{content.Serial}</th>
+                  <thread  > 
+                  <tr >
+                 <th style={{width:"5%"}} >{content.Serial}</th>
                  <th style={{width:"65%"}}>{content.Trainingwing}</th>
                  <th style={{width:"30%"}}>{content.Contact}</th>
                   </tr>
@@ -28,10 +28,10 @@ function Pagetype3() {
                      return (
                         <tr id="text_align" >
                         <td > {details.Serial}</td>
-                      <td style={{textAlign:"left", paddingLeft:"10px"}}> {details.Trainingwing} </td> 
-                      <td> 
+                       <td style={{textAlign:"left", paddingLeft:"10px"}}> {details.Trainingwing} </td> 
+                       <td> 
                       <a  href={details.link}  target="_blank">
-                       View
+                      View
                        <i className="fa fa-download pdf-download" aria-hidden="true"></i>
                          </a>  </td>  
                        </tr>
@@ -53,4 +53,4 @@ function Pagetype3() {
 }
 
 
-export default Pagetype3;
+export default C303;

@@ -1,43 +1,45 @@
 
-import Home from "../menus/Menu1/C141.js";
-import about from "../menus/Menu2/About";
-import api from "../menus/Menu1/C142.js";
-import slide from "../menus/Menu1/Slide.js";
-import C401 from "../menus/Menu3/C401";
-import node701 from "../menus/Menu3/C401";
-import node501 from "../menus/Menu5/index";
-import node501a from "../menus/Menu5/Helpdesk";
-import rti from "../menus/Menu3/C401";
-import contactUs from "../menus/Menu4/new.js";
-import node601 from "../menus/Menu4/Contact.js";
-import C601 from "../menus/Menu4/Contact.js"
-import map from "../menus/Menu4/map";
+import Home from "../menus/C100/C141.js";
+import about from "../menus/C200/About.js";
+import api from "../menus/C100/C142.js";
+import slide from "../menus/C100/Slide.js";
+import C401 from "../menus/C400/C401.js";
+import node701 from "../menus/C400/C401.js";
+import rti from "../menus/C400/C401.js";
+import contactUs from "../menus/C600/new.js";
+import node601 from "../menus/C600/C601.js";
+import C601 from "../menus/C600/C601.js"
+import map from "../menus/C600/map.js";
 import websitepolicies from "../Components/Footer/Webpolicies.js";
 import help from "../Components/Footer/Help";
-import Login from "../menus/Menu7/login.js"; 
+import C701 from "../menus/C700/C701.js"; 
 import node151 from "../Components/Notifications/Api";
 import node152 from "../Components/Notifications/Events.js";
 import node153 from "../Components/Notifications/Rewards";
-import AnnouncementDetails from "../menus/Menu1/C1411.js";
-import AnnouncementDetail from "../menus/Menu1/C1412.js";
+import AnnouncementDetails from "../menus/C100/C1411.js";
+import AnnouncementDetail from "../menus/C100/C1412.js";
 import fetch from "../Components/Notifications/Fetch.js"
 import sitemap from "../Components/Sitemap/Sitemap.js";
-import organisation from "../menus/Organisation/Index.js";
+import organisation from "../menus/C200/C202.js";
 
-import NewsList from "../menus/Menu1/C501.js";
-import EventsList from "../menus/Menu1/C502.js";
-import node201 from "../Components/Submenus/Pagetype1";
-import node202 from "../menus/Organisation/Index.js";
-import node203 from "../Components/Submenus/Pagetype3";
-import node204 from "../Components/Submenus/Pagetype8";
+import C501 from "../menus/C500/C501.js";
+import C201 from "../menus/C200/C201.js";
+import C502 from "../menus/C500/C502.js";
+import node201 from "../menus/C200/C201.js";
+import node202 from "../menus/C200/C202.js";
+import C202 from "../menus/C200/C202.js";
+import node203 from "../menus/C200/C203.js";
+import C203 from "../menus/C200/C203.js";
+import node204 from "../menus/C200/C204.js";
+import C204 from "../menus/C200/C204.js";
 import node205 from "../Components/Submenus/Pagetype5";
 import node206 from "../Components/Submenus/Pagetype7";
 import node207 from "../Components/Submenus/Pagetype2";
 import node208 from "../Components/Submenus/Pagetype4";
 import node209 from "../Components/Submenus/Pagetype6";
 import node210 from "../Components/Notifications/Trade";
-import node211 from "../Components/Submenus/Pagetype16";
-
+import node211 from "../menus/C200/C211.js";
+import C211 from "../menus/C200/C211.js";
 import node215 from "../Components/Submenus/Pagetype15";
 import node212 from "../Components/Submenus/Pagetype10";
 
@@ -54,19 +56,21 @@ import node268 from "../Components/Sublinks1/Page9.js";
 import node269 from "../Components/Sublinks1/Page10.js";
 
 import node301 from "../Components/Submenus/PagetypeB";
-import node302 from "../Components/Submenus/PagetypeC";
-import node303 from "../Components/Submenus/PagetypeA";
+import node302 from "../menus/C300/C302.js";
+import C302 from "../menus/C300/C302.js";
+import node303 from "../menus/C300/C303.js";
+import C303 from "../menus/C300/C303.js";
 import node304 from "../Components/Submenus/PagetypeD";
 import node305 from "../Components/Submenus/PagetypeE";
 import node306 from "../Components/Submenus/PagetypeF";
 import node307 from "../Components/Submenus/PagetypeG";
 import node308 from "../Components/Submenus/PagetypeH";
-import node351 from "../Components/Submenus/Pagetype22a";
+import node351 from "../menus/C300/C351.js";
+import C351 from "../menus/C300/C351.js"
 import node352 from "../Components/Submenus/Pagetype23";
 import node353 from "../Components/Submenus/Pagetype22b";
 import node354 from "../Components/Submenus/Pagetype24";
-import node355 from "../Components/Notifications/Course.js"
-
+import C355 from "../Components/Notifications/C355.js"
 import node801 from "../Components/Notifications/authLogin.js";
 import node802 from "../Components/Notifications/authLogout.js";
 
@@ -116,8 +120,8 @@ import node384 from "../Components/Sublinks-noc/Pages4";
 import node385 from "../Components/Sublinks-noc/Pages5";
 import node386 from "../Components/Sublinks-noc/Pages6";
 import node387 from "../Components/Sublinks-noc/Pages7";
-import Welcome from "../menus/Menu7/success.js";
-import RewardsList from "../menus/Menu1/C503.js";
+import Welcome from "../menus/C700/success.js";
+import C503 from "../menus/C500/C503.js";
 const routesConfig = [
   {
     path: "/Home",
@@ -131,7 +135,12 @@ const routesConfig = [
  {
     path: "/welcome",
     component: Welcome,
-  },
+  }
+  
+  
+  
+  
+  ,
   {
      path:"/node208",
      component:AnnouncementDetails,
@@ -142,15 +151,15 @@ const routesConfig = [
   },
   {
     path:"/node501",
-    component: NewsList,
+    component: C501,
   },
 {
     path:"/node502",
-    component: EventsList,
+    component: C502,
   },
   {
     path:"/node503",
-    component: RewardsList,
+    component: C503,
   },
   {
     path: "/node503",
@@ -168,14 +177,14 @@ const routesConfig = [
  
   {
     path: "/node701",
-    component: Login,
+    component: C701,
   },
   
   {
     path: "/node401",
     component: C401,
   },
-  {
+  { 
     path: "/node601", 
     component: C601,
   },
@@ -224,19 +233,19 @@ const routesConfig = [
  
   {
     path: "/node201",
-    component: node201,
+    component: C201,
   },
   {
     path: "/node202",
-    component:node202,
+    component:C202,
   },
   {
     path: "/node203",
-    component:node203,
+    component:C203,
   },
   {
     path: "/node204",
-    component:node204,
+    component:C204,
   },
   {
     path: "/node205",
@@ -265,7 +274,7 @@ const routesConfig = [
   },
   {
     path: "/node211",
-    component:node211,
+    component:C211,
   },
   {
     path: "/node212",
@@ -289,11 +298,11 @@ const routesConfig = [
   },
   {
     path: "/node302",
-    component:node302,
+    component:C302,
   },
   {
     path: "/node303",
-    component:node303,
+    component:C303,
   },
   {
     path: "/node304",
@@ -318,7 +327,7 @@ const routesConfig = [
   },
   {
     path: "/node351",
-    component:node351,
+    component:C351,
   },
   {
     path: "/node352",
@@ -327,7 +336,7 @@ const routesConfig = [
  
   {
     path: "/node355",
-    component:node355,
+    component:C355,
   },
  
   
@@ -517,10 +526,7 @@ const routesConfig = [
     path: "/nicapsc-iti/node153",
     component:node153,
   },
-  {
-    path: "/nicapsc-iti/node501",
-    component: node501,
-  },
+  
   {
     path: "/nicapsc-iti/node601",
     component: node601,
@@ -797,19 +803,9 @@ const routesConfig = [
     path: "/nicapsc-noc/node151",
     component: node151,
   },
-  {
-    path: "/nicapsc-noc/node501",
-    component: node501,
-  },
-  {
-    path: "/nicapsc-noc/node501a",
-    component: node501a,
-  },
   
-  {
-    path: "/nicapsc-noc/node601",
-    component: node601,
-  },
+  
+  
   {
     path: "/nicapsc-noc/node701", 
     component: node701,

@@ -2,7 +2,7 @@ import  React from "react";
 import "./style.css";
 import data from "../../sitedata.json";
 
-function Tree () {
+function C202() {
      return (
            <>
            {data.Organisation.map((details) => {
@@ -34,4 +34,4 @@ function Tree () {
            </>
          )
       } 
-export default Tree;
+export default C202;

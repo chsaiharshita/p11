@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import "./NewsList.css";
 import newsIcon from "../../images/OIP.jpeg";
 
-function NewsList() {
+function C501() {
   const [newsData, setNewsData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -53,4 +53,4 @@ function NewsList() {
   );
 }
 
-export default NewsList;
+export default C501;

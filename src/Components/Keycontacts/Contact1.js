@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../../sitedata.json";
 import "./styles.css";
-import Contact from "../../menus/Menu4/Contact.js"
+import Contact from "../../menus/C600/C601.js"
 
 function Contact1() {
   return (
