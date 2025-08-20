@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Components/NavMenus/index.js";
-import Footer from "../Components/Footer/Footer";
+import Footer from "../Components/C007/Footer.js";
 import "./layout.css";
 import { withRouter } from "react-router-dom";
 import Layout from "./Layout";

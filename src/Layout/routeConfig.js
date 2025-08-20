@@ -10,8 +10,8 @@ import contactUs from "../menus/C600/new.js";
 import node601 from "../menus/C600/C601.js";
 import C601 from "../menus/C600/C601.js"
 import map from "../menus/C600/map.js";
-import websitepolicies from "../Components/Footer/Webpolicies.js";
-import help from "../Components/Footer/Help";
+import websitepolicies from "../Components/C007/Webpolicies.js";
+import help from "../Components/C007/Help.js";
 import C701 from "../menus/C700/C701.js"; 
 import node151 from "../Components/Notifications/Api";
 import node152 from "../Components/Notifications/Events.js";
@@ -19,7 +19,7 @@ import node153 from "../Components/Notifications/Rewards";
 import AnnouncementDetails from "../menus/C100/C1411.js";
 import AnnouncementDetail from "../menus/C100/C1412.js";
 import fetch from "../Components/Notifications/Fetch.js"
-import sitemap from "../Components/Sitemap/Sitemap.js";
+import sitemap from "../Components/C102/Sitemap.js"
 import organisation from "../menus/C200/C202.js";
 
 import C501 from "../menus/C500/C501.js";
