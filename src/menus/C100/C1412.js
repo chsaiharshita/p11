@@ -2,14 +2,14 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import newsIcon from "../../images/OIP.jpeg";
 
-function AnnouncementDetail() {
+function C1412() {
   const { id } = useParams(); // Get the ID from URL
   const [details, setDetails] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);
-    fetch(`http://10.72.46.57:5000/api/iti/p2c1412`)
+    fetch(`http://10.72.46.62/api/iti/p2c1412`)
       .then(async (response) => {
         if (!response.ok) {
           const errData = await response.json().catch(() => ({}));
@@ -50,4 +50,4 @@ function AnnouncementDetail() {
   );
 }
 
-export default AnnouncementDetail;
+export default C1412;

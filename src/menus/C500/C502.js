@@ -36,7 +36,7 @@ function C502() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://10.72.46.57:5000/api/iti/p2c142")  // <-- replace with your actual events API
+    fetch("http://10.72.46.62/api/iti/p2c142")  // <-- replace with your actual events API
       .then(res => res.json())
       .then(data => {
         console.log("Raw events data:", data); // debug line

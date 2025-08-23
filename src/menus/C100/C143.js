@@ -3,9 +3,9 @@ import "./home.css";
 import rewardIcon from "../../images/images.jpg";
 
 // Backend API URL
-const url = "http://10.72.46.57:5000/api/iti/p2c143";
+const url = "http://10.72.46.62/api/iti/p2c143";
 
-function Newsapi() {
+function C143() {
   const [items, setItems] = useState([]);
   const [dataIsLoaded, setDataIsLoaded] = useState(false);
   const [error, setError] = useState(null);
@@ -109,4 +109,4 @@ function Newsapi() {
   );
 }
 
-export default Newsapi;
+export default C143;

@@ -3,9 +3,9 @@ import "./home.css";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom"; // ✅ Import Link
 
-const url = "http://10.72.46.57:5000/api/iti/p2c141";
+const url = "http://10.72.46.62/api/iti/p2c141";
 
-function Home() {
+function C141() {
   const [announcement, setAnnouncement] = useState(null);
   const [dataIsLoaded, setDataIsLoaded] = useState(false);
 
@@ -88,4 +88,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default C141;

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchInstitutes } from "../../Redux10/instituteAction";
+import { fetchInstitutes } from "../../C1001/C1002";
 import data from "../../sitedata.json";
 
 const InstituteTable = () => {

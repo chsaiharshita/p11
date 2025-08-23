@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Provider } from "react-redux";
-import store from "../../Redux5a/store";
-import Posts from "../../Redux5a/Posts";
+import store from "../../C075/C078";
+import Posts from "../../C075/C076";
 
 
 

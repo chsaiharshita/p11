@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
-import Newsapi from "./C143.js";
+import C143 from "./C143.js";
 
-const url = "http://10.72.46.57:5000/api/iti/p2c142";
+const url = "http://10.72.46.62/api/iti/p2c142";
 
-function Api() {
+function C142() {
   const [data, setData] = useState(null);
   const [dataIsLoaded, setDataIsLoaded] = useState(false);
   const [error, setError] = useState(null);
@@ -45,7 +45,7 @@ function Api() {
               </h3>
             </div>
             <section id='rewardsSection'>
-            <Newsapi />
+            <C143 />
             </section>
           </div>
         </div>
@@ -61,7 +61,7 @@ function Api() {
             <i className="fa fa-exclamation-triangle" aria-hidden="true" /> Failed to load events: {error}
           </h4>
            <section id='rewardsSection'>
-          <Newsapi />
+          <C143 />
           </section>
         </div>
       </section>
@@ -76,7 +76,7 @@ function Api() {
             <i className="fa fa-calendar-check-o" aria-hidden="true" /> No events found.
           </h4>
           <section id='rewardsSection'>
-          <Newsapi />
+          <C143 />
           </section>
         </div>
       </section>
@@ -113,7 +113,7 @@ function Api() {
             ))}
           </div>
           <section id='rewardsSection'>
-          <Newsapi />
+          <C143 />
           </section>
         </div>
       </div>
@@ -121,4 +121,4 @@ function Api() {
   );
 }
 
-export default Api;
+export default C142;

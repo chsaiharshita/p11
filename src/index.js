@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './C002.js';
 
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import 'bootstrap/dist/js/bootstrap.js';
 import { Provider } from 'react-redux';
-import store from './Redux10/store.js';  // path from src/index.js to redux/store.js
+import store from './C1001/C1005.js';  // path from src/index.js to redux/store.js
 
 
 // 👇 Redux store import

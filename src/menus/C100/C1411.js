@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import newsIcon from "../../images/OIP.jpeg";
-function AnnouncementDetails() {
+function C1411() {
   const { pname } = useParams(); // Get pname from URL
   const [details, setDetails] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -10,7 +10,7 @@ function AnnouncementDetails() {
     setLoading(true);
 
     // Use pname dynamically in fetch URL
-    fetch(`http://10.72.46.57:5000/api/iti/p2c1411`)
+    fetch(`http://10.72.46.62/api/iti/p2c1411`)
       .then(async (response) => {
         if (!response.ok) {
           const errData = await response.json().catch(() => ({}));
@@ -52,4 +52,4 @@ function AnnouncementDetails() {
   );
 }
 
-export default AnnouncementDetails;
+export default C1411;
