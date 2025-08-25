@@ -1,35 +1,26 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
 import Marquee from "react-fast-marquee";
-import { Link } from "react-router-dom"; // ✅ Import Link
+import { Link } from "react-router-dom";
 
-const url = "http://10.72.46.62/api/iti/p2c141";
+const url = "http://10.72.46.62/api/p2c141";
 
 function C141() {
   const [announcement, setAnnouncement] = useState(null);
-  const [dataIsLoaded, setDataIsLoaded] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch(url)
-      .then(async (response) => {
-        if (!response.ok) {
-          const errData = await response.json().catch(() => ({}));
-          throw new Error(errData.error || `HTTP error! Status: ${response.status}`);
-        }
-        return response.json();
+      .then(res => res.json())
+      .then(json => setAnnouncement(json || null))
+      .catch(err => {
+        console.error("Failed to fetch announcements:", err);
+        setAnnouncement({ error: "Internal Server Error" });
       })
-      .then((json) => {
-        console.log("✅ Announcements from backend:", json);
-        setAnnouncement(json || null);
-      })
-      .catch((error) => {
-        console.error("Backend error:", error.message);
-        setAnnouncement({ error: error.message || "Internal Server Error" });
-      })
-      .finally(() => setDataIsLoaded(true));
+      .finally(() => setLoading(false));
   }, []);
 
-  if (!dataIsLoaded) {
+  if (loading) {
     return (
       <div className="container text-white py-3">
         <h3>
@@ -43,7 +34,8 @@ function C141() {
     return (
       <div className="container text-warning py-3">
         <h3>
-          <i className="fa fa-bullhorn" aria-hidden="true" id="icon" /> {announcement.error}
+          <i className="fa fa-bullhorn" aria-hidden="true" id="icon" /> 
+          {announcement?.error || "No announcements available"}
         </h3>
       </div>
     );
@@ -57,7 +49,7 @@ function C141() {
             className="announcements__text col-xs-8 col-lg-2 col-md-12 col-sm-12 text-center"
             id="announcements"
           >
-            {announcement.ptitle || "Untitled"}
+            {announcement.ptitle || "Announcements"}
           </h3>
 
           <Marquee
@@ -67,17 +59,14 @@ function C141() {
             speed={30}
           >
             {announcement.a.map((e, i) => {
-              // Remove quotes & extra slashes
-              const cleanPath = e.avalue
-                ?.toString()
+              const cleanPath = (e.avalue || "")
+                .toString()
                 .replace(/^['"]|['"]$/g, "")
                 .replace(/^\/+|\/+$/g, "");
 
               return (
-                <p className="announcements__list" key={`link-${i}`}>
-                  <Link to={`/${cleanPath}`}>
-                    {e.aname || "No title"}
-                  </Link>
+                <p className="announcements__list" key={i}>
+                  <Link to={`/${cleanPath}`}>{e.aname || "Untitled"}</Link>
                 </p>
               );
             })}

@@ -1,49 +1,20 @@
 // src/components/RewardsList.js
 import React, { useEffect, useState } from "react";
-import rewardIcon from "../../images/images.jpg"; // <-- update icon path if different
-import "./RewardsList.css"; // <-- create CSS same as EventsList.css
-
-function parseRewardString(aInput) {
-  if (!aInput) return [];
-
-  if (Array.isArray(aInput)) {
-    return aInput.map(item => ({
-      aname: item.aname || "",
-      avalue: item.avalue && item.avalue.toLowerCase() !== "null"
-        ? item.avalue
-        : ""
-    }));
-  }
-
-  const aString = typeof aInput === "string" ? aInput : JSON.stringify(aInput);
-
-  return aString
-    .split("aname:")
-    .filter(part => part.trim() !== "")
-    .map(part => {
-      const [anamePart, avaluePart] = part.split("|avalue:");
-      return {
-        aname: anamePart ? anamePart.trim() : "",
-        avalue: avaluePart && avaluePart.trim().toLowerCase() !== "null"
-          ? avaluePart.trim()
-          : ""
-      };
-    });
-}
+import rewardIcon from "../../images/images.jpg"; // update icon path if different
+import "./RewardsList.css";
 
 function C503() {
   const [rewardsData, setRewardsData] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://10.72.46.62/api/iti/p2c143")  // <-- replace with your actual rewards API
+    fetch("http://10.72.46.62/api/iti/p2c143") // replace with actual API
       .then(res => res.json())
       .then(data => {
-        console.log("Raw rewards data:", data); // debug line
         setRewardsData(Array.isArray(data) ? data : [data]);
         setLoading(false);
       })
-      .catch(err => {
+      .catch((err) => {
         console.error("Failed to fetch rewards:", err);
         setLoading(false);
       });
@@ -51,29 +22,47 @@ function C503() {
 
   if (loading) return <p>Loading...</p>;
 
+  const cleanValue = (val) => {
+    if (!val) return "";
+    const trimmed = val.trim();
+    return trimmed.toLowerCase() === "null" ? "" : trimmed;
+  };
+
   return (
     <div className="rewards-container">
       <h3>Rewards & Achievements</h3>
       <div className="rewards-list">
-        {rewardsData.map((reward, index) => {
-          const parsedRewards = parseRewardString(reward.a);
-          return (
-            <div key={index} className="reward-card">
-              <img src={rewardIcon} alt="reward" className="reward-icon" />
-              <div className="reward-content">
-                <h4 className="reward-title">{reward.pname}</h4>
-                {parsedRewards.map((item, i) => (
-                  (item.aname || item.avalue) && (
+        {rewardsData.map((reward, index) => (
+          <div key={index} className="reward-card">
+            <img src={rewardIcon} alt="reward" className="reward-icon" />
+            <div className="reward-content">
+              <h4 className="reward-title">{reward.pname}</h4>
+              {Array.isArray(reward.a) ? (
+                reward.a.map((item, i) => {
+                  const name = cleanValue(item.aname);
+                  const value = cleanValue(item.avalue);
+                  return (name || value) && (
                     <p key={i}>
-                      <strong>{item.aname}</strong>
-                      {item.avalue && item.avalue.trim() !== "" ? ` – ${item.avalue}` : ""}
+                      <strong>{name}</strong>
+                      {value ? ` – ${value}` : ""}
                     </p>
-                  )
-                ))}
-              </div>
+                  );
+                })
+              ) : (
+                (() => {
+                  const name = cleanValue(reward.a?.aname);
+                  const value = cleanValue(reward.a?.avalue);
+                  return (name || value) && (
+                    <p>
+                      <strong>{name}</strong>
+                      {value ? ` – ${value}` : ""}
+                    </p>
+                  );
+                })()
+              )}
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
     </div>
   );

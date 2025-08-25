@@ -2151,232 +2151,233 @@
           {  
             "Serial":1,
             "Trainingwing": "Specifications of Refrigeration & Air Conditioning.",
-            "link": "./DOCS/mydata.pdf" 
+            "link": "/spec1.html"
+ 
            },
             {
               "Serial":2,
             "Trainingwing": "Specifications of Information & Communication Technology System Maintenance.",
-            "link": "./DOCS/mydata2.pdf"
+            "link": "/spec1.html"
           },
            {
             "Serial":3,
             "Trainingwing": "Specifications of INFORMATION TECHNOLOGY.",
-            "link": "./DOCS/mydata3.pdf"
+            "link": "/spec1.html" 
           },
            {
             "Serial":4,
            "Trainingwing": "Specifications of Instrument Mechanic.",
-           "link": "./DOCS/mydata4.pdf"
+           "link": "/spec1.html"
           },
           {"Serial":5,
             "Trainingwing": "Specifications of Lab Assistant.",
-            "link": "./DOCS/mydata5.pdf"
+            "link": "/spec1.html"
           },
           {"Serial":6,
             "Trainingwing": "Specifications of Mechinist Composite.",
-            "link": "./DOCS/mydata6.pdf"
+            "link": "/spec1.html"
            },
           {"Serial":7,
             "Trainingwing": "Specifications of Mechinist Grinder.",
-            "link": "./DOCS/mydata7.pdf" 
+            "link": "/spec1.html" 
            },
           {"Serial":8,
             "Trainingwing": "Specifications of Mech Auto Electrical & Electronics.",
-            "link": "./DOCS/mydata8.pdf" 
+            "link": "/spec1.html"
           },
           {"Serial":9,
             "Trainingwing": "Specifications of Mech. Motor Vehicles.",
-            "link": "./DOCS/mydata9.pdf"  
+            "link": "/spec1.html"
            },
           {"Serial":10,
             "Trainingwing": "Specifications of Mechanic Agricultural Machinery.",
-            "link": "./DOCS/mydata10.pdf"   
+            "link": "/spec1.html"
            },
           {"Serial":11,
             "Trainingwing": "Specifications of Mechanic Consumer Electronics Appliances.",
-            "link": "./DOCS/mydata11.pdf"  
+            "link": "/spec1.html"
            },
           {"Serial":12,
             "Trainingwing": "Specifications of Mechanic Machine Tool Maintenance.",
-            "link": "./DOCS/mydata12.pdf" 
+            "link":"/spec1.html"
            },
           {"Serial":13,
             "Trainingwing": "Specifications of Mechanic Tractor.",
-            "link": "./DOCS/mydata13.pdf" 
+            "link": "/spec1.html"
            },
           {"Serial":14,
             "Trainingwing": "Specifications of MILK & MILK PRODUCTS.",
-            "link": "./DOCS/mydata14.pdf" 
+            "link": "/spec1.html"
            },
           {
             "Serial":15,
             "Trainingwing": "Specifications of Multimedia, Animation And Special Effects.",
-            "link": "./DOCS/mydata15.pdf"
+            "link": "/spec1.html"
            },
           {"Serial":16,
             "Trainingwing": "Specifications of Plumber.",
-            "link": "./DOCS/mydata16.pdf" 
+            "link":"/spec1.html" 
            },
           {"Serial":17,
             "Trainingwing": "Specifications of Secretarial Practice.",
-            "link": "./DOCS/mydata17.pdf"  },
+            "link": "/spec1.html" },
           {"Serial":18,
             "Trainingwing": "Specifications of Sewing Technology.",
-            "link": "./DOCS/mydata18.pdf" },
+            "link": "/spec1.html" },
           {"Serial":19,
             "Trainingwing": "Specifications of Spinning Technician.",
-            "link": "./DOCS/mydata19.pdf" },
+            "link": "/spec1.html" },
           {"Serial":20,
             "Trainingwing": "Specifications of Surface Ornament Techniques.",
-            "link": "./DOCS/mydata20.pdf"   },
+            "link": "/spec1.html"  },
           {"Serial":21,
             "Trainingwing": "Specifications of Surveyor.",
-            "link": "./DOCS/mydata21.pdf" },
+            "link": "/spec1.html" },
           {"Serial":22,
             "Trainingwing": "Specifications of Technician Power Electronics.",
-            "link": "./DOCS/mydata22.pdf" },
+            "link": "/spec1.html" },
           {"Serial":23,
             "Trainingwing": "Specifications of Textile Wet Processing Technician.",
-            "link": "./DOCS/mydata23.pdf" },
+            "link": "/spec1.html" },
           {"Serial":24,
             "Trainingwing": " Specifications of Tool & Die(Press Tools,Jigs & Fixtures).",
-            "link": "./DOCS/mydata24.pdf" },
+            "link": "/spec1.html" },
           {"Serial":25,
             "Trainingwing": " Specifications of Turner.",
-            "link": "./DOCS/mydata25.pdf"  },
+            "link": "/spec1.html"  },
           {"Serial":26,
             "Trainingwing": " Specifications of Welder GMAW & GTAW.",
-            "link": "./DOCS/mydata26.pdf" },
+            "link": "/spec1.html" },
           {"Serial":27,
             "Trainingwing": "Specifications of Welder.",
-            "link": "./DOCS/mydata27.pdf"},
+            "link": "/spec1.html"},
           {"Serial":28,
             "Trainingwing": "Specifications of Wireman.",
-            "link": "./DOCS/mydata28.pdf" },
+            "link": "/spec1.html" },
           {"Serial":29,
             "Trainingwing": "Specification of Agro Processing.",
-            "link": "./DOCS/mydata29.pdf"  },
+            "link": "/spec1.html"  },
           {"Serial":30,
             "Trainingwing": "Specification of Automotive Body Repair.",
-            "link": "./DOCS/mydata30.pdf" 
+            "link": "/spec1.html"
         },
           {"Serial":31,
             "Trainingwing": "Specification of Automotive Paint Repair.",
-            "link": "./DOCS/mydata31.pdf" 
+            "link": "/spec1.html" 
            },
           {"Serial":32,
             "Trainingwing": "Specification of Basic cosmetology (Hair & Skin Care).",
-            "link": "./DOCS/mydata32.pdf" 
+            "link": "/spec1.html"
            },
           {
             "Serial":33,
             "Trainingwing": "Specification of Carpenter.",
-            "link": "./DOCS/mydata33.pdf" 
+            "link": "/spec1.html" 
           },
           {
             "Serial":34,
             "Trainingwing": " Specification of Computer Aided Embroidery & Designing.",
-            "link": "./DOCS/mydata34.pdf" 
+            "link":  "/spec1.html"
            },
           {
             "Serial":35,
             "Trainingwing": "Specification of Computer Hardware.",
-            "link": "./DOCS/mydata35.pdf" 
+            "link": "/spec1.html" 
            },
           {
             "Serial":36,
             "Trainingwing": "Specification of COPA.",
-            "link": "./DOCS/mydata36.pdf" 
+            "link": "/spec1.html"
            },
           {
             "Serial":37,
             "Trainingwing": " Specification of DATA BASE SYSTEM ASSISTANT.",
-            "link": "./DOCS/mydata37.pdf"
+            "link": "/spec1.html"
             },
           {
             "Serial":38,
             "Trainingwing": "Specification of Diesel Mechanic.",
-            "link": "./DOCS/mydata38.pdf"  
+            "link": "/spec1.html"
            },
           {
             "Serial":39,
             "Trainingwing": "Specification of DMC.",
-            "link": "./DOCS/mydata39.pdf" 
+            "link": "/spec1.html"
            },
           {
             "Serial":40,
             "Trainingwing": "Specification of Dress Making.",
-            "link": "./DOCS/mydata40.pdf" 
+            "link":"/spec1.html"
            },
           {
             "Serial":41,
             "Trainingwing": "Specifications of Electrician.",
-            "link": "./DOCS/mydata41.pdf" 
+            "link": "/spec1.html" 
             },
           {
             "Serial":42,
             "Trainingwing": "Specifications of Electronic Mechanic.",
-            "link": "./DOCS/mydata42.pdf" 
+            "link":"/spec1.html"
             },
           {
             "Serial":43,
             "Trainingwing": "Specifications of Electroplater.",
-            "link": "./DOCS/mydata43.pdf"  
+            "link": "/spec1.html"
            },
           {
             "Serial":44,
             "Trainingwing": "Specifications of English Steno.",
-            "link": "./DOCS/mydata44.pdf"
+            "link": "/spec1.html"
             },
           {
             "Serial":45,
             "Trainingwing": "Specifications of Fashion Design Technology.",
-            "link": "./DOCS/mydata45.pdf"
+            "link": "/spec1.html"
              },
           {
             "Serial":46,
             "Trainingwing": "Specifications of Fitter.",
-            "link": "./DOCS/mydata46.pdf"
+            "link":"/spec1.html"
             },
           {
             "Serial":47,
             "Trainingwing": "Specifications of Food Beverage.",
-            "link": "./DOCS/mydata47.pdf"
+            "link": "/spec1.html"
           },
           {"Serial":48,
             
             "Trainingwing": "Specifications of Food Breverage Service Assistant.",
-            "link": "./DOCS/mydata48.pdf"
+            "link": "/spec1.html"
           },
           {
             "Serial":49,
             "Trainingwing": "Specifications of Food Production.",
-            "link": "./DOCS/mydata49.pdf"
+            "link":"/spec1.html"
           },
           {
             "Serial":50,
             "Trainingwing": "Specifications of Foundryman Technician.",
-            "link": "./DOCS/mydata50.pdf"
+            "link": "/spec1.html"
           },
           {
             "Serial":51,
             "Trainingwing": " Specifications of Front Office Assistant.",
-            "link": "./DOCS/mydata51.pdf"
+            "link": "/spec1.html"
             },
           {
             "Serial":52,
             "Trainingwing": "Specifications of Fruits And Vegetable Processing.",
-            "link": "./DOCS/mydata52.pdf"       
+            "link": "/spec1.html"       
           },
           {
             "Serial":53,
             "Trainingwing": " Specifications of House Keeper.",
-            "link": "./DOCS/mydata53.pdf"
+            "link":"/spec1.html"
           },
           {
             "Serial":54,
             "Trainingwing": " Specifications of Industrial Painter.",
-            "link": "./DOCS/mydata54.pdf" 
+            "link": "/spec1.html" 
           }
         ]
       }
