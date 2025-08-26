@@ -116,6 +116,7 @@
        }
      ]
     },
+    
     {
   "name": "ANNOUNCEMENTS",
   "type": "page",
@@ -134,8 +135,7 @@
     }
   ]
  },
-
-    {
+ {
      "name": "CONTACT US",
      "type": "page",
      "children": [
@@ -146,6 +146,7 @@
        }
      ]
    },
+   
    {
     "name": "LOGIN",
     "type": "page",

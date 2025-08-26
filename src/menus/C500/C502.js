@@ -8,7 +8,7 @@ function C502() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://10.72.46.62/api/iti/p2c142") // replace with actual API
+    fetch("http://10.72.46.57:5000/api/p2c142") // replace with actual API
       .then(res => res.json())
       .then(data => {
         setEventsData(Array.isArray(data) ? data : [data]);

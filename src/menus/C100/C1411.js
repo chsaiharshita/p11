@@ -10,7 +10,7 @@ function C1411() {
     setLoading(true);
 
     // Use pname dynamically in fetch URL
-    fetch(`http://10.72.46.62/api/iti/p2c1411`)
+    fetch(`http://10.72.46.57:5000/api/p2c1411`)
       .then(async (response) => {
         if (!response.ok) {
           const errData = await response.json().catch(() => ({}));

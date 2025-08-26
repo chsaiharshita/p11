@@ -3,7 +3,7 @@ import "./home.css";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 
-const url = "http://10.72.46.62/api/p2c141";
+const url = "http://10.72.46.57:5000/api/p2c141";
 
 function C141() {
   const [announcement, setAnnouncement] = useState(null);
