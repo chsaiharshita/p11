@@ -1,26 +1,41 @@
 // src/components/EventsList.js
 import React, { useEffect, useState } from "react";
 import "./EventsList.css";
-import eventIcon from "../../images/Events1.png";
+import siteData from "../../sitedata.json";
 
 function C502() {
   const [eventsData, setEventsData] = useState([]);
+  const [icons, setIcons] = useState([]);  // <-- store event icons from siteData
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://10.72.46.57:5000/api/p2c142") // replace with actual API
-      .then(res => res.json())
-      .then(data => {
+    setLoading(true);
+
+    // Load icons from siteData.json
+    setIcons(siteData.eventsIcons || []);  // <-- must be an array in JSON
+
+    // Fetch events dynamically
+    fetch("http://10.72.46.57:5000/api/p2c142")
+      .then(async (res) => {
+        if (!res.ok) {
+          const errData = await res.json().catch(() => ({}));
+          throw new Error(errData.error || `HTTP error! Status: ${res.status}`);
+        }
+        return res.json();
+      })
+      .then((data) => {
         setEventsData(Array.isArray(data) ? data : [data]);
-        setLoading(false);
       })
       .catch((err) => {
         console.error("Failed to fetch events:", err);
-        setLoading(false);
-      });
+        setEventsData([{ error: err.message }]);
+      })
+      .finally(() => setLoading(false));
   }, []);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p>Loading events...</p>;
+  if (!eventsData || (eventsData[0] && eventsData[0].error))
+    return <p style={{ color: "red" }}>{eventsData[0]?.error || "No events found"}</p>;
 
   const cleanValue = (val) => {
     if (!val) return "";
@@ -34,11 +49,19 @@ function C502() {
       <div className="events-list">
         {eventsData.map((event, index) => (
           <div key={index} className="event-card">
-            <img src={eventIcon} alt="event" className="event-icon" />
+            {icons[index] && (
+              <div className="event-img-container">
+                <img
+                  src={`/${icons[index]}`}   // <-- dynamic image
+                  alt={event.pname || "event"}
+                  className="event-icon"
+                />
+              </div>
+            )}
             <div className="event-content">
-              <h4 className="event-title">{event.pname}</h4>
+              <h4 className="event-title">{event.pname || "No Title"}</h4>
 
-              {Array.isArray(event.a) ? (
+              {Array.isArray(event.a) && event.a.length > 0 ? (
                 event.a.map((item, i) => {
                   const name = cleanValue(item.aname);
                   const value = cleanValue(item.avalue);

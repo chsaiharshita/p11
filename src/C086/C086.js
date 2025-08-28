@@ -20,7 +20,7 @@ export const fetchDataFailure = (data) => ({
 
 export const fetchData = (registrationDate) => async (dispatch) => {
   try {
-
+    
     dispatch({ type: 'FETCH_DATA_LOADING', loading: true }); // Add loading dispatch
     // Retrieve the JWT token from local storage
     const jwtToken = getJwtToken();

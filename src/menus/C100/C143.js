@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
-import rewardIcon from "../../images/images.jpg";
+import siteData from "../../sitedata.json";  // Load icon paths from JSON
 
 // Backend API URL
 const url = "http://10.72.46.57:5000/api/p2c143";
@@ -21,21 +21,15 @@ function C143() {
       .then((json) => {
         console.log("✅ Rewards data from backend:", json);
 
-        // If json is an array, use it directly
         if (Array.isArray(json)) {
           setItems(json);
-        }
-        // If json is an object with 'a' array inside, wrap in an array
-        else if (json && Array.isArray(json.a)) {
+        } else if (json && Array.isArray(json.a)) {
           setItems([{ ptitle: json.ptitle || "Untitled", a: json.a }]);
-        }
-        // Otherwise set empty array
-        else {
+        } else {
           setItems([]);
         }
 
         setDataIsLoaded(true);
-        
       })
       .catch((err) => {
         console.error("❌ Error fetching rewards:", err);
@@ -77,8 +71,10 @@ function C143() {
     );
   }
 
+  // Load reward icon from siteData.json (single icon for all rewards)
+  const rewardIcon = siteData.rewardIcon || "images/images/images.jpg";
+
   return (
-    
     <section className="reward">
       <div className="text-start text-red m-2 py-3">
         {items.map((details, index) => (
@@ -91,8 +87,11 @@ function C143() {
             {(Array.isArray(details.a) ? details.a : []).map((e, i) => (
               <div className="card__picture2 p-1 text-left" id="tool2" key={i}>
                 <div id="events">
-                   <img src={rewardIcon} alt="reward" className="reward-icon" />
-                                
+                  <img 
+                    src={`/${rewardIcon}`} 
+                    alt="reward" 
+                    className="reward-icon" 
+                  />
                 </div>
                 <h6 id="covid4">
                   <a href={e.avalue || "#"} target="_blank" rel="noopener noreferrer">

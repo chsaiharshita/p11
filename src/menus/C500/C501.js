@@ -1,7 +1,7 @@
 // src/components/NewsList.js
 import React, { useEffect, useState } from "react";
 import "./NewsList.css";
-import newsIcon from "../../images/OIP.jpeg";
+import siteData from "../../sitedata.json";  // Import JSON directly from src
 
 function C501() {
   const [newsData, setNewsData] = useState([]);
@@ -13,11 +13,11 @@ function C501() {
       fetch("http://10.72.46.57:5000/api/p2c1412").then(res => res.json())
     ])
       .then(([news1, news2]) => {
-        setNewsData([news1, news2]); 
+        setNewsData([news1, news2]);
         setLoading(false);
       })
       .catch((err) => {
-        console.error("Failed to fetch news:", err);
+        console.error("Failed to fetch data:", err);
         setLoading(false);
       });
   }, []);
@@ -30,7 +30,15 @@ function C501() {
       <div className="news-list">
         {newsData.map((news, index) => (
           <div key={index} className="news-card">
-            <img src={newsIcon} alt="news" className="news-icon" />
+            {siteData.newsIcons && siteData.newsIcons[0] && (
+              <div className="about-img-container">
+                <img 
+                  src={`/${siteData.newsIcons[0]}`} 
+                  alt={news.pname || "news"} 
+                  className="about-sub-img" 
+                />
+              </div>
+            )}
             <div className="news-content">
               <h4 className="news-title">{news.pname}</h4>
               {Array.isArray(news.a) ? (
@@ -44,7 +52,6 @@ function C501() {
                   <strong>{news.a?.aname}</strong> – {news.a?.avalue}
                 </p>
               )}
-
             </div>
           </div>
         ))}

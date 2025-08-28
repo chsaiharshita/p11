@@ -1,14 +1,19 @@
-// src/components/RewardsList.js
 import React, { useEffect, useState } from "react";
-import rewardIcon from "../../images/images.jpg"; // update icon path if different
+import siteData from "../../sitedata.json";  // <-- import JSON instead of static image
 import "./RewardsList.css";
 
 function C503() {
   const [rewardsData, setRewardsData] = useState([]);
+  const [icons, setIcons] = useState([]); // <-- added this for icons
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://10.72.46.57:5000/api/p2c143") // replace with actual API
+    setLoading(true);
+
+    // Load icons from siteData.json
+    setIcons(siteData.rewardsIcons || []);  // <-- expects an array just like newsIcons
+
+    fetch("http://10.72.46.57:5000/api/p2c143")
       .then(res => res.json())
       .then(data => {
         setRewardsData(Array.isArray(data) ? data : [data]);
@@ -34,7 +39,15 @@ function C503() {
       <div className="rewards-list">
         {rewardsData.map((reward, index) => (
           <div key={index} className="reward-card">
-            <img src={rewardIcon} alt="reward" className="reward-icon" />
+            {/* Show icon from siteData if available */}
+            {icons[index] && (
+              <img 
+                src={`/${icons[index]}`} 
+                alt={reward.pname || "reward"} 
+                className="reward-icon" 
+              />
+            )}
+
             <div className="reward-content">
               <h4 className="reward-title">{reward.pname}</h4>
               {Array.isArray(reward.a) ? (

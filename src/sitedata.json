@@ -2823,9 +2823,24 @@
           }
         ]
       }
-    ]
-  }
-      
+    ],
+     
+  
+  "newsIcons": [
+    "images/images/OIP.jpeg"
+    
+  ],
+"rewardsIcons": [
+  "images/images/images.jpg"
+  ],
+  "eventsIcons": [
+  "images/images/Events1.png"
+  ]
+}
+
+
+  
+  
 
 
   

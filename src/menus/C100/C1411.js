@@ -1,15 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import newsIcon from "../../images/OIP.jpeg";
+import siteData from "../../sitedata.json";
+
 function C1411() {
   const { pname } = useParams(); // Get pname from URL
   const [details, setDetails] = useState(null);
+  const [icons, setIcons] = useState([]);  // <-- added this
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);
 
-    // Use pname dynamically in fetch URL
+    // Load icons from siteData.json
+    setIcons(siteData.newsIcons || []);  // <-- added this
+
+    // Fetch details dynamically
     fetch(`http://10.72.46.57:5000/api/p2c1411`)
       .then(async (response) => {
         if (!response.ok) {
@@ -21,7 +26,7 @@ function C1411() {
       .then((json) => setDetails(json))
       .catch((error) => setDetails({ error: error.message }))
       .finally(() => setLoading(false));
-  }, [pname]); // Refetch when URL changes
+  }, [pname]);
 
   if (loading) return <p>Loading news...</p>;
   if (!details || details.error)
@@ -34,7 +39,15 @@ function C1411() {
       {Array.isArray(details.a) && details.a.length > 0 ? (
         details.a.map((item, index) => (
           <div key={index} className="news-card">
-            <img src={newsIcon} alt="news" className="news-icon" />
+            {icons[index] && (
+              <div className="about-img-container">
+                <img 
+                  src={`/${icons[index]}`} 
+                  alt={details.pname || "news"} 
+                  className="about-sub-img" 
+                />
+              </div>
+            )}
             <div className="news-content">
               <strong className="news-title">{item.aname || "No Name"}</strong>
               {item.adesc && <p className="news-desc">{item.adesc}</p>}

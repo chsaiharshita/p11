@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Provider } from "react-redux";
-import store from "../../Redux6/C085";
-import Logout from '../../Redux6/C084';
+import store from "../../C079/C085";
+import Logout from '../../C079/C084';
 
 function authLogout() {
 return(
