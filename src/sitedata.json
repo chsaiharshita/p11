@@ -2835,6 +2835,9 @@
   ],
   "eventsIcons": [
   "images/images/Events1.png"
+  ],
+  "mapIcons": [
+  "images/images/markers1.png"
   ]
 }
 
