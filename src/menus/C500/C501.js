@@ -9,14 +9,15 @@ function C501() {
 
   useEffect(() => {
     Promise.all([
-      fetch("http://10.72.46.57:5000/api/p2c1411").then(res => res.json()),
-      fetch("http://10.72.46.57:5000/api/p2c1412").then(res => res.json())
+      fetch("http://10.72.46.62/api/p2c1411").then(res => res.json()),
+      fetch("http://10.72.46.62/api/p2c1412").then(res => res.json())
     ])
       .then(([news1, news2]) => {
         setNewsData([news1, news2]);
         setLoading(false);
       })
       .catch((err) => {
+
         console.error("Failed to fetch data:", err);
         setLoading(false);
       });

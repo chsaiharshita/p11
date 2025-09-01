@@ -14,8 +14,9 @@ function C502() {
     // Load icons from siteData.json
     setIcons(siteData.eventsIcons || []);  // <-- must be an array in JSON
 
-    // Fetch events dynamically
-    fetch("http://10.72.46.57:5000/api/p2c142")
+    // Fetch events dyn
+    // amically
+    fetch("http://10.72.46.62/api/p2c142")
       .then(async (res) => {
         if (!res.ok) {
           const errData = await res.json().catch(() => ({}));

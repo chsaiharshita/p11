@@ -3,7 +3,7 @@ import "./home.css";
 import siteData from "../../sitedata.json";  // Load icon paths from JSON
 
 // Backend API URL
-const url = "http://10.72.46.57:5000/api/p2c143";
+const url = "http://10.72.46.62/api/p2c143";
 
 function C143() {
   const [items, setItems] = useState([]);

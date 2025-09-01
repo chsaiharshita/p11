@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./home.css";
 import C143 from "./C143.js";
 
-const url = "http://10.72.46.57:5000/api/p2c142";
+const url = "http://10.72.46.62/api/p2c142";
 
 function C142() {
   const [data, setData] = useState(null);

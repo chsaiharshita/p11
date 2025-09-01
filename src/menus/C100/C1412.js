@@ -14,7 +14,7 @@ function C1412() {
     // Load icons from local siteData.json
     setIcons(siteData.newsIcons || []);   // <-- same as in C1411 and C501
 
-    fetch(`http://10.72.46.57:5000/api/p2c1412`)
+    fetch(`http://10.72.46.62/api/p2c1412`)
       .then(async (response) => {
         if (!response.ok) {
           const errData = await response.json().catch(() => ({}));
