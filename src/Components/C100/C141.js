@@ -2,15 +2,14 @@ import React, { useState, useEffect } from "react";
 import "./home.css";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
-
-const url = "http://10.72.46.62/api/p2c141";
+import siteData from "../../sitedata.json"; 
 
 function C141() {
   const [announcement, setAnnouncement] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(url)
+    fetch(siteData.P0url1)
       .then(res => res.json())
       .then(json => setAnnouncement(json || null))
       .catch(err => {

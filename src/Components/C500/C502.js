@@ -16,7 +16,7 @@ function C502() {
 
     // Fetch events dyn
     // amically
-    fetch("http://10.72.46.62/api/p2c142")
+    fetch(siteData.P0url2)
       .then(async (res) => {
         if (!res.ok) {
           const errData = await res.json().catch(() => ({}));

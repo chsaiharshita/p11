@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
 import C143 from "./C143.js";
-
-const url = "http://10.72.46.62/api/p2c142";
+import siteData from "../../sitedata.json"; 
 
 function C142() {
   const [data, setData] = useState(null);
@@ -16,7 +15,7 @@ function C142() {
         rewardsSection.scrollIntoView({behavior:'smooth'})
       }
     }
-    fetch(url)
+    fetch(siteData.P0url2)
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         return response.json();

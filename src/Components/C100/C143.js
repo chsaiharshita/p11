@@ -3,7 +3,7 @@ import "./home.css";
 import siteData from "../../sitedata.json";  // Load icon paths from JSON
 
 // Backend API URL
-const url = "http://10.72.46.62/api/p2c143";
+
 
 function C143() {
   const [items, setItems] = useState([]);
@@ -11,7 +11,7 @@ function C143() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(url)
+    fetch(siteData.P0url3)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

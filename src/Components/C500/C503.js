@@ -13,7 +13,7 @@ function C503() {
     // Load icons from siteData.json
     setIcons(siteData.rewardsIcons || []);  // <-- expects an array just like newsIcons
 
-    fetch("http://10.72.46.62/api/p2c143")
+    fetch(siteData.P0url3)
       .then(res => res.json())
       .then(data => {
         setRewardsData(Array.isArray(data) ? data : [data]);

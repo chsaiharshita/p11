@@ -15,7 +15,7 @@ function C1411() {
     setIcons(siteData.newsIcons || []);  // <-- added this
 
     // Fetch details dynamically
-    fetch(`http://10.72.46.62/api/p2c1411`)
+    fetch(siteData.P0url4)
       .then(async (response) => {
         if (!response.ok) {
           const errData = await response.json().catch(() => ({}));

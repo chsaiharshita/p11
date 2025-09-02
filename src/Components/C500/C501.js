@@ -9,8 +9,8 @@ function C501() {
 
   useEffect(() => {
     Promise.all([
-      fetch("http://10.72.46.62/api/p2c1411").then(res => res.json()),
-      fetch("http://10.72.46.62/api/p2c1412").then(res => res.json())
+      fetch(siteData.P0url6).then(res => res.json()),
+      fetch(siteData.P0url7).then(res => res.json())
     ])
       .then(([news1, news2]) => {
         setNewsData([news1, news2]);
