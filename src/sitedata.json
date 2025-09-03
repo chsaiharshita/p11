@@ -947,7 +947,7 @@
               "p": "We do not sell or share any personally identifiable information volunteered on the website site to any third party (public/private). Any information provided to this website will be protected from loss, misuse, unauthorized access or disclosure, alteration, or destruction."
             },
             {
-              "p": "We gather certain information about the User, such as Internet protocol (IP) addresses, domain name, browser type, operating system, the date and time of the visit and the pages visited. We make no attempt to link these addresses with the identity of individuals visiting our site unless an attempt to damage the site has been detected."
+              "p": "We gather certain information about the User, such as Internet protocol (IP) addresses, domain name, browser type, operating system, the date and time of the visit and the pages visited. We make no mpt to link these addresses with the identity of individuals visiting our site unless an attempt to damage the site has been detected."
             }
           ]
         }
@@ -2396,6 +2396,8 @@
 "Pagetype51": [
   {
    
+   
+    
     "heading": "ITIs Trade Specifications",
     "detailservices": [
     {

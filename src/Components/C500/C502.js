@@ -14,8 +14,7 @@ function C502() {
     // Load icons from siteData.json
     setIcons(siteData.eventsIcons || []);  // <-- must be an array in JSON
 
-    // Fetch events dyn
-    // amically
+    // Fetch events dynamically
     fetch(siteData.P0url2)
       .then(async (res) => {
         if (!res.ok) {
@@ -54,14 +53,13 @@ function C502() {
               <div className="event-img-container">
                 <img
                   src={`/${icons[index]}`}   // <-- dynamic image
-                  alt={event.pname || "event"}
+                  alt="event"               // <-- pname removed
                   className="event-icon"
                 />
               </div>
             )}
             <div className="event-content">
-              <h4 className="event-title">{event.pname || "No Title"}</h4>
-
+              {/* Removed event.pname completely */}
               {Array.isArray(event.a) && event.a.length > 0 ? (
                 event.a.map((item, i) => {
                   const name = cleanValue(item.aname);

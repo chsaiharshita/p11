@@ -1,5 +1,5 @@
 import React, { createContext } from 'react';
-import C011 from './C010/C011';
+import C011 from './Components/C010/C011';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 

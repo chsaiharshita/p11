@@ -17,7 +17,6 @@ function C501() {
         setLoading(false);
       })
       .catch((err) => {
-
         console.error("Failed to fetch data:", err);
         setLoading(false);
       });
@@ -35,13 +34,12 @@ function C501() {
               <div className="about-img-container">
                 <img 
                   src={`/${siteData.newsIcons[0]}`} 
-                  alt={news.pname || "news"} 
+                  alt="news" 
                   className="about-sub-img" 
                 />
               </div>
             )}
             <div className="news-content">
-              <h4 className="news-title">{news.pname}</h4>
               {Array.isArray(news.a) ? (
                 news.a.map((item, i) => (
                   <p key={i}>

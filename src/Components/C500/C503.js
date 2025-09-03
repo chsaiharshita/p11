@@ -43,13 +43,13 @@ function C503() {
             {icons[index] && (
               <img 
                 src={`/${icons[index]}`} 
-                alt={reward.pname || "reward"} 
+                alt="reward"  // <-- pname removed
                 className="reward-icon" 
               />
             )}
 
             <div className="reward-content">
-              <h4 className="reward-title">{reward.pname}</h4>
+              {/* Removed reward.pname completely */}
               {Array.isArray(reward.a) ? (
                 reward.a.map((item, i) => {
                   const name = cleanValue(item.aname);

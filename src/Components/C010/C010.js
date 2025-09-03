@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import routesConfig from "./C013";
-import C003 from "../menus/C100/C003";
+import C003 from "../C100/C003";
 
 function Layout() {
   return (
