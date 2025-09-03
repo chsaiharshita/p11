@@ -1,5 +1,5 @@
-import apiClient from "../source/helpers/C051.js";
-import url from "../sitedata.json";
+import apiClient from "../../source/helpers/C051.js";
+import url from "../../sitedata.json";
 
 // Functional version of getAllUsers
 const getAllUsers = () => {

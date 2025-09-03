@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { url1 } from "../sitedata.json";
+import { url1 } from "../../sitedata.json";
 
 export const FETCH_POSTS_REQUEST = 'FETCH_POSTS_REQUEST';
 export const FETCH_POSTS_SUCCESS = 'FETCH_POSTS_SUCCESS';

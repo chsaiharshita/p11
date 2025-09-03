@@ -12,10 +12,10 @@ import map from "../C600/map.js";
 import websitepolicies from "../C007/C106.js";
 import help from "../C007/C107.js";
 import C701 from "../C700/C701.js"; 
-import node151 from "../Notifications/C151.js";
-import node152 from "../Notifications/C152.js";
-import node153 from "../Notifications/C153.js";
-import fetch from "../Notifications/Fetch.js"
+import node151 from "../C1200/C151.js";
+import node152 from "../C1200/C152.js";
+import node153 from "../C1200/C153.js";
+import fetch from "../C1200/Fetch.js"
 import sitemap from "../C102/C102.js"
 import organisation from "../C200/C202.js";
 
@@ -29,15 +29,15 @@ import node203 from "../C200/C203.js";
 import C203 from "../C200/C203.js";
 import node204 from "../C200/C204.js";
 import C204 from "../C200/C204.js";
-import node205 from "../Submenus/C205.js";
-import node206 from "../Submenus/C206.js";
-import node207 from "../Submenus/C207.js";
-import node208 from "../Submenus/C208.js";
-import node209 from "../Submenus/C209.js";
-import node210 from "../Notifications/C210.js";
+import node205 from "../C1300/C205.js";
+import node206 from "../C1300/C206.js";
+import node207 from "../C1300/C207.js";
+import node208 from "../C1300/C208.js";
+import node209 from "../C1300/C209.js";
+import node210 from "../C1200/C210.js";
 import node211 from "../C200/C211.js";
 import C211 from "../C200/C211.js";
-import node215 from "../Submenus/C215.js";
+import node215 from "../C1300/C215.js";
 import node261 from "../C260/C261.js";
 import node262 from "../C260/C262.js";
 import node263 from "../C260/C263.js";
@@ -48,27 +48,27 @@ import node267 from "../C260/C267.js";
 import node268 from "../C260/C269.js";
 import node269 from "../C260/Page10.js";
 
-import node301 from "../Submenus/C301.js";
+import node301 from "../C1300/C301.js";
 import node302 from "../C300/C302.js";
 import C302 from "../C300/C302.js";
 import node303 from "../C300/C303.js";
 import C303 from "../C300/C303.js";
-import node304 from "../Submenus/C304.js";
-import node305 from "../Submenus/C305.js";
-import node306 from "../Submenus/C306.js";
-import node307 from "../Submenus/C307.js";
-import node308 from "../Submenus/C308.js";
+import node304 from "../C1300/C304.js";
+import node305 from "../C1300/C305.js";
+import node306 from "../C1300/C306.js";
+import node307 from "../C1300/C307.js";
+import node308 from "../C1300/C308.js";
 import node351 from "../../Components/C300/C351.js";
 import C351 from "../../Components/C300/C351.js"
-import node352 from "../Submenus/C352.js";
-import C355 from "../../Components/Notifications/C355.js"
-import node801 from "../../Components/Notifications/C801.js";
-import node802 from "../../Components/Notifications/C802.js";
+import node352 from "../C1300/C352.js";
+import C355 from "../C1200/C355.js"
+import node801 from "../C1200/C801.js";
+import node802 from "../C1200/C802.js";
 
 //noc site data //
-import node391 from "../Submenus/C391.js";
-import node392 from "../Submenus/C392.js";
-import detaildesign from"../Submenus/C216.js";
+import node391 from "../C1300/C391.js";
+import node392 from "../C1300/C392.js";
+import detaildesign from"../C1300/C216.js";
 
 
 
@@ -95,13 +95,13 @@ import node274 from "../C270/Node274.js";
 import node275 from "../C270/Node275.js";
 import node276 from "../C270/Node276.js";
 
-import ITITrade from "../Submenus/Pagetype7b.js";
+import ITITrade from "../C1300/Pagetype7b.js";
 
-import Schemes from "../Submenus/C305.js";
+import Schemes from "../C1300/C305.js";
 
 
-import node216 from "../Submenus/C216.js";
-import NKNTrade from "../Submenus/Pagetype7b.js";
+import node216 from "../C1300/C216.js";
+import NKNTrade from "../C1300/Pagetype7b.js";
 import Cloud from "../C260/C261.js";
 
 import node381 from "../C380/C381.js";
@@ -136,24 +136,24 @@ import C254 from "../C250/C254.js";
 import C255 from "../C250/C255.js";
 import C256 from "../C250/C256.js";
 import C257 from "../C250/C257.js";
-import C205 from "../Submenus/C205.js";
-import C207 from "../Submenus/C207.js";
-import C209 from "../Submenus/C209.js";
-import C208 from "../Submenus/C208.js";
-import C391 from "../Submenus/C391.js";
-import C212 from "../../Components/Submenus/C212.js";
-import C216 from "../Submenus/C216.js";
-import C392 from "../Submenus/C392.js";
-import C2511 from "../../Components/Submenus/C2511.js";
-import C353 from "../../Components/Submenus/C353.js";
-import C354 from "../../Components/Submenus/C354.js";
-import C301 from "../Submenus/C301.js";
-import C304 from "../Submenus/C304.js";
-import C305 from "../Submenus/C305.js";
-import C306 from "../Submenus/C306.js";
-import C307 from "../Submenus/C307.js";
-import C308 from "../Submenus/C308.js";
-import C206 from "../Submenus/C206.js";
+import C205 from "../C1300/C205.js";
+import C207 from "../C1300/C207.js";
+import C209 from "../C1300/C209.js";
+import C208 from "../C1300/C208.js";
+import C391 from "../C1300/C391.js";
+import C212 from "../C1300/C212.js";
+import C216 from "../C1300/C216.js";
+import C392 from "../C1300/C392.js";
+import C2511 from "../C1300/C2511.js";
+import C353 from "../C1300/C353.js";
+import C354 from "../C1300/C354.js";
+import C301 from "../C1300/C301.js";
+import C304 from "../C1300/C304.js";
+import C305 from "../C1300/C305.js";
+import C306 from "../C1300/C306.js";
+import C307 from "../C1300/C307.js";
+import C308 from "../C1300/C308.js";
+import C206 from "../C1300/C206.js";
 import C003 from "../../Components/C100/C003.js";
 import C141 from "../C100/C141.js";
 import C142 from "../C100/C142.js";

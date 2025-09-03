@@ -4,7 +4,7 @@ import L from "leaflet";
 import "./map.css";
 import "leaflet/dist/leaflet.css";
 import siteData from "../../sitedata.json";  // <-- load icons here
-import cities from "../../cities.json";
+import cities from "../C1108.json";
 
 const Contactmap = () => {
   const markerIcons = siteData.mapIcons || [];  // <-- array of marker images

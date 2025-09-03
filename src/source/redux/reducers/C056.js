@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import { eventsReducer } from "../../../C064/C065"; // adjust path as needed
+import { eventsReducer } from "../../../Components/C064/C065"; // adjust path as needed
 
 const C056 = () =>
   combineReducers({

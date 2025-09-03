@@ -2,7 +2,7 @@ import React, { useEffect, useState} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchPosts } from './C075';
 import "./Posts.css";
-import data from "../sitedata.json"
+import data from "../../sitedata.json"
 
 function Posts() {
   const { posts, loading, error } = useSelector(state => state);

@@ -1,6 +1,6 @@
 import { createSlice,createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { url2 } from  "../sitedata.json";
+import { url2 } from  "../../sitedata.json";
 
 {/*export const fetchtodos=createAsyncThunk("fetchtodos",async()=>{
     const response=await axios.post(url2);
