@@ -9,7 +9,7 @@ export const url = 'https://...';
 
 fetch(`${baseUrl}/api/students`);
 
-function App() {
+function C002() {
 
   return (
     <BrowserRouter>
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;  
+export default C002;  

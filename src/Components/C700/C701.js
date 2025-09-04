@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { login } from "../../C1001/C1001";
+import { login } from "../C1001/C1001";
 import data from "../../sitedata.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 

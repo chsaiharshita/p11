@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import InstituteTable from "./instituteTable";
+import InstituteTable from "./C702";
 
 const Welcome = () => {
   const auth = useSelector((state) => state.auth);

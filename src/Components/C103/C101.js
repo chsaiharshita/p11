@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.css';
 import data from '../../sitedata.json';
-import Fontsize from './Fontsize';
+import Fontsize from './C018';
 
 function C101() {
   const socialData = data.socialicons[0]; // ✅ Use only the first item

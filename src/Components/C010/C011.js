@@ -1,6 +1,6 @@
 import React from "react";
 import C105 from "../C105/C105.js";
-import C007 from "..//C007/C007.js";
+import C007 from "../C007/C007.js";
 import "./layout.css";
 import { withRouter } from "react-router-dom";
 import Layout from "./C010.js";

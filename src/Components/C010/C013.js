@@ -1,6 +1,6 @@
 
 import Home from "../C100/C141.js";
-import about from "../C200/About.js";
+import about from "../C200/C200.js";
 import api from "../C100/C142.js";
 import C401 from "../C400/C401.js";
 import node701 from "../C400/C401.js";
@@ -15,7 +15,7 @@ import C701 from "../C700/C701.js";
 import node151 from "../C1200/C151.js";
 import node152 from "../C1200/C152.js";
 import node153 from "../C1200/C153.js";
-import fetch from "../C1200/Fetch.js"
+import fetch from "../C1200/C855.js"
 import sitemap from "../C102/C102.js"
 import organisation from "../C200/C202.js";
 
@@ -95,13 +95,13 @@ import node274 from "../C270/Node274.js";
 import node275 from "../C270/Node275.js";
 import node276 from "../C270/Node276.js";
 
-import ITITrade from "../C1300/Pagetype7b.js";
+import ITITrade from "../C1300/C2512.js";
 
 import Schemes from "../C1300/C305.js";
 
 
 import node216 from "../C1300/C216.js";
-import NKNTrade from "../C1300/Pagetype7b.js";
+import NKNTrade from "../C1300/C2512.js";
 import Cloud from "../C260/C261.js";
 
 import node381 from "../C380/C381.js";
@@ -111,7 +111,7 @@ import node384 from "../C380/C384.js";
 import node385 from "../../Components/C380/C385.js";
 import node386 from "../../Components/C380/C386.js";
 import node387 from "../../Components/C380/C387.js";
-import Welcome from "../../Components/C700/success.js";
+import Welcome from "../C700/C703.js";
 import C503 from "../../Components/C500/C503.js";
 import C381 from "../C380/C381.js";
 import C382 from "../C380/C382.js";
