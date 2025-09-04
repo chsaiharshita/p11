@@ -1,5 +1,5 @@
 
-import React from 'react';
+/*import React from 'react';
 import { Provider } from "react-redux";
 import store from "../C079/C085";
 import Logout from '../C079/C084';
@@ -11,4 +11,4 @@ return(
           </Provider>   
     );
   }
-export default authLogout;
+export default authLogout;*/

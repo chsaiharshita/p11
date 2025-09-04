@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./C007.css";
 import C006 from "./C006.js";
 import ScrollToTopBtn from "./C008.js";
 import data from "../../sitedata.json";

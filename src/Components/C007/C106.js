@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../../sitedata.json";
-import "./Footer.css";
+import "./C007";
 
 
 function Webpolicies() {

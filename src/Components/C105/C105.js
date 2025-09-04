@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./C105.css";
 import C101 from "../C103/C101.js";
 import C104 from "../C103/C104.js";
 import data from "../../sitedata.json";

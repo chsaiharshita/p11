@@ -12,9 +12,8 @@ import map from "../C600/map.js";
 import websitepolicies from "../C007/C106.js";
 import help from "../C007/C107.js";
 import C701 from "../C700/C701.js"; 
-import node151 from "../C1200/C151.js";
-import node152 from "../C1200/C152.js";
-import node153 from "../C1200/C153.js";
+
+
 import fetch from "../C1200/C855.js"
 import sitemap from "../C102/C102.js"
 import organisation from "../C200/C202.js";
@@ -227,18 +226,8 @@ const routesConfig = [
     path: "/node601", 
     component: C601,
   },
-  {
-    path: "/node151",
-    component: node151,
-  },
-  {
-    path: "/node152",
-    component: node152,
-  },
-  {
-    path: "/node153",
-    component: node153,
-  },
+  
+  
 
   {
     path: "/api",
@@ -373,10 +362,10 @@ const routesConfig = [
     component:node352,
   },
  
-  {
+ {
     path: "/node355",
     component:C355,
-  },
+},
  
   
   {
@@ -553,18 +542,7 @@ const routesConfig = [
     path: "/nicapsc-iti/contactus",
     component: contactUs,
   },
-  {
-    path: "/nicapsc-iti/node151",
-    component: node151,
-  },
-  {
-    path: "/nicapsc-iti/node152",
-    component:node152,
-  },
-  {
-    path: "/nicapsc-iti/node153",
-    component:node153,
-  },
+  
   
   {
     path: "/nicapsc-iti/node601",
@@ -838,10 +816,7 @@ const routesConfig = [
     path: "/nicapsc-noc/contactus",
     component: contactUs,
   },
-  {
-    path: "/nicapsc-noc/node151",
-    component: node151,
-  },
+  
   
   
   
@@ -849,14 +824,7 @@ const routesConfig = [
     path: "/nicapsc-noc/node701", 
     component: node701,
   },
-  {
-    path: "/nicapsc-noc/node152",
-    component: node152,
-  },
-  {
-    path: "/nicapsc-noc/node153",
-    component:node153,
-  },
+  
 
   {
     path: "/nicapsc-noc/detaildesign",

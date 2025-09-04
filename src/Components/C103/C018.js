@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Nav.css';
+import './C101.css';
 
 export default function Fontsize() {
   const [zoom, setZoom] = useState(1); // 1 = 100%

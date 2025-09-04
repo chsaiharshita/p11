@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../../sitedata.json";
-import "./NavBar.css";
+import "./C104.css";
 
 function C104() {
   return (
