@@ -14,7 +14,7 @@ import help from "../C007/C107.js";
 import C701 from "../C700/C701.js"; 
 
 
-import fetch from "../C1200/C855.js"
+/*import fetch from "../C1200/C855.js"*/
 import sitemap from "../C102/C102.js"
 import organisation from "../C200/C202.js";
 
@@ -33,19 +33,19 @@ import node206 from "../C1300/C206.js";
 import node207 from "../C1300/C207.js";
 import node208 from "../C1300/C208.js";
 import node209 from "../C1300/C209.js";
-import node210 from "../C1200/C210.js";
+/*import node210 from "../C1200/C210.js";*/
 import node211 from "../C200/C211.js";
 import C211 from "../C200/C211.js";
 import node215 from "../C1300/C215.js";
-import node261 from "../C260/C261.js";
-import node262 from "../C260/C262.js";
-import node263 from "../C260/C263.js";
-import node264 from "../C260/C264.js";
-import node265 from "../C260/C265.js";
-import node266 from "../C260/C266.js";
-import node267 from "../C260/C267.js";
-import node268 from "../C260/C269.js";
-import node269 from "../C260/Page10.js";
+/*import node261 from "../C260/C261.js";*/
+/*import node262 from "../C260/C262.js";*/
+/*import node263 from "../C260/C263.js";*/
+/*import node264 from "../C260/C264.js";*/
+/*import node265 from "../C260/C265.js";*/
+/*import node266 from "../C260/C266.js";*/
+/*import node267 from "../C260/C267.js";*/
+/*import node268 from "../C260/C269.js";*/
+/*import node269 from "../C260/Page10.js";*/
 
 import node301 from "../C1300/C301.js";
 import node302 from "../C300/C302.js";
@@ -61,31 +61,13 @@ import node351 from "../../Components/C300/C351.js";
 import C351 from "../../Components/C300/C351.js"
 import node352 from "../C1300/C352.js";
 import C355 from "../C1200/C355.js"
-import node801 from "../C1200/C801.js";
-import node802 from "../C1200/C802.js";
+/*import node801 from "../C1200/C801.js";*/
+/*import node802 from "../C1200/C802.js";*/
 
 //noc site data //
 import node391 from "../C1300/C391.js";
 import node392 from "../C1300/C392.js";
 import detaildesign from"../C1300/C216.js";
-
-
-
-import node401 from "../C401/C401.js"
-import node402 from "../C401/C402.js"
-import node403 from "../C401/C403.js"
-import node404 from "../C401/C404.js"
-import node405 from "../C401/C405.js"
-
-import node251 from "../C250/C251.js";
-import node252 from "../C250/C252.js";
-import node253 from "../C250/C253.js";
-import node254 from "../C250/C254.js";
-import node255 from "../C250/C255.js";
-import node256 from "../C250/C256.js"
-import node257 from "../C250/C257.js";
-
-
 
 import node271 from "../C270/Node271.js";
 import node272 from "../C270/Node272.js";
@@ -101,40 +83,34 @@ import Schemes from "../C1300/C305.js";
 
 import node216 from "../C1300/C216.js";
 import NKNTrade from "../C1300/C2512.js";
-import Cloud from "../C260/C261.js";
+/*import Cloud from "../C260/C261.js";*/
 
-import node381 from "../C380/C381.js";
-import node382 from "../C380/C382.js";
-import node383 from "../C380/C383.js";
-import node384 from "../C380/C384.js";
-import node385 from "../../Components/C380/C385.js";
-import node386 from "../../Components/C380/C386.js";
-import node387 from "../../Components/C380/C387.js";
+/*import node381 from "../C380/C381.js";*/
+/*import node382 from "../C380/C382.js";*/
+/*import node383 from "../C380/C383.js";*/
+/*import node384 from "../C380/C384.js";*/
+/*import node385 from "../../Components/C380/C385.js";*/
+/*import node386 from "../../Components/C380/C386.js";*/
+/*import node387 from "../../Components/C380/C387.js";*/
 import Welcome from "../C700/C703.js";
 import C503 from "../../Components/C500/C503.js";
-import C381 from "../C380/C381.js";
-import C382 from "../C380/C382.js";
-import C383 from "../C380/C383.js";
-import C384 from '../C380/C384.js';
-import C385 from '../C380/C385.js';
-import C386 from "../C380/C386.js";
-import C387 from "../C380/C387.js";
-import C261 from "../C260/C261.js";
-import C262 from "../C260/C262.js";
-import C263 from "../C260/C263.js";
-import C264 from "../C260/C264.js";
-import C265 from "../C260/C265.js";
-import C266 from "../C260/C266.js";
-import C267 from "../C260/C267.js";
-import C268 from "../../Components/C260/C268.js";
-import C269 from "../C260/C269.js";
-import C251 from "../C250/C251.js";
-import C252 from "../C250/C252.js";
-import C253 from "../C250/C253.js";
-import C254 from "../C250/C254.js";
-import C255 from "../C250/C255.js";
-import C256 from "../C250/C256.js";
-import C257 from "../C250/C257.js";
+/*import C381 from "../C380/C381.js";*/
+/*import C382 from "../C380/C382.js";*/
+/*import C383 from "../C380/C383.js";*/
+/*import C384 from '../C380/C384.js';*/
+/*import C385 from '../C380/C385.js';*/
+/*import C386 from "../C380/C386.js";*/
+/*import C387 from "../C380/C387.js";*/
+/*import C261 from "../C260/C261.js";*/
+/*import C262 from "../C260/C262.js";*/
+/*import C263 from "../C260/C263.js";*/
+/*import C264 from "../C260/C264.js";*/
+/*import C265 from "../C260/C265.js";*/
+/*import C266 from "../C260/C266.js";*/
+/*import C267 from "../C260/C267.js";*/
+/*import C268 from "../../Components/C260/C268.js";*/
+/*import C269 from "../C260/C269.js";*/
+
 import C205 from "../C1300/C205.js";
 import C207 from "../C1300/C207.js";
 import C209 from "../C1300/C209.js";
@@ -249,10 +225,10 @@ const routesConfig = [
     path: "/sitemap",
     component: C102,
   },
-  {
+  /*{
     path: "/fetch",
     component:fetch,
-  },
+  },*/
   
   
  
@@ -315,10 +291,10 @@ const routesConfig = [
 
 
  
-  {
+  /*{
     path: "/node2511",
     component:C2511,
-  },
+  },*/
 
   {
     path: "/node301",
@@ -378,93 +354,45 @@ const routesConfig = [
   },
 
 
-  {
-    path: "/node401",
-    component:node401,
-  },
-  {
-    path: "/node402",
-    component:node402,
-  },
-  {
-    path: "/node403",
-    component:node403,
-  },
-  {
-    path: "/node404",
-    component:node404,
-  },
-  {
-    path: "/node405",
-    component:node405,
-  },
-  
 
-  {
-    path: "/node251",
-    component:C251,
-  },
-  {
-    path: "/node252",
-    component:C252,
-  },
-  {
-    path: "/node253",
-    component:C253,
-  },
-  {
-    path: "/node254",
-    component:C254,
-  },
-  {
-    path: "/node255",
-    component:C255,
-  },
-  {
-    path: "/node256",
-    component:C256,
-  },
-  {
-    path: "/node257",
-    component:C257,
-  },
+
   
-  {
+/*  {
     path: "/node261",
     component:C261,
-  },
-  {
+  },*/
+  /*{
     path: "/node262",
     component:C262,
-  },
-  {
+  },*/
+ /* {
     path: "/node263",
     component:C263,
-  },
-  {
+  },*/
+  /*{
     path: "/node264",
     component:C264,
-  },
-  {
+  },*/
+ /* {
     path: "/node265",
     component:C265,
-  },
-  {
+  },*/
+  /*{
     path: "/node266",
     component:C266,
-  },
-  {
+  },*/
+  /*{
     path: "/node267",
     component:C267,
-  },
-  {
+  },*/
+  /*{
     path: "/node268",
     component:C268,
-  },
-  {
+  },*/
+  /*{
     path: "/node269",
     component:C269,
-  },
+  },*/
 
 
   {
@@ -492,34 +420,34 @@ const routesConfig = [
     component:node276,
   },
 
-  {
+  /*{
     path: "/node381",
     component:C381,
-  },
-  {
+  },*/
+  /*{
     path: "/node382",
     component:C382,
-  },
-  {
+  },*/
+  /*{
     path: "/node383",
     component:C383,
-  },
-  {
+  },*/
+  /*{
     path: "/node384",
     component:C384,
-  },
-  {
+  },*/
+  /*{
     path: "/node385",
     component:C385,
-  },
-  {
+  },*/
+  /*{
     path: "/node386",
     component:C386,
-  },
-  {
+  },*/
+  /*{
     path: "/node387",
     component:C387,
-  },
+  },*/
 
 
   {
@@ -579,10 +507,10 @@ const routesConfig = [
     path: "/nicapsc-iti/sitemap",
     component: sitemap,
   },
-  {
+/*{
     path: "/nicapsc-iti/fetch",
     component: fetch,
-  },
+  },*/
 
 
  
@@ -691,93 +619,93 @@ const routesConfig = [
   },
 
 
-  {
+  /*{
     path: "/nicapsc-iti/node401",
     component: node401,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node402",
     component:node402,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node403",
     component:node403,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node404",
     component:node404,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node405",
     component:node405,
-  },
+  },*/
   
 
-  {
+  /*{
     path: "/nicapsc-iti/node251",
     component:node251,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node252",
     component:node252,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node253",
     component:node253,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node254",
     component:node254,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node255",
     component:node255,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node256",
     component:node256,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node257",
     component:node257,
-  },
+  },*/
   
-  {
+  /*{
     path: "/nicapsc-iti/node261",
     component:node261 ,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node262",
     component:node262,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node263",
     component:node263,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node264",
     component:node264,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node265",
     component:node265,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node266",
     component:node266,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node267",
     component:node267,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node268",
     component:node268,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-iti/node269",
     component:node269,
-  },
+  },*/
 
   {
     path: "/nicapsc-iti/node271",
@@ -855,10 +783,10 @@ const routesConfig = [
     path: "/nicapsc-noc/sitemap",
     component: sitemap,
   },
-  {
+  /*{
     path: "/nicapsc-noc/fetch",
     component: fetch,
-  },
+  },*/
 
 
  
@@ -866,6 +794,7 @@ const routesConfig = [
     path: "/nicapsc-noc/node201",
     component: node201,
   },
+  
   {
     path: "/nicapsc-noc/node202",
     component: node202,
@@ -898,10 +827,10 @@ const routesConfig = [
     path: "/nicapsc-noc/node209",
     component: node209,
   },
-  {
+  /*{
     path: "/nicapsc-noc/node210",
     component: node210,
-  },
+  },*/
   {
     path: "/nicapsc-noc/node211",
     component: node211,
@@ -959,91 +888,45 @@ const routesConfig = [
   },
 
 
-  {
-    path: "/nicapsc-noc/node401",
-    component: node401,
-  },
-  {
-    path: "/nicapsc-noc/node402",
-    component:node402,
-  },
-  {
-    path: "/nicapsc-noc/node403",
-    component:node403,
-  },
-  {
-    path: "/nicapsc-noc/node404",
-    component:node404,
-  },
-  {
-    path: "/nicapsc-noc/node405",
-    component:node405,
-  },
-  {
-    path: "/nicapsc-noc/node251",
-    component:node251,
-  },
-  {
-    path: "/nicapsc-noc/node252",
-    component:node252,
-  },
-  {
-    path: "/nicapsc-noc/node253",
-    component:node253,
-  },
-  {
-    path: "/nicapsc-noc/node254",
-    component:node254,
-  },
-  {
-    path: "/nicapsc-noc/node255",
-    component:node255,
-  },
-  {
-    path: "/nicapsc-noc/node256",
-    component:node256,
-  },
-  {
-    path: "/nicapsc-noc/node257",
-    component:node257,
-  },
   
-  {
+
+  
+  /*{
     path: "/nicapsc-noc/node261",
     component:node261 ,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node262",
     component:node262,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node263",
     component:node263,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node264",
     component:node264,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node265",
     component:node265,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node266",
     component:node266,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node267",
     component:node267,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node268",
     component:node268,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node269",
     component:node269,
-  },
+  },*/
 
   {
     path: "/nicapsc-noc/node271",
@@ -1057,34 +940,34 @@ const routesConfig = [
     path: "/nicapsc-noc/node273",
     component:node273,
   },
-  {
+  /*{
     path: "/nicapsc-noc/node381",
     component: node381,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node382",
     component: node382,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node383",
     component: node383,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node384",
     component: node384,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node385",
     component: node385,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node386",
     component: node386,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node387",
     component: node387,
-  },
+  },*/
 
 
 
@@ -1116,10 +999,10 @@ const routesConfig = [
     path: "/ititrade",
     component:NKNTrade,
   },
-  {
+  /*{
     path: "/cloud",
     component: Cloud,
-  },
+  },*/
 
 
   {
@@ -1193,32 +1076,32 @@ const routesConfig = [
  
 
  
-  {
+  /*{
     path: "/nicapsc-noc/node210",
     component:node210,
-  },
-  {
+  },*/
+/*  {
     path: "/nicapsc-iti/node210",
     component: node210,
-  },
+  },*/
 
   {
     path: "/nicapsc-noc/ititrade",
     component:NKNTrade,
   },
-  {
+ /* {
     path: "/nicapsc-noc/cloud",
     component: Cloud,
-  },
+  },*/
 
-  {
+  /*{
     path: "/node801",
     component:node801,
-  },
-   {
+  },*/
+   /*{
     path: "/eshram-boc/node802",
     component:node802,
-  },
+  },*/
   {
     path: "/nicapsc-ayush/about",
     component: about,
