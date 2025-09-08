@@ -1,39 +1,34 @@
 import React from "react";
-import data from "../../sitedata.json";
+import { useSelector } from "react-redux";
+import Paragraph from "../Common/Paragraph";
 import "./stylesheet.css";
 
-
 function C302() {
+  const siteData = useSelector((state) => state.data.siteData);
+
   return (
     <div>
-    {data.PagetypeC.map((information) => {
-      return (
-        <section className="container" id="container-A">
+      {siteData?.PagetypeC?.map((information, index) => (
+        <section className="container" key={index}>
           <div className="content">
-            <h3 className="  m-3">{information.heading}</h3>
-            {information.detailservices.map((content) => {
-              return (
-                <>
-                  <h5 className="">{content.header}</h5>
-                  <section>
-                    {content.paragraph.map((detail) => {
-                      return (
-                        <ul className="">
-                        <p className="" id="p">
-                           {detail.p}
-                           </p>
-                           </ul>
-                      );
-                    })}
-                  </section>
-                </>
-              );
-            })}
+            <h3 className="m-3 heading-black">{information.heading}</h3>
+
+            {information?.detailservices?.map((content, subIndex) => (
+              <div key={subIndex}>
+                {content.header && <h5>{content.header}</h5>}
+                {content.p && <p>{content.p}</p>}
+
+                <section>
+                  {content?.paragraph?.map((detail, paraIndex) => (
+                    <Paragraph key={paraIndex} text={detail.p} />
+                  ))}
+                </section>
+              </div>
+            ))}
           </div>
         </section>
-      );
-    })}
-  </div>
+      ))}
+    </div>
   );
 }
 

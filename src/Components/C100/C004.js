@@ -1,49 +1,51 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { useSelector } from "react-redux";
 import "./home.css";
 import C005 from "./C005.js";
-import data from "../../sitedata.json";
+import Paragraph from "../Common/Paragraph"; // ✅ common Paragraph
 
 function C004() {
-  return (
-    <section className="about" >
-      <div className="container" >
-         <div className="row" id="about">
-           <div className="col-lg">
-             {data.section2.map((home) => {
-              return (
-               <>
-                <section   >
-                  <div className="row">
-                    <section className="m-2 py-4" >
-                     <h3 className="font-weight-bold  text-center">
-                       <section clasName="underline mr-auto"></section>
-                       {home.title}
-                       </h3>
-                       <div className="col-lg-12 text-start  m-2 py-1">
-                         {home.paragraph.map((e) => {
-                           return <p className="text-justify " id="">{e.p}</p>;
-                         })}
-                         <a
-                           className="btn btn-danger btn-sm"
-                           href={home.button_link}
-                         >
-                           {home.button}
-                         </a>
-                       </div>
-                        </section>
-                   </div>
-                </section>
-              </>
-             );
-           })}
-        </div>
-      <C005 />
-      </div>
-   </div>
-   </section>
-  
-  )
-};
+  // ✅ Data from Redux instead of sitedata.json
+  const siteData = useSelector((state) => state.data.siteData);
 
-export default C004; 
+  return (
+    <section className="about">
+      <div className="container">
+        <div className="row" id="about">
+          <div className="col-lg">
+            {siteData?.section2?.map((home, index) => (
+              <section key={index}>
+                <div className="row">
+                  <section className="m-2 py-4">
+                    {/* ✅ Title with direct h3 */}
+                    <h3 className="font-weight-bold text-center">
+                      {home.title}
+                    </h3>
+
+                    <div className="col-lg-12 text-start m-2 py-1">
+                      {/* ✅ Paragraphs only via Paragraph component */}
+                      {home.paragraph?.map((e, idx) => (
+                        <Paragraph key={idx} text={e.p} />
+                      ))}
+
+                      {/* ✅ Button */}
+                      <a
+                        className="btn btn-danger btn-sm"
+                        href={home.button_link}
+                      >
+                        {home.button}
+                      </a>
+                    </div>
+                  </section>
+                </div>
+              </section>
+            ))}
+          </div>
+          <C005 />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default C004;
