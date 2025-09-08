@@ -1,4 +1,3 @@
-// Redux_mongo/instituteReducer.js
 const initialState = {
   institutes: [],
   total: 0,

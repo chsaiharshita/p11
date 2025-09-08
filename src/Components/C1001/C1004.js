@@ -1,12 +1,9 @@
-
-// Redux/reducers/index.js
+// rootReducer.js
 import { combineReducers } from "redux";
-import { authReducer } from "./C1003";// ✅ CORRECT
-import { instituteReducer } from "./C1006";
- // Assuming already there
+import  reducer  from "./C1003"; // your auth reducer
+import { instituteReducer } from "./C1006"; // official institute reducer
 
- 
 export default combineReducers({
-  auth: authReducer,
-  institute:instituteReducer,
+  auth: reducer,
+  institute: instituteReducer,
 });

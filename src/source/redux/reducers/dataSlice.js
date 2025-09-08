@@ -13,5 +13,6 @@ const dataSlice = createSlice({
   },
 });
 
+
 export const { setSiteData } = dataSlice.actions;
 export default dataSlice.reducer;

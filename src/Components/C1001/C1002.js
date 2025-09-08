@@ -1,10 +1,21 @@
 // Redux_mongo/instituteActions.js
-export const fetchInstitutes = (page = 1) => async (dispatch) => {
+export const fetchInstitutes = (page = 1, limit = 10) => async (dispatch) => {
   try {
-    const res = await fetch(`http://localhost:5000/api/institutes?page=${page}&limit=10`);
+    dispatch({ type: "FETCH_INSTITUTES_REQUEST" });
+    const token = localStorage.getItem("token");
+
+    const res = await fetch(
+      `http://192.168.137.86:5000/auth/institutes?page=${page}&limit=${limit}`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+
     const data = await res.json();
     dispatch({ type: "FETCH_INSTITUTES_SUCCESS", payload: data });
   } catch (error) {
-    dispatch({ type: "FETCH_INSTITUTES_FAIL", payload: error.message });
+    dispatch({ type: "FETCH_INSTITUTES_FAILURE", payload: error.message });
   }
 };

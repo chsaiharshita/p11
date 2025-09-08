@@ -1,11 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import dataReducer from "./dataSlice";
-import reducer from "../../../Components/C1001/C1003";
+import instituteReducer from "../../../Components/C1001/C1004";
 
 export const store = configureStore({
   reducer: {
     data: dataReducer,
-    auth: reducer,   // 👈 add here
+    auth: instituteReducer,   // 👈 add here
   },
 });
 
