@@ -1,5 +1,5 @@
 const initialState = {
-  isLoading: false,
+  loading: false,   // 👈 changed
   error: null,
   token: null,
   isAuthenticated: false,
@@ -8,27 +8,27 @@ const initialState = {
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case 'LOGIN_REQUEST':
+    case "LOGIN_REQUEST":
       return {
         ...state,
-        isLoading: true,
+        loading: true,
         error: null,
       };
 
-    case 'LOGIN_SUCCESS':
+    case "LOGIN_SUCCESS":
       return {
         ...state,
-        isLoading: false,
+        loading: false,
         token: action.payload.token,
-        user: action.payload.user, // ← store the user object
+        user: action.payload.user,
         isAuthenticated: true,
         error: null,
       };
 
-    case 'LOGIN_FAILURE':
+    case "LOGIN_FAILURE":
       return {
         ...state,
-        isLoading: false,
+        loading: false,
         error: action.payload,
       };
 

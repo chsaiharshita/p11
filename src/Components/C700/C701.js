@@ -1,14 +1,18 @@
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { login } from "../C1001/C1001";
+import { login } from "../C1001/C1001"; // your login action
 import data from "../../sitedata.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function C701() {
   const dispatch = useDispatch();
   const history = useHistory();
-  const { loading, error, isAuthenticated, user } = useSelector((state) => state.auth);
+
+  // ✅ auth reducer state (with loading instead of isLoading)
+  const { loading, error, isAuthenticated, user } = useSelector(
+    (state) => state.auth || {}
+  );
 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -23,13 +27,16 @@ function C701() {
     if (storedUser || isAuthenticated) {
       history.push("/welcome");
     }
-  }, [isAuthenticated,history]);
+  }, [isAuthenticated, history]);
 
   return (
     <>
       <h1 className="text-center text-danger my-4">Login</h1>
 
-      <div className="container d-flex justify-content-center align-items-center" style={{ minHeight: "40vh" }}>
+      <div
+        className="container d-flex justify-content-center align-items-center"
+        style={{ minHeight: "40vh" }}
+      >
         <div className="card shadow" style={{ width: "100%", maxWidth: "340px" }}>
           <div className="card-body">
             {error && <div className="alert alert-danger">{error}</div>}

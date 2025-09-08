@@ -2,9 +2,9 @@ import React from "react";
 import "./home.css";
 import { Carousel } from "react-bootstrap";
 import data from "../../sitedata.json";
-import Home from "./C141.js";
+import C141 from "./C141.js";
 import C004 from "./C004.js";
-import Api from "./C142.js";
+import C142 from "./C142.js";
 
 
 function C003() {
@@ -81,9 +81,9 @@ function C003() {
              
               </div>
               </section>
-              <Home />
+              <C141/>
              <C004/>
-             <Api />
+             <C142 />
              
           </>
     )

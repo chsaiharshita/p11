@@ -1,26 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import C002 from './C002.js';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import C002 from "./C002.js";
 
-import 'font-awesome/css/font-awesome.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap';
-import 'bootstrap/dist/js/bootstrap.js';
-import { Provider } from 'react-redux';
-import store from './Components/C1001/C1005.js';
-  // path from src/index.js to redux/store.js
+import "font-awesome/css/font-awesome.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap";
+import "bootstrap/dist/js/bootstrap.js";
 
-
-// 👇 Redux store import
-
+import { Provider } from "react-redux";
+import store from "./source/redux/reducers/configureStore"; // ✅ correct path
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      
-        <C002/>
-     
+      <C002 />
     </Provider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
