@@ -8,7 +8,7 @@ import rti from "../C400/C401.js";
 import contactUs from "../C600/new.js";
 import node601 from "../C600/C601.js";
 import C601 from "../C600/C601.js"
-import map from "../C600/map.js";
+import C014 from "../C600/C014.js";
 import websitepolicies from "../C007/C106.js";
 import help from "../C007/C107.js";
 import C701 from "../C700/C701.js"; 
@@ -34,8 +34,8 @@ import node207 from "../C1300/C207.js";
 import node208 from "../C1300/C208.js";
 import node209 from "../C1300/C209.js";
 /*import node210 from "../C1200/C210.js";*/
-import node211 from "../C200/C211.js";
-import C211 from "../C200/C211.js";
+import node211 from "../C200/C205.js";
+import C205 from "../C200/C205.js";
 import node215 from "../C1300/C215.js";
 /*import node261 from "../C260/C261.js";*/
 /*import node262 from "../C260/C262.js";*/
@@ -48,19 +48,19 @@ import node215 from "../C1300/C215.js";
 /*import node269 from "../C260/Page10.js";*/
 
 import node301 from "../C1300/C301.js";
-import node302 from "../C300/C302.js";
+import node302 from "../C300/C301.js";
+import C301 from "../C300/C301.js";
+import node303 from "../C300/C302.js";
 import C302 from "../C300/C302.js";
-import node303 from "../C300/C303.js";
-import C303 from "../C300/C303.js";
 import node304 from "../C1300/C304.js";
 import node305 from "../C1300/C305.js";
 import node306 from "../C1300/C306.js";
 import node307 from "../C1300/C307.js";
 import node308 from "../C1300/C308.js";
-import node351 from "../../Components/C300/C351.js";
-import C351 from "../../Components/C300/C351.js"
+import node351 from "../C300/C303.js";
+import C303 from "../C300/C303.js"
 import node352 from "../C1300/C352.js";
-import C355 from "../C1200/C355.js"
+import C304 from "../C300/C304.js"
 /*import node801 from "../C1200/C801.js";*/
 /*import node802 from "../C1200/C802.js";*/
 
@@ -111,7 +111,7 @@ import C503 from "../../Components/C500/C503.js";
 /*import C268 from "../../Components/C260/C268.js";*/
 /*import C269 from "../C260/C269.js";*/
 
-import C205 from "../C1300/C205.js";
+/*import C205 from "../C1300/C205.js";*/
 import C207 from "../C1300/C207.js";
 import C209 from "../C1300/C209.js";
 import C208 from "../C1300/C208.js";
@@ -119,11 +119,11 @@ import C391 from "../C1300/C391.js";
 import C212 from "../C1300/C212.js";
 import C216 from "../C1300/C216.js";
 import C392 from "../C1300/C392.js";
-import C2511 from "../C1300/C2511.js";
+/*import C2511 from "../C1300/C2511.js";*/
 import C353 from "../C1300/C353.js";
 import C354 from "../C1300/C354.js";
-import C301 from "../C1300/C301.js";
-import C304 from "../C1300/C304.js";
+/*import C301 from "../C1300/C301.js";*/
+/*import C304 from "../C1300/C304.js";*/
 import C305 from "../C1300/C305.js";
 import C306 from "../C1300/C306.js";
 import C307 from "../C1300/C307.js";
@@ -219,7 +219,7 @@ const routesConfig = [
   },
   {
     path: "/map",
-    component: map,
+    component: C014,
   },
   {
     path: "/sitemap",
@@ -277,8 +277,8 @@ const routesConfig = [
     component:C216,
   },
   {
-    path: "/node211",
-    component:C211,
+    path: "/node205",
+    component:C205,
   },
   {
     path: "/node212",
@@ -296,6 +296,10 @@ const routesConfig = [
     component:C2511,
   },*/
 
+  /*{
+    path: "/node301",
+    component:C301,
+  },*/
   {
     path: "/node301",
     component:C301,
@@ -303,10 +307,6 @@ const routesConfig = [
   {
     path: "/node302",
     component:C302,
-  },
-  {
-    path: "/node303",
-    component:C303,
   },
   {
     path: "/node304",
@@ -330,8 +330,8 @@ const routesConfig = [
     component:C308,
   },
   {
-    path: "/node351",
-    component:C351,
+    path: "/node303",
+    component:C303,
   },
   {
     path: "/node352",
@@ -339,8 +339,8 @@ const routesConfig = [
   },
  
  {
-    path: "/node355",
-    component:C355,
+    path: "/node304",
+    component:C304,
 },
  
   
@@ -501,7 +501,7 @@ const routesConfig = [
   },
   {
     path: "/nicapsc-iti/map",
-    component: map,
+    component:C014,
   },
   {
     path: "/nicapsc-iti/sitemap",
@@ -777,7 +777,7 @@ const routesConfig = [
   },
   {
     path: "/nicapsc-noc/map",
-    component: map,
+    component: C014,
   },
   {
     path: "/nicapsc-noc/sitemap",

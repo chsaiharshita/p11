@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 import data from "../../sitedata.json";
-import Contactmap from "./map.js"
+import C014 from "./C014.js"
 
 
 function C601() {
@@ -61,7 +61,7 @@ function C601() {
                        <h5 className="font-weight-bold text-black ">{details.subtitle}</h5>
                        </div>
                        <div className="  " id="newmap" >
-                       <Contactmap />
+                       <C014 />
                        </div>
                        </div>
                      </div>

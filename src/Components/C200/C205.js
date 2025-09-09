@@ -2,7 +2,7 @@ import React from "react";
 import data from "../../sitedata.json";
 import "./stylesheet.css";
 
-function C211() {
+function C205() {
   return (
     <div>
       {data.Pagetype16.map((information) => {
@@ -31,4 +31,4 @@ function C211() {
   );
 }
 
-export default C211;
+export default C205;

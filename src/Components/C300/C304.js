@@ -5,11 +5,11 @@ import Posts from "../C075/C076";
 
 
 
-function C355() {
+function C304() {
 return(
       <Provider store={ store }>
               <Posts />
           </Provider>   
    );
   }
-export default C355;
+export default C304;

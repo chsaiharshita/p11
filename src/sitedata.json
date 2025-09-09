@@ -78,7 +78,7 @@
         },
         {
           "name": "SCHEMES",
-          "link": "node211",
+          "link": "node205",
           "type": "page"
         }
       ]
@@ -89,23 +89,23 @@
       "children": [
         {
           "name": "ABOUT THE STRIVE",
-          "link": "node302",
+          "link": "node301",
           "type": "page"
         },
         {
           "name": "REGISTRATION",
-          "link": "node303",
+          "link": "node302",
           "type": "page",
           "target":"_blank"
         },
         {
           "name": "DISCLOSURE MANAGEMENT",
-          "link": "node351",
+          "link": "node303",
           "type": "page"
         },
         {
           "name": "COURSE MASTER",
-          "link": "node355 ",
+          "link": "node304 ",
           "type": "page"
         }
       ]

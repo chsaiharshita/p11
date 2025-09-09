@@ -6,7 +6,7 @@ import "leaflet/dist/leaflet.css";
 import siteData from "../../sitedata.json";  // <-- load icons here
 import cities from "../C1108.json";
 
-const Contactmap = () => {
+const C014 = () => {
   const markerIcons = siteData.mapIcons || [];  // <-- array of marker images
 
   return (
@@ -49,4 +49,4 @@ const Contactmap = () => {
   );
 };
 
-export default Contactmap;
+export default C014;

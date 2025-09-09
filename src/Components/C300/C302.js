@@ -1,6 +1,7 @@
+// src/Components/C200/C203.js
 import React from "react";
 import { useSelector } from "react-redux";
-import Paragraph from "../Common/Paragraph";
+import TableComponent from "../Common/TableComponent";
 import "./stylesheet.css";
 
 function C302() {
@@ -8,22 +9,13 @@ function C302() {
 
   return (
     <div>
-      {siteData?.PagetypeC?.map((information, index) => (
-        <section className="container" key={index}>
+      {siteData?.PagetypeA?.map((information, index1) => (
+        <section className="container" key={index1}>
           <div className="content">
-            <h3 className="m-3 heading-black">{information.heading}</h3>
+            <h3 className="m-3">{information.heading}</h3>
 
-            {information?.detailservices?.map((content, subIndex) => (
-              <div key={subIndex}>
-                {content.header && <h5>{content.header}</h5>}
-                {content.p && <p>{content.p}</p>}
-
-                <section>
-                  {content?.paragraph?.map((detail, paraIndex) => (
-                    <Paragraph key={paraIndex} text={detail.p} />
-                  ))}
-                </section>
-              </div>
+            {information.detailservices?.map((content, index2) => (
+              <TableComponent key={index2} content={content} />
             ))}
           </div>
         </section>

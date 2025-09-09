@@ -1,4 +1,3 @@
-// src/Components/C200/C203.js
 import React from "react";
 import { useSelector } from "react-redux";
 import TableComponent from "../Common/TableComponent";
@@ -9,7 +8,7 @@ function C303() {
 
   return (
     <div>
-      {siteData?.PagetypeA?.map((information, index1) => (
+      {siteData?.Pagetype22a?.map((information, index1) => (
         <section className="container" key={index1}>
           <div className="content">
             <h3 className="m-3">{information.heading}</h3>

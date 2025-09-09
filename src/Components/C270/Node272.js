@@ -8,22 +8,20 @@ function Node272() {
 
   return (
     <div>
-      {siteData?.Node272?.map((information, index) => (
+    {siteData?.Node272?.map((information, index) => (
         <section className="container" key={index}>
           <div className="content">
-            <h3 className="m-3 heading-black">{information.heading}</h3>
+            <Paragraph
+            heading={information.heading}
+            />
 
             {information?.detailservices?.map((content, subIndex) => (
-              <div key={subIndex}>
-                {content.header && <h5>{content.header}</h5>}
-                {content.p && <p>{content.p}</p>}
-
-                <section>
-                  {content?.paragraph?.map((detail, paraIndex) => (
-                    <Paragraph key={paraIndex} text={detail.p} />
-                  ))}
-                </section>
-              </div>
+              <Paragraph
+                key={subIndex}
+                subHeading={content.header}
+                text={content.p}
+                list={content.paragraph}
+              />
             ))}
           </div>
         </section>
