@@ -1,37 +1,61 @@
-// src/Components/Common/TableComponent.js
 import React from "react";
+import "./Style.css";
 
 function TableComponent({ content }) {
-  return (
-    <div>
-      <h5>{content.header}</h5>
-      {content.p && <p>{content.p}</p>}
+  if (!content) return null;
 
-      <table className="col-lg-12 col-xs-10 col-md-8 d-sm-10" id="customer">
-        <thead>
-          <tr>
-            <th style={{ width: "5%" }}>{content.Serial}</th>
-            <th style={{ width: "65%" }}>{content.Trainingwing}</th>
-            <th style={{ width: "30%" }}>{content.Contact}</th>
-          </tr>
-        </thead>
-        <tbody id="customer">
-          {content.paragraph?.map((details, index) => (
-            <tr id="text_align" key={index}>
-              <td>{details.Serial}</td>
-              <td style={{ textAlign: "left", paddingLeft: "10px" }}>
-                {details.Trainingwing}
-              </td>
-              <td>
-                <a href={details.link} target="_blank" rel="noreferrer">
-                  View
-                  <i className="fa fa-download pdf-download" aria-hidden="true"></i>
-                </a>
-              </td>
+  // Extract dynamic table headers (except header, p, paragraph)
+  const headers = Object.keys(content).filter(
+    (key) => !["header", "p", "paragraph"].includes(key)
+  );
+
+  return (
+    <div className="table-wrapper mb-4">
+      {/* Heading (red, bold) */}
+      {content.header && (
+        <h3>
+          {content.header}
+        </h3>
+      )}
+
+      {/* Paragraph / description (normal) */}
+      {content.p && <p >{content.p}</p>}
+
+      {/* Table render only if paragraph exists */}
+      {content.paragraph?.length > 0 && (
+        <table className="col-lg-12 col-xs-10 col-md-8 d-sm-10" id="customer">
+          <thead>
+            <tr>
+              {headers.map((head, index) => (
+                <th key={index}>{content[head]}</th>
+              ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+
+          <tbody id="customer">
+            {content.paragraph?.map((row, rowIndex) => (
+              <tr id="text_align" key={rowIndex}>
+                {headers.map((head, colIndex) => (
+                  <td key={colIndex} style={{ paddingLeft: "10px" }}>
+                    {head.toLowerCase() === "contact" ||
+                    head.toLowerCase() === "file" ? (
+                      <a href={row["link"]} target="_blank" rel="noreferrer">
+                        View{" "}
+                        <i
+                          className="fa fa-download pdf-download"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    ) : (
+                      row[head]
+                    )}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
     </div>
   );
 }

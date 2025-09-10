@@ -9,8 +9,8 @@ import contactUs from "../C600/new.js";
 import node601 from "../C600/C601.js";
 import C601 from "../C600/C601.js"
 import C014 from "../C600/C014.js";
-import websitepolicies from "../C007/C106.js";
-import help from "../C007/C107.js";
+import websitepolicies from "../C007/C105.js";
+import help from "../C007/C106.js";
 import C701 from "../C700/C701.js"; 
 
 
@@ -28,15 +28,15 @@ import node203 from "../C200/C203.js";
 import C203 from "../C200/C203.js";
 import node204 from "../C200/C204.js";
 import C204 from "../C200/C204.js";
-import node205 from "../C1300/C205.js";
+/*import node205 from "../C1300/C205.js";
 import node206 from "../C1300/C206.js";
 import node207 from "../C1300/C207.js";
 import node208 from "../C1300/C208.js";
-import node209 from "../C1300/C209.js";
+import node209 from "../C1300/C209.js";*/
 /*import node210 from "../C1200/C210.js";*/
 import node211 from "../C200/C205.js";
 import C205 from "../C200/C205.js";
-import node215 from "../C1300/C215.js";
+/*import node215 from "../C1300/C215.js";*/
 /*import node261 from "../C260/C261.js";*/
 /*import node262 from "../C260/C262.js";*/
 /*import node263 from "../C260/C263.js";*/
@@ -47,27 +47,27 @@ import node215 from "../C1300/C215.js";
 /*import node268 from "../C260/C269.js";*/
 /*import node269 from "../C260/Page10.js";*/
 
-import node301 from "../C1300/C301.js";
+/*import node301 from "../C1300/C301.js";*/
 import node302 from "../C300/C301.js";
 import C301 from "../C300/C301.js";
 import node303 from "../C300/C302.js";
 import C302 from "../C300/C302.js";
-import node304 from "../C1300/C304.js";
+/*import node304 from "../C1300/C304.js";
 import node305 from "../C1300/C305.js";
 import node306 from "../C1300/C306.js";
 import node307 from "../C1300/C307.js";
 import node308 from "../C1300/C308.js";
-import node351 from "../C300/C303.js";
-import C303 from "../C300/C303.js"
-import node352 from "../C1300/C352.js";
+import node351 from "../C300/C303.js";*/
+import C303 from "../C300/C303.js";
+/*import node352 from "../C1300/C352.js";*/
 import C304 from "../C300/C304.js"
 /*import node801 from "../C1200/C801.js";*/
 /*import node802 from "../C1200/C802.js";*/
 
 //noc site data //
-import node391 from "../C1300/C391.js";
-import node392 from "../C1300/C392.js";
-import detaildesign from"../C1300/C216.js";
+/*import node391 from "../C1300/C391.js";*/
+/*import node392 from "../C1300/C392.js";*/
+/*import detaildesign from"../C1300/C216.js";*/
 
 import node271 from "../C270/Node271.js";
 import node272 from "../C270/Node272.js";
@@ -76,13 +76,13 @@ import node274 from "../C270/Node274.js";
 import node275 from "../C270/Node275.js";
 import node276 from "../C270/Node276.js";
 
-import ITITrade from "../C1300/C2512.js";
+/*import ITITrade from "../C1300/C2512.js";*/
 
-import Schemes from "../C1300/C305.js";
+/*import Schemes from "../C1300/C305.js";*/
 
 
-import node216 from "../C1300/C216.js";
-import NKNTrade from "../C1300/C2512.js";
+/*import node216 from "../C1300/C216.js";
+import NKNTrade from "../C1300/C2512.js";*/
 /*import Cloud from "../C260/C261.js";*/
 
 /*import node381 from "../C380/C381.js";*/
@@ -112,23 +112,23 @@ import C503 from "../../Components/C500/C503.js";
 /*import C269 from "../C260/C269.js";*/
 
 /*import C205 from "../C1300/C205.js";*/
-import C207 from "../C1300/C207.js";
+/*import C207 from "../C1300/C207.js";
 import C209 from "../C1300/C209.js";
 import C208 from "../C1300/C208.js";
 import C391 from "../C1300/C391.js";
 import C212 from "../C1300/C212.js";
 import C216 from "../C1300/C216.js";
-import C392 from "../C1300/C392.js";
+import C392 from "../C1300/C392.js";*/
 /*import C2511 from "../C1300/C2511.js";*/
-import C353 from "../C1300/C353.js";
-import C354 from "../C1300/C354.js";
+/*import C353 from "../C1300/C353.js";*/
+/*import C354 from "../C1300/C354.js";*/
 /*import C301 from "../C1300/C301.js";*/
 /*import C304 from "../C1300/C304.js";*/
-import C305 from "../C1300/C305.js";
-import C306 from "../C1300/C306.js";
-import C307 from "../C1300/C307.js";
-import C308 from "../C1300/C308.js";
-import C206 from "../C1300/C206.js";
+/*import C305 from "../C1300/C305.js";*/
+/*import C306 from "../C1300/C306.js";*/
+/*import C307 from "../C1300/C307.js";*/
+/*import C308 from "../C1300/C308.js";*/
+/*import C206 from "../C1300/C206.js";*/
 import C003 from "../../Components/C100/C003.js";
 import C141 from "../C100/C141.js";
 import C142 from "../C100/C142.js";
@@ -255,7 +255,7 @@ const routesConfig = [
     path: "/node205",
     component:C205,
   },
-  {
+  /*{
     path: "/node206",
     component:C206,
   },
@@ -287,7 +287,7 @@ const routesConfig = [
   {
     path: "/node215",
     component:node215,
-  },
+  },*/
 
 
  
@@ -312,7 +312,7 @@ const routesConfig = [
     path: "/node304",
     component:C304,
   },
-  {
+  /*{
     path: "/node305",
     component:C305,
   },
@@ -328,15 +328,15 @@ const routesConfig = [
   {
     path: "/node308",
     component:C308,
-  },
+  },*/
   {
     path: "/node303",
     component:C303,
   },
-  {
+  /*{
     path: "/node352",
     component:node352,
-  },
+  },*/
  
  {
     path: "/node304",
@@ -344,14 +344,14 @@ const routesConfig = [
 },
  
   
-  {
+  /*{
     path: "/node391",
     component:C391,
   },
   {
     path: "/node392",
     component:C392,
-  },
+  },*/
 
 
 
@@ -530,7 +530,7 @@ const routesConfig = [
     path: "/nicapsc-iti/node204",
     component: node204,
   },
-  {
+  /*{
     path: "/nicapsc-iti/node205",
     component: node205,
   },
@@ -549,8 +549,8 @@ const routesConfig = [
   {
     path: "/nicapsc-iti/node209",
     component: node209,
-  },
-  {
+  },*/
+/*  {
     path: "/nicapsc-iti/node216",
     component: node216,
   },
@@ -561,13 +561,13 @@ const routesConfig = [
   {
     path: "/nicapsc-iti/node215",
     component: node215,
-  },
+  },*/
 
 
-  {
+/*  {
     path: "/nicapsc-iti/node301",
     component:node301,
-  },
+  },*/
   {
     path: "/nicapsc-iti/node302",
     component: node302,
@@ -576,16 +576,16 @@ const routesConfig = [
     path: "/nicapsc-iti/node303",
     component: node303,
   },
-  {
+ /* {
     path: "/nicapsc-iti/node304",
     component: node304,
   },
   {
     path: "/nicapsc-iti/node305",
     component: node305,
-  },
+  },*/
   
-  {
+  /*{
     path: "/nicapsc-iti/node306",
     component: node306,
   },
@@ -608,15 +608,15 @@ const routesConfig = [
   {
     path: "/nicapsc-iti/node354",
     component:C354,
-  },
-  {
+  },*/
+/*  {
     path: "/nicapsc-iti/node391",
     component: node391,
   },
   {
     path: "/nicapsc-iti/node392",
     component: node392,
-  },
+  },*/
 
 
   /*{
@@ -754,10 +754,10 @@ const routesConfig = [
   },
   
 
-  {
+/*  {
     path: "/nicapsc-noc/detaildesign",
     component:detaildesign,
-  },
+  },*/
 
 
 
@@ -807,7 +807,7 @@ const routesConfig = [
     path: "/nicapsc-noc/node204",
     component: node204,
   },
-  {
+ /* {
     path: "/nicapsc-noc/node205",
     component: node205,
   },
@@ -826,7 +826,7 @@ const routesConfig = [
   {
     path: "/nicapsc-noc/node209",
     component: node209,
-  },
+  },*/
   /*{
     path: "/nicapsc-noc/node210",
     component: node210,
@@ -835,16 +835,16 @@ const routesConfig = [
     path: "/nicapsc-noc/node211",
     component: node211,
   },
-  {
+  /*{
     path: "/nicapsc-noc/node215",
     component: node215,
-  },
+  },*/
 
 
-  {
+  /*{
     path: "/nicapsc-noc/node301",
     component:node301,
-  },
+  },*/
   {
     path: "/nicapsc-noc/node302",
     component: node302,
@@ -853,7 +853,7 @@ const routesConfig = [
     path: "/nicapsc-noc/node303",
     component: node303,
   },
-  {
+ /* {
     path: "/nicapsc-noc/node304",
     component: node304,
   },
@@ -877,15 +877,15 @@ const routesConfig = [
   {
     path: "/nicapsc-noc/node351",
     component: node351,
-  },
-  {
+  },*/
+  /*{
     path: "/nicapsc-noc/node391",
     component: node391,
   },
   {
     path: "/nicapsc-noc/node392",
     component: node392,
-  },
+  },*/
 
 
   
@@ -971,7 +971,7 @@ const routesConfig = [
 
 
 
-  {
+  /*{
     path: "/schemes",
     component: Schemes,
   },
@@ -982,7 +982,7 @@ const routesConfig = [
   {
     path: "/ititrade",
     component:ITITrade,
-  },
+  },*/
 
 
 
@@ -995,10 +995,10 @@ const routesConfig = [
   },
  
  
-  {
+/*  {
     path: "/ititrade",
     component:NKNTrade,
-  },
+  },*/
   /*{
     path: "/cloud",
     component: Cloud,
@@ -1029,15 +1029,15 @@ const routesConfig = [
     path: "/nicapsc-iti/organisation",
     component:organisation,
   },
-  {
+  /*{
     path: "/nicapsc-iti/ititrade",
     component:ITITrade,
-  },
+  },*/
 
-  {
+  /*{
     path: "/nicapsc-iti/node351", //about the strive
     component: node351,
-  },
+  },*/
   {
     path:"/nicapsc-iti/node302", // disclosure management
     component:node302, 
@@ -1085,10 +1085,10 @@ const routesConfig = [
     component: node210,
   },*/
 
-  {
+  /*{
     path: "/nicapsc-noc/ititrade",
     component:NKNTrade,
-  },
+  },*/
  /* {
     path: "/nicapsc-noc/cloud",
     component: Cloud,

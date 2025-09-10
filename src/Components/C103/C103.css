@@ -1,120 +1,54 @@
 .box {
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem;
-  max-height: fit-content;
-  
+  display: flex-start;
+  margin: 5px;
 }
 
-.navdetails {
-  background: #1b80f3fd;
-  border-color: #5ba1da;
-  border-bottom: 1px solid #0c0c0c;
-  border-top: 1px solid #0c0c0c;
-  justify-content: center;
+
+
+.titleheader {
+  font-weight: bold;
+  text-transform: none;
   text-align: center;
-  grid-column: 10 default;
- 
+  font-size: 30px;
   
-}
-.sticky{
-  min-height: 44px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
+.titleheadermobile {
+  font-weight: bold;
+  text-transform: none;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
 
-.navlinkdetails{
- margin-left:-5px ;
-
+.titleheadermobile1 {
+  font-weight: normal;
+  text-transform: none;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
-.selected {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+#title {
 
-}
-
-.selected h4 {
-  font-style: normal;
-  font-weight: 400;
-}
-
-.header1 {
-  background-color: rgb(252, 1, 1);
-  transform: skew(-20deg);
-}
-
-.header {
-  background-color: rgb(69, 61, 61);
-}
-
-.navheader {
-  display: flex;
-  flex-direction: row-reverse;
-  margin: 7px 7px;
-}
-
-.links li a {
-  display: block;
-  margin: 0px 2px;
-  text-decoration: none;
-  color: rgba(227, 236, 238, 0.945) !important;
-  font-size: 100%;
-  font-style: normal;
-  text-align: left;
-  padding:5px 10px;
-  border-radius: 25px;
+  font-family: 'Times New Roman', Times, serif;
  
+
 }
 
-.nav-link-dropdown {
-  padding: 10px;
-  display: block;
-  width: 280px;
-  color: rgb(26, 23, 23) !important;
-  background-color: #1b80f3fd;
-  top: 10px;
-  justify-content: center;
- 
-  
+#headerimage1{
+position:relative;
+right: 8px;
+
 }
 
-
-
-#left {
-  position: relative;
-  left: 130px;
- 
+#headerimage2{
+position:relative;
+left:0px;
 }
-#mdlaunch {
-  position:relative;
-  left: 150px;
- 
+#imagestyle{
+ width: 120px;
+ height: 120px;
 }
-
-#medical {
-  position:relative;
-  left: 111px;
-}
-
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-  top:97%;
-  border-color: rgb(19, 18, 18);
-  background-color: #1b80f3fd;
-  padding:2px 16px;
-}
-
-.links li a:hover {
-  color: rgb(27, 25, 25) !important;
-  background-color: #ec991c;
- 
-  
-}
- #menu{
-   text-align: center;
- }
-

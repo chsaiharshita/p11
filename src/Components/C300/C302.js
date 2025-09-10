@@ -1,4 +1,3 @@
-// src/Components/C200/C203.js
 import React from "react";
 import { useSelector } from "react-redux";
 import TableComponent from "../Common/TableComponent";
@@ -9,13 +8,21 @@ function C302() {
 
   return (
     <div>
-      {siteData?.PagetypeA?.map((information, index1) => (
-        <section className="container" key={index1}>
+      {siteData?.PagetypeA?.map((page, pageIndex) => (
+        <section className="container" key={pageIndex}>
           <div className="content">
-            <h3 className="m-3">{information.heading}</h3>
+            {/* ✅ Heading also inside reusable TableComponent style */}
+            <TableComponent
+              content={{
+                header: page.heading, // heading ni header la pass chestunnam
+                p: "",                // optional description empty
+                paragraph: []         // table rows unnecessary ikkada
+              }}
+            />
 
-            {information.detailservices?.map((content, index2) => (
-              <TableComponent key={index2} content={content} />
+            {/* ✅ Detail Services list → TableComponent call */}
+            {page.detailservices?.map((tableData, tableIndex) => (
+              <TableComponent key={tableIndex} content={tableData} />
             ))}
           </div>
         </section>

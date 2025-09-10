@@ -3,12 +3,12 @@ import { useSelector } from "react-redux";
 import Paragraph from "../Common/Paragraph";
 import "./C007.css";
 
-function Help() {
+function Webpolicies() {
   const siteData = useSelector((state) => state.data.siteData);
 
   return (
     <div>
-      {siteData?.Help?.map((information, index) => (
+      {siteData?.websitepolicies?.map((information, index) => (
         <section className="container" key={index}>
           <div className="content">
             <h3 className="m-3 heading-black">{information.heading}</h3>
@@ -32,4 +32,4 @@ function Help() {
   );
 }
 
-export default Help;
+export default Webpolicies;

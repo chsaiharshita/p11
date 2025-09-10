@@ -1,6 +1,6 @@
 // src/Components/Common/ListComponent.js
 import React from "react";
-import "./stylesheet.css";
+import "./style.css";
 
 function ListComponent({ content }) {
   if (!content) return null;

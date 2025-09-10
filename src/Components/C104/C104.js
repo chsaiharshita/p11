@@ -1,18 +1,19 @@
 import React from "react";
-import "./C105.css";
+import "./C104.css";
 import C101 from "../C103/C101.js";
-import C104 from "../C103/C104.js";
+import C103 from "../C103/C103.js";
 import data from "../../sitedata.json";
 import { MdLaunch } from "react-icons/md";
 
-function C105() {
+function C104() {
   return (
     <>
       <C101 />
-      <C104 />
+      <C103 />
 
       <section className="font-weight-bold sticky-top navdetails">
-        <div className="col-md-auto">
+        <div className="col-m
+        d-auto">
           <div className="container-lg">
             <nav className="navbar navbar-expand-lg col-sm-12 navbar-light" id="expand1">
               
@@ -109,4 +110,4 @@ function C105() {
   );
 }
 
-export default C105;
+export default C104;

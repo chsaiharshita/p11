@@ -1,5 +1,5 @@
 import React from "react";
-import C105 from "../C105/C105.js";
+import C104 from "../C104/C104.js";
 import C007 from "../C007/C007.js";
 import "./C010.css";
 import { withRouter } from "react-router-dom";
@@ -11,7 +11,7 @@ function C011() {
     <React.Fragment>
       <div className="d-flex flex-column min-vh-100" >
     
-        <C105 />
+        <C104 />
         <section className="content" id="target" >
           <Layout />
         </section>
