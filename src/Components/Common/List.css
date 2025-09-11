@@ -1,0 +1,47 @@
+/* Wrapper spacing */
+.list-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+/* Main heading (brown, big, bold) */
+.main-heading {
+  color: brown;
+  font-size: 1.8rem; /* bigger */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Sub heading (black, medium) */
+.sub-heading {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+/* Each list item */
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+/* FontAwesome icon style */
+.list-item i {
+  color: brown;
+  font-size: 1rem;
+}
+
+/* Link style */
+.list-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+/* Hover effect */
+.list-item a:hover {
+  color: brown;
+  text-decoration: underline;
+}

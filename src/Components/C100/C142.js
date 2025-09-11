@@ -97,7 +97,7 @@ function C142() {
               <div className="card__picture2 p-1 text-left" id="tool" key={`event-${j}`}>
                 <div id="events">
                   <img
-                    src="./images/Events1.png"
+                    src={siteData.eventsIcons.img}
                     alt={e.aname || "event image"}
                     className="card__img2"
                   />

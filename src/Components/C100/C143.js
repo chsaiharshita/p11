@@ -72,7 +72,7 @@ function C143() {
   }
 
   // Load reward icon from siteData.json (single icon for all rewards)
-  const rewardIcon = siteData.rewardIcon || "images/images/images.jpg";
+  const rewardIcon = siteData.rewardIcon || "/nicapsc-iti/image1/images.jpg";
 
   return (
     <section className="reward">
@@ -88,7 +88,7 @@ function C143() {
               <div className="card__picture2 p-1 text-left" id="tool2" key={i}>
                 <div id="events">
                   <img 
-                    src={`/${rewardIcon}`} 
+                    src={siteData.rewardsIcons.img} 
                     alt="reward" 
                     className="reward-icon" 
                   />

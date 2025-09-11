@@ -1,20 +1,24 @@
-// src/components/EventsList.js
+// src/Components/C500/C502.js
 import React, { useEffect, useState } from "react";
 import "./EventsList.css";
 import siteData from "../../sitedata.json";
 
 function C502() {
   const [eventsData, setEventsData] = useState([]);
-  const [icons, setIcons] = useState([]);  // <-- store event icons from siteData
+  const [icons, setIcons] = useState([]); // event icons from siteData
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);
 
-    // Load icons from siteData.json
-    setIcons(siteData.eventsIcons || []);  // <-- must be an array in JSON
+    // ✅ Load icons from siteData
+    if (Array.isArray(siteData.eventsIcons)) {
+      setIcons(siteData.eventsIcons.map((i) => i.img));
+    } else if (siteData.eventsIcons?.img) {
+      setIcons([siteData.eventsIcons.img]); // fallback for single image
+    }
 
-    // Fetch events dynamically
+    // ✅ Fetch events dynamically
     fetch(siteData.P0url2)
       .then(async (res) => {
         if (!res.ok) {
@@ -49,37 +53,43 @@ function C502() {
       <div className="events-list">
         {eventsData.map((event, index) => (
           <div key={index} className="event-card">
-            {icons[index] && (
+            {/* ✅ Event Icon from sitedata */}
+            {icons[index % icons.length] && (
               <div className="event-img-container">
                 <img
-                  src={`/${icons[index]}`}   // <-- dynamic image
-                  alt="event"               // <-- pname removed
-                  className="event-icon"
+                  src={icons[index % icons.length]}
+                  alt="event icon"
+                  className="card__img2"
                 />
               </div>
             )}
+
             <div className="event-content">
               {/* Removed event.pname completely */}
               {Array.isArray(event.a) && event.a.length > 0 ? (
                 event.a.map((item, i) => {
                   const name = cleanValue(item.aname);
                   const value = cleanValue(item.avalue);
-                  return (name || value) && (
-                    <p key={i}>
-                      <strong>{name}</strong>
-                      {value ? ` – ${value}` : ""}
-                    </p>
+                  return (
+                    (name || value) && (
+                      <p key={i}>
+                        <strong>{name}</strong>
+                        {value ? ` – ${value}` : ""}
+                      </p>
+                    )
                   );
                 })
               ) : (
                 (() => {
                   const name = cleanValue(event.a?.aname);
                   const value = cleanValue(event.a?.avalue);
-                  return (name || value) && (
-                    <p>
-                      <strong>{name}</strong>
-                      {value ? ` – ${value}` : ""}
-                    </p>
+                  return (
+                    (name || value) && (
+                      <p>
+                        <strong>{name}</strong>
+                        {value ? ` – ${value}` : ""}
+                      </p>
+                    )
                   );
                 })()
               )}

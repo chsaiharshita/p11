@@ -1,41 +1,41 @@
-// src/Components/Common/ListComponent.js
+// src/Components/C200/C205.js
 import React from "react";
+import { useSelector } from "react-redux";
+import ListComponent from "../Common/Listcomponent";
 import "./stylesheet.css";
 
-function ListComponent({ content }) {
-  if (!content) return null;
+function C205() {
+  const siteData = useSelector((state) => state.data.siteData);
 
   return (
-    <div className="list-wrapper mb-4">
-      {/* Heading */}
-      {content.heading && <h3 className="main-heading">{content.heading}</h3>}
+    <div>
+      {siteData?.Pagetype16?.map((page, pageIndex) => (
+        <section className="container" key={pageIndex}>
+          <div className="content">
+            {/* ✅ Heading also inside reusable ListComponent style */}
+            <ListComponent
+              content={{
+                header: page.heading, // heading ni header laga pass chestunnam
+                p: page.p || "",
+                content: [], // links unnecessary ikkada
+              }}
+            />
 
-      {/* Subheading */}
-      {content.p && content.p.trim() !== "" && (
-        <h5 className="sub-heading">{content.p}</h5>
-      )}
-
-      {/* Small Header */}
-      {content.header && content.header.trim() !== "" && (
-        <h5 className="small-header">{content.header}</h5>
-      )}
-
-      {/* List Items */}
-      {content.content?.map((item, index) => (
-        <div key={index} className="list-item">
-          <i className="fa fa-hand-o-right m-1 px-2"></i>
-          <a
-            href={item.link}
-            className="font-weight-normal p-1"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {item.description}
-          </a>
-        </div>
+            {/* ✅ Detail Services list → ListComponent call */}
+            {page.content?.length > 0 && (
+              <ListComponent
+                content={{
+                  header: page.header || "",
+                  p: page.p || "",
+                  content: page.content,
+                }}
+              />
+            )}
+          </div>
+        </section>
       ))}
     </div>
   );
 }
 
-export default ListComponent;
+export default C205;

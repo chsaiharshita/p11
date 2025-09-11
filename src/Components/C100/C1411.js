@@ -42,7 +42,7 @@ function C1411() {
             {icons[index] && (
               <div className="about-img-container">
                 <img 
-                  src={`/${icons[index]}`} 
+                  src={siteData.newsIcons.img} 
                   alt={details.pname || "news"} 
                   className="about-sub-img" 
                 />

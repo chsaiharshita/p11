@@ -8,7 +8,7 @@ function Layout() {
     <div>
       <Switch>
         {/* Home */}
-        <Route exact path="/" component={C003} />
+        <Route exact path="/nicapsc-iti/" component={C003} />
 
         {/* Static routes first */}
         {routesConfig.map((route, i) => (

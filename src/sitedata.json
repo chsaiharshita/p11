@@ -45,7 +45,7 @@
   "Navlink": [
     {
       "title": "HOME",
-      "link": "/#about"
+      "link": "/nicapsc-iti/#about"
     }
   ],
  
@@ -58,27 +58,27 @@
       "children": [
         {
           "name": "ABOUT NCVT/SCVT",
-          "link": "node201",
+          "link": "/nicapsc-iti/node201",
           "type": "page"
         },
         {
           "name": "ORGANISATION",
-          "link": "node202",
+          "link": "/nicapsc-iti/node202",
           "type": "page"
         },
         {
           "name": "ITIs TRADE SPECIATIONS",
-          "link": "node203",
+          "link": "/nicapsc-iti/node203",
           "type": "page"
         },
         {
           "name": "ITI WISE SEATS/TRADES ",
-          "link": "node204",
+          "link": "/nicapsc-iti/node204",
           "type": "page"
         },
         {
           "name": "SCHEMES",
-          "link": "node205",
+          "link": "/nicapsc-iti/node205",
           "type": "page"
         }
       ]
@@ -89,23 +89,23 @@
       "children": [
         {
           "name": "ABOUT THE STRIVE",
-          "link": "node301",
+          "link": "/nicapsc-iti/node301",
           "type": "page"
         },
         {
           "name": "REGISTRATION",
-          "link": "node302",
+          "link": "/nicapsc-iti/node302",
           "type": "page",
           "target":"_blank"
         },
         {
           "name": "DISCLOSURE MANAGEMENT",
-          "link": "node303",
+          "link": "/nicapsc-iti/node303",
           "type": "page"
         },
         {
           "name": "COURSE MASTER",
-          "link": "node304 ",
+          "link": "/nicapsc-iti/node304 ",
           "type": "page"
         }
       ]
@@ -116,7 +116,7 @@
      "children": [
        {
          "name": "RTI",
-         "link": "node401",
+         "link": "/nicapsc-iti/node401",
          "type": "page"
        }
      ]
@@ -128,15 +128,15 @@
   "children": [
     {
       "name": "News",
-      "link": "/node501"
+      "link": "/nicapsc-iti/node501"
     },
     {
       "name": "Events",
-      "link": "/node502"
+      "link": "/nicapsc-iti/node502"
     },
     {
       "name": "Rewards",
-      "link": "/node503"
+      "link": "/nicapsc-iti/node503"
     }
   ]
  },
@@ -146,7 +146,7 @@
      "children": [
        {
          "name": "CONTACT US",
-         "link": "node601",
+         "link": "/nicapsc-iti/node601",
          "type": "page"
        }
      ]
@@ -158,7 +158,7 @@
     "children": [
       {
         "name": "LOGIN",
-        "link": "/node701",
+        "link": "/nicapsc-iti/node701",
         "type": "page"
       }
     ]
@@ -236,7 +236,7 @@
     {
       "img1": [
         {
-          "imgsrc": "./images/P2H1.jpg",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/P2H1.jpg",
           "imgalt": "logo1",
           "link": "https://itiadmissions.ap.gov.in/"
         }
@@ -248,7 +248,7 @@
       ],
       "img2": [
         {
-          "imgsrc": "./images/P2H2.jpg",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/P2H2.jpg",
           "imgalt": "logo2",
           "link": "https://www.skillindia.gov.in/"
         }
@@ -268,13 +268,13 @@
         {
           "carousel1": [
             {
-              "image": "./images/P2slideimage1.jpg",
+              "image": "https://eg.ap.gov.in/p0server/static/p0/images/P2slideimage1.jpg",
               "imgalt": "First slide"
             }
           ],
           "carousel2": [
             {
-              "image": "./images/P2slideimage2.jpg",
+              "image": "https://eg.ap.gov.in/p0server/static/p0/images/P2slideimage2.jpg",
               "imgalt": "Second slide"
             }
           ]
@@ -294,7 +294,7 @@
                }
 
           ],
-          "imgsrc": "./images/C-A.jpg",
+          "imgsrc": "./nicapsc-iti/images/C-A.jpg",
           "imgalt": "image1",
           "button": "View More",
           "button_link": "about"
@@ -306,7 +306,7 @@
           "title": "",
           "card1": [
             {
-              "imgsrc": "./images/CM.jpeg",
+              "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/CM.jpeg",
               "imgalt": "img-1 ",
               "title": " Sri. N. Chandrababu Naidu",
               "description": "Hon'ble Chief Minister",
@@ -319,7 +319,7 @@
               "button": "View More"
             },
             {
-              "imgsrc": "./images/image.jpg",
+              "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/image.jpg",
               "imgalt": "img-2",
               "title": "Minister",
               "description": "Skill Development and Training Minister",
@@ -333,7 +333,7 @@
               "button": "View More"
             },
             {
-              "imgsrc": "./images/image.jpg",
+              "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/image.jpg",
               "imgalt": "img-3",
               "title": "I.T.I Commissioner.",
               "description": "Industrial Training Institues.",
@@ -380,13 +380,13 @@
                   "title": "Media Gallery ",
                   "carousel1": [
                     {
-                      "img": "./images/cardimg-3.jpg",
+                      "img": "./nicapsc-iti/image1/cardimg-3.jpg",
                       "imgalt": "First slide"
                     }
                   ],
                   "carousel2": [
                     {
-                      "img": "./images/cardimg-4.jpg",
+                      "img": "./nicapsc-iti/image1/cardimg-4.jpg",
                       "imgalt": "Second slide"
                     }
                   ],
@@ -398,7 +398,7 @@
           "subsection2": [
             {
               "title": "Media Gallery",
-              "imgsrc": "./images/004.png",
+              "imgsrc": "./nicapsc-iti/image1/004.png",
               "imgalt": "image1",
               "button": "View More",
               "button_link": "Images"
@@ -469,7 +469,7 @@
          }
 
     ],
-    "imgsrc": "./images/C-A.jpg",
+    "imgsrc": "./nicapsc-iti/images/C-A.jpg",
     "imgalt": "image1",
     "button": "View More",
     "button_link": "about"
@@ -481,7 +481,7 @@
     "title": "",
     "card1": [
       {
-        "imgsrc": "./images/CM.jpeg",
+        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/CM.jpeg",
         "imgalt": "img-1 ",
         "title": " Sri. N. Chandrababu Naidu",
         "description": "Hon'ble Chief Minister of Andhra Pradesh",
@@ -494,7 +494,7 @@
         "button": "View More"
       },
       {
-        "imgsrc": "./images/image.jpg",
+        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/image.jpg",
         "imgalt": "img-2",
         "title": "Minister",
         "description": "Skill Development and Training Minister, Andhra Pradesh",
@@ -508,7 +508,7 @@
         "button": "View More"
       },
       {
-        "imgsrc": "./images/image.jpg",
+        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/image.jpg",
         "imgalt": "img-3",
         "title": "Commissioner",
         "description": "Industrial Training Institues,Andhra Pradesh",
@@ -574,7 +574,7 @@
       "avalue": " "
     },
     {
-      "link":"/node208"
+      "link":"/nicapsc-iti/node208"
     }
   ]
 }
@@ -852,7 +852,7 @@
       }
 
     ],
-    "imgsrc": "./images/address.png",
+    "imgsrc": "./nicapsc-iti/image1/address1.png",
     "imgalt": "image1",
     "link1" :"/map"
   }
@@ -883,15 +883,15 @@
       "paragraph": [
        
       {
-      "imgsrc": "./images/P2Org1.jpg",
+      "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/P2Org1.jpg",
       "imgalt": "image1"
       },
       {
-        "imgsrc": "./images/P2Org3.jpg",
+        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/P2Org3.jpg",
         "imgalt": "image1"
       },
       {
-        "imgsrc": "./images/P2Org2.jpg",
+        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/P2Org2.jpg",
         "imgalt": "image1"
       }
       ]
@@ -2805,27 +2805,27 @@
         "header": "",
         "content": [
           {
-            "link": "node271",
+            "link": "./nicapsc-iti/node271",
             "description": "Craftsman Training Scheme"
           },
           {
-            "link": "node272",
+            "link": "./nicapsc-iti/node272",
             "description": "Apprenticeship Training Scheme "
           },
           {
-            "link": "node273",
+            "link": "./nicapsc-iti/node273",
             "description": "Centre of Excellence"
           },
           {
-            "link": "node274",
+            "link": "./nicapsc-iti/node274",
             "description": "Skill Development Initiative"
           },
           {
-            "link": "node275",
+            "link": "./nicapsc-iti/node275",
             "description": "Public Private Partnership"
           },
           {
-            "link": "node276",
+            "link": "./nicapsc-iti/node276",
             "description": "Private Training Providers(PTPs)"
           }
         ]
@@ -2833,18 +2833,18 @@
     ],
      
   
-  "newsIcons": [
-    "images/images/OIP.jpeg"
+  "newsIcons": {
+   "img":"https://eg.ap.gov.in/p0server/static/p0/images/OIP.jpeg"
     
-  ],
-"rewardsIcons": [
-  "images/images/images.jpg"
-  ],
-  "eventsIcons": [
-  "images/images/Events1.png"
-  ],
+  },
+"rewardsIcons": {
+  "img":"https://eg.ap.gov.in/p0server/static/p0/images/images.jpg"
+},
+  "eventsIcons": {
+  "img":"https://eg.ap.gov.in/p0server/static/p0/images/Events1.png"
+  },
   "mapIcons": [
-  "images/images/markers1.png"
+  "https://eg.ap.gov.in/p0server/static/p0/images/markers1.png"
   ]
 }
 

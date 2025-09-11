@@ -1,6 +1,7 @@
 // src/Components/Common/ListComponent.js
 import React from "react";
-import "./style.css";
+import { Link } from "react-router-dom";  // ✅ Import Link
+import "./List.css";
 
 function ListComponent({ content }) {
   if (!content) return null;
@@ -8,30 +9,21 @@ function ListComponent({ content }) {
   return (
     <div className="list-wrapper mb-4">
       {/* Heading */}
-      {content.heading && <h3 className="main-heading">{content.heading}</h3>}
+      {content.header && <h3 className="main-heading">{content.header}</h3>}
 
-      {/* Subheading */}
-      {content.p && content.p.trim() !== "" && (
-        <h5 className="sub-heading">{content.p}</h5>
-      )}
+      {/* Subheading / description */}
+      {content.p && <h5 className="sub-heading">{content.p}</h5>}
 
-      {/* Small Header */}
-      {content.header && content.header.trim() !== "" && (
-        <h5 className="small-header">{content.header}</h5>
-      )}
-
-      {/* List Items */}
+      {/* Links */}
       {content.content?.map((item, index) => (
         <div key={index} className="list-item">
           <i className="fa fa-hand-o-right m-1 px-2"></i>
-          <a
-            href={item.link}
+          <Link
+            to={item.link}   // ✅ SPA navigation (no reload)
             className="font-weight-normal p-1"
-            target="_blank"
-            rel="noreferrer"
           >
             {item.description}
-          </a>
+          </Link>
         </div>
       ))}
     </div>

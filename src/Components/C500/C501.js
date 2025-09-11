@@ -9,8 +9,8 @@ function C501() {
 
   useEffect(() => {
     Promise.all([
-      fetch(siteData.P0url6).then(res => res.json()),
-      fetch(siteData.P0url7).then(res => res.json())
+      fetch(siteData.P0url6).then((res) => res.json()),
+      fetch(siteData.P0url7).then((res) => res.json())
     ])
       .then(([news1, news2]) => {
         setNewsData([news1, news2]);
@@ -30,12 +30,13 @@ function C501() {
       <div className="news-list">
         {newsData.map((news, index) => (
           <div key={index} className="news-card">
-            {siteData.newsIcons && siteData.newsIcons[0] && (
+            {/* ✅ Use single icon from siteData */}
+            {siteData.newsIcons?.img && (
               <div className="about-img-container">
-                <img 
-                  src={`/${siteData.newsIcons[0]}`} 
-                  alt="news" 
-                  className="about-sub-img" 
+                <img
+                  src={siteData.newsIcons.img}
+                  alt="news"
+                  className="about-sub-img"
                 />
               </div>
             )}
@@ -43,13 +44,17 @@ function C501() {
               {Array.isArray(news.a) ? (
                 news.a.map((item, i) => (
                   <p key={i}>
-                    <strong>{item.aname}</strong> – {item.avalue}
+                    <strong>{item.aname}</strong>
+                    {item.avalue ? ` – ${item.avalue}` : ""}
                   </p>
                 ))
               ) : (
-                <p>
-                  <strong>{news.a?.aname}</strong> – {news.a?.avalue}
-                </p>
+                (news.a?.aname || news.a?.avalue) && (
+                  <p>
+                    <strong>{news.a?.aname}</strong>
+                    {news.a?.avalue ? ` – ${news.a?.avalue}` : ""}
+                  </p>
+                )
               )}
             </div>
           </div>
