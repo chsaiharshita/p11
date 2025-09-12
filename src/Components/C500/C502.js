@@ -1,6 +1,6 @@
 // src/Components/C500/C502.js
 import React, { useEffect, useState } from "react";
-import "./EventsList.css";
+import "./C502.css";
 import siteData from "../../sitedata.json";
 
 function C502() {

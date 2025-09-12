@@ -852,7 +852,7 @@
       }
 
     ],
-    "imgsrc": "./nicapsc-iti/image1/address1.png",
+    "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/address1.png",
     "imgalt": "image1",
     "link1" :"/map"
   }
@@ -2805,27 +2805,27 @@
         "header": "",
         "content": [
           {
-            "link": "./nicapsc-iti/node271",
+            "link": "node271",
             "description": "Craftsman Training Scheme"
           },
           {
-            "link": "./nicapsc-iti/node272",
+            "link": "node272",
             "description": "Apprenticeship Training Scheme "
           },
           {
-            "link": "./nicapsc-iti/node273",
+            "link": "node273",
             "description": "Centre of Excellence"
           },
           {
-            "link": "./nicapsc-iti/node274",
+            "link": "node274",
             "description": "Skill Development Initiative"
           },
           {
-            "link": "./nicapsc-iti/node275",
+            "link": "node275",
             "description": "Public Private Partnership"
           },
           {
-            "link": "./nicapsc-iti/node276",
+            "link": "node276",
             "description": "Private Training Providers(PTPs)"
           }
         ]

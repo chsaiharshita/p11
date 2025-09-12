@@ -1,7 +1,7 @@
 import React from "react";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
-import "./map.css";
+import "./C014.css";
 import "leaflet/dist/leaflet.css";
 import siteData from "../../sitedata.json";  // <-- load icons here
 import cities from "../C1108.json";
@@ -17,7 +17,7 @@ const C014 = () => {
           const iconUrl = markerIcons[idx] ? `/${markerIcons[idx]}` : "/default-marker.png";
           const dynamicIcon = new L.Icon({
             iconUrl,
-            iconSize: [40, 40],
+            iconSize: [40, 40], 
             iconAnchor: [17, 46],
             popupAnchor: [0, -46],
           });

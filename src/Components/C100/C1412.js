@@ -3,17 +3,20 @@ import { Link, useParams } from "react-router-dom";
 import siteData from "../../sitedata.json";
 
 function C1412() {
-  const { id } = useParams(); // Get the ID from URL
+  const { pname } = useParams(); // Get pname from URL
   const [details, setDetails] = useState(null);
-  const [icons, setIcons] = useState([]);  // <-- added icons state
+  const [icon, setIcon] = useState("");   // ✅ single icon string
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);
 
-    // Load icons from local siteData.json
-    setIcons(siteData.newsIcons || []);   // <-- same as in C1411 and C501
+    // ✅ Load single news icon from siteData.json
+    if (siteData.newsIcons?.img) {
+      setIcon(siteData.newsIcons.img);
+    }
 
+    // ✅ Fetch details dynamically
     fetch(siteData.P0url5)
       .then(async (response) => {
         if (!response.ok) {
@@ -25,7 +28,7 @@ function C1412() {
       .then((json) => setDetails(json))
       .catch((error) => setDetails({ error: error.message }))
       .finally(() => setLoading(false));
-  }, [id]); // Refetch when ID changes
+  }, [pname]);
 
   if (loading) return <p>Loading news...</p>;
   if (!details || details.error)
@@ -38,12 +41,13 @@ function C1412() {
       {Array.isArray(details.a) && details.a.length > 0 ? (
         details.a.map((item, index) => (
           <div key={index} className="news-card">
-            {icons[index] && (
+            {/* ✅ Same icon for all news items */}
+            {icon && (
               <div className="about-img-container">
-                <img 
-                  src={siteData.newsIcons.img} 
-                  alt={details.pname || "news"} 
-                  className="about-sub-img" 
+                <img
+                  src={icon}
+                  alt={details.pname || "news"}
+                  className="about-sub-img"
                 />
               </div>
             )}

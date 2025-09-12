@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import "./home.css";
 import C005 from "./C005.js";
-import Paragraph from "../Common/Paragraph"; // ✅ common Paragraph
+import C121 from "../Common/C121"; // ✅ common Paragraph
 
 function C004() {
   // ✅ Data from Redux instead of sitedata.json
@@ -25,7 +25,7 @@ function C004() {
                     <div className="col-lg-12 text-start m-2 py-1">
                       {/* ✅ Paragraphs only via Paragraph component */}
                       {home.paragraph?.map((e, idx) => (
-                        <Paragraph key={idx} text={e.p} />
+                        <C121 key={idx} text={e.p} />
                       ))}
 
                       {/* ✅ Button */}

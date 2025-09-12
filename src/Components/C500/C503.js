@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import siteData from "../../sitedata.json";
-import "./RewardsList.css";
+import "./C503.css";
 
 function C503() {
   const [rewardsData, setRewardsData] = useState([]);

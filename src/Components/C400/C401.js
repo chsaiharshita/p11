@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import TableComponent from "../Common/TableComponent";
-import "./styles.css";
+import C131 from "../Common/C131";
+import "./C401.css";
 
 function C401() {
   const siteData = useSelector((state) => state.data.siteData);
@@ -12,7 +12,7 @@ function C401() {
         <section className="container" key={pageIndex}>
           <div className="content">
             {/* ✅ Heading also inside reusable TableComponent style */}
-            <TableComponent
+            <C131
               content={{
                 header: page.heading, // heading ni header la pass chestunnam
                 p: "",                // optional description empty
@@ -22,7 +22,7 @@ function C401() {
 
             {/* ✅ Detail Services list → TableComponent call */}
             {page.detailservices?.map((tableData, tableIndex) => (
-              <TableComponent key={tableIndex} content={tableData} />
+              <C131 key={tableIndex} content={tableData} />
             ))}
           </div>
         </section>

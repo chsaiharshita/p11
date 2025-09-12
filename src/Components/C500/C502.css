@@ -1,0 +1,75 @@
+.events-container {
+  padding: 30px;
+  background: #f8f9fa;
+}
+
+.events-container h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.event-card {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px 20px;
+  flex: 1 1 calc(45% - 20px);
+  min-width: 360px;
+  max-width: 700px;
+  border: 1px solid #ddd;
+  box-shadow: none !important;   /* ✅ remove bootstrap shadow */
+  transition: transform 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-3px);
+}
+
+.event-card.card {
+  box-shadow: none !important; /* ✅ override bootstrap card */
+}
+
+/* ✅ EVENT ICON BIGGER */
+.event-card .card__img2 {
+  width: 140px !important;   /* increase size */
+  height: 140px !important;
+  margin-right: 20px;
+  object-fit: contain;
+  border-radius: 50%;        /* circle look */
+  background: #fdfdfd;
+  padding: 10px;
+  border: 2px solid #e0e0e0;
+}
+
+.event-content {
+  flex: 1;
+}
+
+.event-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.event-content p {
+  margin: 6px 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.event-content p strong {
+  color: #000;
+  font-weight: 600;
+}

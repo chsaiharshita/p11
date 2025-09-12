@@ -1,7 +1,7 @@
 import React from "react";
 import "./Style.css";
 
-function TableComponent({ content }) {
+function C131({ content }) {
   if (!content) return null;
 
   // Extract dynamic table headers (except header, p, paragraph)
@@ -60,4 +60,4 @@ function TableComponent({ content }) {
   );
 }
 
-export default TableComponent;
+export default C131;

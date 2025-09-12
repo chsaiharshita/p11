@@ -5,16 +5,18 @@ import siteData from "../../sitedata.json";
 function C1411() {
   const { pname } = useParams(); // Get pname from URL
   const [details, setDetails] = useState(null);
-  const [icons, setIcons] = useState([]);  // <-- added this
+  const [icon, setIcon] = useState("");   // ✅ single icon string
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);
 
-    // Load icons from siteData.json
-    setIcons(siteData.newsIcons || []);  // <-- added this
+    // ✅ Load single news icon from siteData.json
+    if (siteData.newsIcons?.img) {
+      setIcon(siteData.newsIcons.img);
+    }
 
-    // Fetch details dynamically
+    // ✅ Fetch details dynamically
     fetch(siteData.P0url4)
       .then(async (response) => {
         if (!response.ok) {
@@ -39,12 +41,13 @@ function C1411() {
       {Array.isArray(details.a) && details.a.length > 0 ? (
         details.a.map((item, index) => (
           <div key={index} className="news-card">
-            {icons[index] && (
+            {/* ✅ Same icon for all news items */}
+            {icon && (
               <div className="about-img-container">
-                <img 
-                  src={siteData.newsIcons.img} 
-                  alt={details.pname || "news"} 
-                  className="about-sub-img" 
+                <img
+                  src={icon}
+                  alt={details.pname || "news"}
+                  className="about-sub-img"
                 />
               </div>
             )}

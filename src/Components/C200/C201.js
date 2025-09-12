@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import Paragraph from "../Common/Paragraph";
+import C121 from "../Common/C121";
 import "./stylesheet.css";
 
 function C201() {
@@ -11,12 +11,12 @@ function C201() {
     {siteData?.Pagetype1?.map((information, index) => (
         <section className="container" key={index}>
           <div className="content">
-            <Paragraph
+            <C121
             heading={information.heading}
             />
 
             {information?.detailservices?.map((content, subIndex) => (
-              <Paragraph
+              <C121
                 key={subIndex}
                 subHeading={content.header}
                 text={content.p}

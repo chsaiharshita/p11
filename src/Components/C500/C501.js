@@ -1,6 +1,6 @@
 // src/components/NewsList.js
 import React, { useEffect, useState } from "react";
-import "./NewsList.css";
+import "./C501.css";
 import siteData from "../../sitedata.json";  // Import JSON directly from src
 
 function C501() {

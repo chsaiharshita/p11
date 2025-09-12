@@ -1,6 +1,6 @@
 import React from "react";
 
-function Paragraph({ heading, subHeading, text, list = [] }) {
+function C121({ heading, subHeading, text, list = [] }) {
   return (
     <div className="paragraph-block">
       {/* Title */}
@@ -50,4 +50,4 @@ function Paragraph({ heading, subHeading, text, list = [] }) {
   );
 }
 
-export default Paragraph;
+export default C121;

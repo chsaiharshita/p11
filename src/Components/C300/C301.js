@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import Paragraph from "../Common/Paragraph";
+import C121 from "../Common/C121";
 import "./stylesheet.css";
 
 function C301() {
@@ -20,7 +20,7 @@ function C301() {
 
                 <section>
                   {content?.paragraph?.map((detail, paraIndex) => (
-                    <Paragraph key={paraIndex} text={detail.p} />
+                    <C121 key={paraIndex} text={detail.p} />
                   ))}
                 </section>
               </div>

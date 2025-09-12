@@ -2,7 +2,7 @@
 import React from "react";
 import "./styles.css";
 
-function TableComponent({ content }) {
+function TableComponent1({ content }) {
   if (!content) return null;
 
   // Dynamic table headers (ignore these keys)
@@ -50,4 +50,4 @@ function TableComponent({ content }) {
   );
 }
 
-export default TableComponent;
+export default TableComponent1;

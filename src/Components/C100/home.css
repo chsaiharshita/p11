@@ -769,6 +769,13 @@ div.overlay{
   color: #0056b3;
   font-weight: bold;
 }
+.reward-icon {
+  width: 140px;          /* same as events */
+  height: 130px;
+  margin-right: 16px;
+  object-fit: contain;   /* icon neat ga resize avvadaniki */
+}
+
 .reward-card {
   display: flex;
   align-items: center;       /* vertical alignment of image + text */

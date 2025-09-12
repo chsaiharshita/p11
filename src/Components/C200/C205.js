@@ -1,7 +1,7 @@
 // src/Components/C200/C205.js
 import React from "react";
 import { useSelector } from "react-redux";
-import ListComponent from "../Common/Listcomponent";
+import C125 from "../Common/C125";
 import "./stylesheet.css";
 
 function C205() {
@@ -13,7 +13,7 @@ function C205() {
         <section className="container" key={pageIndex}>
           <div className="content">
             {/* ✅ Heading also inside reusable ListComponent style */}
-            <ListComponent
+            <C125
               content={{
                 header: page.heading, // heading ni header laga pass chestunnam
                 p: page.p || "",
@@ -23,7 +23,7 @@ function C205() {
 
             {/* ✅ Detail Services list → ListComponent call */}
             {page.content?.length > 0 && (
-              <ListComponent
+              <C125
                 content={{
                   header: page.header || "",
                   p: page.p || "",

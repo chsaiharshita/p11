@@ -1,9 +1,9 @@
 // src/Components/Common/ListComponent.js
 import React from "react";
 import { Link } from "react-router-dom";  // ✅ Import Link
-import "./List.css";
+import "./C125.css";
 
-function ListComponent({ content }) {
+function C125({ content }) {
   if (!content) return null;
 
   return (
@@ -30,4 +30,4 @@ function ListComponent({ content }) {
   );
 }
 
-export default ListComponent;
+export default C125;
