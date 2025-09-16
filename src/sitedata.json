@@ -41,6 +41,7 @@
 "P0url5":"https://eg.ap.gov.in/p0server/api/p0c1412",
 "P0url6":"https://eg.ap.gov.in/p0server/api/p0c1411",
 "P0url7":"https://eg.ap.gov.in/p0server/api/p0c1412",
+"P0url8":"https://eg.ap.gov.in/p0server/api/p0c304",
    "...comment2":"Navigation Bar-Menu names and links",
   "Navlink": [
     {
@@ -196,6 +197,13 @@
 
  
 
+
+  "columns": [
+    { "key": "cname", "label": "ITI Trade", "width": "30%", "align": "left" },
+    { "key": "ccode", "label": "ITI Code", "width": "20%", "align": "center" },
+    { "key": "ctype", "label": "ITI Type", "width": "15%", "align": "center" },
+    { "key": "cduration", "label": "Course Duration", "width": "20%", "align": "center" }
+  ],
 
   "...comment3": "Social icons for top Navbar",
 
@@ -1116,7 +1124,59 @@
       ]
     }
   ],
-
+"C204": [
+  {
+  "heading": "Skills Strengthening of Industrial Value Enhancement (STRIVE) Project in State of Andhra Pradesh",
+  "columns": ["SNO", "Disclosures Management", "Links"],
+  "rows": [
+    {
+      "sno": 1,
+      "title": "Approved Procurement Plan and updates",
+      "links": [
+        { "name": "Goods", "href": "javascript:iti_display();" },
+        { "name": "Services" },
+        { "name": "Works" }
+      ]
+    },
+    {
+      "sno": 2,
+      "title": "Invitation for Bids",
+      "links": [
+        { "name": "Goods", "href": "javascript:iti_display();" },
+        { "name": "Services" },
+        { "name": "Works" }
+      ]
+    },
+    {
+      "sno": 3,
+      "title": "Short list of consultants/Bidders",
+      "links": [
+        { "name": "Goods", "href": "javascript:iti_display();" },
+        { "name": "Services" },
+        { "name": "Works" }
+      ]
+    },
+    {
+      "sno": 4,
+      "title": "Contract Awards",
+      "links": [
+        { "name": "Goods", "href": "javascript:iti_display();" },
+        { "name": "Services" },
+        { "name": "Works" }
+      ]
+    },
+    {
+      "sno": 5,
+      "title": "Contract Awards",
+      "links": [
+        { "name": "Goods", "href": "javascript:iti_display();" },
+        { "name": "Action taken reports & Complaints" },
+        { "name": "Works" }
+      ]
+    }
+  ]
+}
+],
  
   "...comments11b":"Information for - CRAFTSMEN TRAINING SCHEME.",
   "Node271": [

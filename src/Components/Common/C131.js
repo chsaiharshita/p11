@@ -39,13 +39,12 @@ function C131({ content }) {
                   <td key={colIndex} style={{ paddingLeft: "10px" }}>
                     {head.toLowerCase() === "contact" ||
                     head.toLowerCase() === "file" ? (
-                      <a href={row["link"]} target="_blank" rel="noreferrer">
-                        View{" "}
-                        <i
-                          className="fa fa-download pdf-download"
-                          aria-hidden="true"
-                        ></i>
-                      </a>
+                      
+  <a href={`${process.env.PUBLIC_URL}/spec1.html`} target="_blank" rel="noreferrer">
+    View <i className="fa fa-file-pdf-o pdf-download" aria-hidden="true"></i>
+  </a>
+
+                      
                     ) : (
                       row[head]
                     )}

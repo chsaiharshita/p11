@@ -15,4 +15,19 @@
   border:1px solid black;
   margin:10px;
 
+
  }
+ #organisation {
+  text-align: center;
+  color: #d00; /* red heading */
+}
+
+.org-img-wrapper {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.org-img-wrapper img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
