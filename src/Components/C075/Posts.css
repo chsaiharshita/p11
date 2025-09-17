@@ -135,3 +135,16 @@ background-color: #007bff;
 color: white;
 border-color: #007bff;
 }
+.table-container {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;   /* Container lo content center lo */
+}
+
+.table-title {
+  color: #a52a2a;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;   /* Title kuda center */
+}

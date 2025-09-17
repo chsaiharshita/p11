@@ -61,7 +61,9 @@ function C503() {
                     (name || value) && (
                       <p key={i}>
                         <strong>{name}</strong>
-                        {value ? ` – ${value}` : ""}
+                         <a href={item.avalue || "#"} target="_blank" rel="noopener noreferrer">
+                    {item.aname || "No title"}
+                  </a>
                       </p>
                     )
                   );

@@ -1,20 +1,20 @@
-// src/store/dataSlice.js
+// src/source/redux/reducers/dataSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import axios from "axios";
 import siteDataJson from "../../../sitedata.json";
 
-// 🔹 Async thunk to fetch posts
+// API call to fetch posts (courses)
 export const fetchPosts = createAsyncThunk("data/fetchPosts", async () => {
-  const response = await fetch(siteDataJson.P0url8);
-  if (!response.ok) throw new Error("Failed to fetch");
-  const data = await response.json();
-  return data?.a || [];
+  const response = await axios.get(siteDataJson.P0url8);
+  console.log("✅ Raw API Response:", response.data);
+  return response.data;
 });
 
 const dataSlice = createSlice({
   name: "data",
   initialState: {
-    siteData: siteDataJson, // 🔹 Static JSON (URLs, config)
-    posts: [],              // 🔹 Backend fetched data
+    siteData: siteDataJson,
+    posts: [],
     loading: false,
     error: null,
   },
@@ -31,7 +31,16 @@ const dataSlice = createSlice({
       })
       .addCase(fetchPosts.fulfilled, (state, action) => {
         state.loading = false;
-        state.posts = action.payload;
+
+        // ✅ Correctly pick `a` array
+        if (Array.isArray(action.payload?.a)) {
+          state.posts = action.payload.a;
+        } else if (Array.isArray(action.payload)) {
+          state.posts = action.payload;
+        } else {
+          state.posts = [];
+          console.warn("⚠️ Unexpected API format:", action.payload);
+        }
       })
       .addCase(fetchPosts.rejected, (state, action) => {
         state.loading = false;

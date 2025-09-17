@@ -199,10 +199,11 @@
 
 
   "columns": [
-    { "key": "cname", "label": "ITI Trade", "width": "30%", "align": "left" },
-    { "key": "ccode", "label": "ITI Code", "width": "20%", "align": "center" },
-    { "key": "ctype", "label": "ITI Type", "width": "15%", "align": "center" },
-    { "key": "cduration", "label": "Course Duration", "width": "20%", "align": "center" }
+    { "field": "sno", "header": "S.No", "align": "center" },
+    { "field": "cname", "header": "ITI Trade", "align": "left" },
+    { "field": "ccode", "header": "ITI Code", "align": "center" },
+    { "field": "ctype", "header": "ITI Type", "align": "center" },
+    { "field": "cduration", "header": "Course Duration", "align": "center" }
   ],
 
   "...comment3": "Social icons for top Navbar",

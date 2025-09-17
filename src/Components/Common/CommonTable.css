@@ -73,3 +73,66 @@
   background: #004080;
   color: white;
 }
+.table-container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.table-title {
+  color: #a52a2a;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.styled-table thead tr {
+  background-color: #e0e0e0;
+}
+
+.styled-table th,
+.styled-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.pagination {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.pagination button {
+  margin: 0 3px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -2,7 +2,7 @@ export const login = (username, password) => async (dispatch) => {
   dispatch({ type: "LOGIN_REQUEST" });
 
   try {
-    const response = await fetch("http://192.168.137.86:5000/auth/login", {
+    const response = await fetch("http://192.168.137.86:3000/nodeAdmin", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username, password }),
@@ -13,12 +13,16 @@ export const login = (username, password) => async (dispatch) => {
     if (response.ok) {
       // Save token to localStorage (optional)
       localStorage.setItem("authToken", data.token);
+     localStorage.setItem("username", data.username);
+      console.log("API Response:", response.status, data);
 
       dispatch({
         type: "LOGIN_SUCCESS",
         payload: {
           token: data.token,
-          user: data.user,
+          user: {
+            username: data.username,
+          }
         },
       });
     } else {

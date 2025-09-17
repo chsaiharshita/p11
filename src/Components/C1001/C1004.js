@@ -1,9 +1,8 @@
 // rootReducer.js
-import { combineReducers } from "redux";
-import  reducer  from "./C1003"; // your auth reducer
-import { instituteReducer } from "./C1006"; // official institute reducer
-
+{/*import { combineReducers } from "redux";
+import  reducer  from "./C1003"; 
+import { instituteReducer } from "./C1006";
 export default combineReducers({
   auth: reducer,
   institute: instituteReducer,
-});
+});*/}
