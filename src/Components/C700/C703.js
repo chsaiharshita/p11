@@ -1,6 +1,6 @@
-import React from "react";
+/*import React from "react";
 import { useSelector } from "react-redux";
-/*import InstituteTable from "./C702";*/
+import InstituteTable from "./C702";
 
 const Welcome = () => {
   const auth = useSelector((state) => state.auth);
@@ -9,9 +9,9 @@ const Welcome = () => {
   return (
     <div className="text-center my-5">
       <h4>Welcome, {username}!</h4>
-      {/*<InstituteTable/>*/}
+      <InstituteTable/>
     </div>
   );
 };
 
-export default Welcome;
+export default Welcome;*/

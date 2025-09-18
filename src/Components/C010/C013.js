@@ -38,7 +38,7 @@ import node273 from "../C270/Node273.js";
 import node274 from "../C270/Node274.js";
 import node275 from "../C270/Node275.js";
 import node276 from "../C270/Node276.js";
-import Welcome from "../C700/C703.js";
+/*import Welcome from "../C700/C703.js";*/
 import C503 from "../../Components/C500/C503.js";
 import C003 from "../../Components/C100/C003.js";
 import C141 from "../C100/C141.js";
@@ -46,6 +46,7 @@ import C142 from "../C100/C142.js";
 import C1411 from "../../Components/C100/C1411.js";
 import C1412 from '../../Components/C100/C1412.js';
 import C102 from "../C102/C102.js";
+import Dashboard from "../C700/Dashboard.js";
 const routesConfig = [
   {
     path: "/nicapsc-iti/Home",
@@ -56,9 +57,13 @@ const routesConfig = [
     path: "/nicapsc-iti/about",
     component:about,
   },
- {
+ /*{
     path: "/nicapsc-iti/welcome",
     component: Welcome,
+  },*/
+  {
+    path: "/nicapsc-iti/Dashboard",
+    component: Dashboard,
   },
   {
      path:"/nicapsc-iti/node208",
@@ -440,10 +445,10 @@ const routesConfig = [
     path: "/about",
     component:about,
   },
- {
+ /*{
     path: "/welcome",
     component: Welcome,
-  },
+  },*/
   {
      path:"/node208",
      component:C1411,

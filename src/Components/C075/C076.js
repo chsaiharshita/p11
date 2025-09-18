@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPosts } from "../../source/redux/reducers/dataSlice";
-import CommonTable from "../Common/CommonTable";
+import C134 from "../Common/C134";
 import "./Posts.css";
 
 function Posts() {
@@ -32,7 +32,7 @@ function Posts() {
   }));
 
   return (
-    <CommonTable
+    <C134
       title="Course Master"
       data={flatPosts}
       columns={columns}

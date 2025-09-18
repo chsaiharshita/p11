@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 
-function CommonTable({ title, columns, data, postsPerPage = 15 }) {
+function C134({ title, columns, data, postsPerPage = 15 }) {
   const [currentPage, setCurrentPage] = useState(1);
 
   const totalPages = Math.ceil(data.length / postsPerPage);
@@ -73,4 +73,4 @@ function CommonTable({ title, columns, data, postsPerPage = 15 }) {
   );
 }
 
-export default CommonTable;
+export default C134;

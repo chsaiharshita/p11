@@ -1,13 +1,12 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory } from "react-router-dom";
 import { login } from "../C1001/C1001"; // your login action
 import data from "../../sitedata.json";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Dashboard from "./Dashboard"; // 👈 import dashboard
 
 function C701() {
   const dispatch = useDispatch();
-  const history = useHistory();
 
   // ✅ auth reducer state
   const { loading, error, isAuthenticated } = useSelector(
@@ -22,13 +21,12 @@ function C701() {
     dispatch(login(username, password));
   };
 
-  useEffect(() => {
-    if (isAuthenticated) {
-      console.log("Redirecting to welcome page...");
-      history.push("/nicapsc-iti/welcome");
-    }
-  }, [isAuthenticated, history]);
+  // ✅ If already logged in → show dashboard
+  if (isAuthenticated) {
+    return <Dashboard />;
+  }
 
+  // ✅ Else → show login form
   return (
     <>
       {/* 🔴 Login Heading */}

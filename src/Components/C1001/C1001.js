@@ -2,7 +2,7 @@ export const login = (username, password) => async (dispatch) => {
   dispatch({ type: "LOGIN_REQUEST" });
 
   try {
-    const response = await fetch("http://192.168.137.86:3000/nodeAdmin", {
+    const response = await fetch("https://eg.ap.gov.in/p0server/api/nodeAdmin", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username, password }),
@@ -16,15 +16,15 @@ export const login = (username, password) => async (dispatch) => {
      localStorage.setItem("username", data.username);
       console.log("API Response:", response.status, data);
 
-      dispatch({
-        type: "LOGIN_SUCCESS",
-        payload: {
-          token: data.token,
-          user: {
-            username: data.username,
-          }
-        },
-      });
+     // Inside LOGIN_SUCCESS
+dispatch({
+  type: "LOGIN_SUCCESS",
+  payload: {
+    token: data.token,
+    user: { username: data.username, pname: data.pname || data.username },
+  },
+});
+
     } else {
       dispatch({
         type: "LOGIN_FAILURE",

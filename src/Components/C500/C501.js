@@ -9,8 +9,8 @@ function C501() {
 
   useEffect(() => {
     Promise.all([
-      fetch(siteData.P0url6).then((res) => res.json()),
-      fetch(siteData.P0url7).then((res) => res.json())
+      fetch(siteData.P0url4).then((res) => res.json()),
+      fetch(siteData.P0url5).then((res) => res.json())
     ])
       .then(([news1, news2]) => {
         setNewsData([news1, news2]);

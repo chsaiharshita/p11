@@ -1,10 +1,13 @@
 const initialState = {
-  loading: false,   // 👈 changed
+  loading: false,
   error: null,
-  token: null,
-  isAuthenticated: false,
-  user: null,
+  token: localStorage.getItem("authToken") || null,
+  isAuthenticated: !!localStorage.getItem("authToken"),
+  user: localStorage.getItem("username")
+    ? { username: localStorage.getItem("username"), pname: localStorage.getItem("username") }
+    : null,
 };
+
 
 const Reducer = (state = initialState, action) => {
   switch (action.type) {
