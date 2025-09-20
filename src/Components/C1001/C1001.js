@@ -2,7 +2,7 @@ export const login = (username, password) => async (dispatch) => {
   dispatch({ type: "LOGIN_REQUEST" });
 
   try {
-    const response = await fetch("https://eg.ap.gov.in/p0server/api/nodeAdmin", {
+    const response = await fetch("https://eg.ap.gov.in/p0server/api/auth/nodeAdmin", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username, password }),

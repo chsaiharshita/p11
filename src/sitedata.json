@@ -243,7 +243,7 @@
     {
       "img1": [
         {
-          "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/P2H1.jpg",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C103-p0-P2H1.webp",
           "imgalt": "logo1",
           "link": "https://itiadmissions.ap.gov.in/"
         }
@@ -255,7 +255,7 @@
       ],
       "img2": [
         {
-          "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/P2H2.jpg",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C103-p0-P2H2.webp",
           "imgalt": "logo2",
           "link": "https://www.skillindia.gov.in/"
         }
@@ -275,13 +275,13 @@
         {
           "carousel1": [
             {
-              "image": "https://eg.ap.gov.in/p0server/static/p0/images/P2slideimage1.jpg",
+              "image": "https://eg.ap.gov.in/p0server/static/p0/images/C003-p0-P2slideimage1.webp",
               "imgalt": "First slide"
             }
           ],
           "carousel2": [
             {
-              "image": "https://eg.ap.gov.in/p0server/static/p0/images/P2slideimage2.jpg",
+              "image": "https://eg.ap.gov.in/p0server/static/p0/images/C003-p0-P2slideimage2.webp",
               "imgalt": "Second slide"
             }
           ]
@@ -488,7 +488,7 @@
     "title": "",
     "card1": [
       {
-        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/CM.jpeg",
+        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C005-p0-CM.webp",
         "imgalt": "img-1 ",
         "title": " Sri. N. Chandrababu Naidu",
         "description": "Hon'ble Chief Minister of Andhra Pradesh",
@@ -501,7 +501,7 @@
         "button": "View More"
       },
       {
-        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/image.jpg",
+        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C005-p0-image2.webp",
         "imgalt": "img-2",
         "title": "Minister",
         "description": "Skill Development and Training Minister, Andhra Pradesh",
@@ -515,7 +515,7 @@
         "button": "View More"
       },
       {
-        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/image.jpg",
+        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C005-p0-image2.webp",
         "imgalt": "img-3",
         "title": "Commissioner",
         "description": "Industrial Training Institues,Andhra Pradesh",
@@ -859,7 +859,7 @@
       }
 
     ],
-    "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/address1.png",
+    "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C601-p0-address1.webp",
     "imgalt": "image1",
     "link1" :"/map"
   }
@@ -890,15 +890,15 @@
       "paragraph": [
        
       {
-      "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/P2Org1.jpg",
+      "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C202-p0-P2Org1.webp",
       "imgalt": "image1"
       },
       {
-        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/P2Org3.jpg",
+        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C202-p0-P2Org3.webp",
         "imgalt": "image1"
       },
       {
-        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/P2Org2.jpg",
+        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C202-p0-P2Org2.webp",
         "imgalt": "image1"
       }
       ]
@@ -2893,17 +2893,17 @@
      
   
   "newsIcons": {
-   "img":"https://eg.ap.gov.in/p0server/static/p0/images/OIP.jpeg"
+   "img":"https://eg.ap.gov.in/p0server/static/p0/images/C141-p0-OIP.webp"
     
   },
 "rewardsIcons": {
-  "img":"https://eg.ap.gov.in/p0server/static/p0/images/images.jpg"
+  "img":"https://eg.ap.gov.in/p0server/static/p0/images/C143-p0-images.webp"
 },
   "eventsIcons": {
-  "img":"https://eg.ap.gov.in/p0server/static/p0/images/Events1.png"
+  "img":"https://eg.ap.gov.in/p0server/static/p0/images/C142-p0-Events1.webp"
   },
   "mapIcons": [
-  "https://eg.ap.gov.in/p0server/static/p0/images/markers1.png"
+  "https://eg.ap.gov.in/p0server/static/p0/images/C014-p0-markers1.webp"
   ]
 }
 
