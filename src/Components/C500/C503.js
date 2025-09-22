@@ -4,37 +4,63 @@ import "./C503.css";
 
 function C503() {
   const [rewardsData, setRewardsData] = useState([]);
-  const [icon, setIcon] = useState(""); // single icon string
+  const [icon, setIcon] = useState(""); // single icon for all cards
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);
 
-    // ✅ Rewards icon load from sitedata
+    // Load rewards icon from siteData
     if (siteData.rewardsIcons?.img) {
       setIcon(siteData.rewardsIcons.img);
     }
 
-    // ✅ Fetch rewards API
+    // Fetch rewards API
     fetch(siteData.P0url3)
-      .then((res) => res.json())
+      .then(async (res) => {
+        if (!res.ok) {
+          const errData = await res.json().catch(() => ({}));
+          throw new Error(errData.error || `HTTP error! Status: ${res.status}`);
+        }
+        return res.json();
+      })
       .then((data) => {
-        setRewardsData(Array.isArray(data) ? data : [data]);
-        setLoading(false);
+        const rewardsArray = [];
+        const rawRewards = Array.isArray(data) ? data : [data];
+
+        // Flatten each `a` item into a separate card
+        rawRewards.forEach((reward) => {
+          if (Array.isArray(reward.a)) {
+            reward.a.forEach((item) => {
+              rewardsArray.push({
+                title: item.aname || reward.title || "No Title",
+                date: reward.date || "",
+                content: item.details || "", // optional details
+                pdf_link: item.avalue || "",
+              });
+            });
+          } else {
+            rewardsArray.push({
+              title: reward.a?.aname || reward.title || "No Title",
+              date: reward.date || "",
+              content: reward.a?.details || "",
+              pdf_link: reward.a?.avalue || "",
+            });
+          }
+        });
+
+        setRewardsData(rewardsArray);
       })
       .catch((err) => {
         console.error("Failed to fetch rewards:", err);
-        setLoading(false);
-      });
+        setRewardsData([{ error: err.message }]);
+      })
+      .finally(() => setLoading(false));
   }, []);
 
-  if (loading) return <p>Loading...</p>;
-
-  const cleanValue = (val) => {
-    if (!val) return "";
-    const trimmed = val.trim();
-    return trimmed.toLowerCase() === "null" ? "" : trimmed;
-  };
+  if (loading) return <p>Loading rewards...</p>;
+  if (!rewardsData.length || (rewardsData[0] && rewardsData[0].error))
+    return <p style={{ color: "red" }}>{rewardsData[0]?.error || "No rewards found"}</p>;
 
   return (
     <div className="rewards-container">
@@ -42,45 +68,27 @@ function C503() {
       <div className="rewards-list">
         {rewardsData.map((reward, index) => (
           <div key={index} className="reward-card">
-            {/* ✅ Show same reward icon for all cards */}
-            {icon && (
-              <img
-                src={icon}
-                alt="reward"
-                className="reward-icon"
-              />
-            )}
+            {/* Icon */}
+            {icon && <img src={icon} alt="reward" className="reward-icon" />}
 
             <div className="reward-content">
-              {/* Removed reward.pname completely */}
-              {Array.isArray(reward.a) ? (
-                reward.a.map((item, i) => {
-                  const name = cleanValue(item.aname);
-                  const value = cleanValue(item.avalue);
-                  return (
-                    (name || value) && (
-                      <p key={i}>
-                        <strong>{name}</strong>
-                         <a href={item.avalue || "#"} target="_blank" rel="noopener noreferrer">
-                    {item.aname || "No title"}
+              {/* Title */}
+              <h4 className="reward-title">{reward.title}</h4>
+
+              {/* Date */}
+              {reward.date && <p className="reward-date">DATE: {reward.date}</p>}
+
+              {/* Content / Details */}
+              {reward.content && <p className="reward-desc">{reward.content}</p>}
+
+              {/* PDF link */}
+              {reward.pdf_link && (
+                <p className="reward-link">
+                  📄{" "}
+                  <a href={reward.pdf_link} target="_blank" rel="noopener noreferrer">
+                    View Document
                   </a>
-                      </p>
-                    )
-                  );
-                })
-              ) : (
-                (() => {
-                  const name = cleanValue(reward.a?.aname);
-                  const value = cleanValue(reward.a?.avalue);
-                  return (
-                    (name || value) && (
-                      <p>
-                        <strong>{name}</strong>
-                        {value ? ` – ${value}` : ""}
-                      </p>
-                    )
-                  );
-                })()
+                </p>
               )}
             </div>
           </div>

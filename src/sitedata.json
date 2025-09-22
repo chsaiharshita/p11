@@ -149,19 +149,9 @@
          "type": "page"
        }
      ]
-   },
+   }
    
-   {
-    "name": "LOGIN",
-    "type": "page",
-    "children": [
-      {
-        "name": "LOGIN",
-        "link": "/nicapsc-iti/node701",
-        "type": "page"
-      }
-    ]
-  }
+  
  
   ],
   "Navlink1": [
@@ -416,7 +406,7 @@
       ]
     }
   ] ,
-"menu7": {
+  "menu7": {
     "userlabel": "username",
     "plabel": "password",
     "button": "login"
@@ -461,7 +451,7 @@
     }
 
 ],
-  
+
 "section2": [
   {
     "title": "About US ",

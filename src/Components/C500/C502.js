@@ -5,20 +5,20 @@ import siteData from "../../sitedata.json";
 
 function C502() {
   const [eventsData, setEventsData] = useState([]);
-  const [icons, setIcons] = useState([]); // event icons from siteData
+  const [icons, setIcons] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);
 
-    // ✅ Load icons from siteData
+    // Load icons from siteData
     if (Array.isArray(siteData.eventsIcons)) {
       setIcons(siteData.eventsIcons.map((i) => i.img));
     } else if (siteData.eventsIcons?.img) {
-      setIcons([siteData.eventsIcons.img]); // fallback for single image
+      setIcons([siteData.eventsIcons.img]);
     }
 
-    // ✅ Fetch events dynamically
+    // Fetch events dynamically
     fetch(siteData.P0url2)
       .then(async (res) => {
         if (!res.ok) {
@@ -28,7 +28,30 @@ function C502() {
         return res.json();
       })
       .then((data) => {
-        setEventsData(Array.isArray(data) ? data : [data]);
+        // Flatten each item in `a` into its own event card
+        let eventsArray = [];
+        const rawEvents = Array.isArray(data) ? data : [data];
+        rawEvents.forEach((event) => {
+          if (Array.isArray(event.a)) {
+            event.a.forEach((item) => {
+              eventsArray.push({
+                title: item.aname || event.title || "No Title",
+                date: event.date || "",
+                content: item.details || "", // if your API has details
+                pdf_link: item.avalue || "",
+              });
+            });
+          } else {
+            eventsArray.push({
+              title: event.a?.aname || event.title || "No Title",
+              date: event.date || "",
+              content: event.a?.details || "",
+              pdf_link: event.a?.avalue || "",
+            });
+          }
+        });
+
+        setEventsData(eventsArray);
       })
       .catch((err) => {
         console.error("Failed to fetch events:", err);
@@ -38,14 +61,8 @@ function C502() {
   }, []);
 
   if (loading) return <p>Loading events...</p>;
-  if (!eventsData || (eventsData[0] && eventsData[0].error))
+  if (!eventsData.length || (eventsData[0] && eventsData[0].error))
     return <p style={{ color: "red" }}>{eventsData[0]?.error || "No events found"}</p>;
-
-  const cleanValue = (val) => {
-    if (!val) return "";
-    const trimmed = val.trim();
-    return trimmed.toLowerCase() === "null" ? "" : trimmed;
-  };
 
   return (
     <div className="events-container">
@@ -53,7 +70,7 @@ function C502() {
       <div className="events-list">
         {eventsData.map((event, index) => (
           <div key={index} className="event-card">
-            {/* ✅ Event Icon from sitedata */}
+            {/* Event Icon */}
             {icons[index % icons.length] && (
               <div className="event-img-container">
                 <img
@@ -65,35 +82,21 @@ function C502() {
             )}
 
             <div className="event-content">
-              {/* Removed event.pname completely */}
-              {Array.isArray(event.a) && event.a.length > 0 ? (
-                event.a.map((item, i) => {
-                  const name = cleanValue(item.aname);
-                  const value = cleanValue(item.avalue);
-                  return (
-                    (name || value) && (
-                      <p key={i}>
-                        <strong>{name}</strong>
-                        <a href={item.avalue || "#"} target="_blank" rel="noopener noreferrer">
-                                            {item.aname || "No title"}
-                                          </a>
-                      </p>
-                    )
-                  );
-                })
-              ) : (
-                (() => {
-                  const name = cleanValue(event.a?.aname);
-                  const value = cleanValue(event.a?.avalue);
-                  return (
-                    (name || value) && (
-                      <p>
-                        <strong>{name}</strong>
-                        {value ? ` – ${value}` : ""}
-                      </p>
-                    )
-                  );
-                })()
+              {/* Event title & date */}
+              <h4 className="event-title">{event.title}</h4>
+              {event.date && <p className="event-date">DATE: {event.date}</p>}
+
+              {/* Event content */}
+              {event.content && <p className="event-desc">{event.content}</p>}
+
+              {/* PDF link */}
+              {event.pdf_link && (
+                <p className="event-link">
+                  📄{" "}
+                  <a href={event.pdf_link} target="_blank" rel="noopener noreferrer">
+                    View Document
+                  </a>
+                </p>
               )}
             </div>
           </div>

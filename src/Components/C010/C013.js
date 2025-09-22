@@ -98,9 +98,12 @@ const routesConfig = [
     component: contactUs,
   },
   {
-    path: "/nicapsc-iti/node701",
+    path: "/nicapsc-iti/nodeadmin",
     component: C701,
   },
+  /*{
+   path: "/nodeadmin", 
+  component: C701 },*/
   
   {
     path: "/nicapsc-iti/node401",
@@ -225,7 +228,7 @@ const routesConfig = [
     component: node601,
   },
   {
-    path: "/nicapsc-iti/node701", 
+    path: "/nicapsc-iti/nodeadmin", 
     component: node701,
   },
   {
@@ -308,7 +311,7 @@ const routesConfig = [
     component: contactUs,
   },
   {
-    path: "/nicapsc-iti/node701", 
+    path: "/nicapsc-iti/nodeadmin", 
     component: node701,
   },
   {
@@ -609,7 +612,7 @@ const routesConfig = [
     component: node601,
   },
   {
-    path: "/nicapsc-iti/node701", 
+    path: "/nicapsc-iti/nodeadmin", 
     component: node701,
   },
   {
