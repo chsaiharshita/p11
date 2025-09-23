@@ -4,18 +4,21 @@ import "./C503.css";
 
 function C503() {
   const [rewardsData, setRewardsData] = useState([]);
-  const [icon, setIcon] = useState(""); // single icon for all cards
+  const [icon, setIcon] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);
 
-    // Load rewards icon from siteData
+    // Set icon from siteData or fallback to default icon in public folder
+    const fallbackIcon = "/images/awards-icon.png"; // Place your uploaded image here
     if (siteData.rewardsIcons?.img) {
       setIcon(siteData.rewardsIcons.img);
+    } else {
+      setIcon(fallbackIcon);
     }
 
-    // Fetch rewards API
+    // Fetch rewards data
     fetch(siteData.P0url3)
       .then(async (res) => {
         if (!res.ok) {
@@ -28,14 +31,13 @@ function C503() {
         const rewardsArray = [];
         const rawRewards = Array.isArray(data) ? data : [data];
 
-        // Flatten each `a` item into a separate card
         rawRewards.forEach((reward) => {
           if (Array.isArray(reward.a)) {
             reward.a.forEach((item) => {
               rewardsArray.push({
                 title: item.aname || reward.title || "No Title",
                 date: reward.date || "",
-                content: item.details || "", // optional details
+                content: item.details || "",
                 pdf_link: item.avalue || "",
               });
             });
@@ -59,8 +61,10 @@ function C503() {
   }, []);
 
   if (loading) return <p>Loading rewards...</p>;
-  if (!rewardsData.length || (rewardsData[0] && rewardsData[0].error))
+
+  if (!rewardsData.length || rewardsData[0]?.error) {
     return <p style={{ color: "red" }}>{rewardsData[0]?.error || "No rewards found"}</p>;
+  }
 
   return (
     <div className="rewards-container">
@@ -68,23 +72,17 @@ function C503() {
       <div className="rewards-list">
         {rewardsData.map((reward, index) => (
           <div key={index} className="reward-card">
-            {/* Icon */}
-            {icon && <img src={icon} alt="reward" className="reward-icon" />}
-
+            {icon && (
+              <div className="reward-icon">
+                <img src={icon} alt="reward icon" />
+              </div>
+            )}
             <div className="reward-content">
-              {/* Title */}
               <h4 className="reward-title">{reward.title}</h4>
-
-              {/* Date */}
-              {reward.date && <p className="reward-date">DATE: {reward.date}</p>}
-
-              {/* Content / Details */}
+              {reward.date && <p className="reward-date">{reward.date}</p>}
               {reward.content && <p className="reward-desc">{reward.content}</p>}
-
-              {/* PDF link */}
               {reward.pdf_link && (
                 <p className="reward-link">
-                  📄{" "}
                   <a href={reward.pdf_link} target="_blank" rel="noopener noreferrer">
                     View Document
                   </a>

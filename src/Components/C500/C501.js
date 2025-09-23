@@ -1,7 +1,7 @@
-// src/components/NewsList.js
+// src/components/C501.js
 import React, { useEffect, useState } from "react";
 import "./C501.css";
-import siteData from "../../sitedata.json";  // Import JSON directly from src
+import siteData from "../../sitedata.json";
 
 function C501() {
   const [newsData, setNewsData] = useState([]);
@@ -25,40 +25,60 @@ function C501() {
   if (loading) return <p>Loading...</p>;
 
   return (
-    <div className="news-container">
-      <h3>Announcements - News</h3>
+    <div id="news-section" className="no-padding">
+      {/* Heading flush-left */}
+      <h3 className="news-heading">Announcements - News</h3>
+
       <div className="news-list">
-        {newsData.map((news, index) => (
-          <div key={index} className="news-card">
-            {/* ✅ Use single icon from siteData */}
-            {siteData.newsIcons?.img && (
-              <div className="about-img-container">
-                <img
-                  src={siteData.newsIcons.img}
-                  alt="news"
-                  className="about-sub-img"
-                />
-              </div>
-            )}
-            <div className="news-content">
-              {Array.isArray(news.a) ? (
-                news.a.map((item, i) => (
-                  <p key={i}>
-                    <strong>{item.aname}</strong>
-                    {item.avalue ? ` – ${item.avalue}` : ""}
-                  </p>
-                ))
-              ) : (
-                (news.a?.aname || news.a?.avalue) && (
-                  <p>
-                    <strong>{news.a?.aname}</strong>
-                    {news.a?.avalue ? ` – ${news.a?.avalue}` : ""}
-                  </p>
-                )
+        {newsData.map((news, index) => {
+          const mappedData = {};
+          if (Array.isArray(news.a)) {
+            news.a.forEach((item) => {
+              if (item.aname && item.avalue) {
+                mappedData[item.aname.toLowerCase()] = item.avalue;
+              }
+            });
+          }
+
+          return (
+            <div key={index} className="news-card">
+              {/* News Icon */}
+              {siteData.newsIcons?.img && (
+                <div className="news-icon">
+                  <img
+                    src={siteData.newsIcons.img}
+                    alt={mappedData.title || "news"}
+                    className="news-icon-img"
+                  />
+                </div>
               )}
+
+              {/* News Content */}
+              <div className="news-details">
+                <h4 className="news-title">{mappedData.title || "No Title"}</h4>
+
+                {mappedData.date && (
+                  <p className="news-date">DATE: {mappedData.date}</p>
+                )}
+
+                {mappedData.details && (
+                  <p className="news-desc">{mappedData.details}</p>
+                )}
+
+                {mappedData.pdf_link && (
+                  <a
+                    href={mappedData.pdf_link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="news-link"
+                  >
+                    📄 View Document
+                  </a>
+                )}
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
