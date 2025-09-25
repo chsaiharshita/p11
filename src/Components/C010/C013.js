@@ -101,21 +101,20 @@ const routesConfig = [
     path: "/nicapsc-iti/nodeadmin",
     component: C701,
   },
-  /*{
-   path: "/nodeadmin", 
-  component: C701 },*/
+ 
   
   {
     path: "/nicapsc-iti/node401",
     component: C401,
   },
-  { 
-    path: "/nicapsc-iti/node601", 
-    component: C601,
-  },
+ 
   {
     path: "/nicapsc-iti/api",
     component: C142,
+  },
+   { 
+    path: "/nicapsc-iti/node601", 
+    component: C601,
   },
   {
     path: "/nicapsc-iti/websitepolicies",

@@ -48,112 +48,360 @@
     }
   ],
  
-  
-"comment...":"data for the project name with /nicapsc-iti/",
+  "comment...":"data for the project name with /nicapsc-iti/",
   "drop":[
     {
-      "name": "ABOUT",
+      "name": "About Us",
       "type": "page",
       "children": [
         {
-          "name": "ABOUT NCVT/SCVT",
-          "link": "/nicapsc-iti/node201",
+          "name": "History",
+          "link": "node201",
           "type": "page"
         },
         {
-          "name": "ORGANISATION",
-          "link": "/nicapsc-iti/node202",
+          "name": "Organisation Structure",
+          "link": "node202",
           "type": "page"
-        },
-        {
-          "name": "ITIs TRADE SPECIATIONS",
-          "link": "/nicapsc-iti/node203",
-          "type": "page"
-        },
-        {
-          "name": "ITI WISE SEATS/TRADES ",
-          "link": "/nicapsc-iti/node204",
-          "type": "page"
-        },
-        {
-          "name": "SCHEMES",
-          "link": "/nicapsc-iti/node205",
-          "type": "page"
-        }
+        }        
       ]
      },
      {
-      "name": "INFORMATION",
+      "name": "Know Your Station",
       "type": "page",
       "children": [
         {
-          "name": "ABOUT THE STRIVE",
-          "link": "/nicapsc-iti/node301",
+          "name": "SDPO Tirumla",
+          "link": "node302",
           "type": "page"
         },
         {
-          "name": "REGISTRATION",
-          "link": "/nicapsc-iti/node302",
+          "name": "SDPO Tirupati",
+          "link": "node303",
           "type": "page",
           "target":"_blank"
         },
         {
-          "name": "DISCLOSURE MANAGEMENT",
-          "link": "/nicapsc-iti/node303",
+          "name": "SDPO Chandragiri",
+          "link": "node351",
           "type": "page"
         },
         {
-          "name": "COURSE MASTER",
-          "link": "/nicapsc-iti/node304 ",
+          "name": "SDPO Renigunta",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "SDPO Srikalahasti",
+          "link": "node303",
+          "type": "page",
+          "target":"_blank"
+        },
+        {
+          "name": "SDPO Puttur",
+          "link": "node351",
+          "type": "page"
+        },
+        {
+          "name": "SDPO Gudur",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "SDPO Naidupeta",
+          "link": "node303",
+          "type": "page",
+          "target":"_blank"
+        },
+        {
+          "name": "Crime TPT,TL & Mahila PS",
+          "link": "node351",
+          "type": "page"
+        },
+        {
+          "name": "Tirupati Traffic",
+          "link": "node355 ",
           "type": "page"
         }
+       
       ]
     },
     {
-     "name": "RTI",
+     "name": "Wings",
      "type": "page",
      "children": [
        {
-         "name": "RTI",
-         "link": "/nicapsc-iti/node401",
+         "name": "Law & Order",
+         "link": "node401",
          "type": "page"
-       }
+       },
+        {
+          "name": "Traffic Police",
+          "link": "node303",
+          "type": "page",
+          "target":"_blank"
+        },
+        {
+          "name": "Crime",
+          "link": "node403",
+          "type": "page"
+        },
+        {
+          "name": "Woman PS",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "Special Branch",
+          "link": "node303",
+          "type": "page",
+          "target":"_blank"
+        },
+        {
+          "name": "DCRB",
+          "link": "node351",
+          "type": "page"
+        },
+        {
+          "name": "IT Core Traffic",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "Armed Reserve",
+          "link": "node303",
+          "type": "page",
+          "target":"_blank"
+        },
+        {
+          "name": "Finger Pint Unit Clues",
+          "link": "node351",
+          "type": "page"
+        },
+        {
+          "name": "Command Control",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "Mahila Rakshak",
+          "link": "node303",
+          "type": "page",
+          "target":"_blank"
+        },
+        {
+          "name": "Blue Colts",
+          "link": "node351",
+          "type": "page"
+        },
+        {
+          "name": "Shakhti Team",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Police Welfare",
+          "link": "node355",
+          "type": "page"
+        }
+
      ]
     },
     
     {
-  "name": "ANNOUNCEMENTS",
-  "type": "page",
-  "children": [
-    {
-      "name": "News",
-      "link": "/nicapsc-iti/node501"
-    },
-    {
-      "name": "Events",
-      "link": "/nicapsc-iti/node502"
-    },
-    {
-      "name": "Rewards",
-      "link": "/nicapsc-iti/node503"
-    }
-  ]
- },
- {
-     "name": "CONTACT US",
+     "name": "Citizen Services",
      "type": "page",
      "children": [
        {
-         "name": "CONTACT US",
-         "link": "/nicapsc-iti/node601",
+         "name": "Mobile missing complaints",
+         "link": "node701",
+         "type": "page"
+       },
+       {
+          "name": "Public Grievance Redressal System(PGRS)",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Meesava",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Echallan status",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Passport Verification Status",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Know Your Court Case Status",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "CEIR",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "Financial Fraud",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Other Cyber Crime",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Track Your Complaint",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "View FIR",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "RTI",
+          "link": "node355 ",
+          "type": "page"
+        }
+        
+     ]
+   },
+  {
+   "name":"Women's Corner",
+   "type":"page",
+   "children":[
+    {
+      "name":"Women PS Contact",
+      "link":"slide",
+      "type":"page"
+    },
+    {
+      "name":"Prevent Abuse of 498 A",
+      "link":"slide#events",
+      "type":"page"
+    },
+    {
+      "name":"Affair Proof of Your Relationship",
+      "link":"slide#rewards",
+      "type":"page"
+    },
+     {
+          "name": "Building Healthy Relationship",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Signs of a Cheating Husband",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Dowry Harrassment",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "Domestic Violence ",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Eve Teasing",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "How to Save Your Marriage",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "Living Alone",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Marital Problems-Stress",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Marrying NRI?",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "Planning to Marry ",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "How Do I Prevent Suicide",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Reporting Dowry Harassment",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "Rights",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Sexual Harassment at Work",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Tips for Healthy Marriage Life",
+          "link": "node355 ",
+          "type": "page"
+        },
+         {
+          "name": "Choosing Partner from Matrimonial Sites",
+          "link": "node355 ",
+          "type": "page"
+        },
+        {
+          "name": "Coping with Husband's Alcoholism",
+          "link": "node355 ",
+          "type": "page"
+        }
+   ]
+  },
+   {
+   "name":"Important Information",
+   "type":"page",
+   "children":[
+       {
+         "name": "New Criminal Laws",
+         "link": "/nicapsc-iti/node401",
+         "type": "page"
+       },
+       {
+         "name": "Tyeps of Crimes",
+         "link": "/nicapsc-iti/node401",
          "type": "page"
        }
-     ]
-   }
-   
+   ]
+
+  }
   
- 
-  ],
+],
+
+
   "Navlink1": [
     {
       "title": "LOGIN",
@@ -229,29 +477,29 @@
 
 "...comment4":"Header Names and Images",
 
+
   "Header": [
     {
       "img1": [
         {
-          "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C103-p0-P2H1.webp",
+          "imgsrc": "./images/Police_2.png",
           "imgalt": "logo1",
           "link": "https://itiadmissions.ap.gov.in/"
         }
       ],
-      "header":" Industrial Training Institutes - ITI IMS ",
-      "heading": "Department of Employment and Training",
-      "description": [
-        { "title": " Government of Andhra Pradesh " }
-      ],
+      "heading": "తిరుపతి జిల్లా పోలీస్",
+      "header": "TIRUPATI DISTRICT POLICE",
+      "description": [],
       "img2": [
         {
-          "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C103-p0-P2H2.webp",
+          "imgsrc": "./images/TPTLogoPNG_1.png",
           "imgalt": "logo2",
           "link": "https://www.skillindia.gov.in/"
         }
       ]
     }
   ],
+
 
   "...comment5":"Navigation Bar Names & Description, Sliding images and Designations",
 
@@ -265,13 +513,13 @@
         {
           "carousel1": [
             {
-              "image": "https://eg.ap.gov.in/p0server/static/p0/images/C003-p0-P2slideimage1.webp",
+              "image": "./images/CM_HM_DGP_SP.jpg",
               "imgalt": "First slide"
             }
           ],
           "carousel2": [
             {
-              "image": "https://eg.ap.gov.in/p0server/static/p0/images/C003-p0-P2slideimage2.webp",
+              "image": "./images/Alipiri Poster 3_1.png",
               "imgalt": "Second slide"
             }
           ]
@@ -454,16 +702,13 @@
 
 "section2": [
   {
-    "title": "About US ",
+    "title": "Welcome to Tirupati Police",
     "paragraph": [
       {
-        "p": "About Department :The Department of Employment and Training was established in the year 1964 with an objective to train the unskilled into semi-skilled trainees so as to meet the demand of the Industry. Once the Trainees come out from the Institute the Employment wing will provide employment assistance. This Department has two wings i.e, 1. Employment Wing and 2. Training Wing."
-      },
+        "p": "On behalf of Tirupati Police, We welcome you to our official website. We hope the information provided within this site will be a valuable resource to citizens. We are dedicated to serve our people and make Tirupati Police District area a safer place to dwell, work, visit, transit or conduct business.Your Safety, Our Concern is something we feel from the bottom of our hearts and which we will try to fulfill in the execution of our duties."},
       {
-        "p":"Employment Wing : There are (14) District Employment Exchanges (6) Sub-Employment Exchanges and (2) University Employment Information Guidance Bureau in Andhra Pradesh."
-      },
-      { "p":"Employment Exchanges have been sponsoring suitable candidates from the Live Register of Employment Exchanges to Employers based on their notifications in terms of G. O. Ms. No. 193 Education (Emp.) Department dt. 27.06.1994 and also organizing Job Melas in all 13 districts of AP to provide jobs in Private Sector establishments to job seekers." 
-         }
+        "p":"About Tirupati Police: During the year 2010, Tirumala, Tirupati and Srikalahasti Sub-divisions are tagged together and formed as Urban Police District, Tirupati G.O.Ms. No. 137 Dated: 8-6-2010. Further Tirupati District formed from a part of erstwhile Chittoor District and a part from erstwhile SPSR Nellore District on 4th April 2022, when the districts re-organized in Andhra Pradesh vide Gazette No.497, G.No.40, dt. 03-04-2022 and G.O.Ms. No.198, Revenue (Lands-IV), 2nd April 2022, with headquarters at Tirupati, for better administration. Tirupati District has been formed with the Police jurisdiction of 53 Police Stations, 11 Circle Offices and 8 Sub-division Police Offices, 34 Mandals, with Four Revenue Divisions. The total area extent is 9174 Sq. KMs and the total population is 22.18 lakhs. Tirupati District is surrounded by SPSR Nellore District, Chittoor District, Annamayya District, Tamilnadu State and Bay of Bengal."  }
+       
 
     ],
     "imgsrc": "./nicapsc-iti/images/C-A.jpg",
@@ -478,10 +723,10 @@
     "title": "",
     "card1": [
       {
-        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C005-p0-CM.webp",
+        "imgsrc": "./images/sp_photo.jpeg",
         "imgalt": "img-1 ",
-        "title": " Sri. N. Chandrababu Naidu",
-        "description": "Hon'ble Chief Minister of Andhra Pradesh",
+        "title":"   Sri L SUBBARAYUDU, I.P.S",
+        "description":"Superintendent of Police Tirupati District.",
         "para":[
           {
             
@@ -790,37 +1035,34 @@
   }
 ],
   "...Comment2":"Information of RTI-Menu",
-"Rti": [
+"LawandOrder": [
   {
-    "heading": " RTI ACT",
+    "heading": "Law and Order",
     "detailservices": [
     {
-    "header": "Right to Information Act",
-    "p": "The Right to Information (RTI) is an act of the Parliament of India which sets out the rules and procedures regarding citizens' right to information. It replaced the former Freedom of Information Act, 2002. Under the provisions of RTI Act, any citizen of India may request information from a public authority (a body of Government or instrumentality of State) which is required to reply expeditiously or within thirty days. The Act also requires every public authority to computerize their records for wide dissemination and to proactively publish certain categories of information so that the citizens need minimum recourse to request for information formally.",
-    "Serial":"S.No",
-    "Authority":"Authority",
-    "Trainingwing":"Training wing",
-    "Contact":"Contact no",
-    "paragraph":[ 
-
-      { "Serial":1,
-        "Authority":"First Appellate Authority",
-        "Trainingwing":"G.Munikanta Narayana,J.D(T)",
-        "Contactno":"8886882222"
-      },
-      { "Serial":2,
-        "Authority":"P.I.O",
-        "Trainingwing":"P.RajaSekhara Babu,A.D(AAA)",
-        "Contactno":"9959500386"
-      },
-      { "Serial":3,
-        "Authority":"A.P.I.O",
-        "Trainingwing":"V.Srinivas, A.A.O",
-        "Contactno":"9959500013"
-      }
-   ]
-  }
-]
+    "p": "Police typically are responsible for maintaining public order and safety, enforcing the law, and preventing, detecting, and investigating criminal activities. These functionsare known as policing."
+    } ,
+    {
+    "p":"The Sub Inspector of Police / Inspector(SHO) is responsible for the maintenance of the law and order and public order in his jurisdiction. A Police Station is the basic unit of policing, responsible for prevention and detection of crime, maintenance of public order, enforcing law in general as well as for performing protection duties and making security arrangements for the constitutional authorities, government functionaries, representatives of the public in different legislative bodies and local self-governments, public figures etc."
+  },
+  {
+  "heading":"Further the Duties of the SHO include"
+  },
+    {
+     "p":"Personal leadership and supervision of duties and work of all the staff and men allotted to his charge including their welfare, discipline and morale."
+    },
+    {"p":"Organizing and active participation in crime prevention and detection, maintenance of law and order and anti-terror operations, dispersal of unlawful assemblies and prevention of breach of peace and public order."
+     },{"p":"Organizing beats and patrols and its personal supervision."
+      },{"p":"Designing and implementation of policing schemes suited to such beat areas and securing co-operation of public and maître committees."
+       },{ "p":"Obtaining prompt information about activities in the field of Communal, Caste, Political, Student, or other segments of society including subversive elements and identify trouble spots and trouble mongers and to take effective preventive measures like launching security proceedings under Cr.P.C."
+     },{"p":"Maintenance of good public relations in his station limits."
+     },{"p":"Visiting and spending adequate time in the villages, localities of his station limit."
+     },{"p":"Maintenance of effective surveillance over bad characters, anti-social elements, and rowdies of the area under his charge"
+     },{"p":"Constantly endeavor to maintain high professional standard and keep himself updated, well informed and motivated."
+      },{ "p":"Pursuit and apprehension of offenders on available clues and information."
+     },{"p":"Collection of information on all important matters relevant to police duties and his functions and communicating the same to his immediate superior police officer and to other concerned superior police officers promptly."
+    }
+  ]
 }
 ],
   "...Comment3":"Information of ContactUs-Menu",
