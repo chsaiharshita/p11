@@ -1,14 +1,14 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import C121 from "../Common/C121";
-import "./C401.css";
 
-function C401() {
+
+function C610() {
   const siteData = useSelector((state) => state.data.siteData);
 
   return (
     <div>
-      {siteData?.LawandOrder?.map((information, index) => (
+      {siteData?.LiveAlone?.map((information, index) => (
        <section className="container" key={index}>
                  <div className="content">
                    <C121
@@ -19,6 +19,8 @@ function C401() {
                      <C121
                        key={subIndex}
                        subHeading={content.heading}
+                       imgsrc={content.imgsrc}   
+                        imgalt={content.imgalt} 
                        text={content.p}
                        list={content.paragraph}
                      />
@@ -30,4 +32,4 @@ function C401() {
   );
 }
 
-export default C401;
+export default C610;

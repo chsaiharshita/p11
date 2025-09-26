@@ -1,6 +1,6 @@
 import React from "react";
 
-function C121({ heading, subHeading, text, list = [] }) {
+function C121({ heading, subHeading, text, list = [], imgsrc, imgalt }) {
   return (
     <div className="paragraph-block">
       {/* Title */}
@@ -8,9 +8,9 @@ function C121({ heading, subHeading, text, list = [] }) {
         <h3
           className="heading-black"
           style={{
-            fontSize: "28px",   // 🔹 heading ni pedda ga
-            fontWeight: "bold", // 🔹 bolder ga
-            textTransform: "uppercase", // 🔹 capital letters lo
+            fontSize: "28px",
+            fontWeight: "bold",
+            textTransform: "uppercase",
             margin: "15px 0"
           }}
         >
@@ -23,7 +23,7 @@ function C121({ heading, subHeading, text, list = [] }) {
         <h5
           style={{
             fontSize: "20px",
-            fontWeight: "600",
+            fontWeight: "bold",
             margin: "10px 0"
           }}
         >
@@ -45,6 +45,17 @@ function C121({ heading, subHeading, text, list = [] }) {
             ) : null
           )}
         </section>
+      )}
+
+      {/* Image block */}
+      {imgsrc && (
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={imgsrc}
+            alt={imgalt || "content image"}
+            style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
+          />
+        </div>
       )}
     </div>
   );

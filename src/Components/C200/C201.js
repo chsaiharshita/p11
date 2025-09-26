@@ -8,7 +8,7 @@ function C201() {
 
   return (
     <div>
-    {siteData?.Pagetype1?.map((information, index) => (
+    {siteData?.History?.map((information, index) => (
         <section className="container" key={index}>
           <div className="content">
             <C121
@@ -18,7 +18,7 @@ function C201() {
             {information?.detailservices?.map((content, subIndex) => (
               <C121
                 key={subIndex}
-                subHeading={content.header}
+                subHeading={content.heading}
                 text={content.p}
                 list={content.paragraph}
               />

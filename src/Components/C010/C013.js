@@ -39,7 +39,7 @@ import node274 from "../C270/Node274.js";
 import node275 from "../C270/Node275.js";
 import node276 from "../C270/Node276.js";
 /*import Welcome from "../C700/C703.js";*/
-import C503 from "../../Components/C500/C503.js";
+import C503 from "../C600/C603.js";
 import C003 from "../../Components/C100/C003.js";
 import C141 from "../C100/C141.js";
 import C142 from "../C100/C142.js";
@@ -47,12 +47,148 @@ import C1411 from "../../Components/C100/C1411.js";
 import C1412 from '../../Components/C100/C1412.js';
 import C102 from "../C102/C102.js";
 import Dashboard from "../C700/Dashboard.js";
+import C404 from "../C400/C404.js";
+import C405 from "../C400/C405.js";
+import C409 from "../C400/C409.js";
+import C410 from "../C400/C410.js";
+import C413 from "../C400/C413.js";
+import C414 from "../C400/C414.js";
+import C602 from "../C600/C602.js";
+import C411 from "../C400/C411.js";
+import C603 from "../C600/C603.js";
+import C604 from "../C600/C604.js";
+import C605 from "../C600/C605.js";
+import C606 from "../C600/C606.js";
+import C607 from "../C600/C607.js";
+import C608 from "../C600/C608.js";
+import C609 from "../C600/C609.js";
+import C610 from "../C600/C610.js";
+import C611 from "../C600/C611.js";
+import C612 from "../C600/C612.js";
+import C613 from "../C600/C613.js";
+import C614 from "../C600/C614.js";
+import C615 from "../C600/C615.js";
+import C616 from "../C600/C616.js";
+import C617 from "../C600/C617.js";
+import C618 from "../C600/C618.js";
+import C619 from "../C600/C619.js";
+import C620 from "../C600/C620.js";
 const routesConfig = [
   {
     path: "/nicapsc-iti/Home",
     component:C141,
   },
+ {
+    path: "/nicapsc-iti/node404",
+    component:C404,
+  },
+   {
+    path: "/nicapsc-iti/node405",
+    component:C405,
+  },
+  {
+    path: "/nicapsc-iti/node409",
+    component:C409,
+  },
+    {
+    path: "/nicapsc-iti/node602",
+    component:C602,
+  },
+    {
+    path: "/nicapsc-iti/node603",
+    component:C603,
+  },
+    {
+    path: "/nicapsc-iti/node604",
+    component:C604,
+  },
+    {
+    path: "/nicapsc-iti/node605",
+    component:C605,
+  },
+    {
+    path: "/nicapsc-iti/node606",
+    component:C606,
+  },
+    {
+    path: "/nicapsc-iti/node607",
+    component:C607,
+  },
+    {
+    path: "/nicapsc-iti/node608",
+    component:C608,
+  },
+    {
+    path: "/nicapsc-iti/node609",
+    component:C609,
+  },
+    {
+    path: "/nicapsc-iti/node610",
+    component:C610,
+  },
 
+    {
+    path: "/nicapsc-iti/node611",
+    component:C611,
+  },
+    {
+    path: "/nicapsc-iti/node612",
+    component:C612,
+  },
+    {
+    path: "/nicapsc-iti/node602",
+    component:C613,
+  },
+    {
+    path: "/nicapsc-iti/node614",
+    component:C614,
+  },
+    {
+    path: "/nicapsc-iti/node615",
+    component:C615,
+  },
+    {
+    path: "/nicapsc-iti/node616",
+    component:C616,
+  },  {
+    path: "/nicapsc-iti/node617",
+    component:C617,
+  },
+    {
+    path: "/nicapsc-iti/node618",
+    component:C618,
+  },
+    {
+    path: "/nicapsc-iti/node619",
+    component:C619,
+  },
+    {
+    path: "/nicapsc-iti/node620",
+    component:C620,
+  }, 
+
+  {
+    
+    path: "/nicapsc-iti/node411",
+    component:C411,
+  
+  },
+  
+  {
+    
+    path: "/nicapsc-iti/node413",
+    component:C413,
+  
+  },
+  {
+    path: "/nicapsc-iti/node414",
+    component:C414,
+  },
+    {
+    path: "/nicapsc-iti/node410",
+    component:C410,
+  },
+  
   {
     path: "/nicapsc-iti/about",
     component:about,
