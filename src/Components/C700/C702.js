@@ -1,83 +1,37 @@
-import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchInstitutes } from "../C1001/C1002.js"
-const InstituteTable = () => {
-  const dispatch = useDispatch();
-  const [page, setPage] = useState(1);
-  const limit = 10;
+import React from "react";
+import { useSelector } from "react-redux";
+import C121 from "../Common/C121";
 
-  const {
-    institutes = [],
-    columns = [],
-    total = 0,
-    loading = false,
-    error = null,
-  } = useSelector((state) => state.institute || {});
 
-  useEffect(() => {
-    dispatch(fetchInstitutes(page, limit));
-  }, [dispatch, page]);
-
-  const totalPages = Math.ceil(total / limit);
+function C702() {
+  const siteData = useSelector((state) => state.data.siteData);
 
   return (
     <div>
-      <h2>Institute / Trades Table</h2>
-
-      {loading ? (
-        <p>Loading...</p>
-      ) : error ? (
-        <p style={{ color: "red" }}>{error}</p>
-      ) : (
-        <>
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <table border="1" cellPadding="10">
-              <thead>
-                <tr>
-                  {columns.map((col) => (
-                    <th
-                      key={col.key}
-                      style={{ backgroundColor: "black", color: "white" }}
-                    >
-                      {col.label}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {institutes.map((inst) => (
-                  <tr key={inst._id || inst.ccode}>
-                    {columns.map((col) => (
-                      <td key={col.key}>{inst[col.key] || "-"}</td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          {/* Pagination */}
-          <div style={{ marginTop: "20px", textAlign: "center" }}>
-            <button
-              disabled={page === 1}
-              onClick={() => setPage(page - 1)}
-            >
-              Prev
-            </button>
-            <span style={{ margin: "0 10px" }}>
-              Page {page} of {totalPages}
-            </span>
-            <button
-              disabled={page === totalPages}
-              onClick={() => setPage(page + 1)}
-            >
-              Next
-            </button>
-          </div>
-        </>
-      )}
+      {siteData?.Crimes.map((information, index) => (
+       <section className="container" key={index}>
+                 <div className="content">
+                   <C121
+                   heading={information.heading}
+                   />
+       
+                   {information?.detailservices?.map((content, subIndex) => (
+                     <C121
+                       key={subIndex}
+                       imgsrc={content.imgsrc}   
+                        imgalt={content.imgalt} 
+                       subHeading={content.heading}
+                        
+                       text={content.p}
+                       list={content.paragraph}
+                       
+                     />
+                   ))}
+                 </div>
+               </section>
+      ))}
     </div>
   );
-};
+}
 
-export default InstituteTable;
+export default C702;

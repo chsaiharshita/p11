@@ -87,6 +87,23 @@ td {
 }
 
 
+.content p {
+  margin: 0;
+  padding: 0;
+}
+
+.table-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.content p + table {
+  margin-top: 0;
+}
+
+.content p + table {
+  margin-top: 0;  /* removes any gap above table after paragraph */
+}
 
 
 #customer tr:nth-child(even){background-color: #ee4242;  table-layout: auto;}

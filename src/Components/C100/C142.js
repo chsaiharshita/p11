@@ -150,7 +150,7 @@ function C142() {
           {/* Rewards Section */}
           <div className="flex-fill" id="rewardsSection">
             <div className="w-100">
-              <C143 />
+           
             </div>
           </div>
         </div>

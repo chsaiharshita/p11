@@ -52,7 +52,7 @@ function C003() {
                             })}
                           </Carousel.Item>
                          
-                       {/*   <Carousel.Item interval={1000}>
+                         <Carousel.Item interval={1000}>
                             {e.carousel3.map((details) => {
                               return (
                                 <>
@@ -65,8 +65,8 @@ function C003() {
                                 </>
                               );
                             })}
-                          </Carousel.Item>*/}
-                         
+                          </Carousel.Item>
+                          
                          </Carousel>
                         </div>
                         </div>
@@ -81,11 +81,12 @@ function C003() {
              
               </div>
               </section>
-              <C141/>
-             <C004/>
-             <C142 />
-             
+              <C141 />
+             <C004 />
+            
           </>
     )
 }
  export default C003;
+
+ 

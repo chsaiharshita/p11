@@ -1,18 +1,17 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import C131 from "../Common/C131";
-import C139 from "../Common/C139";
-import "./C401.css";
-
-function C411() {
+import C131 from "../Common/C131"; // Use C131 instead of C139
+import C121 from "../Common/C121";
+function C406() {
   const siteData = useSelector((state) => state.data.siteData);
 
   return (
     <div>
-      {siteData?.MahilaRakshak?.map((page, pageIndex) => (
+      {siteData?.DCRB?.map((page, pageIndex) => (
         <section className="container" key={pageIndex}>
           <div className="content">
-            {/* Heading */}
+
+                   {/* Heading */}
             <C131
               content={{
                 header: page.heading,
@@ -33,13 +32,17 @@ function C411() {
                   }}
                 />
               ))}
-
-            {/* Table */}
+            {/* Transform data to C131 format */}
             {page.columns && page.rows && (
-              <C139
-                heading={page.heading}
-                columns={page.columns}
-                rows={page.rows}
+              <C131
+                content={{
+                  header: page.heading,
+                  paragraph: page.rows,
+                  ...page.columns.reduce((acc, col) => {
+                    acc[col] = col; // column headers
+                    return acc;
+                  }, {}),
+                }}
               />
             )}
           </div>
@@ -49,4 +52,4 @@ function C411() {
   );
 }
 
-export default C411;
+export default C406;

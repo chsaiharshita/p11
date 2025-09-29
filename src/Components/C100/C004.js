@@ -23,12 +23,7 @@ function C004() {
                     <C121 key={idx} text={e.p} />
                   ))}
 
-                  <a
-                    className="btn btn-danger btn-sm mt-3"
-                    href={home.button_link}
-                  >
-                    {home.button}
-                  </a>
+                 
                 </div>
               </div>
             ))}

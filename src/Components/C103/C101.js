@@ -28,7 +28,7 @@ function C101() {
           <div className="right-icons d-flex align-items-center gap-3">
             <Fontsize />
 
-            <a href="/sitemap" className="sitemap-link" title="Sitemap">
+            <a href="/nicapsc-kkdpolice/sitemap" className="sitemap-link" title="Sitemap">
               <i className="fa fa-sitemap" style={{ fontSize: '14px' }}></i>
             </a>
 

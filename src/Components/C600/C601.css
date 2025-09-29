@@ -1,0 +1,15 @@
+.c601-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.c601-image-wrapper {
+  display: inline-block;
+}
+
+.c601-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

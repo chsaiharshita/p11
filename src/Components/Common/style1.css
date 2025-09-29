@@ -1,0 +1,48 @@
+section {
+  margin-bottom: 1px; /* sections madhya gap inka thaggindi */
+}
+
+section p {
+  margin-bottom: 0px;  /* paragraph & table madhya gap almost zero */
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.table-container {
+  margin-top: 0;
+  padding-top: 0;
+}
+section p {
+  margin-bottom: 0px;   /* para kindha space remove */
+}
+
+.table-container {
+  margin-top: 0 !important;  
+  padding-top: 0 !important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 14px;      /* table font konchem chinna */
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 2px 6px;     /* 🔥 row height inka chala thaggindi */
+  text-align: center;
+}
+.group-odd {
+  background-color: #ffffff;
+}
+
+.group-even {
+  background-color: #f2f2f2;
+}
+
+table th {
+  background-color: #011020;
+  color: white;  
+  font-weight: bold;
+}

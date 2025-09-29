@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import C002 from "./C002.js";
-
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import "font-awesome/css/font-awesome.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";

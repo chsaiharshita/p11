@@ -21,6 +21,8 @@ function C201() {
                 subHeading={content.heading}
                 text={content.p}
                 list={content.paragraph}
+                imgsrc={content.imgsrc}
+                imgalt={content.imgalt}
               />
             ))}
           </div>

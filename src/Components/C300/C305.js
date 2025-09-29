@@ -3,8 +3,8 @@ import React from "react";
 import C148 from "../Common/C148";
 import siteData from "../../sitedata.json";
 
-function C304() {
-  const dept = siteData.tables.Renugunta;
+function C305() {
+  const dept = siteData.tables.Srikalahasti;
 
   return (
     <C148
@@ -15,4 +15,5 @@ function C304() {
   );
 }
 
-export default C304;
+export default C305;
+

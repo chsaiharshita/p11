@@ -1,9 +1,19 @@
 import React from "react";
 
-function C121({ heading, subHeading, text, list = [], imgsrc, imgalt }) {
+function C121({ heading, subHeading, text, list = [], imgsrc, imgalt,link ,centered}) {
+   const textAlignStyle = centered ? { textAlign: "center" } : {};
   return (
     <div className="paragraph-block">
       {/* Title */}
+      {imgsrc && (
+        <div style={{ textAlign: "center", margin: "20px 0" }}>
+          <img
+            src={imgsrc}
+            alt={imgalt || "content image"}
+            style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
+          />
+        </div>
+      )}
       {heading && (
         <h3
           className="heading-black"
@@ -17,14 +27,16 @@ function C121({ heading, subHeading, text, list = [], imgsrc, imgalt }) {
           {heading}
         </h3>
       )}
+      
 
       {/* Sub-heading */}
       {subHeading && (
         <h5
           style={{
-            fontSize: "20px",
+            fontSize: centered ? "36px" : "20px", 
             fontWeight: "bold",
-            margin: "10px 0"
+            margin: "10px 0",
+                ...textAlignStyle
           }}
         >
           {subHeading}
@@ -47,16 +59,19 @@ function C121({ heading, subHeading, text, list = [], imgsrc, imgalt }) {
         </section>
       )}
 
-      {/* Image block */}
-      {imgsrc && (
-        <div style={{ textAlign: "center", margin: "20px 0" }}>
-          <img
-            src={imgsrc}
-            alt={imgalt || "content image"}
-            style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
-          />
-        </div>
+       {link && (
+        <p>
+          <a
+            href={link}
+            
+            style={{ color: "#ff0000ff",  fontSize: "22px",      // <-- increased font size
+              fontWeight: "bold", textDecoration: "underline" }}
+          >
+            {subHeading || "Click here"}
+          </a>
+        </p>
       )}
+      
     </div>
   );
 }

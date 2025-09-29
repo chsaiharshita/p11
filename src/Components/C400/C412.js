@@ -4,35 +4,23 @@ import C131 from "../Common/C131";
 import C139 from "../Common/C139";
 import "./C401.css";
 
-function C411() {
+function C412() {
   const siteData = useSelector((state) => state.data.siteData);
 
   return (
     <div>
-      {siteData?.MahilaRakshak?.map((page, pageIndex) => (
+      {siteData?.BLUECOLTS?.map((page, pageIndex) => (
         <section className="container" key={pageIndex}>
           <div className="content">
-            {/* Heading */}
+            {/* Heading + Paragraphs together */}
             <C131
               content={{
                 header: page.heading,
-                p: "",
-                paragraph: []
+                p: page.detailservices
+                  ?.map((para) => para.p)
+                  .join(" "), // all paras join into one block
               }}
-            />
-
-            {/* Paragraphs */}
-            {page.detailservices &&
-              page.detailservices.map((para, i) => (
-                <C131
-                  key={i}
-                  content={{
-                    header: "",
-                    p: para.p,
-                    paragraph: []
-                  }}
-                />
-              ))}
+           className="no-gap" />
 
             {/* Table */}
             {page.columns && page.rows && (
@@ -49,4 +37,4 @@ function C411() {
   );
 }
 
-export default C411;
+export default C412;

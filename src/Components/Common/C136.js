@@ -26,7 +26,7 @@ function C136({ title = "Announcements", data = [] }) {
           {title}
         </h3>
 
-        <Marquee
+        <Marquee 
           className="col-xs-8 col-lg-10 col-md-12 col-sm-12"
           pauseOnHover
           direction="left"

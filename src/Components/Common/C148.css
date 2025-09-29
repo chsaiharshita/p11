@@ -1,0 +1,40 @@
+.table-wrapper {
+  width: 100%;
+  margin: px 0;
+  font-family: Arial, sans-serif;
+}
+
+.table-wrapper h3 {
+  color: brown;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.table-wrapper tr:nth-child(odd) {
+  background-color: #ffffff; /* White */
+}
+
+.table-wrapper tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey */
+}
+
+.table-wrapper table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.table-wrapper th {
+  background-color:  #011020;
+  color: white;
+  padding: 1px;
+  text-align: center;
+  
+}
+
+.table-wrapper td {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+}

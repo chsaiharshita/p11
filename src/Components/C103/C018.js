@@ -2,24 +2,29 @@ import React, { useState, useEffect } from 'react';
 import './C101.css';
 
 export default function Fontsize() {
-  const [zoom, setZoom] = useState(1); // 1 = 100%
+  // State now manages the root font size as a percentage
+  const [fontSize, setFontSize] = useState(100); // 100%
 
+  // This effect updates the font-size on the <html> element
   useEffect(() => {
-    document.body.style.zoom = zoom;
-  }, [zoom]);
+    document.documentElement.style.fontSize = `${fontSize}%`;
+  }, [fontSize]);
 
   const increaseFont = () => {
-    setZoom(prev => Math.min(prev + 0.1, 1.5)); // max 150%
+    // Increase font size by 10%, max 150%
+    setFontSize(prev => Math.min(prev + 10, 150));
   };
 
   const decreaseFont = () => {
-    setZoom(prev => Math.max(prev - 0.1, 0.7)); // min 70%
+    // Decrease font size by 10%, min 70%
+    setFontSize(prev => Math.max(prev - 10, 70));
   };
 
   return (
     <div className="fontsize-buttons">
-      <button onClick={increaseFont}>A+</button>
-      <button onClick={decreaseFont}>A−</button>
+      {/* ✅ Added aria-label for better accessibility */}
+      <button onClick={increaseFont} aria-label="Increase font size">A+</button>
+      <button onClick={decreaseFont} aria-label="Decrease font size">A−</button>
     </div>
   );
 }

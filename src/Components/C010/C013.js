@@ -16,7 +16,7 @@ import sitemap from "../C102/C102.js"
 import organisation from "../C200/C202.js";
 import C501 from "../../Components/C500/C501.js";
 import C201 from "../../Components/C200/C201.js";
-import C502 from "../../Components/C500/C502.js";
+import C502 from "../C500/C512.js";
 import node201 from "../C200/C201.js";
 import node202 from "../C200/C202.js";
 import C202 from "../C200/C202.js";
@@ -42,7 +42,7 @@ import node276 from "../C270/Node276.js";
 import C503 from "../C600/C603.js";
 import C003 from "../../Components/C100/C003.js";
 import C141 from "../C100/C141.js";
-import C142 from "../C100/C142.js";
+
 import C1411 from "../../Components/C100/C1411.js";
 import C1412 from '../../Components/C100/C1412.js';
 import C102 from "../C102/C102.js";
@@ -73,476 +73,373 @@ import C617 from "../C600/C617.js";
 import C618 from "../C600/C618.js";
 import C619 from "../C600/C619.js";
 import C620 from "../C600/C620.js";
+import C702 from "../C700/C702.js";
+import C801 from "../C800/C801.js";
+import C512 from "../C500/C512.js";
+import C310 from "../C300/C310.js";
+import C309 from "../C300/C309.js";
+import C308 from "../C300/C308.js";
+import C307 from "../C300/C307.js";
+import C306 from "../C300/C306.js";
+import C305 from "../C300/C305.js";
+import C403 from "../C400/C403.js";
+import C402 from "../C400/C402.js";
+import C407 from "../C400/C407.js";
+import C408 from "../C400/C408.js";
+import C412 from "../C400/C412.js";
+import C406 from "../C400/C406.js";
+
+
+
 const routesConfig = [
   {
-    path: "/nicapsc-iti/Home",
+    path: "/nicapsc-kkdpolice/Home",
     component:C141,
   },
- {
-    path: "/nicapsc-iti/node404",
-    component:C404,
+    {
+    path: "/nicapsc-kkdpolice/node407",
+    component:C407,
+  },  {
+    path: "/nicapsc-kkdpolice/node408",
+    component:C408
   },
    {
-    path: "/nicapsc-iti/node405",
+    path: "/nicapsc-kkdpolice/node412",
+    component:C412
+  },
+  {
+    path: "/nicapsc-kkdpolice/node702",
+    component:C702,
+  },
+  {
+    path: "/nicapsc-kkdpolice/node801",
+    component:C801,
+  },
+  {
+    path: "/nicapsc-kkdpolice/node701",
+    component:C701,
+  },
+ {
+    path: "/nicapsc-kkdpolice/node404",
+    component:C404,
+  },
+  {
+    path: "/nicapsc-kkdpolice/node801",
+    component:C701,
+  },
+   {
+    path: "/nicapsc-kkdpolice/node405",
     component:C405,
   },
   {
-    path: "/nicapsc-iti/node409",
+    path: "/nicapsc-kkdpolice/node409",
     component:C409,
   },
+  {
+    path:"/nicapsc-kkdpolice/node411",
+    component:C411
+  },
     {
-    path: "/nicapsc-iti/node602",
+    path: "/nicapsc-kkdpolice/node602",
     component:C602,
   },
     {
-    path: "/nicapsc-iti/node603",
+    path: "/nicapsc-kkdpolice/node603",
     component:C603,
   },
     {
-    path: "/nicapsc-iti/node604",
+    path: "/nicapsc-kkdpolice/node604",
     component:C604,
   },
     {
-    path: "/nicapsc-iti/node605",
+    path: "/nicapsc-kkdpolice/node605",
     component:C605,
   },
     {
-    path: "/nicapsc-iti/node606",
+    path: "/nicapsc-kkdpolice/node606",
     component:C606,
   },
     {
-    path: "/nicapsc-iti/node607",
+    path: "/nicapsc-kkdpolice/node607",
     component:C607,
   },
     {
-    path: "/nicapsc-iti/node608",
+    path: "/nicapsc-kkdpolice/node608",
     component:C608,
   },
     {
-    path: "/nicapsc-iti/node609",
+    path: "/nicapsc-kkdpolice/node609",
     component:C609,
   },
     {
-    path: "/nicapsc-iti/node610",
+    path: "/nicapsc-kkdpolice/node610",
     component:C610,
   },
-
-    {
-    path: "/nicapsc-iti/node611",
-    component:C611,
-  },
-    {
-    path: "/nicapsc-iti/node612",
-    component:C612,
-  },
-    {
-    path: "/nicapsc-iti/node602",
-    component:C613,
-  },
-    {
-    path: "/nicapsc-iti/node614",
-    component:C614,
-  },
-    {
-    path: "/nicapsc-iti/node615",
-    component:C615,
-  },
-    {
-    path: "/nicapsc-iti/node616",
-    component:C616,
-  },  {
-    path: "/nicapsc-iti/node617",
-    component:C617,
-  },
-    {
-    path: "/nicapsc-iti/node618",
-    component:C618,
-  },
-    {
-    path: "/nicapsc-iti/node619",
-    component:C619,
-  },
-    {
-    path: "/nicapsc-iti/node620",
-    component:C620,
-  }, 
-
   {
-    
-    path: "/nicapsc-iti/node411",
-    component:C411,
-  
-  },
-  
-  {
-    
-    path: "/nicapsc-iti/node413",
-    component:C413,
-  
+    path: "/nicapsc-kkdpolice/node305",
+    component:C305,
   },
   {
-    path: "/nicapsc-iti/node414",
-    component:C414,
-  },
-    {
-    path: "/nicapsc-iti/node410",
-    component:C410,
-  },
-  
-  {
-    path: "/nicapsc-iti/about",
-    component:about,
-  },
- /*{
-    path: "/nicapsc-iti/welcome",
-    component: Welcome,
-  },*/
-  {
-    path: "/nicapsc-iti/Dashboard",
-    component: Dashboard,
+    path: "/nicapsc-kkdpolice/node403",
+    component:C403,
   },
   {
-     path:"/nicapsc-iti/node208",
-     component:C1411,
-  },
-  {
-    path:"/nicapsc-iti/node209",
-    component:C1412,
-  },
-  {
-    path:"/nicapsc-iti/node501",
-    component: C501,
-  },
+    path: "/nicapsc-kkdpolice/node306",
+    component:C306,
+},
 {
-    path:"/nicapsc-iti/node502",
-    component: C502,
-  },
-  {
-    path:"/nicapsc-iti/node503",
-    component: C503,
-  },
-  {
-    path: "/nicapsc-iti/node503",
-    component:C003,
-  },
-  {
-    path: "/nicapsc-iti/rti",
-    component: rti,
-  },
-  {
-    path: "/nicapsc-iti/contactus",
-    component: contactUs,
-  },
-  {
-    path: "/nicapsc-iti/nodeadmin",
-    component: C701,
-  },
- 
-  
-  {
-    path: "/nicapsc-iti/node401",
-    component: C401,
-  },
- 
-  {
-    path: "/nicapsc-iti/api",
-    component: C142,
-  },
-   { 
-    path: "/nicapsc-iti/node601", 
-    component: C601,
-  },
-  {
-    path: "/nicapsc-iti/websitepolicies",
-    component: websitepolicies,
-  },
-  {
-    path: "/nicapsc-iti/help",
-    component: help,
-  },
-  {
-    path: "/nicapsc-iti/map",
-    component: C014,
-  },
-  {
-    path: "/nicapsc-iti/sitemap",
-    component: C102,
-  }, 
-  {
-    path: "/nicapsc-iti/node201",
-    component: C201,
-  },
-  {
-    path: "/nicapsc-iti/node202",
-    component:C202,
-  },
-  {
-    path: "/nicapsc-iti/node203",
-    component:C203,
-  },
-  {
-    path: "/nicapsc-iti/node204",
-    component:C204,
-  },
-  {
-    path: "/nicapsc-iti/node205",
-    component:C205,
-  },
+    path: "/nicapsc-kkdpolice/node307",
+    component:C307,
+},
+{
+    path: "/nicapsc-kkdpolice/node308",
+    component:C308,
+},
+{
+    path: "/nicapsc-kkdpolice/node309",
+    component:C309,
+},
+{
+    path: "/nicapsc-kkdpolice/node310",
+    component:C310,
+},
 
-  {
-    path: "/nicapsc-iti/node301",
+{
+    path: "/nicapsc-kkdpolice/node611",
+    component:C611,
+},
+{
+    path: "/nicapsc-kkdpolice/node612",
+    component:C612,
+},
+{
+    path: "/nicapsc-kkdpolice/node602",
+    component:C613,
+},
+{
+    path: "/nicapsc-kkdpolice/node614",
+    component:C614,
+},
+{
+    path: "/nicapsc-kkdpolice/node615",
+    component:C615,
+},
+{
+    path: "/nicapsc-kkdpolice/node616",
+    component:C616,
+},
+{
+    path: "/nicapsc-kkdpolice/node617",
+    component:C617,
+},
+{
+    path: "/nicapsc-kkdpolice/node618",
+    component:C618,
+},
+{
+    path: "/nicapsc-kkdpolice/node619",
+    component:C619,
+},
+{
+    path: "/nicapsc-kkdpolice/node620",
+    component:C620,
+},
+
+{
+    path: "/nicapsc-kkdpolice/node411",
+    component:C411,
+},
+
+{
+    path: "/nicapsc-kkdpolice/node413",
+    component:C413,
+},
+{
+    path: "/nicapsc-kkdpolice/node414",
+    component:C414,
+},
+{
+    path: "/nicapsc-kkdpolice/node410",
+    component:C410,
+},
+
+{
+    path: "/nicapsc-kkdpolice/about",
+    component:about,
+},
+{
+    path: "/nicapsc-kkdpolice/Dashboard",
+    component: Dashboard,
+},
+{
+    path:"/nicapsc-kkdpolice/node208",
+    component:C1411,
+},
+{
+    path:"/nicapsc-kkdpolice/node209",
+    component:C1412,
+},
+{
+    path:"/nicapsc-kkdpolice/node501",
+    component: C501,
+},
+{
+    path:"/nicapsc-kkdpolice/node512",
+    component: C512,
+},
+{
+    path:"/nicapsc-kkdpolice/node503",
+    component: C503,
+},
+{
+    path: "/nicapsc-kkdpolice/node503",
+    component:C003,
+},
+{
+    path: "/nicapsc-kkdpolice/rti",
+    component: rti,
+},
+{
+    path: "/nicapsc-kkdpolice/contactus",
+    component: contactUs,
+},
+{
+    path: "/nicapsc-kkdpolice/nodeadmin",
+    component: C701,
+},
+{
+    path: "/nicapsc-kkdpolice/node401",
+    component: C401,
+},
+{
+    path: "/nicapsc-kkdpolice/websitepolicies",
+    component: websitepolicies,
+},
+{
+    path: "/nicapsc-kkdpolice/help",
+    component: help,
+},
+{
+    path: "/nicapsc-kkdpolice/map",
+    component: C014,
+},
+{
+    path: "/nicapsc-kkdpolice/sitemap",
+    component: sitemap,
+},
+{
+    path: "/nicapsc-kkdpolice/node201",
+    component: C201,
+},
+{
+    path: "/nicapsc-kkdpolice/node202",
+    component:C202,
+},
+{
+    path: "/nicapsc-kkdpolice/node203",
+    component:C203,
+},
+{
+    path: "/nicapsc-kkdpolice/node204",
+    component:C204,
+},
+{
+    path: "/nicapsc-kkdpolice/node406",
+    component:C406,
+},
+{
+    path: "/nicapsc-kkdpolice/node205",
+    component:C205,
+},
+{
+    path: "/nicapsc-kkdpolice/node301",
     component:C301,
-  },
-  {
-    path: "/nicapsc-iti/node302",
+},
+{
+    path: "/nicapsc-kkdpolice/node302",
     component:C302,
-  },
-  {
-    path: "/nicapsc-iti/node304",
-    component:C304,
-  },
-  {
-    path: "/nicapsc-iti/node303",
-    component:C303,
-  },
- {
-    path: "/nicapsc-iti/node304",
+},
+{
+    path: "/nicapsc-kkdpolice/node304",
     component:C304,
 },
-  {
-    path: "/nicapsc-iti/node271",
+{
+    path: "/nicapsc-kkdpolice/node303",
+    component:C303,
+},
+{
+    path: "/nicapsc-kkdpolice/node271",
     component:node271 ,
-  },
-  {
-    path: "/nicapsc-iti/node272",
+},
+{
+    path: "/nicapsc-kkdpolice/node272",
     component:node272,
-  },
-  {
-    path: "/nicapsc-iti/node273",
+},
+{
+    path: "/nicapsc-kkdpolice/node273",
     component:node273,
-  },
-  {
-    path: "/nicapsc-iti/node274",
+},
+{
+    path: "/nicapsc-kkdpolice/node274",
     component:node274 ,
-  },
-  {
-    path: "/nicapsc-iti/node275",
+},
+{
+    path: "/nicapsc-kkdpolice/node275",
     component:node275,
-  },
-  {
-    path: "/nicapsc-iti/node276",
+},
+{
+    path: "/nicapsc-kkdpolice/node276",
     component:node276,
-  },
-
- 
-
-  {
-    path: "/nicapsc-iti/Home",
+},
+{
+    path: "/nicapsc-kkdpolice/Home",
     component:Home,
-  },
-  {
-    path: "/nicapsc-iti/about",
-    component: about,
-  },
-  {
-    path: "/nicapsc-iti/slide",
+},
+{
+    path: "/nicapsc-kkdpolice/node601",
+    component:node601,
+},
+{
+    path: "/nicapsc-kkdpolice/node402",
+    component:C402
+},
+{
+    path: "/nicapsc-kkdpolice/node412",
+    component:C412
+},
+{
+    path: "/nicapsc-kkdpolice/slide",
     component: C003,
-  },
-  {
-    path: "/nicapsc-iti/rti",
-    component: rti,
-  },
-  {
-    path: "/nicapsc-iti/contactus",
-    component: contactUs,
-  },
-  
-  
-  {
-    path: "/nicapsc-iti/node601",
+},
+{
+    path: "/nicapsc-kkdpolice/node601",
     component: node601,
-  },
-  {
-    path: "/nicapsc-iti/nodeadmin", 
+},
+{
+    path: "/nicapsc-kkdpolice/nodeadmin", 
     component: node701,
-  },
-  {
-    path: "/nicapsc-iti/api",
+},
+{
+    path: "/nicapsc-kkdpolice/api",
     component: api,
-  },
-  {
-    path: "/nicapsc-iti/websitepolicies",
-    component:websitepolicies,
-  },
-  {
-    path: "/nicapsc-iti/help",
-    component: help,
-  },
-  {
-    path: "/nicapsc-iti/map",
-    component:C014,
-  },
-  {
-    path: "/nicapsc-iti/sitemap",
-    component: sitemap,
-  },
-  {
-    path: "/nicapsc-iti/node201",
-    component: node201,
-  },
-  {
-    path: "/nicapsc-iti/node202",
-    component: node202,
-  },
-  {
-    path: "/nicapsc-iti/node203",
-    component: node203,
-  },
-  {
-    path: "/nicapsc-iti/node204",
-    component: node204,
-  },
-  
-  {
-    path: "/nicapsc-iti/node302",
-    component: node302,
-  },
-  {
-    path: "/nicapsc-iti/node303",
-    component: node303,
-  },
+},
 
-
-  {
-    path: "/nicapsc-iti/node271",
-    component:node271 ,
-  },
-  {
-    path: "/nicapsc-iti/node272",
-    component:node272,
-  },
-  {
-    path: "/nicapsc-iti/node273",
-    component:node273,
-  },
-  {
-    path: "/nicapsc-iti/Home",
-    component:Home,
-  },
-  {
-    path: "/nicapsc-iti/about",
-    component: about,
-  },
-  {
-    path: "/nicapsc-iti/slide",
-    component: C003,
-  },
-  {
-    path: "/nicapsc-iti/rti",
-    component: rti,
-  },
-  {
-    path: "/nicapsc-iti/contactus",
-    component: contactUs,
-  },
-  {
-    path: "/nicapsc-iti/nodeadmin", 
-    component: node701,
-  },
-  {
-    path: "/nicapsc-iti/api",
-    component: api,
-  },
-  {
-    path: "/nicapsc-iti/websitepolicies",
-    component:websitepolicies,
-  },
-  {
-    path: "/nicapsc-iti/help",
-    component: help,
-  },
-  {
-    path: "/nicapsc-iti/map",
-    component: C014,
-  },
-  {
-    path: "/nicapsc-iti/sitemap",
-    component: sitemap,
-  },
-  {
-    path: "/nicapsc-iti/node201",
-    component: node201,
-  },
-  {
-    path: "/nicapsc-iti/node202",
-    component: node202,
-  },
-  {
-    path: "/nicapsc-iti/node203",
-    component: node203,
-  },
-  {
-    path: "/nicapsc-iti/node204",
-    component: node204,
-  },
-  {
-    path: "/nicapsc-iti/node211",
+{
+    path: "/nicapsc-kkdpolice/node211",
     component: node211,
-  },
-  {
-    path: "/nicapsc-iti/node302",
-    component: node302,
-  },
-  {
-    path: "/nicapsc-iti/node303",
-    component: node303,
-  },
-  {
-    path: "/nicapsc-iti/node271",
-    component:node271 ,
-  },
-  {
-    path: "/nicapsc-iti/node272",
-    component:node272,
-  },
-  {
-    path: "/nicapsc-iti/node273",
-    component:node273,
-  },
-  {
-    path: "/nicapsc-iti/node204",
-    component: C204,
-  },
-  {
-    path: "/nicapsc-iti/about",
-    component: about,
-  },
-  {
-    path: "/nicapsc-iti/rti",
-    component: rti,
-  },
-  {
-    path: "/nicapsc-iti/contactUs",
-    component:contactUs,
-  },
-  {
-    path: "/nicapsc-iti/node201",
-    component: node201,
-  },
-  {
-    path: "/nicapsc-iti/node211",
-    component: node211,
-  },
-  {
-    path: "/nicapsc-iti/organisation",
+},
+{
+    path: "/nicapsc-kkdpolice/organisation",
     component:organisation,
-  },
+},
+
+
   {
-    path:"/nicapsc-iti/node302", // disclosure management
+    path:"/nicapsc-kkdpolice/node302", // disclosure management
     component:node302, 
   },
   {
-    path: "/nicapsc-iti/node303", // registration
+    path: "/nicapsc-kkdpolice/node303", // registration
     component:node303,
   },
   {
@@ -558,7 +455,7 @@ const routesConfig = [
     component:node273,
   },
   {
-    path: "/nicapsc-iti/about",
+    path: "/nicapsc-kkdpolice/about",
     component: about,
   },
   {
@@ -566,11 +463,11 @@ const routesConfig = [
     component: rti,
   },
   {
-    path: "/nicapsc-iti/contactUs",
+    path: "/nicapsc-kkdpolice/contactUs",
     component:contactUs,
   },
   {
-    path: "/nicapsc-iti/about",
+    path: "/nicapsc-kkdpolice/about",
     component: about,
   },
 
@@ -632,10 +529,7 @@ const routesConfig = [
     path: "/node601", 
     component: C601,
   },
-  {
-    path: "/api",
-    component: C142,
-  },
+ 
   {
     path: "/websitepolicies",
     component: websitepolicies,
@@ -648,10 +542,7 @@ const routesConfig = [
     path: "/map",
     component: C014,
   },
-  {
-    path: "/sitemap",
-    component: C102,
-  }, 
+  
   {
     path: "/node201",
     component: C201,
@@ -721,7 +612,7 @@ const routesConfig = [
  
 
   {
-    path: "/nicapsc-iti/Home",
+    path: "/nicapsc-kkdpolice/Home",
     component:Home,
   },
   {
@@ -766,10 +657,7 @@ const routesConfig = [
     path: "/nicapsc-iti/map",
     component:C014,
   },
-  {
-    path: "/nicapsc-iti/sitemap",
-    component: sitemap,
-  },
+  
   {
     path: "/nicapsc-iti/node201",
     component: node201,
@@ -849,10 +737,7 @@ const routesConfig = [
     path: "/nicapsc-noc/map",
     component: C014,
   },
-  {
-    path: "/nicapsc-noc/sitemap",
-    component: sitemap,
-  },
+  
   {
     path: "/nicapsc-noc/node201",
     component: node201,

@@ -275,13 +275,6 @@
   border-radius: 4px;
 }
 /* Dropdown full blue background and bold items */
-.dropdown-menu {
-  background-color: #00AEEF !important; /* Light Blue */
-  border: 1px solid #fff;
-  padding: 0;
-  min-width: 200px;
-  font-weight: bold;
-}
 
 /* Each dropdown item white text and border */
 .dropdown-menu .dropdown-item {
@@ -303,25 +296,28 @@
 }
 /* Blue background for dropdown */
 .dropdown-menu {
-  background-color: #00AEEF !important;
+  max-height: 300px; 
+    position: absolute;        /* limit dropdown height */
+  overflow-y: auto;       
+   overflow-x: hidden;         /* scroll if content exceeds max-height */
+  background-color: #00AEEF !important; /* blue background */
   border: none;
   padding: 0;
-  min-width: 200px;
   font-weight: bold;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
-  overflow: hidden; /* prevent lines from coming out */
 }
 
 /* Individual dropdown items */
 .dropdown-menu .dropdown-item {
-  color: black !important;         /* Text should be black */
+  height: 40px;               /* fixed height */
+  line-height: 40px;          /* vertically center text */
+  padding: 0 15px;            /* horizontal padding only */
+  color: black !important;
   background-color: transparent !important;
-  padding: 10px 15px;
   font-weight: bold;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* neat inner line */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   transition: background-color 0.2s ease;
 }
-
 /* Last item - no border */
 .dropdown-menu .dropdown-item:last-child {
   border-bottom: none;
@@ -332,3 +328,35 @@
   background-color: #0077b6 !important;
   color: white !important;
 }
+/* Scrollbar for dropdown only */
+.dropdown-menu::-webkit-scrollbar {
+  width: 8px;                /* thin scrollbar */
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+   background: rgba(0, 0, 0, 0.2); /* light track */
+  border-radius: 20px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+   background-color: #00334d;/* darker shade of #00AEEF */
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background-color: #005f87;  /* even darker on hover */
+}
+
+
+@media (max-width: 991px) {
+  .navbar-nav .dropdown-menu {
+    position: static !important;
+    float: none;
+    max-height: 250px;
+    overflow-y: auto;
+    /* display: block !important; */  /* Remove this */
+  }
+}
+

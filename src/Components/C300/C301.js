@@ -1,34 +1,16 @@
 import React from "react";
-import { useSelector } from "react-redux";
-import C121 from "../Common/C121";
-import "./stylesheet.css";
+import C148 from "../Common/C148";
+import siteData from "../../sitedata.json";
 
 function C301() {
-  const siteData = useSelector((state) => state.data.siteData);
+  const dept = siteData.tables.DeptOfficial;
 
   return (
-    <div>
-      {siteData?.PagetypeC?.map((information, index) => (
-        <section className="container" key={index}>
-          <div className="content">
-            <h3 className="m-3 heading-black">{information.heading}</h3>
-
-            {information?.detailservices?.map((content, subIndex) => (
-              <div key={subIndex}>
-                {content.header && <h5>{content.header}</h5>}
-                {content.p && <p>{content.p}</p>}
-
-                <section>
-                  {content?.paragraph?.map((detail, paraIndex) => (
-                    <C121 key={paraIndex} text={detail.p} />
-                  ))}
-                </section>
-              </div>
-            ))}
-          </div>
-        </section>
-      ))}
-    </div>
+    <C148
+      title={dept.title}
+      columns={dept.columns}
+      apiUrl={dept.apiUrl}
+    />
   );
 }
 

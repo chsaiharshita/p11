@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "/nicapsc-iti",
+  "homepage": "/nicapsc-kkdpolice/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -73,7 +73,7 @@
   },
   "scripts": {
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "react-scripts build",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "homepage": "http:// 10.242.162.231:8080/testdcanoc/"

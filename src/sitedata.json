@@ -44,8 +44,35 @@
   "Navlink": [
     {
       "title": "HOME",
-      "link": "/nicapsc-iti/#about"
+      "link": "/nicapsc-kkdpolice/#about"
     }
+  ],
+  "Mobile":[
+    {
+      "heading":"Mobile Missing Complaints",
+      "detailservices":[
+        {
+          "imgsrc":"https://eg.ap.gov.in/p0server/static/p11/images/C501-P11-Missing_Phone2.webp",
+          "imgalt":"Mobile Missing Complaints"
+        },
+        {
+          "heading":"Steps to follow the steps to Track the Missing/lost mobile phone"
+        },
+        {
+          "p":"First send a message by saying HAI/HELP to WhatsApp No. 9490617873"
+        },
+        {
+          "p":"Then Victim receives Google Sheet Link"
+        },
+        {
+          "p":"Victim will fill all columns in Google sheet link and submit"
+        },
+        {
+          "p":"After trace the Mobile phone, informed and handedover to Victim."
+        }
+      ]
+    }
+
   ],
  
   "comment...":"data for the project name with /nicapsc-iti/",
@@ -219,54 +246,54 @@
        },
        {
           "name": "Public Grievance Redressal System(PGRS)",
-          "link": "node502 ",
-          "type": "page"
+          "link": "https://meekosam.ap.gov.in/"
+          
         },
         {
           "name": "Meesava",
-          "link": "node503 ",
-          "type": "page"
+          "link": "https://ap.meeseva.gov.in/IMeeSeva2/IMeesevaHome.aspx"
+         
         },
         {
           "name": "Echallan status",
-          "link": "node504 ",
-          "type": "page"
+          "link": "https://echallan.parivahan.gov.in/index/accused-challan/"
+          
         },
         {
           "name": "Passport Verification Status",
-          "link": "node505 ",
-          "type": "page"
+          "link": "https://www.passportindia.gov.in/psp"
+
         },
         {
           "name": "Know Your Court Case Status",
-          "link": "node506 ",
-          "type": "page"
+          "link": "https://services.ecourts.gov.in/ecourtindia_v6/"
+
         },
         {
           "name": "CEIR",
-          "link": "node507 ",
-          "type": "page"
+          "link": "https://www.ceir.gov.in/Home/index.jsp"
+        
         },
 
          {
           "name": "Financial Fraud",
-          "link": "node508 ",
-          "type": "page"
+          "link": "https://cybercrime.gov.in/Webform/Crime_AuthoLogin.aspx?rnt=5"
+         
         },
         {
           "name": "Other Cyber Crime",
-          "link": "node509 ",
-          "type": "page"
+          "link": "https://cybercrime.gov.in/Webform/crmcondi.aspx"
+
         },
         {
           "name": "Track Your Complaint",
-          "link": "node510 ",
-          "type": "page"
+          "link": "https://cybercrime.gov.in/Webform/chkackstatus.aspx"
+        
         },
          {
           "name": "View FIR",
-          "link": "node511 ",
-          "type": "page"
+          "link": "https://citizen.appolice.gov.in/jsp/citizenLogin.do?method=viewLoginForm&loginfromLink=viewfirlink"
+
         },
         {
           "name": "RTI",
@@ -276,6 +303,7 @@
         
      ]
    },
+   
   {
    "name":"Women's Corner",
    "type":"page",
@@ -284,6 +312,7 @@
       "name":"Women PS Contact",
       "link":"node601",
       "type":"page"
+      
     },
     {
       "name":"Prevent Abuse of 498 A",
@@ -398,6 +427,11 @@
        }
    ]
 
+  },
+  {
+    "name":"Contact",
+    "type":"page",
+    "link":"node801"
   }
   
 ],
@@ -442,6 +476,19 @@
     { "field": "cduration", "header": "Course Duration", "align": "center" }
   ],
 
+
+  "RTI":[
+    {
+      "heading":"RTI ACT",
+      "detailservices":[{
+        "heading":"Right to Information Act"},
+        {
+          "p":"The Right to Information (RTI) is an act of the Parliament of India which sets out the rules and procedures regarding citizens' right to information. It replaced the former Freedom of Information Act, 2002. Under the provisions of RTI Act, any citizen of India may request information from a public authority (a body of Government or instrumentality of State) which is required to reply expeditiously or within thirty days. The Act also requires every public authority to computerize their records for wide dissemination and to proactively publish certain categories of information so that the citizens need minimum recourse to request for information formally."
+        }
+      
+    ]
+    }
+  ],
   "...comment3": "Social icons for top Navbar",
 
   "socialicons": [
@@ -468,7 +515,7 @@
         },
         {
           "iconname1": "fa fa-sitemap",
-          "link1": "sitemap",
+          "link1": "nicapsc-kkdpolice/sitemap",
           "description": ""
         }
       ]
@@ -482,7 +529,7 @@
     {
       "img1": [
         {
-          "imgsrc": "./images/Police_2.png",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/emblem-dark.webp",
           "imgalt": "logo1",
           "link": "https://itiadmissions.ap.gov.in/"
         }
@@ -492,7 +539,7 @@
       "description": [],
       "img2": [
         {
-          "imgsrc": "./images/TPTLogoPNG_1.png",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/Police_l.webp",
           "imgalt": "logo2",
           "link": "https://www.skillindia.gov.in/"
         }
@@ -513,14 +560,20 @@
         {
           "carousel1": [
             {
-              "image": "./images/CM_HM_DGP_SP.jpg",
+              "image": "https://eg.ap.gov.in/p0server/static/p11/images/CM_HM_DGP_SP.webp",
               "imgalt": "First slide"
             }
           ],
           "carousel2": [
             {
-              "image": "./images/Alipiri Poster 3_1.png",
+              "image": "https://eg.ap.gov.in/p0server/static/p11/images/Alipiri Poster 3_1.webp",
               "imgalt": "Second slide"
+            }
+          ],
+          "carousel3": [
+            {
+              "image": "https://eg.ap.gov.in/p0server/static/p11/images/Drugposter.webp",
+              "imgalt": "Third slide"
             }
           ]
         }
@@ -539,8 +592,7 @@
                }
 
           ],
-          "imgsrc": "./nicapsc-iti/images/C-A.jpg",
-          "imgalt": "image1",
+         
           "button": "View More",
           "button_link": "about"
         }
@@ -551,45 +603,17 @@
           "title": "",
           "card1": [
             {
-              "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/CM.jpeg",
+              "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/sp_photo.webp",
               "imgalt": "img-1 ",
-              "title": " Sri. N. Chandrababu Naidu",
-              "description": "Hon'ble Chief Minister",
+              
               "para":[
                 {
                   
-                  "subtitle":"Government of Andhra Pradesh " 
+                  "subtitle":"Superintendent of Police Tirupati District" 
                 }
-              ],
-              "button": "View More"
-            },
-            {
-              "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/image.jpg",
-              "imgalt": "img-2",
-              "title": "Minister",
-              "description": "Skill Development and Training Minister",
-
-              "para":[ 
-                { 
-                  "subtitle":"Government of Andhra Pradesh" }
-              ],
-             
-              
-              "button": "View More"
-            },
-            {
-              "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/image.jpg",
-              "imgalt": "img-3",
-              "title": "I.T.I Commissioner.",
-              "description": "Industrial Training Institues.",
-              "para":[
-                {  
-                  "subtitle":"Government of Andhra Pradesh."
-                }
-              ],
-             
-              "button": "View More"
+              ]
             }
+           
            
           ]
         }
@@ -620,26 +644,7 @@
             }
           ],
             
-              "subsection3": [
-                {
-                  "title": "Media Gallery ",
-                  "carousel1": [
-                    {
-                      "img": "./nicapsc-iti/image1/cardimg-3.jpg",
-                      "imgalt": "First slide"
-                    }
-                  ],
-                  "carousel2": [
-                    {
-                      "img": "./nicapsc-iti/image1/cardimg-4.jpg",
-                      "imgalt": "Second slide"
-                    }
-                  ],
-                
-                  "button": "View More",
-                  "button_link": "Images"
-                }
-              ],
+            
           "subsection2": [
             {
               "title": "Media Gallery",
@@ -711,10 +716,9 @@
        
 
     ],
-    "imgsrc": "./nicapsc-iti/images/C-A.jpg",
-    "imgalt": "image1",
-    "button": "View More",
-    "button_link": "about"
+    "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/sp_photo.webp",
+    "imgalt": "image1"
+   
   }
 ],
 
@@ -723,7 +727,7 @@
     "title": "",
     "card1": [
       {
-        "imgsrc": "./images/sp_photo.jpeg",
+        "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/sp_photo.webp",
         "imgalt": "img-1 ",
         "title":"   Sri L SUBBARAYUDU, I.P.S",
         "description":"Superintendent of Police Tirupati District.",
@@ -732,37 +736,10 @@
             
             "subtitle":"  " 
           }
-        ],
-        "button": "View More"
-      },
-      {
-        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C005-p0-image2.webp",
-        "imgalt": "img-2",
-        "title": "Minister",
-        "description": "Skill Development and Training Minister, Andhra Pradesh",
-
-        "para":[ 
-          { 
-            "subtitle":"" }
-        ],
+        ]
        
-        
-        "button": "View More"
-      },
-      {
-        "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C005-p0-image2.webp",
-        "imgalt": "img-3",
-        "title": "Commissioner",
-        "description": "Industrial Training Institues,Andhra Pradesh",
-        "para":[
-          {  
-            "subtitle":""
-          }
-        ],
-       
-        "button": "View More"
       }
-     
+      
     ]
   }
 ],
@@ -797,7 +774,7 @@
       "link": "https://www.meity.gov.in/"
     },
     {
-      "p":" Last Updated: Oct 03, 2024."
+      "p":" Last Updated: Sept 27, 2025"
     }
   ],
 
@@ -949,6 +926,148 @@
      
     }
   ],
+  "tables": {
+    "DeptOfficial": {
+      "title": "Department Official",
+      "apiUrl": "https://eg.ap.gov.in/p0server/api/p11c301",
+      "columns": [
+        "Serial No.",
+        "Circle Name",
+        "Police Station Name",
+        "Head",
+        "Mobile",
+        "Email Address",
+        "Land Line Number",
+        "Address"
+      ]
+    },
+    "SDPO": {
+      "title": "Department Official",
+      "apiUrl": "https://eg.ap.gov.in/p0server/api/p11c302",
+      "columns": [
+        "Serial No.",
+        "Circle Name",
+        "Police Station Name",
+        "Head",
+        "Mobile",
+        "Email Address",
+        "Land Line Number",
+        "Address"
+      ]
+    },
+    "Chandragiri": {
+      "title": "Department Official",
+      "apiUrl": "https://eg.ap.gov.in/p0server/api/p11c303",
+      "columns": [
+        "Serial No.",
+        "Circle Name",
+        "Police Station Name",
+        "Head",
+        "Mobile",
+        "Email Address",
+        "Land Line Number",
+        "Address"
+      ]
+    },
+    "Renugunta": {
+      "title": "Department Official",
+      "apiUrl": "https://eg.ap.gov.in/p0server/api/p11c304",
+      "columns": [
+        "Serial No.",
+        "Circle Name",
+        "Police Station Name",
+        "Head",
+        "Mobile",
+        "Email Address",
+        "Land Line Number",
+        "Address"
+      ]
+    },
+    "Srikalahasti": {
+      "title": "Department Official",
+      "apiUrl": "https://eg.ap.gov.in/p0server/api/p11c305",
+      "columns": [
+        "Serial No.",
+        "Circle Name",
+        "Police Station Name",
+        "Head",
+        "Mobile",
+        "Email Address",
+        "Land Line Number",
+        "Address"
+      ]
+    },
+    "Puttur": {
+      "title": "Department Official",
+      "apiUrl": "https://eg.ap.gov.in/p0server/api/p11c306",
+      "columns": [
+        "Serial No.",
+        "Circle Name",
+        "Police Station Name",
+        "Head",
+        "Mobile",
+        "Email Address",
+        "Land Line Number",
+        "Address"
+      ]
+    },
+     "Guduru": {
+      "title": "Department Official",
+      "apiUrl": "https://eg.ap.gov.in/p0server/api/p11c307",
+      "columns": [
+        "Serial No.",
+        "Circle Name",
+        "Police Station Name",
+        "Head",
+        "Mobile",
+        "Email Address",
+        "Land Line Number",
+        "Address"
+      ]
+    },
+     "Naidupeta": {
+      "title": "Department Official",
+      "apiUrl": "https://eg.ap.gov.in/p0server/api/p11c308",
+      "columns": [
+        "Serial No.",
+        "Circle Name",
+        "Police Station Name",
+        "Head",
+        "Mobile",
+        "Email Address",
+        "Land Line Number",
+        "Address"
+      ]
+    },
+     "Crime": {
+      "title": "Department Official",
+      "apiUrl": "https://eg.ap.gov.in/p0server/api/p11c309",
+      "columns": [
+        "Serial No.",
+        "Circle Name",
+        "Police Station Name",
+        "Head",
+        "Mobile",
+        "Email Address",
+        "Land Line Number",
+        "Address"
+      ]
+    },
+     "Traffic": {
+      "title": "Department Official",
+      "apiUrl": "https://eg.ap.gov.in/p0server/api/p11c310",
+      "columns": [
+        "Serial No.",
+        "Circle Name",
+        "Police Station Name",
+        "Head",
+        "Mobile",
+        "Email Address",
+        "Land Line Number",
+        "Address"
+      ]
+    }
+  },
 
   "...Comment1":"Information of About-Menu",
 "History": [
@@ -964,6 +1083,10 @@
       {"p":"Tirupati District is one of the twenty-six districts in the Andhra Pradesh and one of the eight districts in the Rayalaseema region. Tirupati District has been formed with the jurisdiction of 34 Mandals, with Four Revenue Divisions (Tirupati, Srikalahasthi, Sullurpeta and Gudur). The total area extent is 9174 Sq. KMs and the total population is 22.18 lakhs."},
       {
         "p":"Tirupati District is surrounded by SPSR Nellore District, Chittoor District, Annamayya District, Tamilnadu State and Bay of Bengal."
+      },
+      {
+         "imgsrc":"https://eg.ap.gov.in/p0server/static/p11/images/C201-P11-District_map.webp",
+         "imgalt":" Dsitrict Map"
       },
       {
         "heading":"HISTORICAL IMPORTANCE OF TIRUMALA AND TIRUPATI"
@@ -1024,6 +1147,63 @@
   ]
 }
 ],
+ "Armed":[
+    {
+      "heading":"ARMED RESERVE",
+      "detailservices":[
+          {
+            "p":"The District Armed Reserve, Tirupati consists of 18 Platoons including Headquarters Platoon. Which was sanctioned by Govt of A.P Vide G.O. Ms.No.163, Home (SER-III) Dept. Dt: 23-06-2010."
+          },
+          {
+            "p":"1.Armed Reserve- general will work under the guidance of one Reserve Inspector (Admin) who will look after deployment."
+          },
+          {
+            "p":"2.District Security Wing - which will provide PSOs to VIPs in the district . Bomb Disposal Team."
+          },
+          {
+            "p":"3.Motor Transport works under one Sub-Inspector Rank Officer . Unit Welfare - one Reserve Inspector will look after welfare of Police, maintenance of Hospital and others under direct supervision of SP"
+          }
+      ]
+    }
+  ],
+"Crimes3":[
+    {
+      "heading":"Crime ",
+      "detailservices":[
+        {
+        "heading":"Crime control"
+        },
+        {
+          "p":"Crime control refers to methods taken to reduce crime in a society."
+        },
+        {
+          "p":"Crime control prioritizes the power of the government to protect society."},
+        
+    {
+      "heading":"Crime Prevention"
+    },
+        {
+          "p":"Community crime prevention is based upon the premise that private citizens can play a major role in preventing crime in their neighborhoods."
+        },
+        {
+          "p":"Community crime prevention programs focus on increasing the participation of individual citizens, small groups, and voluntary community organizations in activities designed to reduce crime and to improve the quality of neighborhood life."
+        },
+    {
+      "heading":"Crime Detection"
+    },
+        {
+          "p":"Patrolling and reactive policing is felt to have limited impact against serious or professional crime which must be the target of proactive policing."
+        },
+        {
+          "p":"On the other hand, public tranquility and reassurance are important goals which can be addressed by strategies such as visible patrols. This duality of objectives is reflected in the key national objectives set for the police by the Home Office."
+        },
+        {
+          "p":"To maintain and, if possible, increase the number of detections for violent crime."
+        }
+      ]
+    }
+
+  ],
 
   "Crime":[
     {
@@ -1062,6 +1242,13 @@
       ]
     }
 
+  ],
+  "C601":[{
+    "detailservices":[{
+"imgsrc":"https://eg.ap.gov.in/p0server/static/p11/images/C601-P11.webp",
+      "imgalt":"Women PS Abuse"
+  }]
+  }
   ],
   "WomenPS":[
     {
@@ -1423,38 +1610,401 @@
   }
 
 ],
-  "...Comment3":"Information of ContactUs-Menu",
- 
-
-"contact": [
+"CrimeLaws":[{
+  "detailservices":[
   {
-    "title": "Contact Us",
-    "heading":"Telephone Numbers",
-    "description":"",
-    "link":"",
-    "subtitle":"Office Location",
-    "header":"Office Address",
-    "paragraph": [
-      {
-        "p": "Department of Employment and Training,ITI P.O., "
-      },
-      {
-        "p": "Industrial Trainning Institute, "
-      },
-      {
-        "p": "Government of Andhra Pradesh,"
-      },
-      {
-        "p": "Vijayawada,NTR District, Andhra Pradesh-520 008, INDIA."
-      }
+    "imgsrc":"https://eg.ap.gov.in/p0server/static/p11/images/C701-P11-BNS-1.webp",
+    "imgalt":"Bharatiya Nagarik Suraksha Sanhita"
+  },
+  {
+    "heading":"Bharathiya Nyaya Sanhita",
+    "link":"https://eg.ap.gov.in/p0server/static/p11/pdf/C701-P11-BNSS.pdf"
+  },
+  {
+    "imgsrc":"https://eg.ap.gov.in/p0server/static/p11/images/C701-P11-Bns-1_1.webp",
+    "imgalt":"Bharatiya Nagarik Suraksha Sanhita"
+  },
+  {
+    "heading":"Bharathiya Nyaya Sanhita",
+    "link":"https://eg.ap.gov.in/p0server/static/p11/pdf/C701-P11-BNS.pdf"
+  },
+  {
+    "imgsrc":"https://eg.ap.gov.in/p0server/static/p11/images/C701-p11-bsa_1.webp",
+    "imgalt":"Bharatiya Sakshya Adhiniyam"
+  },
+  {
+    "heading":"Bharatiya Sakshya Adhiniyam",
+    "link":"https://eg.ap.gov.in/p0server/static/p11/pdf/C701-P11-BNS_2.pdf"
 
-    ],
-    "imgsrc": "https://eg.ap.gov.in/p0server/static/p0/images/C601-p0-address1.webp",
-    "imgalt": "image1",
-    "link1" :"/map"
+  }  ]
+
+}],
+"Crimes":[
+  {
+    "heading":"Type of Crimes",
+    "detailservices":[
+      {
+        "p":"Bodily Offences include Murder, Culpable Homicide not amounting to Murder, Rape, Attempt to Murder, Hurt cases, Kidnappings and Riotings."
+      },
+      {
+        "heading":"Reasons for Bodily offences:"
+      },
+      {"p":"Murders: Family disputes, Sexual jealousy, Petty quarrels, Sudden and grave provocation, Property / Land / House Disputes, Previous enmity, Love affairs, Marriage and Others."},
+      {
+        "p":"Rape: Consensual rapes, Forcible rapes and False promise of marriage resulting rape."
+      },
+      {
+        "p":"Attempt to Murder: Family disputes, Petty quarrels, Previous enmity, Property / Land / House Dispute, Sexual jealousy, Sudden and grave provocation, Love affairs, Police Assault, Civil dispute, Marriage and Others."
+      },
+      {
+        "p":"Hurt: Petty Quarrel, Family dispute, Previous Enmity, Land disputes, Property disputes, Sudden and grave provocation, Civil disputes, Sexual jealousy, Love affairs, Marriage, Police assault, Student rivalry, and Others."
+      },{
+        "p":"Riotings: Land disputes, previous enmity, Sudden and grave provocation, Property disputes, Petty Quarrel, Gang rivalry, Sexual jealousy and others."
+      },
+      {
+        "p":"Kidnapping: Love affairs, Marriage, Family dispute, Sexual jealousy, Petty Quarrel, Land disputes, Property disputes, previous enmity, Civil dispute and others."
+      },
+      {
+        "p":"Advice to the public:Report to the Police about prevailing tensions immediately, Call Dial 100,Child helpline 1098, Women helpline 1091."
+      },
+      {
+        "p":"Property Offences include Murder for gain, Dacoity, Robbery, HBs by Day & Night and Ordinary Thefts."
+      },
+      {
+        "heading":"Reasons for Property Offences:"
+      },
+      {
+        "p":"Youth addicted to vices and committing offences to earn easy money."
+      },
+      {
+        "p":"Lack of awareness among the public to safeguard their property."
+      },
+      {
+        "p":"Not giving information to the Police before leaving house and lack of awareness about LHMS."
+      },
+      {
+        "p":"Poverty."
+      },
+      {
+        "p":"Illiteracy."
+      },
+      {
+        "heading":"Advice to the Public:"
+      },
+      {
+        "p":"In view of on-going summer vacation, the public are advised to make better use of the LHMS (Locked House Monitoring system) by registering their names with the Police department to prevent House thefts."
+      },
+      {
+        "p":"Inform the Police by quickest means about the suspicious movement of persons and strangers in your locality."
+      },
+      {
+        "p":"Install surveillance cameras at residences."
+      },
+      {
+        "heading":"Advice to the Public:"
+      },
+      {
+        "p":"In view of on-going summer vacation, the public are advised to make better use of the LHMS (Locked House Monitoring system) by registering their names with the Police department to prevent House thefts."
+      },
+      {
+        "p":"Inform the Police by quickest means about the suspicious movement of persons and strangers in your locality."
+      },
+      {
+        "p":"Install surveillance cameras at residences."
+      },
+      {
+        "p":"Inform Police about departure from their residence on holidays to keep vigil on their residence."
+      },
+      {
+        "p":"Crime against Women includes Rape, Harassment, Outraging Modesty and Others"
+      },
+      {
+        "heading":"Reasons for crime against Women:"
+      },
+      {
+        "p":"Love affairs, family disputes, extramarital relations and Sexual Jealousy."
+      },
+      {
+        "heading":"Advice to the Women fraternity:"
+      },
+      {
+        "p":"Do not share personal information in Social media and as well as with strangers."
+      },
+      {
+        "heading":"Further the Duties of the SHO include"
+      },
+      {
+        "p":"Personal leadership and supervision of duties and work of all the staff and men allotted to his charge including their welfare, discipline and morale."
+      },
+      {
+        "p":"Organizing and active participation in crime prevention and detection, maintenance of law and order and anti-terror operations, dispersal of unlawful assemblies and prevention of breach of peace and public order.Organizing beats and patrols and its personal supervision."
+      },
+      {
+        "p":"Designing and implementation of policing schemes suited to such beat areas and securing co-operation of public and maître committees."
+      },
+      {
+        "p":"Obtaining prompt information about activities in the field of Communal, Caste, Political, Student, or other segments of society including subversive elements and identify trouble spots and trouble mongers and to take effective preventive measures like launching security proceedings under Cr.P.C."
+      },
+      {
+        "p":"Maintenance of good public relations in his station limits."
+      },
+      {
+         "p":"Visiting and spending adequate time in the villages, localities of his station limit."
+      },
+      {
+        "p":"Maintenance of effective surveillance over bad characters, anti-social elements, and rowdies of the area under his charge."
+      },
+      {
+        "p":"Constantly endeavor to maintain high professional standard and keep himself updated, well informed and motivated"
+      },
+      {
+        "p":"Pursuit and apprehension of offenders on available clues and information."
+      },{
+        "p":"Collection of information on all important matters relevant to police duties and his functions and communicating the same to his immediate superior police officer and to other concerned superior police officers promptly."
+      }
+    ]
   }
+
 ],
 
+"Announcements": {
+    
+    "a": [
+      {
+        "aname": "Dial: 100"
+      },
+      {
+        "aname": "Dial: 112"
+      },
+      {
+        "aname": "Control Room: 8099999977"
+      },
+      {
+        "aname": "Police Whatsapp Number: 8099999977"
+      },
+      {
+        "aname": "Cyber Crime Whatsapp: 9490617873"
+      },
+      {
+        "aname": "Cyber Mitra Whatsapp: 9121211100"
+      }
+    ]
+  },
+
+"IT4":[
+    {
+      "heading":"IT Core team",
+      "detailservices":[
+        {
+          "p":"1.Conducting training to all police personnel in the District on Basics of computer awareness Intranet Applications : a) Mailing System b)Enterprise eCOPS c) Meeseva d)CCTNS project and IT related applications."
+  },
+  {
+    "p":"2.Meeseva Petitions: Monitoring Meeseva Petition flow through the user ID of Nodal Officer, forwarding to concerned SHOs."
+},
+{
+  "p":"3.Monitoring Data Entry work in EeCOPS under CCTNS project: 7 integrated forms in eCops of cases from 1.6.2013 to till date are being updated by Police Station computer operators and also monitor online EeCOPS DSR."
+}
+      ]
+    }
+  ],
+  "...Comment3":"Information of ContactUs-Menu",
+ 
+"DCRB":[{
+  "heading":"DISTRICT CRIME RECORDS BUREAU (DCRB)",
+  "detailservices":[{
+    "p":"1.The DCRB is the criminal intelligence and information agency of the district of Police and an integral part of the crime-criminal information the state and the country."
+  },
+  {"p":"2.Compilation, maintenance, updating of criminal records and crime- criminal information system."},
+  {
+    "p":"3.Maintain the computer centre in district and regularly update the data pertaining to crime-criminal information system (CCIS)."
+  },
+  {
+    "p":"4.Bureau advises investigating officers in the investigation of cases and furnishes classified information to them and superior officers."
+  },
+  {
+    "p":"5.Collection of information and intelligence form all Police wings (Detective, L&O, Traffic, and Women, Police stations)."
+  },
+  {
+    "p":"6.Maintaining Records of the all bad characters."
+  },
+  {
+    "p":"7.Preparing the crime meeting notes."
+  },
+  {"p":"8.Maintain MO books of criminals."},
+  {
+    "P":"9.Forwarding Statistical reports to SCRB."
+  },
+  {
+    "p":"10.Data of white collar and accidental cases."
+  },
+  {
+    "p":"11.Data of Crime against women and children cases."
+  },
+  {
+
+  "p":"12.Data of Un-identified dead bodies and Missing cases."
+  },
+  {
+    "p":"13.Data of Red sandal and sand cases."
+  },
+  {"p":"14.Corresponding on SC&ST cases."},
+  {
+    "p":"15.Performance indicators and PSIs evolution reports."
+  },
+  {
+    "p":"16.Preparation of weekly crime and occurrence sheets and maintain officers visiting notes."
+  },
+  {
+    "p":"17.Corresponding on Refer cases, High court matters, Appeals, Forwarding of Judgment copies."
+  },
+  {
+    "p":"18.Corresponding on Inspection notes, furlough/Parole petitions, UT prisoners, Detail reports of special grave cases, weekly dairies and Itinerary reports."
+  },
+  {
+    "p":"19.Corresponding on NHRC/SHRC and SC/ST and Women commissions of State and Nation, replies."
+  },
+  {
+    "p":"20.Miscellaneous works endorsed by Superintendent of Police."
+  }
+],
+  
+  "columns":["S.NO","Seat Name","Duties"],
+  "rows":[
+    {
+      "S.NO":1,
+      "Seat Name":"Inspector of Police",
+      "Duties":"Over all Supervision of the proceedings, compliance reports to Superior Officers and sending of returns etc."
+    },
+     {
+      "S.NO":2,
+      "Seat Name":"SI -1",
+      "Duties":"Maintenance of Gang files, General Subject files and supervision of the work of D1, D3, D4 and D5 etc."
+    },
+     {
+      "S.NO":3,
+      "Seat Name":"SI -2",
+      "Duties":"Supervision of the work of C1. C2, C3 seat and DTRB etc."
+    },
+     {
+      "S.NO":4,
+      "Seat Name":"D1",
+      "Duties":"Maintenance of Dossier sheets, preparation of monthly and quarterly statements, Current Doings of DCs. Maintenance of Indices and other correspondence pertaining to DCs."
+    },
+    
+     {
+      "S.NO":5,
+      "Seat Name":"D2",
+      "Duties":"Monthly Crime Review & Crime Statements, SCRB statements and Data for S.Ps. Crime meeting and preparing of Part - I for SP and etc."
+    },
+     {
+      "S.NO":6,
+      "Seat Name":"D3",
+      "Duties":"Statistical work, Maintenance of FIRs and preparation of CRIME IN INDIA Statements Correspondence relating to SCRB, CID and (L &O) R/R., A.P. Hyderabad"
+    },
+     {
+      "S.NO":7,
+      "Seat Name":"D4",
+      "Duties":"Collection of F.Ps, Conviction memos and submission of these records to Director, Finger Print Bureau and F.P.B. Inspector, maintenance of History of Crime and Jail Release Register, UT Prisoners, disposal of cases in Lok-Adalath. Cases reported against Juveniles."
+    },
+     {
+      "S.NO":8,
+      "Seat Name":"D5",
+      "Duties":"Preparation of Crime and occurrence Sheet, issue of Advisory & Crime warning memo's, collection of missing and un-identified dead bodies cases and submitting photos to CIG, Hyderabad, arrest particulars pertaining to Property offences."
+    },
+     {
+      "S.NO":9,
+      "Seat Name":"DTRB",
+      "Duties":"All matters related to Dist. Traffic Record Bureau, collection road accident data, Preparation of D.T.R.B replies and uploading of Chandranna Bheema documents etc."
+    },
+     {
+      "S.NO":10,
+      "Seat Name":"C1",
+      "Duties":"Detailed reports in Spl Grave crimes, suits and writ petitions of High court, Supreme court and other courts, bail applications all magisterial enquires, Police firing correspondence under crime and NHRC/SHRC correspondence. Parole/Furlough and correspondence of jails, sanction of prosecution orders in arms act and EC Act and withdrawal/transfer/referred cases."
+    },
+     {
+      "S.NO":11,
+      "Seat Name":"C2",
+      "Duties":"M.V Act and road accident cases. Counterfeit currency, matka, gambling, service of summons, NBWs etc., prosecution of PIT Act cases."
+    },
+     {
+      "S.NO":12,
+      "Seat Name":"C3",
+      "Duties":"Crime against women, SC/ST cell correspondence, petitions of SC/STs etc., all returns under SC/STs cell, usage of fire arms/explosives NOCs."
+    },
+     {
+      "S.NO":13,
+      "Seat Name":"",
+      "Duties":	"Maintenance of in-word & out-word tappal registers and filing of whatsApp replies"
+    },
+     {
+
+      "S.NO":14,
+      "Seat Name":"",
+      "Duties":"Miscellaneous"
+    }
+
+  ]
+}
+
+],
+"ContactUs": [
+  {
+    "heading":"Department Official",
+    
+      
+        "columns":["SNO","Rank/ Designation","Landline.No","Mobile.No","Gmail ID(O)"],
+        "rows":[
+          {
+          "SNO":1,
+          "Rank/ Designation":"Supdt of Police, Tirupati",
+          "Landline.No":"0877-2289000",
+          "Mobile.No":"9440796702",
+          "Gmail ID(O)":"sptirupatiap@gmail.com"
+          },
+          {
+          "SNO":2,
+          "Rank/ Designation":"Supdt of Police(FAX C.O)",
+          "Landline.No":"0877-2289001",
+          "Mobile.No":"",
+          "Gmail ID(O)":""
+          },
+          {
+          "SNO":4,
+          "Rank/ Designation":"Addl Supdt of Police(Admin)",
+          "Landline.No":"0877-2289041",
+          "Mobile.No":"9440796703",
+          "Gmail ID(O)":"sptirupatiap@gmail.com"
+          },
+          {
+          "SNO":5,
+          "Rank/ Designation":"Addl Supdt of Police (L & O)",
+          "Landline.No":"0877-2233216",
+          "Mobile.No":"9491361257",
+          "Gmail ID(O)":"addlsplotptu@gmail.com"
+          },
+          {
+          "SNO":6,
+          "Rank/ Designation":"Addl. Supdt of Police,Crimes,Tpt",
+          "Landline.No":"0877-2289024",
+          "Mobile.No":"8332970884",
+          "Gmail ID(O)":"aspcrimestpt@gmail.com"
+          },
+          {
+          "SNO":1,
+          "Rank/ Designation":"Tirumala Addl S.P.,",
+          "Landline.No":"0877-2289069",
+          "Mobile.No":"7382296364",
+          "Gmail ID(O)":"asptml59@gmail.com"
+          }
+         
+
+        ]
+      }
+  
+  
+
+],
+  
   "Form": [
   {
     "title": "Student Data",
@@ -1472,47 +2022,451 @@
   }
 ],
 
-  "MahilaRakshak": [
-  {
-    "heading": "Mahila Rakshak",
-    "detailservices": [
-      {
-        "p": "Mahila Rakshak initiative was launched in Tirupati Urban district with the vision of providing a safe and secure environment for women and to reduce incidences of woman harassment in the society. As part of the initiative special Mahila Rakshak teams were formed in each subdivision with primary responsibility of dealing with issues pertaining to crime against women. These teams are tasked with foremost, prevention of crime against woman and to simultaneously unearth unreported instances of woman harassment taking place regularly in the society and going unreported out of fear or humiliation to the victims."
+"MahilaRakshak": [
+    {
+      "heading": "Mahila Rakshak",
+      "detailservices": [
+        {
+          "p": "Mahila Rakshak initiative was launched in Tirupati Urban district with the vision of providing a safe and secure environment for women and to reduce incidences of woman harassment in the society. As part of the initiative special Mahila Rakshak teams were formed in each subdivision with primary responsibility of dealing with issues pertaining to crime against women. These teams are tasked with foremost, prevention of crime against woman and to simultaneously unearth unreported instances of woman harassment taking place regularly in the society and going unreported out of fear or humiliation to the victims."
+        },
+        {
+          "p": "Mahila Rakshak Teams are engaged in round the clock surveillance at important and vulnerable areas where offenders try to take advantage of unsuspecting victims. These dedicated teams are a boon to the women who can get timely police help and go about their routine without fear."
+        },
+        {
+          "p": "Since women should be able to move in the society with confidence, dignity and self respect, these teams seek to instill confidence in women to stand up and speak out against offenders so that their own safety and safety of other women is not compromised upon."
+        }
+      ]
+    },
+    {
+      "columns": ["S No", "Sub Division", "Name of the PS", "Rakshak"],
+      "rows": [
+        {
+          "sno": 1,
+          "title": "EAST",
+          "links": [
+            { "nameoftheps": "EAST PS", "rakshak": "RAKSHAK 1 & 2" },
+            { "nameoftheps": "ALIPIRI PS", "rakshak": "RAKSHAK 3 & 4" },
+            { "nameoftheps": "TIRUCHANUR PS", "rakshak": "RAKSHAK 5" }
+          ]
+        },
+        {
+          "sno": 2,
+          "title": "WEST",
+          "links": [
+            { "nameoftheps": "WEST PS", "rakshak": "RAKSHAK 6" },
+            { "nameoftheps": "SVU PS", "rakshak": "RAKSHAK 7" },
+            { "nameoftheps": "M R PALLI PS", "rakshak": "RAKSHAK 8" },
+            { "nameoftheps": "CHANDRAGIRI PS", "rakshak": "RAKSHAK 9 & 10" },
+            { "nameoftheps": "TIRUMALA I TOWN PS", "rakshak": "RAKSHAK 11" },
+            { "nameoftheps": "TIRUMALA II TOWN PS", "rakshak": "" }
+          ]
+        },
+        {
+          "sno": 3,
+          "title": "RENIGUNTA",
+          "links": [
+            { "nameoftheps": "RENIGUNTA PS", "rakshak": "RAKSHAK 12" },
+            { "nameoftheps": "GAJULAMANDYAM PS", "rakshak": "" },
+            { "nameoftheps": "VADAMALAPETA PS", "rakshak": "" },
+            { "nameoftheps": "R C PURAM PS", "rakshak": "RAKSHAK 13" },
+            { "nameoftheps": "YERPEDU PS", "rakshak": "" }
+          ]
+        },
+        {
+          "sno": 4,
+          "title": "SKHT",
+          "links": [
+            { "nameoftheps": "SRI KHALAHASTRI I TOWN", "rakshak": "RAKSHAK 14" },
+            { "nameoftheps": "SRI KHALAHASTRI II TOWN", "rakshak": "RAKSHAK 15" },
+            { "nameoftheps": "SRI KHALAHASTRI RURAL", "rakshak": "" },
+            { "nameoftheps": "B N KANDRIGA", "rakshak": "" },
+            { "nameoftheps": "THOTAMBEDU", "rakshak": "" }
+          ]
+        },
+        {
+          "sno": 5,
+          "title": "SPECIAL RAKSHAK",
+          "links": [
+            { "nameoftheps": "GAJULAMANDYAM", "rakshak": "SPECIAL RAKSHAK 16" },
+            { "nameoftheps": "TIRUCHANUR", "rakshak": "SPECIAL RAKSHAK 17 & 18" },
+            { "nameoftheps": "M R PALLI", "rakshak": "SPECIAL RAKSHAK 19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "BLUECOLTS": [
+    {
+      "heading": "What is Blue colts:",
+      "detailservices": [
+        {
+          "p": "Blue colts are envisaged as a dedicated mobile Quick reaction team that will attend to emergencies and spots of distress. Thereby it is an emergency mobile team moving on bikes which respond to distress calls received via Dial 100 system immediately. Therefore, they will rush to rescue victims of eve-teasing, chain-snatching, violence against women, road accidents, thefts etc on a 24x7 basis. Hence, the system will decrease Police response time to distress calls thereby rendering better emergency response services to the public of Tirupati Urban. Each Blue colt bike is equipped with a GPS tracking unit, Communication set and manned by two police personnel who are continuously tracked in real time at the Command and Control Room Tirupati Urban thereby helping the command control to track, map and guide the blue colt unit from the time of receiving distress call till closing of complaint. Hence, enabling effective use of technology for service delivery."
+        }
+      ]
+    },
+    {
+      "heading": "Department Official",
+      "columns": ["S No", "Sub Division", "Name of the PS", "Blue Colts"],
+      "rows": [
+        {
+          "title": "EAST",
+          "links": [
+            { "nameoftheps": "EAST PS", "bluecolts": "BLUE COLTS 1,2,3,4" },
+            { "nameoftheps": "ALIPIRI PS", "bluecolts": "BLUE COLTS 5,6,7" },
+            { "nameoftheps": "TIRUCHANUR PS", "bluecolts": "BLUE COLTS 8,9,10" }
+          ]
+        },
+        {
+          "title": "WEST",
+          "links": [
+            { "nameoftheps": "WEST PS", "bluecolts": "BLUE COLTS 11, 12" },
+            { "nameoftheps": "SVU PS", "bluecolts": "BLUE COLTS 13, 14" },
+            { "nameoftheps": "M R PALLI PS", "bluecolts": "BLUE COLTS 15, 16" },
+            { "nameoftheps": "CHANDRAGIRI PS", "bluecolts": "BLUE COLTS 17" },
+            { "nameoftheps": "TIRUMALA I TOWN PS", "bluecolts": "BLUE COLTS 18" },
+            { "nameoftheps": "TIRUMALA II TOWN PS", "bluecolts": "BLUE COLTS 19, 20" }
+          ]
+        },
+        {
+          "title": "RENIGUNTA",
+          "links": [
+            { "nameoftheps": "RENIGUNTA PS", "bluecolts": "BLUE COLTS 21" },
+            { "nameoftheps": "GAJULAMANDYAM PS", "bluecolts": "BLUE COLTS 28" },
+            { "nameoftheps": "VADAMALAPETA PS", "bluecolts": "BLUE COLTS 29" },
+            { "nameoftheps": "R C PURAM PS", "bluecolts": "BLUE COLTS 30" },
+            { "nameoftheps": "YERPEDU PS", "bluecolts": "BLUE COLTS 22" }
+          ]
+        },
+        {
+          "title": "SKHT",
+          "links": [
+            { "nameoftheps": "SRI KHALAHASTRI I TOWN", "bluecolts": "BLUE COLTS 23" },
+            { "nameoftheps": "SRI KHALAHASTRI II TOWN", "bluecolts": "BLUE COLTS 24" },
+            { "nameoftheps": "SRI KHALAHASTRI RURAL", "bluecolts": "BLUE COLTS 25" },
+            { "nameoftheps": "B N KANDRIGA", "bluecolts": "BLUE COLTS 26" },
+            { "nameoftheps": "THOTAMBEDU", "bluecolts": "BLUE COLTS 27" }
+          ]
+        }
+      ]
+    }
+  ],
+  "Police": [
+    {
+      "heading": "BRIEF NOTE ON TRAFFIC POLICE STATION,TIRUPATI.",
+      "detailservices": [
+        {
+          "p": "Traffic Police Station at Tirupati was formed on 1-4-1968 vide GO Ms. No. 320 Home (Police-B) Dept. dt.08-3-1968, with a sanctioned strength of 1 SI, 4 HCs and 20 PC’s."
+        },
+        {
+          "p": "Subsequently, the strength was increased to 1 SI, 1 RSI, 5 HCs and 31 PCs, vide GO Ms.No. 538 Home (Police-B) Dept. dt. 12-9-1986."
+        },
+        {
+          "p": "The post of the Station House Officer, Traffic Police Station, Tirupati, was upgraded as Inspector and the strength was enhanced to 1 Inspector, 3 SIs, 1 RSI, 4 ASIs, 15 HCs and 84 PCs under augmentation of Police Force at Tirumala and Tirupati at the cost of TirumalaTirupatiDevasthanams, Tirupati, vide GO Ms.No.431 Home (Police-D) Dept. dt. 20-7-1991..."
+        },
+        {
+          "p": "As per G.O.Ms No.-137,dt. 08-06-2010 of Govt. of A.P, Urban Police District, Tirupati formed under which Traffic.P.S, Tirupati was upgraded as A- Grade Police Station..."
+        },
+        {
+          "p": "As per G.O.Ms No.-202 Home (Service-III) Department dt:-28.12.2018of Govt. of A.P..."
+        },
+        { "heading": "JURISDICTION:" },
+        {
+          "p": "Initially, the jurisdiction of Traffic PS, Tirupati was within Municipal Corporation limits..."
+        },
+        { "heading": "ACCOMMODATION:" },
+        { "p": "(a) In the 90’s, Traffic PS was located in a lane behind Group Theatres..." },
+        { "p": "(b) There are quarters for civil police only at Balaji Colony..." },
+        { "heading": "PARADE GROUND:" },
+        { "p": "There is no separate parade ground..." },
+        { "heading": "VEHICLES" },
+        { "p": "Two Mahindra Bolero white colour vehicles..." },
+        { "heading": "COMMUNICATIN" },
+        { "p": "Two static VHF sets, 35 Man packs..." },
+        { "heading": "DUTIES OF TRAFFIC POLICE" },
+        { "p": "The organization and functioning of Traffic Police station..." },
+        { "p": "The entire Tirupati Traffic PS jurisdiction is monitored..." }
+      ],
+      
+      "trafficPoints": {
+        "title": "LIST OF TRAFFIC POINTS IN TIRUPATI",
+        "columns": ["S.No", "Point No", "Name of the point"],
+        "rows": [
+          { "pointno": "1", "nameofthepoint": "Near S.P. Guest house X roads" },
+          { "pointno": "2", "nameofthepoint": "Balaji colony junction" },
+          { "pointno": "3", "nameofthepoint": "Town club junction" },
+          { "pointno": "4", "nameofthepoint": "Krishnapuram Thaana" },
+          { "pointno": "4(A)", "nameofthepoint": "Beri street (Court turning)" },
+          { "pointno": "5", "nameofthepoint": "Flower market" },
+          { "pointno": "6", "nameofthepoint": "Old cloths lane" },
+          { "pointno": "7", "nameofthepoint": "Theerthakatta street (T.K/ Only Vimal)" },
+          { "pointno": "8", "nameofthepoint": "Old Vegetable market" },
+          { "pointno": "9", "nameofthepoint": "Four Pillars Mandapam" },
+          { "pointno": "10", "nameofthepoint": "Group theater junction" },
+          { "pointno": "11", "nameofthepoint": "R.C. gate (Rayalacheruvu Gate)" },
+          { "pointno": "11(A)", "nameofthepoint": "S.B.I Junction" },
+          { "pointno": "12", "nameofthepoint": "Vikuntam Hotel (Kumar Cool drinks)" },
+          { "pointno": "12(A)", "nameofthepoint": "In front of Rail way station" },
+          { "pointno": "12(B)", "nameofthepoint": "Bhimas Deluxe Hotel" },
+          { "pointno": "13", "nameofthepoint": "Govindarayulu Car street (G.Car street)" },
+          { "pointno": "13(A)", "nameofthepoint": "Vinayaka temple (Konetikatta)" },
+          { "pointno": "14", "nameofthepoint": "S.V.Bus stand" },
+          { "pointno": "14(A)", "nameofthepoint": "Bandla street" },
+          { "pointno": "15", "nameofthepoint": "T.T.D Choultries" },
+          { "pointno": "16", "nameofthepoint": "Gandhi circle" },
+          { "pointno": "17", "nameofthepoint": "Ambedkar circle (In front of C.B.S.)" },
+          { "pointno": "17(A)", "nameofthepoint": "KothaIndlu junction" },
+          { "pointno": "18", "nameofthepoint": "Sankarambadi circle" },
+          { "pointno": "19", "nameofthepoint": "R.S. Junction (cloth shop)" },
+          { "pointno": "20", "nameofthepoint": "Poornakumbham junction" },
+          { "pointno": "20(A)", "nameofthepoint": "Sarovar circle" },
+          { "pointno": "21", "nameofthepoint": "Korlagunta Junction" },
+          { "pointno": "21(A)", "nameofthepoint": "T.M.R. junction" },
+          { "pointno": "22", "nameofthepoint": "LeelaMahal junction" },
+          { "pointno": "23", "nameofthepoint": "Nandi circle (KapilaTheeratham circle)" },
+          { "pointno": "24", "nameofthepoint": "Garuda circle (Alipiri)" },
+          { "pointno": "24(A)", "nameofthepoint": "Jyothi Theater junction" },
+          { "pointno": "24(B)", "nameofthepoint": "Nadhamuni Reddy circle (In front of CCS PS)" },
+          { "pointno": "25", "nameofthepoint": "Vivekananda circle" },
+          { "pointno": "25(A)", "nameofthepoint": "S.V.R.R.G.G.Hospital Junction" },
+          { "pointno": "26", "nameofthepoint": "Ramakrishna Deluxe" },
+          { "pointno": "27", "nameofthepoint": "Old Maternity Hospital junction" },
+          { "pointno": "28", "nameofthepoint": "S.V.O junction" },
+          { "pointno": "28(A)", "nameofthepoint": "Khadi colony junction (Anna Rao junction) K.T. Road" },
+          { "pointno": "29", "nameofthepoint": "V.V.Mahal junction" },
+          { "pointno": "30", "nameofthepoint": "Central park" },
+          { "pointno": "30(A)", "nameofthepoint": "Rajeev Gandhi circle" },
+          { "pointno": "30(B)", "nameofthepoint": "Mosque road junction" },
+          { "pointno": "31", "nameofthepoint": "Sunnapu street junction" },
+          { "pointno": "32", "nameofthepoint": "West P.S. (South Mada street)" },
+          { "pointno": "32(A)", "nameofthepoint": "Chintakayala street junction" },
+          { "pointno": "33", "nameofthepoint": "Cherlopalli junction" },
+          { "pointno": "34", "nameofthepoint": "Vengamanbha circle (WestChurch circle)" },
+          { "pointno": "34(A)", "nameofthepoint": "L.S.nagar (LaalBahadoorsastry nagar)" },
+          { "pointno": "35", "nameofthepoint": "M.R. Palli X road" },
+          { "pointno": "36", "nameofthepoint": "Annamaiah circle" },
+          { "pointno": "37", "nameofthepoint": "Thyagarajamandapam" },
+          { "pointno": "38", "nameofthepoint": "TUDA office circle (near market)" },
+          { "pointno": "39", "nameofthepoint": "Head post office junction" },
+          { "pointno": "40", "nameofthepoint": "Gangamma Temple junction" },
+          { "pointno": "41", "nameofthepoint": "Rail way colony junction" },
+          { "pointno": "42", "nameofthepoint": "Palani Theater junction" },
+          { "pointno": "43", "nameofthepoint": "In front of Urban post office, TPT (SVHS)" },
+          { "pointno": "44", "nameofthepoint": "Groups theaters junction" },
+          { "pointno": "45", "nameofthepoint": "New Municipal park (Tirumala bye pass road)" },
+          { "pointno": "46", "nameofthepoint": "New Maternity Hospital Circle" },
+          { "pointno": "47", "nameofthepoint": "T.V.S Show room (D.R. Mahal road)" },
+          { "pointno": "48", "nameofthepoint": "G.N. Mada Street" },
+          { "pointno": "49", "nameofthepoint": "G.S. Mada Street" },
+          { "pointno": "50", "nameofthepoint": "T.K. Street Entrance" },
+          { "pointno": "51", "nameofthepoint": "Old Vegetable Market" },
+          { "pointno": "52", "nameofthepoint": "KothaIndlu Junction" },
+          { "pointno": "53", "nameofthepoint": "Jain Jewellers" },
+          { "pointno": "54", "nameofthepoint": "Komal reddy Junction" },
+          { "pointno": "55", "nameofthepoint": "Vishnunivasam Junction" },
+          { "pointno": "56", "nameofthepoint": "Group Theater Junction" },
+          { "pointno": "57", "nameofthepoint": "Ramanujam Circle" },
+          { "pointno": "58", "nameofthepoint": "SGS College cross" },
+          { "pointno": "59", "nameofthepoint": "Bhairagapattada arch" },
+          { "pointno": "60", "nameofthepoint": "Vaikuntapuram Cross" },
+          { "pointno": "61", "nameofthepoint": "MR Palli PS Junction" },
+          { "pointno": "62", "nameofthepoint": "Rallapalli circle" },
+          { "pointno": "63", "nameofthepoint": "Iskon Temple Junction" },
+          { "pointno": "64", "nameofthepoint": "Khazana Jewellers Junction" }
+        ]
       },
-      {
-        "p": "Mahila Rakshak Teams are engaged in round the clock surveillance at important and vulnerable areas where offenders try to take advantage of unsuspecting victims. These dedicated teams are a boon to the women who can get timely police help and go about their routine without fear."
+
+      "signalLights": {
+        "title": "SIGNAL LIGHTS IN TIRUPATI TOWN",
+        "columns": ["Sl.No", "Place", "Company"],
+        "rows": [
+          {
+            "slno": "1",
+            "place": "TVS SHOW ROOM",
+            "company": "M/S. AD SPACE Advertising (P) Ltd., Off.DNo.10-50/6, Maruthinagar, M.R.Palle, Tirupati..."
+          },
+          { "slno": "2", "place": "MR PALLI CIRCLE", "company": "" },
+          { "slno": "3", "place": "S.V.O. (Bhavani nagar)", "company": "" },
+          { "slno": "4", "place": "Srinivasam (pedestrian crossing)(Blinker Light)", "company": "" },
+          { "slno": "5", "place": "Old Maternity Hospital (Blinker Light)", "company": "" },
+          {
+            "slno": "6",
+            "place": "BALAJI COLONY",
+            "company": "AD -5. visions, YAMINI SIGNALS., Analog Digital Labs, Coimbatore, Tamilnadu..."
+          },
+          { "slno": "7", "place": "TOWN CLUB", "company": "" },
+          { "slno": "8", "place": "CENTRAL PARK", "company": "" },
+          { "slno": "9", "place": "POORNAKUMBAM (Not functioning due to Garuda varadhi work)", "company": "" },
+          { "slno": "10", "place": "SANKARAMBADI CIRCLE (Not functioning due to Garuda varadhi work)", "company": "" },
+          { "slno": "11", "place": "ANNAMAIAH CIRCLE", "company": "" },
+          { "slno": "12", "place": "T.M.R. JUNCTION (Not functioning due to Garuda varadhi work)", "company": "" },
+          { "slno": "13", "place": "LEELA MAHAL CIRCLE (Not functioning due to Garuda varadhi work)", "company": "" }
+        ]
       },
-      {
-        "p": "Since women should be able to move in the society with confidence, dignity and self respect, these teams seek to instill confidence in women to stand up and speak out against offenders so that their own safety and safety of other women is not compromised upon."
-      }
-    ],
-    "columns": ["SNO", "Sub Division", "Name of the PS", "Rakshak"],
+      "blinkingPoints": {
+    "title": "Only Blinking Points",
+    "columns": ["SL.No", "Place"],
     "rows": [
-      { "sno": 1, "title": "EAST PS", "links": [ { "name": "EAST" }, { "name": "RAKSHAK 1 & 2" } ] },
-      { "sno": 2, "title": "ALIPIRI PS", "links": [ { "name": "EAST" }, { "name": "RAKSHAK 3 & 4" } ] },
-      { "sno": 3, "title": "TIRUCHANUR PS", "links": [ { "name": "EAST" }, { "name": "RAKSHAK 5" } ] },
-      { "sno": 4, "title": "WEST PS", "links": [ { "name": "WEST" }, { "name": "RAKSHAK 6" } ] },
-      { "sno": 5, "title": "SVU PS", "links": [ { "name": "WEST" }, { "name": "RAKSHAK 7" } ] },
-      { "sno": 6, "title": "M R PALLI PS", "links": [ { "name": "WEST" }, { "name": "RAKSHAK 8" } ] },
-      { "sno": 7, "title": "CHANDRAGIRI PS", "links": [ { "name": "WEST" }, { "name": "RAKSHAK 9 & 10" } ] },
-      { "sno": 8, "title": "TIRUMALA I TOWN PS", "links": [ { "name": "WEST" }, { "name": "RAKSHAK 11" } ] },
-      { "sno": 9, "title": "TIRUMALA II TOWN PS", "links": [ { "name": "WEST" }, { "name": "-" } ] },
-      { "sno": 10, "title": "RENIGUNTA PS", "links": [ { "name": "RENIGUNTA" }, { "name": "RAKSHAK 12" } ] },
-      { "sno": 11, "title": "GAJULAMANDYAM PS", "links": [ { "name": "RENIGUNTA" }, { "name": "-" } ] },
-      { "sno": 12, "title": "VADAMALAPETA PS", "links": [ { "name": "RENIGUNTA" }, { "name": "-" } ] },
-      { "sno": 13, "title": "R C PURAM PS", "links": [ { "name": "RENIGUNTA" }, { "name": "RAKSHAK 13" } ] },
-      { "sno": 14, "title": "YERPEDU PS", "links": [ { "name": "RENIGUNTA" }, { "name": "-" } ] },
-      { "sno": 15, "title": "SRI KHALAHASTRI I TOWN", "links": [ { "name": "SKHT" }, { "name": "RAKSHAK 14" } ] },
-      { "sno": 16, "title": "SRI KHALAHASTRI II TOWN", "links": [ { "name": "SKHT" }, { "name": "RAKSHAK 15" } ] },
-      { "sno": 17, "title": "SRI KHALAHASTRI RURAL", "links": [ { "name": "SKHT" }, { "name": "-" } ] },
-      { "sno": 18, "title": "B N KANDRIGA", "links": [ { "name": "SKHT" }, { "name": "-" } ] },
-      { "sno": 19, "title": "THOTAMBEDU", "links": [ { "name": "SKHT" }, { "name": "-" } ] },
-      { "sno": 20, "title": "GAJULAMANDYAM", "links": [ { "name": "SPECIAL RAKSHAK" }, { "name": "SPECIAL RAKSHAK 16" } ] },
-      { "sno": 21, "title": "TIRUCHANUR", "links": [ { "name": "SPECIAL RAKSHAK" }, { "name": "SPECIAL RAKSHAK 17 & 18" } ] },
-      { "sno": 22, "title": "M R PALLI", "links": [ { "name": "SPECIAL RAKSHAK" }, { "name": "SPECIAL RAKSHAK 19" } ] }
+      { "Place": "Four Pillar" },
+      { "Place": "Nandi Circle" },
+      { "Place": "S.V.R.R.Hospital" },
+      { "Place": "In front of Municipal Office" },
+      { "Place": "Kumar cool drinks (Near Railway station)" }
     ]
-  }
-],
+  },
+  "oneWayAreas": {
+  "title": "ONE WAY AREAS IN TIRUPATI TOWN",
+  "rows": [
+    { "area": "GANDHI ROAD" },
+    { "area": "CHINA BAZAAR STREET" },
+    { "area": "T.K. STREET" },
+    { "area": "BANDLA STREET" },
+    { "area": "ISUKA STREET" },
+    { "area": "G. CAR STREET" },
+    { "area": "KARNALA STREET" },
+    { "area": "BERI STREET" },
+    { "area": "R.K DELUXE" },
+    { "area": "REDDY & REDDY COLONY" }
+  ]
+},
+"importantJunctions": {
+  "title": "IMPORTANT JUNCTIONS",
+  "columns": ["Sl.No", "Name of the Junction"],
+  "rows": [
+    { "Sl.No": 1, "Name of the Junction": "Garuda Circle" },
+    { "Sl.No": 2, "Name of the Junction": "Nandi Circle" },
+    { "Sl.No": 3, "Name of the Junction": "Sarovar Junction" },
+    { "Sl.No": 4, "Name of the Junction": "Ramanujam Circle" },
+    { "Sl.No": 5, "Name of the Junction": "Lakshmipuram Circle" },
+    { "Sl.No": 6, "Name of the Junction": "SVRRGG Hospital Circle" },
+    { "Sl.No": 7, "Name of the Junction": "Annarao Circle" },
+    { "Sl.No": 8, "Name of the Junction": "Varadarajaswamy Temple" },
+    { "Sl.No": 9, "Name of the Junction": "Gantasala Circle" },
+    { "Sl.No": 10, "Name of the Junction": "Municipal Office Circle" },
+    { "Sl.No": 11, "Name of the Junction": "Four Piller Jn." },
+    { "Sl.No": 12, "Name of the Junction": "Railway Station – 1" },
+    { "Sl.No": 13, "Name of the Junction": "Traffic No.1 Point (near SVU PS)" },
+    { "Sl.No": 14, "Name of the Junction": "Vengamamba Jn." },
+    { "Sl.No": 15, "Name of the Junction": "Komal Reddy Jn." },
+    { "Sl.No": 16, "Name of the Junction": "Lakshmipuram Jn." },
+    { "Sl.No": 17, "Name of the Junction": "Gandhi Circle" },
+    { "Sl.No": 18, "Name of the Junction": "Ambedkar Circle" },
+    { "Sl.No": 19, "Name of the Junction": "Group Theater Jn." },
+    { "Sl.No": 20, "Name of the Junction": "JagathVikyath Theater Jn." },
+    { "Sl.No": 21, "Name of the Junction": "RC Gate Jn." },
+    { "Sl.No": 22, "Name of the Junction": "Flower Market Jn." },
+    { "Sl.No": 23, "Name of the Junction": "KP Thana Jn." },
+    { "Sl.No": 24, "Name of the Junction": "SBI Main Branch Jn." },
+    { "Sl.No": 25, "Name of the Junction": "Parcel Office Jn." },
+    { "Sl.No": 26, "Name of the Junction": "PP Chavadi Jn." },
+    { "Sl.No": 27, "Name of the Junction": "Jyothi Theater Jn." },
+    { "Sl.No": 28, "Name of the Junction": "RK Delux Jn." },
+    { "Sl.No": 29, "Name of the Junction": "SVIMS Circle" },
+    { "Sl.No": 30, "Name of the Junction": "Vivekananda Circle" },
+    { "Sl.No": 31, "Name of the Junction": "YSR Junction" },
+    { "Sl.No": 32, "Name of the Junction": "Rallapalli Jn." },
+    { "Sl.No": 33, "Name of the Junction": "American Bar Jn." },
+    { "Sl.No": 34, "Name of the Junction": "Old Maternity Jn." }
+  ]
+},
+"busyTrafficJunctions": {
+  "title": "BUSY TRAFFIC JUNCTIONS",
+  "columns": ["Sl.No", "Name of the Junction"],
+  "rows": [
+    { "Sl.No": 1, "Name of the Junction": "Balaji Colony" },
+    { "Sl.No": 2, "Name of the Junction": "MR Palli Junction" },
+    { "Sl.No": 3, "Name of the Junction": "Annamiah" },
+    { "Sl.No": 4, "Name of the Junction": "TVS Showroom" },
+    { "Sl.No": 5, "Name of the Junction": "ShankaramBadi Circle" },
+    { "Sl.No": 6, "Name of the Junction": "Ramanujam Circle" },
+    { "Sl.No": 7, "Name of the Junction": "Poornakumbam" },
+    { "Sl.No": 8, "Name of the Junction": "TMR Circle" },
+    { "Sl.No": 9, "Name of the Junction": "Leelamahal" },
+    { "Sl.No": 10, "Name of the Junction": "Nandi Circle" },
+    { "Sl.No": 11, "Name of the Junction": "Garuda Circle" },
+    { "Sl.No": 12, "Name of the Junction": "SVO Point" },
+    { "Sl.No": 13, "Name of the Junction": "Gantasala Junction" },
+    { "Sl.No": 14, "Name of the Junction": "Central Park" },
+    { "Sl.No": 15, "Name of the Junction": "Four Pilller Junction" },
+    { "Sl.No": 16, "Name of the Junction": "RS-2 Point" },
+    { "Sl.No": 17, "Name of the Junction": "KP Thana" },
+    { "Sl.No": 18, "Name of the Junction": "Town Club" }
+  ]
+},
+"busyRoutes": {
+  "title": "BUSY ROUTES",
+  "columns": ["Sl.No", "Route"],
+  "rows": [
+    { "Sl.No": 1, "Route": "Balaji colony to Shankarambadi circle via Annamiah circle" },
+    { "Sl.No": 2, "Route": "Shankarambadi circle to Nandi circle via Ramanuja circle, Poornakumbam & Leelamahal Junction" },
+    { "Sl.No": 3, "Route": "Ramanuja Circle to Hero Honda Arch." },
+    { "Sl.No": 4, "Route": "Balaji colony to Four pillars via Town club Junction" },
+    { "Sl.No": 5, "Route": "Four pillars to Poornakumbam via Konetikatta, Group theaters Junction and Ambedkar circle." },
+    { "Sl.No": 6, "Route": "Poornakumbam to KP Thana via Railway station." },
+    { "Sl.No": 7, "Route": "Four pillar to Central park" },
+    { "Sl.No": 8, "Route": "Central park to Leelamahal via Fish Market." },
+    { "Sl.No": 9, "Route": "Central Park to TMR Junction via YSR Circle" },
+    { "Sl.No": 10, "Route": "Central park to Anna Rao circle via VV Mahal road & SVO Point." },
+    { "Sl.No": 11, "Route": "Anna Rao circle to SVRRGG Junction via Iskon Temple." },
+    { "Sl.No": 12, "Route": "SVO Point to RK Deluxe." },
+    { "Sl.No": 13, "Route": "Garuda Circle to Town club via SVRRGG & RK Deluxe Junction." }
+  ]
+},
+"busyLocalities": {
+  "title": "BUSY LOCALITIES",
+  "subtitle": "(Areas where most travelers congregate)",
+  "list": [
+    "Shankaramabadi Junction",
+    "Ramanuja Circle",
+    "Poornakumbam",
+    "Sarovar Junction",
+    "Srinivasam",
+    "TMR Junction",
+    "Leelamahal Junction",
+    "Nandi Circle",
+    "Bhudevi Complex Junction",
+    "Ambedkar Junction (Opp. RTC Bus stand)",
+    "Vishnu Nivasam",
+    "Railway Station",
+    "G Car Street Junction"
+  ]
+},
+"mainParkingPlaces": {
+  "title": "MAIN PARKING PLACES FOR TWO/ FOUR WHEELERS",
+  "columns": ["Sl.no", "Parking Point"],
+  "rows": [
+    { "Sl.no": 1, "Parking Point": "Railway Station (Deepam Plaza to VIP Entrance)" },
+    { "Sl.no": 2, "Parking Point": "Sreenivasam Complex (FOUR WHEELERS)" },
+    { "Sl.no": 3, "Parking Point": "Sindhuri Park hotel (near Koneru around FOUR WHEELERS)" },
+    { "Sl.no": 4, "Parking Point": "Old Municpal Office Complex Cellar. (Four/Two Wheelers)" },
+    { "Sl.no": 5, "Parking Point": "Krishnapuram Thana (near TUDA Shopping mall and health centre)" },
+    { "Sl.no": 6, "Parking Point": "R.T.C. Bus stand (Inside the premises)" },
+    { "Sl.no": 7, "Parking Point": "Alipiri (Cherlopalli road – 4 wheelers parking)" },
+    { "Sl.no": 8, "Parking Point": "Gandhi Road (one day one side) \nNorth Side: Monday, Wednesday, Friday and Sunday. (CMR Boards)\nSouthern Side: Tuesday, Thursday and Saturday. (CMR Boards)" },
+    { "Sl.no": 9, "Parking Point": "Prakasam Road \nNorth Side: Monday, Wednesday, Friday and Sunday. (CMR Boards)\nSouthern Side: Tuesday, Thursday and Saturday. (CMR Boards)" },
+    { "Sl.no": 10, "Parking Point": "Karnala Street \nNorth Side: Monday, Wednesday, Friday and Sunday.\nSouthern Side: Tuesday, Thursday and Saturday." },
+    { "Sl.no": 11, "Parking Point": "VV Mahal Road" },
+    { "Sl.no": 12, "Parking Point": "Indira Maidanam (Around)" },
+    { "Sl.no": 13, "Parking Point": "Beside Mee-Seva kandaram (Near Municipal office)" },
+    { "Sl.no": 14, "Parking Point": "Tilak Road" },
+    { "Sl.no": 15, "Parking Point": "Opp. To RTC bus stand (Private bus stand)" },
+    { "Sl.no": 16, "Parking Point": "Tourist Bus stand parking" },
+    { "Sl.no": 17, "Parking Point": "I & II Choultries" },
+    { "Sl.no": 18, "Parking Point": "DPO Eastern side" }
+  ]
+}
+
+
+
+    }
+  ],
+
+  "Police1": [
+    {
+      "womanPsContacts": {
+        "image": "./images/Wome.jpeg"
+      }
+    }
+  ],
   "...Comment4":"Information of Organisation-Menu",
   "Organisation": [
     {
@@ -1520,7 +2474,7 @@
       "paragraph": [
        
       {
-      "imgsrc": "/nicapsc-iti/org.jpg",
+      "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C202-P11-org.webp",
       "imgalt": "image1"
       }
       
@@ -1528,7 +2482,22 @@
     }
    
   ],
-
+ "IT":[
+    {
+      "heading":"IT Core team",
+      "detailservices":[
+        {
+          "p":"1.Conducting training to all police personnel in the District on Basics of computer awareness Intranet Applications : a) Mailing System b)Enterprise eCOPS c) Meeseva d)CCTNS project and IT related applications."
+  },
+  {
+    "p":"2.Meeseva Petitions: Monitoring Meeseva Petition flow through the user ID of Nodal Officer, forwarding to concerned SHOs."
+},
+{
+  "p":"3.Monitoring Data Entry work in EeCOPS under CCTNS project: 7 integrated forms in eCops of cases from 1.6.2013 to till date are being updated by Police Station computer operators and also monitor online EeCOPS DSR."
+}
+      ]
+    }
+  ],
   "...comment10":" Below Information related to 'Websitepolicices' and 'Help'.",
 
   "websitepolicies": [
@@ -1661,11 +2630,12 @@
       "heading": "Prevent Abuse of 498 A",
       "detailservices": [
         
-          {"heading": "Help us prevent abuse of 498(A) and strengthen your case:"},
-           {
-          "imgsrc": "/nicapsc-iti/images/tell_1.jpg",
+        {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C602-P11-tell_1.webp",
           "imgalt": "Prevent Abuse of 498A"
         },
+          {"heading": "Help us prevent abuse of 498(A) and strengthen your case:"},
+           
           
             {
               "p": "The functions of the council:-"
@@ -1699,12 +2669,13 @@
     "heading":"Affair Proof of Your Relationship",
     "detailservices":[
       {
-        "heading":"Affair Proof of Your Relationship:"
-      },
-      {
-          "imgsrc": "/nicapsc-iti/images/affair_1.jpg",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C603-P11-affair_1.webp",
           "imgalt": "AffairProof"
         },
+      {
+        "heading":"Affair Proof of Your Relationship:"
+      },
+      
       {
         "p":" A healthy relationship requires commitment, love and empathy. Love makes you do things that you possibly couldn't have imagined to do otherwise. There has to be lot of understanding between couple since that is the foundation of your love. Following are a few tips that will help you overcome all the troubles in your life and build healthy relationship."
       },{
@@ -1748,13 +2719,14 @@
   {
     "heading":"Building Healthy Relationship",
     "detailservices":[
+       {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C604-P11-Relationship.webp",
+          "imgalt": "BuildingHealthy Relationship"
+        },
       {
         "heading":"Building Healthy Relationship"
       },
-      {
-          "imgsrc": "/nicapsc-iti/images/Relationship.jpg",
-          "imgalt": "BuildingHealthy Relationship"
-        },
+     
       {
         "p":"If you are building up the Relationship with someone"
       },
@@ -1797,13 +2769,14 @@
     "heading":"Signs of a Cheating Husband",
   
   "detailservices":[
+    {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C605-P11-CheatingHusband.webp",
+          "imgalt": "Signs of a Cheating Husband"
+        },
   {
     "heading":"Signs of a Cheating Husband"
   },
-  {
-          "imgsrc": "/nicapsc-iti/images/CheatingHusband.jpg",
-          "imgalt": "Signs of a Cheating Husband"
-        },
+  
   
   {
     "p":" One of the most common ways you can detect if your partner is cheating is by looking out for changes in his day to day routine and behavior. If your partner is having an affair it is quite likely that he will start acting differently. This is because we all settle into certain routines when things are regular and normal so it is only natural that if something changes in our lives then things get thrown off course and we start doing things differently. These changes in your husband's routine can be giveaway clues that he's seeing someone else but can be so easily missed."
@@ -1881,11 +2854,12 @@
   "Dowry":[{
     "heading":"Practice of Dowry",
     "detailservices":[
-      {"heading":"Practice of Dowry"},
-        {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
+      {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
           "imgalt": "Practice of Dowry"
         },
+      {"heading":"Practice of Dowry"},
+        
   
         {"p":"In India, Dowry system that has been prevailing amongst every society and affected lives of the people who are involved in marriage and on those who are around."},
         {
@@ -1963,11 +2937,12 @@
     {
       "heading":"Domestic Violence",
       "detailservices":[
-         {"heading":"If you are facing Domestic Violence"},
-         {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
+        {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
           "imgalt": "Domestic Violence"
         },
+         {"heading":"If you are facing Domestic Violence"},
+         
 
         {
           "p":"Within the four walls of homes, the violence against women is quite high. Domestic violence against is widely prevalent, but has remained largely invisible. Statistics reveal that 45% of Indian women are slapped, kicked or beaten by their husb ands. (ICRW 2002) .32% had committed acts of violence against their pregnant wives. Every 60 minutes a woman dies in India due to domestic violence. Women accept violence because social norms sanction them. At the same time, cultural conditioning and economic dependence prevent the vast majority of women leaving their marital homes. Though there is criminal law to prevent domestic violence, the recent civil law “Protection of women from Domestic Violence” is aimed at providing relief, compensation and support to a woman."
@@ -2125,12 +3100,13 @@
       "heading":"Eve Teasing",
       "detailservices":[
         {
-          "heading":"Eve Teasing"
-        },
-        {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
           "imgalt": "Eve Teasing"
         },
+        {
+          "heading":"Eve Teasing"
+        },
+        
         {
           "p":"Streets, Bus Stands, Railway Stations, Parks and other public places should be for everyone to access and enjoy. Yet for many women they are the scenes of harassment. Everyday women face systematic assault on their fundamental right to free movement and personal dignity."
         },
@@ -2214,13 +3190,15 @@
     {
       "heading":"How to Save Your Marriage",
       "detailservices":[
-        {
-          "heading":"How to Save Your Marriage"
-        },
-        {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
+         {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
           "imgalt": "Save Marriage"
         },
+        {
+
+          "heading":"How to Save Your Marriage"
+        },
+       
         {
           "p":"Why do you think relationships get bitter to such an extent that couples just want to run away from them and want to end everything? Why do they want to forget all the love that they have for each other and forget all the good moments that they spent with one another? Why does their heart get full of hatred and dislike for one another? Are you also facing such a situation in your relationship right now? Well if you are then we can help you out in understanding and solving this problem. Remember one thing and that is never run away from your problems. Deal with it and try to fix things. Don't give up and don't think it's the end. A beautiful relationship, a loving partner and a trusted husband is all a woman can dream of so don't just give in to the problems and end everything and then repent all your life. Try to save your marriage and relationship."
         },
@@ -2246,13 +3224,14 @@
     {
        "heading":"Living Alone",
        "detailservices":[
+         {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
+          "imgalt": "Living Alone"
+        },
         {
           "heading":"If You are a Single Woman"
         },
-        {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
-          "imgalt": "Living Alone"
-        },
+       
         {
           "p":"  India's new worldly women, the country's younger generation is shedding submissive attitudes, aiming for higher education, careers, and longs for freedom and want to live independently. A number of sociological studies show that young Indian females now prize financial independence, freedom to decide when to marry and have children, and have glamorous careers. The boom in software industry especially BPO’s has given employment for not so qualified girls also."
         },
@@ -2362,12 +3341,13 @@
       "heading":"Marital Problems - Stress",
       "detailservices":[
         {
-          "heading":"Marital Problems - Stress"
-        },
-        {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
           "imgalt": "Marital Stress"
         },
+        {
+          "heading":"Marital Problems - Stress"
+        },
+        
         {
           "p":"Are you suffering from stress? Is stress affecting your relationship? You might find it difficult to answer there questions because sometimes stress affects your relationship so bad that you don't even come to know of it until its too late. Sometimes stress affects you so bad that though you feel that your actions (like snapping at your partner, shouting at your kid, not being able to take interest in household activity etc) are justified, you do not realize that these actions will harm your relationship."
         },
@@ -2421,13 +3401,14 @@
       {
         "heading":"If you are marrying an NRI",
         "detailservices":[
+           {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
+          "imgalt": "Marrying NRI"
+        },
           {
             "p":"Before leaving the country be prepared with the following tips"
           },
-          {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
-          "imgalt": "Marrying NRI"
-        },
+         
           {
           "p":"Get photo copies of important documents like"
         },
@@ -2499,12 +3480,13 @@
         "heading":"Planning to Marry",
         "detailservices":[
           {
-            "heading":"If you are marrying an NRI husband"
-          },
-          {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
           "imgalt": "Planning to Marry"
         },
+          {
+            "heading":"If you are marrying an NRI husband"
+          },
+          
           {
             "p":"The concept of marriages has changed. And, not just for men. As a woman, ideally, your life partner should be someone with whom you can share interests and who will encourage your independence. As with any relationship, friendship is the key. Good communication from the beginning will help ensure that yours is a lasting, loving partnership."
           },
@@ -2719,14 +3701,15 @@
       {
         "heading":"How Do I Prevent Suicide",
         "detailservices":[
+           {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
+          "imgalt": "Prevent Suicide"
+        },
           
           {
             "heading":"How Do I Prevent Suicide"
           },
-          {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
-          "imgalt": "Prevent Suicide"
-        },
+         
           {
             "p":"Untreated mental illness (including depression, bipolar disorder, schizophrenia, and others) is the cause for the vast majority of suicides"
           },
@@ -2887,13 +3870,14 @@
       {
         "heading":"Reporting Dowry Harassment",
         "detailservices":[
+           {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
+          "imgalt": "Dowry harassment"
+        },
           {
             "heading":"Practice of Dowry"
           },
-          {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
-          "imgalt": "Dowry harassment"
-        },
+         
           {
             "p":"In India, Dowry system that has been prevailing amongst every society and affected lives of the people who are involved in marriage and on those who are around."
           },
@@ -2964,13 +3948,14 @@
       {
         "heading":"Rights",
         "detailservices":[
+           {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
+          "imgalt": "Rights"
+        },
           {
             "heading":"You have the following rights"
           },
-          {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
-          "imgalt": "Rights"
-        },
+         
           {
             "p":"Assistance of protection officer, service providers or the other in charge of the nearest PS in registering your compliant and filing an application for relief."
           },{
@@ -2998,13 +3983,14 @@
       {
         "heading":"Sexual Harassment at Work",
         "detailservices":[
+           {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
+          "imgalt": "Sexual Harassment at Work"
+        },
           {
             "heading":"Sexual Harassment at Work"
           },
-          {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
-          "imgalt": "Sexual Harassment at Work"
-        },{
+         {
             "p":"Sexual Harassment affects all women in some form or the other. Lewd remarks, touching, wolf-whistles, “looks” are part of any woman’s life, so much so that it is dismissed as normal."
           },{"p":"Working women are no exception. In fact, working women most commonly face the backlash, to women taking new roles, which belong to male domains especially in the organized sector. In the unorganized sector also it is widely prevalent. Studies have shown that sexual harassment is still endemic, often hidden, and present in all kinds of organisations. 40-60% working women face harassment at working places."},
           {
@@ -3057,12 +4043,13 @@
         "heading":"Tips for Healthy Marriage Life",
         "detailservices":[
           {
-            "heading":"Tips for Healthy Marriage Life"
-          },
-           {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
           "imgalt": "Tips for Healthy Marriage Life"
         },
+          {
+            "heading":"Tips for Healthy Marriage Life"
+          },
+           
           
           {
           "p":"Wake Up with Hope and Smile !"
@@ -3297,12 +4284,13 @@
         "heading":"Choosing Partner from Matrimonial Sites",
         "detailservices":[
           {
-            "heading":"Choosing Partner from Matrimonial Sites"
-          },
-          {
-          "imgsrc": "/nicapsc-iti/images/partner.jpg",
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C619-P11-Partner.webp",
           "imgalt": "Choosing Partner from Matrimonial Sites"
         },
+          {
+            "heading":"Choosing Partner from Matrimonial Sites"
+          },
+          
           {
             "p":"Now a days to have easier methods of getting married, young generation register themselves on various matrimonial sites. These sites enable to find match to the needy people. It also saves the time from going one place to another. But before registering onto these matrimonial sites always check credentials of the site. We tell you how ;"
           },
@@ -3368,11 +4356,12 @@
       {
         "heading":"Coping With Husband's Alcoholism",
         "detailservices":[
-          {"heading":"Coping With Husband's Alcoholism"},
-           {
-          "imgsrc": "/nicapsc-iti/images/stop.jpg",
+            {
+          "imgsrc": "https://eg.ap.gov.in/p0server/static/p11/images/C606-P11-stop.webp",
           "imgalt": "Coping With Husband's Alcoholism"
         },
+          {"heading":"Coping With Husband's Alcoholism"},
+         
           
           {
             "p":"Alcoholism is a universal phenomenon. Down the centuries, numberless women across the globe have been coping with husbands who come home drunk, bash their wives and children and make everyone's life miserable. However surprisingly most women timidly adjust to their husbands' ways rather than raising their voices in protest. Maybe they have their own difficulties and ways of dealing with the problem but if your alcoholic husband is abusing you then it is time that you put an end to this evil and fight courageously against this addiction and save you and your family."
@@ -3409,8 +4398,22 @@
         }
         ]
       }
-    ]
-  }
+    ],
+    	  "newsIcons": {
+   "img":"https://eg.ap.gov.in/p0server/static/p0/images/C141-p0-OIP.webp"
+    
+  },
+"rewardsIcons": {
+  "img":"https://eg.ap.gov.in/p0server/static/p0/images/C143-p0-images.webp"
+},
+  "eventsIcons": {
+  "img":"https://eg.ap.gov.in/p0server/static/p0/images/C142-p0-Events1.webp"
+  },
+  "mapIcons": [
+  "https://eg.ap.gov.in/p0server/static/p0/images/C014-p0-markers1.webp"
+  ]
+}
+  
 
 
 

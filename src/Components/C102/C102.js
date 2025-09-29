@@ -63,7 +63,7 @@ function C102() {
         {information.children.map((content) => {
           return (
             <>
-              <h5 className="  ">{content.subtitile}</h5>
+              <h5 className="  ">{content.name}</h5>
                     <ul className="a">
                       <a  href={content.link} id="sitemap2" >
                        <i  className=" fa fa-hand-o-right  px-2"></i>
