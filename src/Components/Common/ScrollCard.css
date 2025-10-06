@@ -1,0 +1,33 @@
+.scroll-card {
+  border: none;     
+  padding: 10px;
+  width: 300px;
+  height: 400px;         /* fixed height for card */
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.scroll-list {
+  overflow-y: auto;      /* scroll when content exceeds */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;               /* fill remaining height of card */
+  min-height: 0;         /* critical for flex scroll to work */
+}
+
+.scroll-item {
+  text-decoration: none;
+  color: #f30b26cf;
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+}
+
+.scroll-item:hover {
+  background: #e9ecef;
+}

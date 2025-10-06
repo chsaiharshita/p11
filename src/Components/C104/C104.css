@@ -295,23 +295,21 @@
   color: white !important;
 }
 /* Blue background for dropdown */
+/* Blue background for dropdown */
 .dropdown-menu {
-  max-height: 300px; 
-    position: absolute;        /* limit dropdown height */
-  overflow-y: auto;       
-   overflow-x: hidden;         /* scroll if content exceeds max-height */
-  background-color: #00AEEF !important; /* blue background */
+  position: absolute;
+  overflow: visible;           /* no scrollbars */
+  background-color: #00AEEF !important;
   border: none;
   padding: 0;
   font-weight: bold;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Individual dropdown items */
 .dropdown-menu .dropdown-item {
-  height: 40px;               /* fixed height */
-  line-height: 40px;          /* vertically center text */
-  padding: 0 15px;            /* horizontal padding only */
+  /* remove height: 40px; */
+  line-height: 32px;
+  padding: 0 12px;
   color: black !important;
   background-color: transparent !important;
   font-weight: bold;
@@ -329,34 +327,14 @@
   color: white !important;
 }
 /* Scrollbar for dropdown only */
-.dropdown-menu::-webkit-scrollbar {
-  width: 8px;                /* thin scrollbar */
-}
 
-.dropdown-menu::-webkit-scrollbar-track {
-   background: rgba(0, 0, 0, 0.2); /* light track */
-  border-radius: 20px;
-}
-
-.dropdown-menu::-webkit-scrollbar-thumb {
-   background-color: #00334d;/* darker shade of #00AEEF */
-  border-radius: 10px;
-  border: 2px solid transparent;
-  background-clip: content-box;
-}
-
-.dropdown-menu::-webkit-scrollbar-thumb:hover {
-  background-color: #005f87;  /* even darker on hover */
-}
 
 
 @media (max-width: 991px) {
   .navbar-nav .dropdown-menu {
     position: static !important;
     float: none;
-    max-height: 250px;
-    overflow-y: auto;
-    /* display: block !important; */  /* Remove this */
+    overflow: visible;
   }
 }
 

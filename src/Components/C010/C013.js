@@ -88,6 +88,9 @@ import C407 from "../C400/C407.js";
 import C408 from "../C400/C408.js";
 import C412 from "../C400/C412.js";
 import C406 from "../C400/C406.js";
+import C901 from "../C900/C901.js";
+import C902 from "../C900/C902.js";
+import C903 from "../C900/C903.js";
 
 
 
@@ -95,6 +98,22 @@ const routesConfig = [
   {
     path: "/nicapsc-kkdpolice/Home",
     component:C141,
+  },
+  {
+    path: "/nicapsc-kkdpolice/node901",
+    component:C901,
+  },
+   {
+    path: "/nicapsc-kkdpolice/node902",
+    component:C902,
+  },
+  {
+    path: "/nicapsc-kkdpolice/node903",
+    component:C903,
+  },
+   {
+    path: "/nicapsc-kkdpolice/node613",
+    component:C613,
   },
     {
     path: "/nicapsc-kkdpolice/node407",

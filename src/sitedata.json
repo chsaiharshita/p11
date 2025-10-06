@@ -432,9 +432,74 @@
     "name":"Contact",
     "type":"page",
     "link":"node801"
+  },
+   {
+    "name":"Announcements",
+    "type":"page",
+    "children":[
+      {
+        "name":"Emergency",
+        "link":"node901",
+        "type":"page"
+      },
+      {
+
+        "name":"Social links",
+        "link":"node902",
+        "type":"page"
+      },
+      {
+        "name":"Press",
+        "link":"node903",
+        "type":"page"
+      }
+    ]
   }
+ 
   
 ],
+"Emergency": [
+  {
+    "heading": "Emergency Contacts",
+    "contacts": [
+      { "label": "Dial", "value": 100 },
+      { "label": "Control Room", "value": 8099999977 },
+      { "label": "Police WhatsApp", "value": 8099999977 },
+      { "label": "Mobile Lost Complaints", "value": 9490617873 },
+      { "label": "Cyber Mitra WhatsApp", "value": 9121211100 }
+    ]
+  }
+],
+
+"SocialMedia": [
+  {
+    "heading": "Social Media Contacts",
+    "detailservices": [
+      {
+        "p": "WhatsApp",
+        "link": "https://web.whatsapp.com/"
+      },
+      {
+        "p": "Facebook Page",
+        "link": "https://www.facebook.com/tirupatipolice/"
+      },
+      {
+        "p": "Twitter Page",
+        "link": "https://x.com/tirupatipolice/status/1174397009446354944?lang=en"
+      },
+      {
+        "p": "Instagram Page",
+        "link": "https://www.instagram.com/p/B8ocUpnDc3c/?img_index=1"
+      },
+      {
+        "p": "YouTube",
+        "link": "https://www.youtube.com/channel/UC5q1QREk6-OZ_kSbBvtKIsg"
+      }
+    ]
+  }
+],
+
+
  
   "Navlink1": [
     {
@@ -940,6 +1005,10 @@
         "Land Line Number",
         "Address"
       ]
+    },
+    "Events":{
+      "title":"Events",
+     "apiUrl":"https://eg.ap.gov.in/p0server/api/p11c142"
     },
     "SDPO": {
       "title": "Department Official",

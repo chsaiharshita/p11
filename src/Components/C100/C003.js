@@ -5,6 +5,9 @@ import data from "../../sitedata.json";
 import C141 from "./C141.js";
 import C004 from "./C004.js";
 import C142 from "./C142.js";
+import C901 from "../C900/C901.js";
+import C902 from "../C900/C902.js";
+import C903 from "../C900/C903.js";
 
 
 function C003() {
@@ -83,7 +86,18 @@ function C003() {
               </section>
               <C141 />
              <C004 />
-            
+           <div className="emergency-wrapper">
+  <div className="emergency-item">
+    <C901 />
+  </div>
+  <div className="emergency-item">
+    <C902 />
+  </div>
+
+  <div className="emergency-item">
+<C903/>
+</div>
+</div>
           </>
     )
 }

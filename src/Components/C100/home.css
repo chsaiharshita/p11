@@ -6,6 +6,32 @@
   max-width:100%;
   margin-top: 41px !important;
 }
+.C901-container {
+  padding-left: 150px;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+
+
+.emergency-wrapper{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:flex-start;
+  padding-left:20px;   /* aligns with home menu */
+  padding-right:20px;
+  box-sizing:border-box;
+    align-items: flex-start;
+}
+.emergency-item{
+  flex:1 1 30%;
+  min-width:250px;
+  display:flow-root;
+  padding:10px 0;
+   margin-left: 10px; 
+  background:transparent; /* no border */
+}
+
 
 
 .about {
