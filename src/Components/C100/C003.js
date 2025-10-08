@@ -86,18 +86,7 @@ function C003() {
               </section>
               <C141 />
              <C004 />
-           <div className="emergency-wrapper">
-  <div className="emergency-item">
-    <C901 />
-  </div>
-  <div className="emergency-item">
-    <C902 />
-  </div>
-
-  <div className="emergency-item">
-<C903/>
-</div>
-</div>
+            <C142/>
           </>
     )
 }

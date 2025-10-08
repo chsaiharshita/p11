@@ -91,6 +91,8 @@ import C406 from "../C400/C406.js";
 import C901 from "../C900/C901.js";
 import C902 from "../C900/C902.js";
 import C903 from "../C900/C903.js";
+import C169 from "../C100/C169.js";
+import C168 from "../C100/C168.js";
 
 
 
@@ -98,6 +100,14 @@ const routesConfig = [
   {
     path: "/nicapsc-kkdpolice/Home",
     component:C141,
+  },
+   {
+    path: "/nicapsc-kkdpolice/node169",
+    component:C169,
+  },
+   {
+    path: "/nicapsc-kkdpolice/node168",
+    component:C168,
   },
   {
     path: "/nicapsc-kkdpolice/node901",

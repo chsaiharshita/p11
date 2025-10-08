@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./home.css";
 import C143 from "./C143.js";
 import siteData from "../../sitedata.json"; 
+import { Link } from "react-router-dom";
 
 function C142() {
   const [data, setData] = useState(null);
@@ -16,7 +17,7 @@ function C142() {
       }
     }
 
-    fetch(siteData.P0url2)
+    fetch(siteData.P11url9)
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         return response.json();
@@ -127,7 +128,8 @@ function C142() {
                 {data.ptitle || "Untitled Event Section"}
               </h3>
 
-              {data.a.map((e, j) => (
+              {/* Show only first 2 events */}
+              {data.a.slice(0, 2).map((e, j) => (
                 <div className="card__picture2 p-1 text-left" id="tool" key={`event-${j}`}>
                   <div id="events">
                     <img
@@ -136,21 +138,31 @@ function C142() {
                       className="card__img2"
                     />
                   </div>
-                  <h6 id="covid3">
-                    <a href={e.avalue || "#"} target="_blank" rel="noopener noreferrer">
-                      {e.aname || "No title"}
-                    </a>
-                  </h6>
+                  <h6 id="covid4">       
+                                    <Link to="/nicapsc-kkdpolice/node169" className="text-primary">
+                                      {e.aname || "No title"}
+                                    </Link>
+                                  </h6>
                   <p id="para3">{e.aname || ""}</p>
                 </div>
               ))}
+
+              {/* ✅ View More button only if more than 2 events */}
+              {data.a.length >= 2 && (
+  <div className="text-center mt-3">
+    <Link to="/nicapsc-kkdpolice/node169" className="btn btn-primary">
+      View More
+    </Link>
+  </div>
+)}
+
             </div>
           </div>
 
           {/* Rewards Section */}
           <div className="flex-fill" id="rewardsSection">
             <div className="w-100">
-           
+              <C143 />
             </div>
           </div>
         </div>
