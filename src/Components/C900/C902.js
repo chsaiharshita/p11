@@ -66,7 +66,7 @@ function C902() {
 
   return (
     <div className="events-container">
-      <h3>Upcoming Events</h3>
+      <h3>Events</h3>
       <div className="events-list">
         {eventsData.map((event, index) => (
           <div key={index} className="event-card">

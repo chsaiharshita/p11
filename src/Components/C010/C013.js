@@ -17,36 +17,21 @@ import organisation from "../C200/C202.js";
 import C501 from "../../Components/C500/C501.js";
 import C201 from "../../Components/C200/C201.js";
 import C502 from "../C500/C512.js";
-import node201 from "../C200/C201.js";
-import node202 from "../C200/C202.js";
+
 import C202 from "../C200/C202.js";
-import node203 from "../C200/C203.js";
-import C203 from "../C200/C203.js";
-import node204 from "../C200/C204.js";
-import C204 from "../C200/C204.js";
-import node211 from "../C200/C205.js";
-import C205 from "../C200/C205.js";
+
 import node302 from "../C300/C301.js";
 import C301 from "../C300/C301.js";
 import node303 from "../C300/C302.js";
 import C302 from "../C300/C302.js";
 import C303 from "../C300/C303.js";
 import C304 from "../C300/C304.js"
-import node271 from "../C270/Node271.js";
-import node272 from "../C270/Node272.js";
-import node273 from "../C270/Node273.js";
-import node274 from "../C270/Node274.js";
-import node275 from "../C270/Node275.js";
-import node276 from "../C270/Node276.js";
+
 /*import Welcome from "../C700/C703.js";*/
 import C503 from "../C600/C603.js";
 import C003 from "../../Components/C100/C003.js";
 import C141 from "../C100/C141.js";
 
-import C1411 from "../../Components/C100/C1411.js";
-import C1412 from '../../Components/C100/C1412.js';
-import C102 from "../C102/C102.js";
-import Dashboard from "../C700/Dashboard.js";
 import C404 from "../C400/C404.js";
 import C405 from "../C400/C405.js";
 import C409 from "../C400/C409.js";
@@ -90,7 +75,6 @@ import C412 from "../C400/C412.js";
 import C406 from "../C400/C406.js";
 import C901 from "../C900/C901.js";
 import C902 from "../C900/C902.js";
-import C903 from "../C900/C903.js";
 import C169 from "../C100/C169.js";
 import C168 from "../C100/C168.js";
 
@@ -105,6 +89,14 @@ const routesConfig = [
     path: "/nicapsc-kkdpolice/node169",
     component:C169,
   },
+  {
+    path: "/nicapsc-kkdpolice/node201",
+    component:C201,
+  },
+  {
+    path: "/nicapsc-kkdpolice/node202",
+    component:C202,
+  },
    {
     path: "/nicapsc-kkdpolice/node168",
     component:C168,
@@ -116,10 +108,6 @@ const routesConfig = [
    {
     path: "/nicapsc-kkdpolice/node902",
     component:C902,
-  },
-  {
-    path: "/nicapsc-kkdpolice/node903",
-    component:C903,
   },
    {
     path: "/nicapsc-kkdpolice/node613",
@@ -296,18 +284,7 @@ const routesConfig = [
     path: "/nicapsc-kkdpolice/about",
     component:about,
 },
-{
-    path: "/nicapsc-kkdpolice/Dashboard",
-    component: Dashboard,
-},
-{
-    path:"/nicapsc-kkdpolice/node208",
-    component:C1411,
-},
-{
-    path:"/nicapsc-kkdpolice/node209",
-    component:C1412,
-},
+
 {
     path:"/nicapsc-kkdpolice/node501",
     component: C501,
@@ -364,22 +341,13 @@ const routesConfig = [
     path: "/nicapsc-kkdpolice/node202",
     component:C202,
 },
-{
-    path: "/nicapsc-kkdpolice/node203",
-    component:C203,
-},
-{
-    path: "/nicapsc-kkdpolice/node204",
-    component:C204,
-},
+
+
 {
     path: "/nicapsc-kkdpolice/node406",
     component:C406,
 },
-{
-    path: "/nicapsc-kkdpolice/node205",
-    component:C205,
-},
+
 {
     path: "/nicapsc-kkdpolice/node301",
     component:C301,
@@ -396,30 +364,7 @@ const routesConfig = [
     path: "/nicapsc-kkdpolice/node303",
     component:C303,
 },
-{
-    path: "/nicapsc-kkdpolice/node271",
-    component:node271 ,
-},
-{
-    path: "/nicapsc-kkdpolice/node272",
-    component:node272,
-},
-{
-    path: "/nicapsc-kkdpolice/node273",
-    component:node273,
-},
-{
-    path: "/nicapsc-kkdpolice/node274",
-    component:node274 ,
-},
-{
-    path: "/nicapsc-kkdpolice/node275",
-    component:node275,
-},
-{
-    path: "/nicapsc-kkdpolice/node276",
-    component:node276,
-},
+
 {
     path: "/nicapsc-kkdpolice/Home",
     component:Home,
@@ -453,10 +398,7 @@ const routesConfig = [
     component: api,
 },
 
-{
-    path: "/nicapsc-kkdpolice/node211",
-    component: node211,
-},
+
 {
     path: "/nicapsc-kkdpolice/organisation",
     component:organisation,
@@ -471,18 +413,8 @@ const routesConfig = [
     path: "/nicapsc-kkdpolice/node303", // registration
     component:node303,
   },
-  {
-    path: "/nicapsc-iti/node271", // Craftsmen
-    component: node271,
-  },
-  {
-    path: "/nicapsc-iti/node272", //Apprenticeship
-    component: node272,
-  },
-  {
-    path: "/nicapsc-iti/node273", //CentreofExcellence
-    component:node273,
-  },
+  
+  
   {
     path: "/nicapsc-kkdpolice/about",
     component: about,
@@ -509,30 +441,8 @@ const routesConfig = [
     path: "/about",
     component:about,
   },
- /*{
-    path: "/welcome",
-    component: Welcome,
-  },*/
-  {
-     path:"/node208",
-     component:C1411,
-  },
-  {
-    path:"/node209",
-    component:C1412,
-  },
-  {
-    path:"/node501",
-    component: C501,
-  },
-{
-    path:"/node502",
-    component: C502,
-  },
-  {
-    path:"/node503",
-    component: C503,
-  },
+
+
   {
     path: "/node503",
     component:C003,
@@ -571,27 +481,7 @@ const routesConfig = [
     path: "/map",
     component: C014,
   },
-  
-  {
-    path: "/node201",
-    component: C201,
-  },
-  {
-    path: "/node202",
-    component:C202,
-  },
-  {
-    path: "/node203",
-    component:C203,
-  },
-  {
-    path: "/node204",
-    component:C204,
-  },
-  {
-    path: "/node205",
-    component:C205,
-  },
+
 
   {
     path: "/node301",
@@ -613,33 +503,7 @@ const routesConfig = [
     path: "/node304",
     component:C304,
 },
-  {
-    path: "/node271",
-    component:node271 ,
-  },
-  {
-    path: "/node272",
-    component:node272,
-  },
-  {
-    path: "/node273",
-    component:node273,
-  },
-  {
-    path: "/node274",
-    component:node274 ,
-  },
-  {
-    path: "/node275",
-    component:node275,
-  },
-  {
-    path: "/node276",
-    component:node276,
-  },
-
  
-
   {
     path: "/nicapsc-kkdpolice/Home",
     component:Home,
@@ -686,24 +550,7 @@ const routesConfig = [
     path: "/nicapsc-iti/map",
     component:C014,
   },
-  
-  {
-    path: "/nicapsc-iti/node201",
-    component: node201,
-  },
-  {
-    path: "/nicapsc-iti/node202",
-    component: node202,
-  },
-  {
-    path: "/nicapsc-iti/node203",
-    component: node203,
-  },
-  {
-    path: "/nicapsc-iti/node204",
-    component: node204,
-  },
-  
+   
   {
     path: "/nicapsc-iti/node302",
     component: node302,
@@ -714,18 +561,6 @@ const routesConfig = [
   },
 
 
-  {
-    path: "/nicapsc-iti/node271",
-    component:node271 ,
-  },
-  {
-    path: "/nicapsc-iti/node272",
-    component:node272,
-  },
-  {
-    path: "/nicapsc-iti/node273",
-    component:node273,
-  },
   {
     path: "/nicapsc-noc/Home",
     component:Home,
@@ -767,26 +602,7 @@ const routesConfig = [
     component: C014,
   },
   
-  {
-    path: "/nicapsc-noc/node201",
-    component: node201,
-  },
-  {
-    path: "/nicapsc-noc/node202",
-    component: node202,
-  },
-  {
-    path: "/nicapsc-noc/node203",
-    component: node203,
-  },
-  {
-    path: "/nicapsc-noc/node204",
-    component: node204,
-  },
-  {
-    path: "/nicapsc-noc/node211",
-    component: node211,
-  },
+ 
   {
     path: "/nicapsc-noc/node302",
     component: node302,
@@ -795,22 +611,8 @@ const routesConfig = [
     path: "/nicapsc-noc/node303",
     component: node303,
   },
-  {
-    path: "/nicapsc-noc/node271",
-    component:node271 ,
-  },
-  {
-    path: "/nicapsc-noc/node272",
-    component:node272,
-  },
-  {
-    path: "/nicapsc-noc/node273",
-    component:node273,
-  },
-  {
-    path: "/node204",
-    component: C204,
-  },
+  
+    
   {
     path: "/nicapsc-iti/about",
     component: about,
@@ -823,14 +625,7 @@ const routesConfig = [
     path: "/nicapsc-iti/contactUs",
     component:contactUs,
   },
-  {
-    path: "/nicapsc-iti/node201",
-    component: node201,
-  },
-  {
-    path: "/nicapsc-iti/node211",
-    component: node211,
-  },
+ 
   {
     path: "/nicapsc-iti/organisation",
     component:organisation,
@@ -843,18 +638,7 @@ const routesConfig = [
     path: "/nicapsc-iti/node303", // registration
     component:node303,
   },
-  {
-    path: "/nicapsc-iti/node271", // Craftsmen
-    component: node271,
-  },
-  {
-    path: "/nicapsc-iti/node272", //Apprenticeship
-    component: node272,
-  },
-  {
-    path: "/nicapsc-iti/node273", //CentreofExcellence
-    component:node273,
-  },
+  
   {
     path: "/nicapsc-noc/about",
     component: about,

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
 import C143 from "./C143.js";
-import siteData from "../../sitedata.json"; 
+import siteData from "../../sitedata.json";
 import { Link } from "react-router-dom";
 
 function C142() {
@@ -19,7 +19,8 @@ function C142() {
 
     fetch(siteData.P11url9)
       .then((response) => {
-        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+        if (!response.ok)
+          throw new Error(`HTTP error! Status: ${response.status}`);
         return response.json();
       })
       .then((json) => {
@@ -34,133 +35,101 @@ function C142() {
       });
   }, []);
 
-  // LOADING STATE
-  if (!dataIsLoaded) {
-    return (
-      <section className="updates">
-        <div className="container">
-          <div className="d-flex flex-row flex-wrap align-items-stretch w-100">
-            {/* Events */}
-            <div className="flex-fill me-3">
-              <div className="w-100 text-start py-3">
-                <h3 id="h10">
-                  <i className="fa fa-calendar-check-o" aria-hidden="true" id="icon" />{" "}
-                  Loading Events...
-                </h3>
-              </div>
-            </div>
-            {/* Rewards */}
-            <div className="flex-fill" id="rewardsSection">
-              <div className="w-100">
-                <C143 />
-              </div>
-            </div>
-          </div>
+  const renderEvents = () => {
+    if (error) {
+      return (
+        <div className="text-danger py-3">
+          <h4>
+            <i className="fa fa-exclamation-triangle" aria-hidden="true" />{" "}
+            Failed to load events: {error}
+          </h4>
         </div>
-      </section>
-    );
-  }
+      );
+    }
 
-  // ERROR STATE
-  if (error) {
-    return (
-      <section className="updates">
-        <div className="container">
-          <div className="d-flex flex-row flex-wrap align-items-stretch w-100">
-            {/* Events */}
-            <div className="flex-fill me-3">
-              <div className="w-100 text-danger py-3">
-                <h4>
-                  <i className="fa fa-exclamation-triangle" aria-hidden="true" /> 
-                  Failed to load events: {error}
-                </h4>
-              </div>
-            </div>
-            {/* Rewards */}
-            <div className="flex-fill" id="rewardsSection">
-              <div className="w-100">
-                <C143 />
-              </div>
-            </div>
-          </div>
+    if (!dataIsLoaded) {
+      return (
+        <div className="py-3">
+          <h3 id="h10">
+            <i
+              className="fa fa-calendar-check-o"
+              aria-hidden="true"
+              id="icon"
+            />{" "}
+            Loading Events...
+          </h3>
         </div>
-      </section>
-    );
-  }
+      );
+    }
 
-  // NO EVENTS STATE
-  if (!data || !data.a || data.a.length === 0) {
-    return (
-      <section className="updates">
-        <div className="container">
-          <div className="d-flex flex-row flex-wrap align-items-stretch w-100">
-            {/* Events */}
-            <div className="flex-fill me-3">
-              <div className="w-100 text-warning py-3">
-                <h4>
-                  <i className="fa fa-calendar-check-o" aria-hidden="true" /> 
-                  No events found.
-                </h4>
-              </div>
-            </div>
-            {/* Rewards */}
-            <div className="flex-fill" id="rewardsSection">
-              <div className="w-100">
-                <C143 />
-              </div>
-            </div>
-          </div>
+    if (!data || !data.a || data.a.length === 0) {
+      return (
+        <div className="text-warning py-3">
+          <h4>
+            <i className="fa fa-calendar-check-o" aria-hidden="true" /> No events
+            found.
+          </h4>
         </div>
-      </section>
-    );
-  }
+      );
+    }
 
-  // MAIN UI
+    return (
+      <div className="w-100 text-start py-3">
+        <h3 className="font-weight-bold text-left" id="h10">
+          <i
+            className="fa fa-calendar-check-o"
+            aria-hidden="true"
+            id="icon"
+          />{" "}
+          {data.ptitle || "Upcoming Events"}
+        </h3>
+
+        {data.a.slice(0, 2).map((e, j) => (
+          <div
+            className="card__picture2 p-1 text-left mb-2"
+            id="tool"
+            key={`event-${j}`}
+          >
+            <div id="events">
+              <img
+                src={siteData.eventsIcons.img}
+                alt={e.aname || "event image"}
+                className="card__img2"
+              />
+            </div>
+            <h6 id="covid4">
+              <Link
+                to="/nicapsc-kkdpolice/node169"
+                className="text-primary"
+              >
+                {e.aname || "No title"}
+              </Link>
+            </h6>
+            <p id="para3">{e.aname || ""}</p>
+          </div>
+        ))}
+
+        {data.a.length > 2 && (
+          <div className="text-center mt-3">
+            <Link to="/nicapsc-kkdpolice/node169" className="btn btn-primary">
+              View More
+            </Link>
+          </div>
+        )}
+      </div>
+    );
+  };
+
   return (
-    <section className="updates">
+    <section className="updates py-4">
       <div className="container">
-        <div className="d-flex flex-row flex-wrap align-items-stretch w-100">
-          {/* Events Section */}
-          <div className="flex-fill me-3">
-            <div className="w-100 text-start py-3">
-              <h3 className="font-weight-bold text-left" id="h10">
-                <i className="fa fa-calendar-check-o" aria-hidden="true" id="icon" />{" "}
-                {data.ptitle || "Untitled Event Section"}
-              </h3>
+        {/* Use Bootstrap grid system for side-by-side layout */}
+        <div className="row g-4 align-items-start">
+          {/* Left column — Events */}
+          <div className="col-md-6">{renderEvents()}</div>
 
-              {/* Show only first 2 events */}
-              {data.a.slice(0, 2).map((e, j) => (
-                <div className="card__picture2 p-1 text-left" id="tool" key={`event-${j}`}>
-                  <div id="events">
-                    <img
-                      src={siteData.eventsIcons.img}
-                      alt={e.aname || "event image"}
-                      className="card__img2"
-                    />
-                  </div>
-                  <h6 id="covid4">       
-                                    <Link to="/nicapsc-kkdpolice/node169" className="text-primary">
-                                      {e.aname || "No title"}
-                                    </Link>
-                                  </h6>
-                  <p id="para3">{e.aname || ""}</p>
-                </div>
-              ))}
-
-              {/* ✅ View More button only if more than 2 events */}
-              {data.a.length >= 2 && (
-  <div className="text-center mt-3">
-    <Link to="/nicapsc-kkdpolice/node169" className="btn btn-primary">
-      View More
-    </Link>
-  </div>
-)}
-
-            </div>
-          </div>
-
-          {/* Rewards Section */}
-          <div className="flex-fill" id="rewardsSection">
+          {/* Right column — Rewards */}
+          <div className="col-md-6" id="rewardsSection">
             <div className="w-100">
               <C143 />
             </div>

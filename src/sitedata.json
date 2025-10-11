@@ -1,45 +1,5 @@
 {
   
-  "index.html":"Change the project name (ex: DCA or ITI or NOC)as per our need in ----- public/index.html",
-  "Project path with root (/)":"Change the project path names for root project (/) in two files 1.package.json 2. src/Layout/layout.js",
-  "Project path with name (ex:nicapsc-dca)":"Change the project path names with Project name(ex:nicapsc-iti   in three files 1.package.json,  2. src/Layout/Layout.js, 3.src/Layout/routeConfig.js (add the project name ( /nicapsc-iti/ )before the (' /node201 ') ex: /nicapsc-iti/node201 ) ", 
- 
-  "For API data changing":"Goto the folder names Redux1,2,3,4.  And open the files 1.users.service.js & 2.users.thunks.js And then change the Project names as  p1 - for Project1 ; p2 - for Project2 ; p3 - for Project3 ; p4 - for Project4",
-  "important for API data":"goto C141.js,C142.js, C143.js files and change the pname for project2(ITI) - p2",
-   
-  "copy the below information into 'cities.json' file with Array symbols":
-   [{    
-    "name"      : "ITI-Industrial Training Institutes.",
-    "admin"     : "ITI",
-    "address"   : "Industrial Training Institutes,Vijayawada.",
-    "state"     : "Vijaywada",
-    "country"   : "India",
-    "iso2"      : "IN",
-    "capital"   : "admin",
-    "lat"       : "16.51",
-    "lng"       : "80.64",
-    "center"    : ["16.51", "80.64"],   
-    "zoomlevel" : "10"
-}], 
- 
- 
- "..commentA":"Change the Pop value either 'true' or 'false'.",
-
-     "Popvalue":false,
-
-      "...comment1": "below link is - API url",
-
-"url": "https://itiadmissions.ap.gov.in/apwaas/users/",
-"url1": "https://itiadmissions.ap.gov.in/apwaas/courses/",
-"url2":"http://10.242.162.237:8080/eshram/eshramCount",
-"url3":"http://10.242.162.237:8080/eshram/getByRegistrationDateAndDistrict",
-"url4":"http://10.242.162.237:8080/eshram/EshramData",
-"P0url1":"https://eg.ap.gov.in/p0server/api/p0c141",
-"P0url2":"https://eg.ap.gov.in/p0server/api/p0ac142",
-"P0url3":"https://eg.ap.gov.in/p0server/api/p0ac143",
-"P0url4":"https://eg.ap.gov.in/p0server/api/p0ac1411",
-"P0url5":"https://eg.ap.gov.in/p0server/api/p0ac1412",
-"P0url8":"https://eg.ap.gov.in/p0server/api/p0c304",
 "P11url9":"https://eg.ap.gov.in/p0server/api/p11c142",
 "P11url10":"https://eg.ap.gov.in/p0server/api/p11c143",
    "...comment2":"Navigation Bar-Menu names and links",
@@ -77,7 +37,7 @@
 
   ],
  
-  "comment...":"data for the project name with /nicapsc-iti/",
+  "comment...":"data for the project name with /nicapsc-kkdpolice/",
   "drop":[
     {
       "name": "About Us",
@@ -446,15 +406,11 @@
       },
       {
 
-        "name":"Social links",
+        "name":"Events",
         "link":"node902",
         "type":"page"
-      },
-      {
-        "name":"Press",
-        "link":"node903",
-        "type":"page"
       }
+      
     ]
   }
  
@@ -503,12 +459,6 @@
 
 
  
-  "Navlink1": [
-    {
-      "title": "LOGIN",
-      "link": "Auth"
-    }
-  ],
   "Navlink2":[
     {
       "title": "HELPDESK",
@@ -527,21 +477,15 @@
   ],
   "Navlinkleft": [
     {
-      "title": "ITI",
-      "link": "https://iti.ap.gov.in/"
+      "title": "ITI"
+     
     }
   ],
 
  
 
 
-  "columns": [
-    { "field": "sno", "header": "S.No", "align": "center" },
-    { "field": "cname", "header": "ITI Trade", "align": "left" },
-    { "field": "ccode", "header": "ITI Code", "align": "center" },
-    { "field": "ctype", "header": "ITI Type", "align": "center" },
-    { "field": "cduration", "header": "Course Duration", "align": "center" }
-  ],
+  
 
 
   "RTI":[
@@ -645,25 +589,7 @@
           ]
         }
       ],
-      "section2": [
-        {
-          "title": "About US ",
-          "paragraph": [
-            {
-              "p": "About Department :The Department of Employment and Training was established in the year 1964 with an objective to train the unskilled into semi-skilled trainees so as to meet the demand of the Industry. Once the Trainees come out from the Institute the Employment wing will provide employment assistance. This Department has two wings i.e, 1. Employment Wing and 2. Training Wing."
-            },
-            {
-              "p":"Employment Wing : There are (14) District Employment Exchanges (6) Sub-Employment Exchanges and (2) University Employment Information Guidance Bureau in Andhra Pradesh."
-            },
-            { "p":"Employment Exchanges have been sponsoring suitable candidates from the Live Register of Employment Exchanges to Employers based on their notifications in terms of G. O. Ms. No. 193 Education (Emp.) Department dt. 27.06.1994 and also organizing Job Melas in all 13 districts of AP to provide jobs in Private Sector establishments to job seekers." 
-               }
-
-          ],
-         
-          "button": "View More",
-          "button_link": "about"
-        }
-      ],
+   
 
       "section3": [
         {
@@ -684,93 +610,15 @@
            
           ]
         }
-      ],
+      ]
 
      
-      "section4": [
-        {
-          "subsection1": [
-            {
-              "title": "News & Events ",
-              "content": [
-                {
-                  "link": "/nicapsc-iti/newsapi",
-                  "description": "Industrial Training Department (ITD)to the youths in Andhra Pradesh State."
-                },
-                {
-                  "link": "/nicapsc-iti/newsapi",
-                  "description": "Industrial Training Department (ITD)to the youths in Andhra Pradesh State. "
-                },
-                {
-                  "link": "/nicapsc-iti/newsapi",
-                  "description": " Industrial Training Department (ITD)to the youths in Andhra Pradesh State."
-                }
-              ],
-              "button": "View More",
-              "button_link": "notification"
-            }
-          ],
-            
-            
-          "subsection2": [
-            {
-              "title": "Media Gallery",
-              "imgsrc": "./nicapsc-iti/image1/004.png",
-              "imgalt": "image1",
-              "button": "View More",
-              "button_link": "Images"
-            }
-            
-          ]
-        }
-      ]
+    
     }
   ] ,
-  "menu7": {
-    "userlabel": "username",
-    "plabel": "password",
-    "button": "login"
-  },
-"tradeTableTitle":"Trade Table List",
-"instituteTableTitle":"Institutes List",
-  "tradeTable": [
-  
-    {
-      "label": "Trade Code",
-      "key": "trade_code"
-    },
-    {
-      "label": "Trade Short",
-      "key": "trade_short"
-    },
-    {
-      "label": "Description",
-      "key": "description"
-    },
-    {
-      "label": "Display Order",
-      "key": "display_order"
-    }
-  ],
-"instituteTable":[
-  {
-      "label": "Name",
-      "key": "cname"
-    },
-    {
-      "label": "Code",
-      "key": "ccode"
-    },
-    {
-      "label": "District",
-      "key": "cdistrict"
-    },
-    {
-      "label": "Properties",
-      "key": "cproperties"
-    }
+ 
 
-],
+
 
 "section2": [
   {
@@ -847,54 +695,8 @@
 
     "...comment7":"If API is down-The below information will display in All pages.",
 
-"Latestnews":[
-  {
-  "ptitle": "Latest Announcements",
-  "a": [
-    {
-      "aname": "New Admission Open 2025",
-      "avalue": " "
-    },
-    {
-      "aname": "Skill Development Program",
-      "avalue": " "
-    },
-    {
-      "link":"/nicapsc-iti/node208"
-    }
-  ]
-}
-],
-"Events":[
-    {
-      "ptitle":"Events",
-      "a":[
-        {
-          "aname":"Data is pending.......",
-          "avalue":""
-        },
-        {
-          "aname":"Data is pending.......",
-          "avalue":""
-        }
-      ]
-    }
-  ],
-"Reward":[
-  {
-    "ptitle":"Rewards",
-    "a":[
-      {
-        "aname":"Data is pending........",
-        "avalue":"para"
-      },
-      {
-        "aname":"Data is pending.......",
-        "avalue":"para"
-      }
-    ]
-  }
-],
+
+
 
 "...comment8":"Button links for Events and Rewards",
 
@@ -912,87 +714,6 @@
   ],
 
 
-  "Redux1":[
-    {
-      "Trade_Name":"Tittle",
-      "Duration":"Description",
-      "Type":"File"
-    }
-  ],
-  "Redux2":[
-    {
-      "Trade_Name":"Tittle",
-      "Duration":"Description",
-      "Type":"File"
-    }
-  ],
-  "Redux3":[
-    {
-      "Trade_Name":"Trade Name",
-      "Duration":"Duration",
-      "Type":"Type"
-    }
-  ],
-
-  "Redux4":[
-    {
-      "Trade_Name":"Trade Name",
-      "Duration":"Duration",
-      "Type":"Type"
-    }
-  ],
-  "Redux5":[
-    {
-      "s_no":"S.No",
-      "district":"District Name",
-      "eshram":"Workers Registered in eShram",
-      "eshram_boc":"Workers Registered in eShram & BOC",
-      "boc_eshram":" Workers Registered in eShram and to be Registered in BOC",
-      "boc":"Workers Registered in BOC",
-      "register_eshram":"Workers Registered in BOC and to be Registered in eshram"
-     
-    }
-  ],
-
-  "Redux6":[
-    {
-      "Trade_Name":"Trade Name",
-      "Duration":"Duration",
-      "Type":"Type"
-    }
-  ],
- "Redux7":[
-    {
-      "s_no":"S.No",
-      "district":"District Name",
-      "aadhaar_name":"Aadhaar Name",
-      "aadhaar_dob":"Aadhaar DOB",
-      "gender":"Gender",
-      "father_husband_name":"Father/Husband Name",
-      "mobile_number":"Mobile Number",
-      "pincode":"Pincode",
-      "occupation_name":"Occupation Name",
-      "uan_no":"UAN Number",
-      "registration_date":"Registration Date"
-     
-    }
-  ],
-  "Redux8":[
-    {
-      "s_no":"S.No",
-      "district":"District Name",
-      "aadhaar_name":"Aadhaar Name",
-      "aadhaar_dob":"Aadhaar DOB",
-      "gender":"Gender",
-      "father_husband_name":"Father/Husband Name",
-      "mobile_number":"Mobile Number",
-      "pincode":"Pincode",
-      "occupation_name":"Occupation Name",
-      "uan_no":"UAN Number",
-      "registration_date":"Registration Date"
-     
-    }
-  ],
   "tables": {
     "DeptOfficial": {
       "title": "Department Official",

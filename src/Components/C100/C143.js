@@ -15,7 +15,7 @@ function C143() {
         return response.json();
       })
       .then((json) => {
-        console.log("Rewards API Response:", json); // 👈 debug
+        console.log("🏆 Rewards API Response:", json);
         if (Array.isArray(json)) {
           setItems(json);
         } else if (json && Array.isArray(json.a)) {
@@ -31,83 +31,84 @@ function C143() {
       });
   }, []);
 
+  // LOADING STATE
   if (!dataIsLoaded) {
     return (
-      <section className="reward">
-        <div className="text-start text-white m-2 py-3">
-          <h3 id="h11">
-            <i className="fa fa-trophy" aria-hidden="true" id="icon" /> Loading Rewards...
-          </h3>
-        </div>
-      </section>
+      <div className="reward py-3">
+        <h3 id="h11">
+          <i className="fa fa-trophy" aria-hidden="true" id="icon" /> Loading Rewards...
+        </h3>
+      </div>
     );
   }
 
+  // ERROR STATE
   if (error) {
     return (
-      <section className="reward">
-        <div className="text-danger m-2 py-3">
-          <h3>{error}</h3>
-        </div>
-      </section>
+      <div className="reward py-3 text-danger">
+        <h4>
+          <i className="fa fa-exclamation-triangle" aria-hidden="true" /> {error}
+        </h4>
+      </div>
     );
   }
 
+  // NO DATA STATE
   if (items.length === 0) {
     return (
-      <section className="reward">
-        <div className="text-warning m-2 py-3">
-          <h3>No rewards available.</h3>
-        </div>
-      </section>
+      <div className="reward py-3 text-warning">
+        <h4>
+          <i className="fa fa-trophy" aria-hidden="true" /> No rewards available.
+        </h4>
+      </div>
     );
   }
 
+  // MAIN UI
   return (
-    <div className="reward">
-      <div className="text-start text-red m-2 py-3">
-        {items.map((details, index) => (
-          <div key={index}>
-            <h3 className="font-weight-bold text-left" id="h11">
-              <i className="fa fa-trophy" aria-hidden="true" id="icon" />{" "}
-              {details.ptitle || "Untitled"}
-            </h3>
+    <div className="reward text-start py-3">
+      {items.map((details, index) => (
+        <div key={index}>
+          <h3 className="font-weight-bold text-left mb-3" id="h11">
+            <i className="fa fa-trophy" aria-hidden="true" id="icon" />{" "}
+            {details.ptitle || "Rewards"}
+          </h3>
 
-            {/* Show only first 2 rewards */}
-            {(Array.isArray(details.a) ? details.a.slice(0, 2) : []).map((e, i) => (
-              <div
-                className="card__picture2 p-1 text-left"
-                id="tool2"
-                key={i}
-                style={{ cursor: "pointer" }}
-              >
-                <div id="events">
-                  <img
-                    src={siteData.rewardsIcons.img}
-                    alt="reward"
-                    className="reward-icon"
-                  />
-                </div>
-
-                <h6 id="covid4">
-                  <Link to="/nicapsc-kkdpolice/node168" className="text-primary">
-                    {e.aname || "No title"}
-                  </Link>
-                </h6>
-
-                <p id="para3">{e.aname || ""}</p>
+          {(Array.isArray(details.a) ? details.a.slice(0, 2) : []).map((e, i) => (
+            <div
+              className="card__picture2 p-1 text-left mb-2"
+              id="tool2"
+              key={i}
+              style={{ cursor: "pointer" }}
+            >
+              <div id="events">
+                <img
+                  src={siteData.rewardsIcons.img}
+                  alt="reward"
+                  className="reward-icon"
+                />
               </div>
-            ))}
 
-            {/* ✅ Always show View More */}
+              <h6 id="covid4">
+                <Link to="/nicapsc-kkdpolice/node168" className="text-primary">
+                  {e.aname || "No title"}
+                </Link>
+              </h6>
+
+              <p id="para3">{e.aname || ""}</p>
+            </div>
+          ))}
+
+          {/* ✅ View More button */}
+          {details.a && details.a.length > 2 && (
             <div className="text-center mt-3">
-              <Link to="" className="btn btn-primary">
+              <Link to="/nicapsc-kkdpolice/node168" className="btn btn-primary">
                 View More
               </Link>
             </div>
-          </div>
-        ))}
-      </div>
+          )}
+        </div>
+      ))}
     </div>
   );
 }
